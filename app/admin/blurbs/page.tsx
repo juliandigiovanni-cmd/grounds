@@ -27,10 +27,9 @@ export default function AdminBlurbsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-grounds-cream">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <Link href="/admin/flags" className="text-sm text-grounds-gold hover:underline mb-4 block">← Admin</Link>
-        <h1 className="font-serif text-3xl font-bold text-grounds-espresso mb-2">Editorial Blurbs</h1>
+    <div>
+      <div className="max-w-4xl mx-auto px-6 py-8">
+        <h1 className="font-serif text-2xl font-bold text-grounds-espresso mb-2">Editorial Blurbs</h1>
         <p className="text-grounds-brown/60 mb-6">One interface to maintain all editorial voice. These are the product&apos;s soul.</p>
 
         {/* Style guide */}

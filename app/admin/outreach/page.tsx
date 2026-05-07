@@ -14,14 +14,11 @@ export default function AdminOutreachPage() {
   const stale = SEED_CAFES.filter(c => needsOutreach(c.last_verified_at) && !c.permanently_closed);
 
   return (
-    <div className="min-h-screen bg-grounds-cream">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <Link href="/admin/flags" className="text-sm text-grounds-gold hover:underline mb-2 block">← Admin</Link>
-            <h1 className="font-serif text-3xl font-bold text-grounds-espresso">Outreach Queue</h1>
-            <p className="text-grounds-brown/60 mt-1">Cafés not verified in 12+ months — {stale.length} listings</p>
-          </div>
+    <div>
+      <div className="max-w-4xl mx-auto px-6 py-8">
+        <div className="mb-6">
+          <h1 className="font-serif text-2xl font-bold text-grounds-espresso">Outreach Queue</h1>
+          <p className="text-grounds-brown/60 text-sm mt-1">Cafés not verified in 12+ months — {stale.length} listings</p>
         </div>
 
         {stale.length === 0 ? (

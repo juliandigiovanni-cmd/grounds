@@ -9,10 +9,9 @@ export default function AdminRevenuePage() {
   const sponsoredCount = SEED_CAFES.filter(c => c.sponsored).length;
 
   return (
-    <div className="min-h-screen bg-grounds-cream">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <Link href="/admin/flags" className="text-sm text-grounds-gold hover:underline mb-6 block">← Admin</Link>
-        <h1 className="font-serif text-3xl font-bold text-grounds-espresso mb-2">Revenue Dashboard</h1>
+    <div>
+      <div className="max-w-4xl mx-auto px-6 py-8">
+        <h1 className="font-serif text-2xl font-bold text-grounds-espresso mb-2">Revenue Dashboard</h1>
         <p className="text-grounds-brown/60 mb-8">Manual tracking — update monthly</p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">

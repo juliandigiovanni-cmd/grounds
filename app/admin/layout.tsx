@@ -3,8 +3,9 @@ import type { ReactNode } from "react";
 
 const NAV = [
   { href: "/admin/submissions", label: "Submissions" },
-  { href: "/admin/blurbs", label: "Blurbs" },
+  { href: "/admin/newsletter", label: "Newsletter" },
   { href: "/admin/flags", label: "Flags" },
+  { href: "/admin/blurbs", label: "Blurbs" },
   { href: "/admin/outreach", label: "Outreach" },
   { href: "/admin/revenue", label: "Revenue" },
 ];
