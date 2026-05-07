@@ -1,11 +1,9 @@
+"use client";
+
 import { BRAND_NAME, BRAND_TAGLINE } from "@/lib/brand";
 import { SEED_CAFES } from "@/lib/seed-data";
-import type { Metadata } from "next";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: `About | ${BRAND_NAME}`,
-};
+import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
 // Mock top contributors — in production this comes from Supabase
 const TOP_CONTRIBUTORS = [
@@ -77,6 +75,13 @@ export default function AboutPage() {
             ))}
           </div>
         </section>
+
+        {/* Newsletter */}
+        <div className="bg-white rounded-2xl p-6 shadow-sm mb-6">
+          <h2 className="font-semibold text-grounds-espresso mb-1">New cities, first</h2>
+          <p className="text-sm text-grounds-brown/60 mb-4">Get notified when we add new destinations to the map.</p>
+          <NewsletterSignup source="about" variant="compact" />
+        </div>
 
         {/* Score link */}
         <div className="bg-grounds-espresso text-grounds-cream rounded-2xl p-8 text-center">
