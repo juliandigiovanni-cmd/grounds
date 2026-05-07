@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 interface Submission {
   id: string;
@@ -48,12 +47,7 @@ export default function AdminSubmissionsPage() {
   const approved = rows.filter(r => r.verified);
 
   return (
-    <div className="min-h-screen bg-grounds-cream">
-      <header className="bg-grounds-espresso text-grounds-cream px-6 py-4 flex items-center gap-4">
-        <Link href="/" className="text-grounds-cream/70 hover:text-grounds-cream text-sm">← Map</Link>
-        <h1 className="font-serif text-xl font-bold">Submissions</h1>
-      </header>
-
+    <div>
       <div className="max-w-3xl mx-auto px-6 py-8">
         {loading ? (
           <p className="text-grounds-brown/50 text-sm">Loading…</p>
