@@ -90,8 +90,6 @@ export function MapView() {
     );
   }
 
-  const exclusiveCount = SEED_CAFES.filter(c => !c.google_place_id).length;
-
   return (
     <div className="relative w-full h-full flex">
       {/* Desktop: left sidebar */}
@@ -100,7 +98,7 @@ export function MapView() {
           <div className="p-4 border-b border-grounds-brown/10">
             <h1 className="mb-0.5"><Logo variant="dark" size="md" /></h1>
             <p className="text-sm text-grounds-brown/70 mt-0.5">Find great coffee, anywhere.</p>
-            <p className="text-xs text-grounds-gold mt-1">{exclusiveCount} cafés you won&apos;t find anywhere else</p>
+            <p className="text-xs text-grounds-gold mt-1">{SEED_CAFES.length} curated cafés across {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
             <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 mt-1 block">About Grounds</Link>
           </div>
           <div className="p-4">
