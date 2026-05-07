@@ -15,7 +15,6 @@ const TOP_CONTRIBUTORS = [
 ];
 
 export default function AboutPage() {
-  const exclusiveCount = SEED_CAFES.filter(c => !c.google_place_id).length;
   const totalCafes = SEED_CAFES.length;
   const cityCount = new Set(SEED_CAFES.map(c => c.city)).size;
 
@@ -42,11 +41,10 @@ export default function AboutPage() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 mb-12">
+        <div className="grid grid-cols-2 gap-4 mb-12">
           {[
             { value: totalCafes.toString(), label: "Curated cafés" },
             { value: cityCount.toString(), label: "Cities covered" },
-            { value: exclusiveCount.toString(), label: "Grounds exclusives" },
           ].map(s => (
             <div key={s.label} className="bg-white rounded-2xl p-6 shadow-sm text-center">
               <p className="text-3xl font-bold text-grounds-espresso">{s.value}</p>
