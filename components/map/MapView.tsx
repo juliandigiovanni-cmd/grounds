@@ -25,6 +25,7 @@ export function MapView() {
   const [mapLoaded, setMapLoaded] = useState(false);
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [filterOpen, setFilterOpen] = useState(false);
+  const [focusedCity, setFocusedCity] = useState<string | null>(null);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -44,12 +45,22 @@ export function MapView() {
     });
   }, [filters]);
 
-  const flyToCity = useCallback((lat: number, lng: number, zoom = 12) => {
+  // Cafes shown in sidebar: focused city first, then global top 10
+  const sidebarCafes = useMemo(() => {
+    if (!focusedCity) return filteredCafes.slice(0, 10);
+    const city = focusedCity.toLowerCase();
+    const inCity = filteredCafes.filter(c =>
+      c.city.toLowerCase().includes(city) || city.includes(c.city.toLowerCase())
+    ).sort((a, b) => (b.third_wave_score ?? 0) - (a.third_wave_score ?? 0));
+    return inCity.length > 0 ? inCity : filteredCafes.slice(0, 10);
+  }, [filteredCafes, focusedCity]);
+
+  const flyToCity = useCallback((lat: number, lng: number, zoom = 12, cityName?: string) => {
     mapRef.current?.flyTo({ center: [lng, lat], zoom, duration: 1800, essential: true });
+    if (cityName) setFocusedCity(cityName);
   }, []);
 
-  const handleMarkerClick = useCallback((cafe: Cafe, e: React.MouseEvent) => {
-    e.stopPropagation();
+  const handleMarkerClick = useCallback((cafe: Cafe) => {
     setSelectedCafe(cafe);
     mapRef.current?.flyTo({
       center: [cafe.lng, cafe.lat],
@@ -95,19 +106,35 @@ export function MapView() {
             <TravelerModeSearch onCitySelect={flyToCity} variant="sidebar" />
           </div>
           <div className="flex-1 overflow-y-auto">
-            {filteredCafes.length === 0 ? (
+            {/* City header when a city is focused */}
+            {focusedCity && (
+              <div className="px-4 py-2 bg-grounds-gold/10 border-b border-grounds-brown/10 flex items-center justify-between">
+                <p className="text-xs font-semibold text-grounds-espresso">
+                  {sidebarCafes.length} café{sidebarCafes.length !== 1 ? "s" : ""} in {focusedCity}
+                </p>
+                <button
+                  onClick={() => setFocusedCity(null)}
+                  className="text-xs text-grounds-brown/50 hover:text-grounds-brown transition-colors"
+                >
+                  Show all
+                </button>
+              </div>
+            )}
+            {sidebarCafes.length === 0 ? (
               <div className="p-6 text-center text-sm text-grounds-brown/50">
-                No cafés match your filters.{" "}
-                <button onClick={() => setFilters(DEFAULT_FILTERS)} className="text-grounds-gold hover:underline">Clear filters</button>
+                {focusedCity
+                  ? `No curated cafés in ${focusedCity} yet.`
+                  : "No cafés match your filters."}{" "}
+                <button onClick={() => { setFilters(DEFAULT_FILTERS); setFocusedCity(null); }} className="text-grounds-gold hover:underline">Clear</button>
               </div>
             ) : (
-              filteredCafes.slice(0, 10).map(cafe => (
+              sidebarCafes.map(cafe => (
                 <div key={cafe.id} className="border-b border-grounds-brown/5 last:border-0">
                   <CafeCard
                     cafe={cafe}
                     onClick={() => {
                       setSelectedCafe(cafe);
-                      flyToCity(cafe.lat, cafe.lng, 15);
+                      mapRef.current?.flyTo({ center: [cafe.lng, cafe.lat], zoom: 15, offset: [-200, 0], duration: 800, essential: true });
                     }}
                     compact
                   />
@@ -149,7 +176,7 @@ export function MapView() {
               longitude={cafe.lng}
               latitude={cafe.lat}
               anchor="bottom"
-              onClick={(e) => handleMarkerClick(cafe, e as unknown as React.MouseEvent)}
+              onClick={(e) => { e.originalEvent.stopPropagation(); handleMarkerClick(cafe); }}
             >
               <ScoreMarker
                 score={cafe.third_wave_score ?? 0}

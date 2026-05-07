@@ -13,7 +13,7 @@ interface GeoResult {
 }
 
 interface Props {
-  onCitySelect: (lat: number, lng: number, zoom?: number) => void;
+  onCitySelect: (lat: number, lng: number, zoom?: number, cityName?: string) => void;
   variant?: "mobile" | "sidebar" | "hero";
 }
 
@@ -93,7 +93,7 @@ export function TravelerModeSearch({ onCitySelect, variant = "sidebar" }: Props)
     setQuery(result.text);
     setOpen(false);
     const [lng, lat] = result.center;
-    onCitySelect(lat, lng, 12);
+    onCitySelect(lat, lng, 12, result.text);
   }, [onCitySelect]);
 
   const isCurated = (result: GeoResult) =>
