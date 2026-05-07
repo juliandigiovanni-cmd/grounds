@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1A0A00"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3D1F00" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Coffee cup mark - large centered -->
+  <g transform="translate(540, 180)">
+    <rect x="10" y="30" width="120" height="100" rx="8" fill="#C8972A"/>
+    <path d="M130 50 Q155 65 130 80" stroke="#C8972A" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <rect x="20" y="130" width="100" height="8" rx="4" fill="#C8972A" opacity="0.6"/>
+    <path d="M25 30 Q70 5 115 30" stroke="#C8972A" stroke-width="3" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="600" y="370" font-family="Georgia, serif" font-size="96" font-weight="700" fill="#F5F0E8" text-anchor="middle" letter-spacing="-2">Grounds</text>
+
+  <!-- Tagline -->
+  <text x="600" y="430" font-family="Georgia, serif" font-size="32" fill="#C8972A" text-anchor="middle" letter-spacing="0">Find great coffee, anywhere.</text>
+
+  <!-- Bottom cities line -->
+  <text x="600" y="530" font-family="system-ui, sans-serif" font-size="18" fill="#F5F0E8" text-anchor="middle" opacity="0.5">Tokyo · Copenhagen · Melbourne · NYC · London · Seoul</text>
+</svg>
