@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useCallback, useEffect } from "react";
+import { useRef, useState, useCallback, useEffect, useMemo } from "react";
 import Map, { Marker, NavigationControl, GeolocateControl, type MapRef } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { MAPBOX_TOKEN, MAP_DEFAULTS } from "@/lib/mapbox";
@@ -11,7 +11,9 @@ import { BottomSheet } from "@/components/cafe/BottomSheet";
 import { TravelerModeSearch } from "@/components/ui/TravelerModeSearch";
 import { BottomNav } from "@/components/ui/BottomNav";
 import { SidePanel } from "@/components/cafe/SidePanel";
-import { FilterButton } from "@/components/ui/FilterButton";
+import { FilterBar } from "@/components/ui/FilterButton";
+import { FilterModal, DEFAULT_FILTERS } from "@/components/ui/FilterModal";
+import type { FilterState } from "@/components/ui/FilterModal";
 import { Logo } from "@/components/ui/Logo";
 import Link from "next/link";
 import type { Cafe } from "@/types";
@@ -21,6 +23,8 @@ export function MapView() {
   const [selectedCafe, setSelectedCafe] = useState<Cafe | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const [filterOpen, setFilterOpen] = useState(false);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -28,6 +32,17 @@ export function MapView() {
     window.addEventListener("resize", check);
     return () => window.removeEventListener("resize", check);
   }, []);
+
+  // Apply filters to cafe list
+  const filteredCafes = useMemo(() => {
+    return SEED_CAFES.filter(cafe => {
+      if (filters.minScore > 0 && (cafe.third_wave_score ?? 0) < filters.minScore) return false;
+      if (filters.verifiedOnly && !cafe.verified) return false;
+      if (filters.brewMethods.length > 0 && !filters.brewMethods.some(m => cafe.brew_methods.includes(m))) return false;
+      if (filters.vibeTags.length > 0 && !filters.vibeTags.some(t => cafe.vibe_tags.includes(t))) return false;
+      return true;
+    });
+  }, [filters]);
 
   const flyToCity = useCallback((lat: number, lng: number, zoom = 12) => {
     mapRef.current?.flyTo({ center: [lng, lat], zoom, duration: 1800, essential: true });
@@ -63,6 +78,8 @@ export function MapView() {
     );
   }
 
+  const exclusiveCount = SEED_CAFES.filter(c => !c.google_place_id).length;
+
   return (
     <div className="relative w-full h-full flex">
       {/* Desktop: left sidebar */}
@@ -71,25 +88,32 @@ export function MapView() {
           <div className="p-4 border-b border-grounds-brown/10">
             <h1 className="mb-0.5"><Logo variant="dark" size="md" /></h1>
             <p className="text-sm text-grounds-brown/70 mt-0.5">Find great coffee, anywhere.</p>
-            <p className="text-xs text-grounds-gold mt-1">{SEED_CAFES.filter(c => !c.google_place_id).length} cafés you won&apos;t find anywhere else</p>
+            <p className="text-xs text-grounds-gold mt-1">{exclusiveCount} cafés you won&apos;t find anywhere else</p>
             <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 mt-1 block">About Grounds</Link>
           </div>
           <div className="p-4">
             <TravelerModeSearch onCitySelect={flyToCity} variant="sidebar" />
           </div>
           <div className="flex-1 overflow-y-auto">
-            {SEED_CAFES.slice(0, 10).map(cafe => (
-              <div key={cafe.id} className="border-b border-grounds-brown/5 last:border-0">
-                <CafeCard
-                  cafe={cafe}
-                  onClick={() => {
-                    setSelectedCafe(cafe);
-                    flyToCity(cafe.lat, cafe.lng, 15);
-                  }}
-                  compact
-                />
+            {filteredCafes.length === 0 ? (
+              <div className="p-6 text-center text-sm text-grounds-brown/50">
+                No cafés match your filters.{" "}
+                <button onClick={() => setFilters(DEFAULT_FILTERS)} className="text-grounds-gold hover:underline">Clear filters</button>
               </div>
-            ))}
+            ) : (
+              filteredCafes.slice(0, 10).map(cafe => (
+                <div key={cafe.id} className="border-b border-grounds-brown/5 last:border-0">
+                  <CafeCard
+                    cafe={cafe}
+                    onClick={() => {
+                      setSelectedCafe(cafe);
+                      flyToCity(cafe.lat, cafe.lng, 15);
+                    }}
+                    compact
+                  />
+                </div>
+              ))
+            )}
           </div>
         </div>
       )}
@@ -104,7 +128,7 @@ export function MapView() {
               <div className="flex-1">
                 <TravelerModeSearch onCitySelect={flyToCity} variant="mobile" />
               </div>
-              <FilterButton />
+              <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
             </div>
           </div>
         )}
@@ -119,7 +143,7 @@ export function MapView() {
           onClick={handleMapClick}
           reuseMaps
         >
-          {mapLoaded && SEED_CAFES.map(cafe => (
+          {mapLoaded && filteredCafes.map(cafe => (
             <Marker
               key={cafe.id}
               longitude={cafe.lng}
@@ -140,9 +164,18 @@ export function MapView() {
 
         {/* Desktop filter bar */}
         {!isMobile && (
-          <div className="absolute top-4 left-4 right-4 z-10 flex gap-2">
-            <FilterButton />
+          <div className="absolute top-4 left-4 z-10">
+            <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
           </div>
+        )}
+
+        {/* Filter modal */}
+        {filterOpen && (
+          <FilterModal
+            filters={filters}
+            onChange={setFilters}
+            onClose={() => setFilterOpen(false)}
+          />
         )}
 
         {/* Mobile: bottom sheet for selected cafe */}
