@@ -15,6 +15,7 @@ import { FilterBar } from "@/components/ui/FilterButton";
 import { FilterModal, DEFAULT_FILTERS } from "@/components/ui/FilterModal";
 import type { FilterState } from "@/components/ui/FilterModal";
 import { Logo } from "@/components/ui/Logo";
+import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
 import type { Cafe } from "@/types";
 
@@ -141,6 +142,7 @@ export function MapView() {
                 </div>
               ))
             )}
+            <NewsletterSignup source="sidebar" />
           </div>
         </div>
       )}
