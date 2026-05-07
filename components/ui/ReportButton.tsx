@@ -24,10 +24,13 @@ export function ReportButton({ cafeId, cafeName }: Props) {
 
   const handleSubmit = async () => {
     if (!selected) return;
-    // TODO: POST to /api/report or Supabase edge function
-    console.log("Report:", { cafeId, reason: selected });
+    await fetch("/api/report", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ cafeId, reason: selected }),
+    });
     setSubmitted(true);
-    setTimeout(() => { setOpen(false); setSubmitted(false); }, 2000);
+    setTimeout(() => { setOpen(false); setSubmitted(false); setSelected(null); }, 2000);
   };
 
   return (
