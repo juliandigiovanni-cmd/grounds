@@ -19,9 +19,12 @@ export default function AdminBlurbsPage() {
   );
   const [saved, setSaved] = useState<Record<string, boolean>>({});
 
-  const handleSave = (id: string) => {
-    // In production: PATCH to Supabase
-    console.log("Save blurb:", id, blurbs[id]);
+  const handleSave = async (id: string) => {
+    await fetch("/api/admin/blurbs", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, editorial_blurb: blurbs[id] }),
+    });
     setSaved(s => ({ ...s, [id]: true }));
     setTimeout(() => setSaved(s => ({ ...s, [id]: false })), 2000);
   };

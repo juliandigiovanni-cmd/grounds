@@ -46,7 +46,7 @@ export default function AdminOutreachPage() {
                   <button
                     className="px-4 py-2 text-sm bg-grounds-espresso text-grounds-cream rounded-xl hover:bg-grounds-brown transition-colors"
                     style={{ minHeight: 44 }}
-                    onClick={() => alert(`TODO: Send verification email to ${cafe.name}`)}
+                    onClick={() => window.open(`mailto:?subject=Quick check-in from Grounds&body=Hi ${encodeURIComponent(cafe.name)} team,%0A%0AWe feature your café on Grounds — a curated specialty coffee map used by travelers worldwide.%0A%0ACould you confirm your listing is still accurate? ${encodeURIComponent(`https://grounds-snowy.vercel.app/cafe/${cafe.slug}`)}%0A%0AThanks,%0AThe Grounds Team`)}
                   >
                     Send email
                   </button>
