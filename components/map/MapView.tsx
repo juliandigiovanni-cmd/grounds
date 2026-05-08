@@ -116,6 +116,17 @@ export function MapView() {
           <div className="px-4 py-3 border-b border-grounds-brown/10">
             <TravelerModeSearch onCitySelect={flyToCity} variant="sidebar" />
           </div>
+          {/* Location button — shown immediately when no city focused */}
+          {!focusedCity && (
+            <div className="px-4 pt-3 pb-1 flex gap-2">
+              <button
+                onClick={locateMe}
+                className="flex-1 py-2 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 border border-grounds-gold/20 hover:border-grounds-gold/40 text-grounds-gold text-xs font-medium transition-all"
+              >
+                ⌖ Use my location
+              </button>
+            </div>
+          )}
           {/* Today's pick — rotates daily, only shown on global view */}
           {!focusedCity && (() => {
             const topCafes = SEED_CAFES.filter(c => (c.third_wave_score ?? 0) >= 90);
@@ -163,17 +174,6 @@ export function MapView() {
           )}
           <div className="flex-1 overflow-y-auto">
             {/* City header when a city is focused */}
-            {!focusedCity && (
-              <div className="px-4 py-5 text-center">
-                <button
-                  onClick={locateMe}
-                  className="w-full py-2 px-4 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 border border-grounds-gold/20 hover:border-grounds-gold/40 text-grounds-gold text-sm font-medium transition-all mb-3"
-                >
-                  ⌖ Use my location
-                </button>
-                <p className="text-xs text-grounds-brown/40">or search a city above</p>
-              </div>
-            )}
             {focusedCity && (
               <div className="px-4 py-2 bg-grounds-gold/10 border-b border-grounds-brown/10 flex items-center justify-between">
                 <p className="text-xs font-semibold text-grounds-espresso">
