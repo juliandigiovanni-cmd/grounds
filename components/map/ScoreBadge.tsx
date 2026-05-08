@@ -36,7 +36,7 @@ export function ScoreBadge({ score, size = "md", showTooltip = true }: Props) {
       {showTooltip && tooltipVisible && (
         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 bg-grounds-espresso text-grounds-cream text-xs rounded-lg p-3 shadow-xl z-50">
           <p className="font-bold mb-1">Grounds Score: {score}/100</p>
-          <p className="opacity-80 leading-relaxed">Our curation signal based on: single-origin identity (25pts), brew methods (20pts), independence (20pts), editorial features (15pts), community upvotes (10pts), on-site roasting (10pts).</p>
+          <p className="opacity-80 leading-relaxed">Our curation signal: named roaster (25pts), filter brew methods (20pts), independent (20pts), press coverage (15pts), roastery on-site (10pts), community upvotes (10pts).</p>
           <a href="/about/score" className="text-grounds-gold mt-1 block hover:underline" onClick={e => e.stopPropagation()}>How is this calculated? →</a>
           <a href="/submit" className="text-grounds-gold/80 mt-1 block hover:underline" onClick={e => e.stopPropagation()}>Disagree with this score? Tell us why →</a>
           <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-grounds-espresso" />

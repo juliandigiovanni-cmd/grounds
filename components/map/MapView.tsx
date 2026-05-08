@@ -4,7 +4,7 @@ import { useRef, useState, useCallback, useEffect, useMemo } from "react";
 import Map, { Marker, NavigationControl, GeolocateControl, type MapRef } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { MAPBOX_TOKEN, MAP_DEFAULTS } from "@/lib/mapbox";
-import { SEED_CAFES } from "@/lib/seed-data";
+import { SEED_CAFES, SEED_CITIES } from "@/lib/seed-data";
 import { getScoreColor } from "@/lib/scoring";
 import { CafeCard } from "@/components/cafe/CafeCard";
 import { BottomSheet } from "@/components/cafe/BottomSheet";
@@ -35,6 +35,19 @@ export function MapView() {
     return () => window.removeEventListener("resize", check);
   }, []);
 
+  // Auto-focus nearest covered city on load
+  useEffect(() => {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(({ coords }) => {
+      const nearest = SEED_CITIES.reduce((best, city) => {
+        const dist = Math.hypot(city.lat - coords.latitude, city.lng - coords.longitude);
+        return dist < Math.hypot(best.lat - coords.latitude, best.lng - coords.longitude) ? city : best;
+      });
+      flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
+    }, () => { /* permission denied — leave globe view */ });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // Apply filters to cafe list
   const filteredCafes = useMemo(() => {
     return SEED_CAFES.filter(cafe => {
@@ -46,14 +59,13 @@ export function MapView() {
     });
   }, [filters]);
 
-  // Cafes shown in sidebar: focused city first, then global top 10
+  // Cafes shown in sidebar: focused city only
   const sidebarCafes = useMemo(() => {
-    if (!focusedCity) return filteredCafes.slice(0, 10);
+    if (!focusedCity) return [];
     const city = focusedCity.toLowerCase();
-    const inCity = filteredCafes.filter(c =>
+    return filteredCafes.filter(c =>
       c.city.toLowerCase().includes(city) || city.includes(c.city.toLowerCase())
     ).sort((a, b) => (b.third_wave_score ?? 0) - (a.third_wave_score ?? 0));
-    return inCity.length > 0 ? inCity : filteredCafes.slice(0, 10);
   }, [filteredCafes, focusedCity]);
 
   const flyToCity = useCallback((lat: number, lng: number, zoom = 12, cityName?: string) => {
@@ -95,16 +107,69 @@ export function MapView() {
       {/* Desktop: left sidebar */}
       {!isMobile && (
         <div className="hidden lg:flex flex-col w-[380px] h-full bg-grounds-cream border-r border-grounds-brown/10 z-10 shrink-0">
-          <div className="p-4 border-b border-grounds-brown/10">
-            <h1 className="mb-0.5"><Logo variant="dark" size="md" /></h1>
-            <p className="text-xs text-grounds-gold mt-1">{SEED_CAFES.length} curated cafés across {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
-            <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 mt-1 block">About</Link>
+          <div className="px-5 pt-4 pb-3 border-b border-grounds-brown/10">
+            <h1 className="mb-1"><Logo variant="dark" size="md" /></h1>
+            <p className="text-xs text-grounds-brown/60 mt-1 leading-relaxed">The specialty coffee map for travelers. Curated, scored, and editorially verified.</p>
+            <div className="flex items-center gap-3 mt-2">
+              <p className="text-xs text-grounds-gold">{SEED_CAFES.length} cafés · {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
+              <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 transition-colors">About</Link>
+            </div>
           </div>
-          <div className="p-4">
+          <div className="px-4 py-3 border-b border-grounds-brown/10">
             <TravelerModeSearch onCitySelect={flyToCity} variant="sidebar" />
           </div>
+          {/* Today's pick — rotates daily, only shown on global view */}
+          {!focusedCity && (() => {
+            const topCafes = SEED_CAFES.filter(c => (c.third_wave_score ?? 0) >= 90);
+            const pick = topCafes[Math.floor(Date.now() / 86400000) % topCafes.length];
+            return pick ? (
+              <div className="mx-4 my-3 p-3 rounded-xl border border-grounds-gold/25 bg-grounds-gold/5">
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-grounds-gold/70 mb-1">Today's pick</p>
+                <button
+                  className="text-left w-full"
+                  onClick={() => { flyToCity(pick.lat, pick.lng, 15, pick.city); setSelectedCafe(pick); }}
+                >
+                  <p className="font-serif font-bold text-grounds-espresso text-sm leading-tight">{pick.name}</p>
+                  <p className="text-xs text-grounds-brown/50 mt-0.5">{pick.city}, {pick.country}</p>
+                  <p className="text-xs text-grounds-brown/70 mt-1.5 leading-relaxed italic line-clamp-2">"{pick.editorial_blurb}"</p>
+                </button>
+              </div>
+            ) : null;
+          })()}
+          {/* GS explainer — visible upfront, no hover required */}
+          {!focusedCity && (
+            <div className="px-4 py-3 border-b border-grounds-brown/10 flex items-start gap-2">
+              <span className="text-grounds-gold font-bold text-sm shrink-0">GS</span>
+              <p className="text-xs text-grounds-brown/60 leading-relaxed">
+                Every café is scored 0–100 on roaster identity, brew methods, independence, and press coverage.{" "}
+                <Link href="/about/score" className="text-grounds-gold hover:underline">How it works →</Link>
+              </p>
+            </div>
+          )}
+          {/* City chips — browse by destination */}
+          {!focusedCity && (
+            <div className="border-b border-grounds-brown/10">
+              <p className="px-4 pt-3 pb-1.5 text-[10px] font-semibold uppercase tracking-widest text-grounds-brown/40">Browse by city</p>
+              <div className="flex gap-1.5 overflow-x-auto px-4 pb-3 scrollbar-hide">
+                {SEED_CITIES.slice().sort((a, b) => a.name.localeCompare(b.name)).map(city => (
+                  <button
+                    key={city.id}
+                    onClick={() => flyToCity(city.lat, city.lng, 12, city.name)}
+                    className="shrink-0 text-xs px-3 py-1.5 rounded-full bg-grounds-brown/8 hover:bg-grounds-gold/20 hover:text-grounds-espresso text-grounds-brown/70 border border-grounds-brown/10 hover:border-grounds-gold/40 transition-all whitespace-nowrap"
+                  >
+                    {city.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           <div className="flex-1 overflow-y-auto">
             {/* City header when a city is focused */}
+            {!focusedCity && (
+              <div className="px-4 py-6 text-center">
+                <p className="text-sm text-grounds-brown/50 leading-relaxed">Search a city above<br />or tap a marker on the map</p>
+              </div>
+            )}
             {focusedCity && (
               <div className="px-4 py-2 bg-grounds-gold/10 border-b border-grounds-brown/10 flex items-center justify-between">
                 <p className="text-xs font-semibold text-grounds-espresso">
@@ -118,12 +183,10 @@ export function MapView() {
                 </button>
               </div>
             )}
-            {sidebarCafes.length === 0 ? (
+            {focusedCity && sidebarCafes.length === 0 ? (
               <div className="p-6 text-center text-sm text-grounds-brown/50">
-                {focusedCity
-                  ? `No curated cafés in ${focusedCity} yet.`
-                  : "No cafés match your filters."}{" "}
-                <button onClick={() => { setFilters(DEFAULT_FILTERS); setFocusedCity(null); }} className="text-grounds-gold hover:underline">Clear</button>
+                No curated cafés in {focusedCity} yet.{" "}
+                <button onClick={() => { setFilters(DEFAULT_FILTERS); setFocusedCity(null); }} className="text-grounds-gold hover:underline">Clear filters</button>
               </div>
             ) : (
               sidebarCafes.map(cafe => (
@@ -140,12 +203,20 @@ export function MapView() {
               ))
             )}
             <NewsletterSignup source="sidebar" />
+            <div className="px-4 py-4 border-t border-grounds-brown/10">
+              <Link
+                href="/submit"
+                className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 text-grounds-gold font-medium text-sm border border-grounds-gold/20 hover:border-grounds-gold/40 transition-all"
+              >
+                + Add a café
+              </Link>
+            </div>
           </div>
         </div>
       )}
 
       {/* Map */}
-      <div className="flex-1 relative">
+      <div className="flex-1 relative bg-grounds-cream">
         {/* Mobile top bar */}
         {isMobile && (
           <div className="absolute top-0 left-0 right-0 z-20 bg-grounds-cream/95 backdrop-blur-sm border-b border-grounds-brown/10 px-4 py-3 safe-area-inset-top">
@@ -165,7 +236,16 @@ export function MapView() {
           initialViewState={MAP_DEFAULTS.initialViewState}
           style={{ width: "100%", height: "100%" }}
           mapStyle={MAP_DEFAULTS.style}
-          onLoad={() => setMapLoaded(true)}
+          onLoad={(evt) => {
+            setMapLoaded(true);
+            evt.target.setFog({
+              'space-color': '#F5F0E8',
+              'star-intensity': 0,
+              'color': '#F5F0E8',
+              'high-color': '#d4c9b8',
+              'horizon-blend': 0.08,
+            });
+          }}
           onClick={handleMapClick}
           reuseMaps
         >

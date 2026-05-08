@@ -30,6 +30,11 @@ body {
   }
 }
 
+/* Warm the map canvas to match the espresso/cream/gold sidebar palette */
+.mapboxgl-canvas {
+  filter: sepia(35%) saturate(75%) brightness(97%);
+}
+
 /* Custom marker styles */
 .grounds-marker {
   cursor: pointer;
