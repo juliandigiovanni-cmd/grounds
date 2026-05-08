@@ -27,6 +27,7 @@ export function MapView() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [filterOpen, setFilterOpen] = useState(false);
   const [focusedCity, setFocusedCity] = useState<string | null>(null);
+  const [locating, setLocating] = useState<'idle' | 'loading' | 'denied'>("idle");
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -61,14 +62,19 @@ export function MapView() {
   }, []);
 
   const locateMe = useCallback(() => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition(({ coords }) => {
-      const nearest = SEED_CITIES.reduce((best, city) => {
-        const dist = Math.hypot(city.lat - coords.latitude, city.lng - coords.longitude);
-        return dist < Math.hypot(best.lat - coords.latitude, best.lng - coords.longitude) ? city : best;
-      });
-      flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
-    });
+    if (!navigator.geolocation) { setLocating('denied'); return; }
+    setLocating('loading');
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        const nearest = SEED_CITIES.reduce((best, city) => {
+          const dist = Math.hypot(city.lat - coords.latitude, city.lng - coords.longitude);
+          return dist < Math.hypot(best.lat - coords.latitude, best.lng - coords.longitude) ? city : best;
+        });
+        setLocating('idle');
+        flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
+      },
+      () => setLocating('denied')
+    );
   }, [flyToCity]);
 
   const handleMarkerClick = useCallback((cafe: Cafe) => {
@@ -118,13 +124,17 @@ export function MapView() {
           </div>
           {/* Location button — shown immediately when no city focused */}
           {!focusedCity && (
-            <div className="px-4 pt-3 pb-1 flex gap-2">
+            <div className="px-4 pt-3 pb-1">
               <button
                 onClick={locateMe}
-                className="flex-1 py-2 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 border border-grounds-gold/20 hover:border-grounds-gold/40 text-grounds-gold text-xs font-medium transition-all"
+                disabled={locating === 'loading'}
+                className="w-full py-2 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 border border-grounds-gold/20 hover:border-grounds-gold/40 text-grounds-gold text-xs font-medium transition-all disabled:opacity-50"
               >
-                ⌖ Use my location
+                {locating === 'loading' ? 'Locating…' : '⌖ Use my location'}
               </button>
+              {locating === 'denied' && (
+                <p className="text-xs text-red-400 mt-1.5 text-center">Location blocked — enable it in your browser settings</p>
+              )}
             </div>
           )}
           {/* Today's pick — rotates daily, only shown on global view */}
