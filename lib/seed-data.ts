@@ -6,11 +6,16 @@ import { ASIA_RAW_CAFES } from './seed-asia';
 import { LATAM_RAW_CAFES } from './seed-latam';
 import { AFRICA_RAW_CAFES } from './seed-africa';
 import { OCEANIA_RAW_CAFES } from './seed-oceania';
-import { ISTANBUL_RAW_CAFES } from './seed-istanbul';
 
 const rawCafes: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [];
 
-const allRawCafes = [...NA_RAW_CAFES, ...EU_RAW_CAFES, ...ASIA_RAW_CAFES, ...LATAM_RAW_CAFES, ...AFRICA_RAW_CAFES, ...OCEANIA_RAW_CAFES, ...ISTANBUL_RAW_CAFES, ...rawCafes];
+const allRawCafes = [...NA_RAW_CAFES, ...EU_RAW_CAFES, ...ASIA_RAW_CAFES, ...LATAM_RAW_CAFES, ...AFRICA_RAW_CAFES, ...OCEANIA_RAW_CAFES, ...rawCafes];
+
+// Deterministic pseudo-random based on seed — avoids different values across Next.js build workers
+function seededRandom(seed: number): number {
+  const x = Math.sin(seed + 1) * 10000;
+  return x - Math.floor(x);
+}
 
 export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
   const scoreBreakdown = calculateScore({
@@ -18,15 +23,15 @@ export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
     brew_methods: cafe.brew_methods,
     vibe_tags: cafe.vibe_tags,
     featured_in: cafe.featured_in,
-    community_upvotes: Math.floor(Math.random() * 8),
+    community_upvotes: 0,
   });
   return {
     ...cafe,
     id: `cafe-${index + 1}`,
     created_at: new Date().toISOString(),
     third_wave_score: scoreBreakdown.total,
-    overall_rating: 4.2 + Math.random() * 0.7,
-    review_count: 50 + Math.floor(Math.random() * 200),
+    overall_rating: parseFloat((4.2 + seededRandom(index) * 0.7).toFixed(1)),
+    review_count: 50 + Math.floor(seededRandom(index * 7 + 3) * 200),
     permanently_closed: false,
     flagged: false,
     sponsored: false,
