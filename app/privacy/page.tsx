@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <div className="prose prose-sm max-w-none space-y-8 text-grounds-brown">
           <section>
             <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-3">1. Data We Collect</h2>
-            <p>When you use Grounds, we may collect:</p>
+            <p>When you use Know your Grounds, we may collect:</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Usage data (pages visited, search queries) — via Google Analytics, if you consent</li>
               <li>Account data (email, display name) — only if you create an account</li>
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-3">3. Third-Party APIs</h2>
-            <p>Grounds surfaces data from third-party sources. Their privacy policies apply to their data:</p>
+            <p>Know your Grounds surfaces data from third-party sources. Their privacy policies apply to their data:</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>Google Places API — reviews fetched at request time, not stored</li>
               <li>Yelp Fusion API — reviews fetched at request time, not stored</li>
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-3">4. User Submissions</h2>
-            <p>When you submit a cafe listing, you grant Grounds a non-exclusive license to display that information. We reserve the right to edit or remove submissions that violate our content guidelines.</p>
+            <p>When you submit a cafe listing, you grant Know your Grounds a non-exclusive license to display that information. We reserve the right to edit or remove submissions that violate our content guidelines.</p>
           </section>
 
           <section>

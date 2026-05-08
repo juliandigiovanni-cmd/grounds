@@ -29,14 +29,14 @@ export default function AboutPage() {
         {/* Mission */}
         <div className="prose max-w-none mb-12">
           <p className="text-grounds-brown leading-relaxed mb-4">
-            Grounds is a map-first travel companion for serious coffee people. We don&apos;t review restaurants.
+            Know your Grounds is a map-first travel companion for serious coffee people. We don&apos;t review restaurants.
             We don&apos;t rate chains. We find the world&apos;s best specialty coffee shops and make it easy to
             visit them — wherever you&apos;re headed next.
           </p>
           <p className="text-grounds-brown leading-relaxed">
             We built this because the alternatives are broken. Google Maps treats Starbucks and a
             meticulously crafted single-origin pour-over bar as equals. City guides go stale. Review
-            apps are gamed. Grounds is the utility layer: curated, scored, and always map-first.
+            apps are gamed. Know your Grounds is the utility layer: curated, scored, and always map-first.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
         <section className="mb-12">
           <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-2">Top Contributors</h2>
           <p className="text-grounds-brown/60 text-sm mb-6">
-            Community submissions are at the heart of what makes Grounds better than any algorithm.
+            Community submissions are at the heart of what makes Know your Grounds better than any algorithm.
             These travelers have helped build the database.
           </p>
           <div className="space-y-3">

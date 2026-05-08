@@ -78,8 +78,8 @@ to check: [grounds.coffee/cafe/SLUG]
 If anything needs updating (hours, address, brew methods), just reply to this
 email and we'll make the change immediately.
 
-Thanks for being part of Grounds.
-— The Grounds Team`}
+Thanks for being part of Know your Grounds.
+— The Know your Grounds Team`}
           </pre>
         </div>
       </div>
