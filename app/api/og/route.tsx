@@ -5,8 +5,8 @@ export const runtime = "edge";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const title = searchParams.get("title") ?? "Grounds";
-  const subtitle = searchParams.get("subtitle") ?? "Find great coffee, anywhere.";
+  const title = searchParams.get("title") ?? "Know your Grounds";
+  const subtitle = searchParams.get("subtitle") ?? "The specialty coffee map for travelers.";
   const score = searchParams.get("score");
   const city = searchParams.get("city") ?? "";
 
@@ -29,7 +29,7 @@ export async function GET(req: NextRequest) {
 
         {/* Brand mark */}
         <div style={{ fontSize: 18, color: "#C8972A", marginBottom: 16, letterSpacing: 4, textTransform: "uppercase", display: "flex" }}>
-          ☕ GROUNDS
+          ☕ KNOW YOUR GROUNDS
         </div>
 
         {/* Title */}

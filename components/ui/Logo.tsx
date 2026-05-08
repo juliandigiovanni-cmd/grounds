@@ -21,7 +21,7 @@ export function Logo({ variant = "dark", size = "md", showMark = true }: Props) 
   return (
     <svg
       height={height}
-      viewBox={`0 0 ${showMark ? fontSize * 5.5 + markSize + 8 : fontSize * 5.5} ${height}`}
+      viewBox={`0 0 ${showMark ? fontSize * 11 + markSize + 8 : fontSize * 11} ${height}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       aria-label={BRAND_NAME}

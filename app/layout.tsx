@@ -9,13 +9,13 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: { default: `${BRAND_NAME} — ${BRAND_TAGLINE}`, template: `%s | ${BRAND_NAME}` },
+  title: { default: BRAND_NAME, template: `%s | ${BRAND_NAME}` },
   description: "The world's curated specialty coffee map for travelers. Find the best 3rd wave cafés in Tokyo, Copenhagen, Melbourne, NYC, and beyond.",
   metadataBase: new URL(BRAND_URL),
   openGraph: {
     type: "website",
     siteName: BRAND_NAME,
-    title: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+    title: BRAND_NAME,
     description: "Curated specialty coffee for curious travelers.",
     images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },

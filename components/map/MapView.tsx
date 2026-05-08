@@ -97,7 +97,6 @@ export function MapView() {
         <div className="hidden lg:flex flex-col w-[380px] h-full bg-grounds-cream border-r border-grounds-brown/10 z-10 shrink-0">
           <div className="p-4 border-b border-grounds-brown/10">
             <h1 className="mb-0.5"><Logo variant="dark" size="md" /></h1>
-            <p className="text-sm text-grounds-brown/70 mt-0.5">Know your Grounds.</p>
             <p className="text-xs text-grounds-gold mt-1">{SEED_CAFES.length} curated cafés across {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
             <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 mt-1 block">About Grounds</Link>
           </div>
