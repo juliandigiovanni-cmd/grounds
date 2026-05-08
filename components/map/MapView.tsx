@@ -35,20 +35,6 @@ export function MapView() {
     return () => window.removeEventListener("resize", check);
   }, []);
 
-  // Auto-focus nearest covered city — waits for map to be ready
-  useEffect(() => {
-    if (!mapLoaded) return;
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition(({ coords }) => {
-      const nearest = SEED_CITIES.reduce((best, city) => {
-        const dist = Math.hypot(city.lat - coords.latitude, city.lng - coords.longitude);
-        return dist < Math.hypot(best.lat - coords.latitude, best.lng - coords.longitude) ? city : best;
-      });
-      flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
-    }, () => { /* permission denied — leave globe view */ });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mapLoaded]);
-
   // Apply filters to cafe list
   const filteredCafes = useMemo(() => {
     return SEED_CAFES.filter(cafe => {
@@ -73,6 +59,17 @@ export function MapView() {
     mapRef.current?.flyTo({ center: [lng, lat], zoom, duration: 1800, essential: true });
     if (cityName) setFocusedCity(cityName);
   }, []);
+
+  const locateMe = useCallback(() => {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(({ coords }) => {
+      const nearest = SEED_CITIES.reduce((best, city) => {
+        const dist = Math.hypot(city.lat - coords.latitude, city.lng - coords.longitude);
+        return dist < Math.hypot(best.lat - coords.latitude, best.lng - coords.longitude) ? city : best;
+      });
+      flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
+    });
+  }, [flyToCity]);
 
   const handleMarkerClick = useCallback((cafe: Cafe) => {
     setSelectedCafe(cafe);
@@ -167,8 +164,14 @@ export function MapView() {
           <div className="flex-1 overflow-y-auto">
             {/* City header when a city is focused */}
             {!focusedCity && (
-              <div className="px-4 py-6 text-center">
-                <p className="text-sm text-grounds-brown/50 leading-relaxed">Search a city above<br />or tap a marker on the map</p>
+              <div className="px-4 py-5 text-center">
+                <button
+                  onClick={locateMe}
+                  className="w-full py-2 px-4 rounded-lg bg-grounds-gold/10 hover:bg-grounds-gold/20 border border-grounds-gold/20 hover:border-grounds-gold/40 text-grounds-gold text-sm font-medium transition-all mb-3"
+                >
+                  ⌖ Use my location
+                </button>
+                <p className="text-xs text-grounds-brown/40">or search a city above</p>
               </div>
             )}
             {focusedCity && (
