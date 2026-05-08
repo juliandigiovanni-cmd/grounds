@@ -16,7 +16,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://stali.com.au/",
     editorial_blurb: "The roastery that helped define Melbourne's coffee identity — still the best introduction to why this city takes coffee so seriously.",
     featured_in: ["sprudge", "guardian", "eater"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Patricia Coffee Brewers",
@@ -30,7 +30,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "patriciacoffeebrewers",
     editorial_blurb: "Standing room only, zero compromise — Patricia runs the tightest espresso programme in the CBD and everyone knows it.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Market Lane Coffee",
@@ -45,7 +45,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://marketlane.com.au/",
     editorial_blurb: "Market-stall origins, world-class roasting — their seasonal single-origins are worth building a Melbourne morning around.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-09-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-30", verification_source: "admin",
   },
   {
     name: "Proud Mary",
@@ -60,7 +60,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.proudmarycoffee.com.au/",
     editorial_blurb: "Collingwood institution that exported Melbourne's coffee gospel to Portland and Tokyo — the brunch-hour pour-over queue is a pilgrimage Melbourne locals earn the right to skip.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-11-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-08", verification_source: "admin",
   },
   {
     name: "Seven Seeds",
@@ -75,7 +75,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://sevenseeds.com.au/",
     editorial_blurb: "Carlton warehouse roastery that rewired Melbourne's palate for light roasts — the Saturday cupping table and the long communal bench are both still essential.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Dukes Coffee Roasters",
@@ -90,7 +90,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.dukescoffee.com.au/",
     editorial_blurb: "Flinders Lane basement bar that turns the CBD lunch rush into an exercise in precision — the espresso programme here runs at a different pace to everywhere else.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Axil Coffee Roasters",
@@ -105,7 +105,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://axilcoffee.com.au/",
     editorial_blurb: "World Barista Championship pedigree translated into Hawthorn's best local — David Makin's roastery sets Melbourne's eastern suburbs standard for what direct trade looks like.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Sensory Lab",
@@ -119,7 +119,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "sensorylabcoffee",
     editorial_blurb: "David Jones' CBD ground-floor espresso bar that punches above its retail setting — the rotating single-origin pour-over flight is Melbourne's best corporate-hour coffee.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Brother Baba Budan",
@@ -133,7 +133,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "brotherbababudan",
     editorial_blurb: "Seven Seeds' CBD sibling — chairs suspended from the ceiling, zero pretension, and the same exacting espresso in a space the size of a hallway.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Wide Open Road",
@@ -148,7 +148,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.wideopenroadcoffee.com.au/",
     editorial_blurb: "Brunswick roastery that feels like it was designed for long weekend mornings — exceptional natural-process lots and a courtyard that earns the walk north of the city.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Higher Ground",
@@ -162,7 +162,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "highergroundmelb",
     editorial_blurb: "Converted power station with soaring ceilings and a coffee programme that matches the architecture — Melbourne's most spectacular all-day café.",
     featured_in: ["sprudge", "eater", "timeout"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
   {
     name: "Top Paddock",
@@ -176,7 +176,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "toppaddockmelbourne",
     editorial_blurb: "Richmond's neighbourhood café elevated by Market Lane's roasting — the weekend brunch crowd and the flat white devotees share the same excellent cup.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Allpress Espresso Melbourne",
@@ -191,7 +191,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://allpressespresso.com/",
     editorial_blurb: "Trans-Tasman roastery institution's Collingwood headquarters — the open roastery and the espresso bar run in parallel, and the breakfast crowd arrives before the doors open.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Padre Coffee",
@@ -206,7 +206,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.padrecoffee.com.au/",
     editorial_blurb: "Sydney Road's defining specialty address — Padre's direct-trade sourcing and in-house roasting have made Brunswick's main strip a genuine coffee destination.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Monk Bodhi Dharma",
@@ -221,7 +221,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.monkbodhidharma.com.au/",
     editorial_blurb: "Balaclava's most curious café — a plant-based menu, a rotating single-origin filter programme, and the kind of regulars who've come every morning for a decade.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Hardware Société",
@@ -236,7 +236,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.hardwaresociete.com/",
     editorial_blurb: "Hardware Lane institution with French leanings and Melbourne coffee values — the soufflé pancakes and the Market Lane espresso coexist without compromise.",
     featured_in: ["sprudge", "eater", "timeout"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Aunty Peg's",
@@ -250,7 +250,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "auntypegsbar",
     editorial_blurb: "Proud Mary's upstairs cupping and filter bar — a quieter, more focused counterpoint to the bustling café below, where the pour-over menu goes deeper.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Everyday Coffee",
@@ -264,7 +264,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "everydaycoffee",
     editorial_blurb: "Smith Street neighbourhood café that takes its name seriously — reliable, honest specialty in one of Fitzroy's best people-watching spots.",
     featured_in: ["timeout"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Code Black Coffee",
@@ -279,7 +279,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.codeblackcoffee.com.au/",
     editorial_blurb: "Brunswick roastery whose intense sourcing philosophy and in-house roasting make it the suburb's most serious specialty address — the origin flights reward the curious.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Auction Rooms",
@@ -293,7 +293,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "auctionroomsmelbourne",
     editorial_blurb: "North Melbourne's destination café in a former auction house — the industrial space, serious brunch menu, and rotating single-origins have built a following that crosses city lines.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Workshop Espresso",
@@ -307,7 +307,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "workshopespresso",
     editorial_blurb: "Collins Street express bar where Melbourne's CBD coffee culture runs at its sharpest — in and out in five minutes with the best flat white in the legal district.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Stagger Lee's",
@@ -321,7 +321,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "stagga_lees",
     editorial_blurb: "Smith Street character café with no pretension and every reason to return — the Seven Seeds espresso hits differently in a room with this much neighbourhood warmth.",
     featured_in: ["timeout"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
 
   // ── SYDNEY (18) ───────────────────────────────────────────────────────────────
@@ -338,7 +338,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.singleo.com.au/",
     editorial_blurb: "The Surry Hills roastery that defined Sydney specialty — their taps of batch brew and cold brew changed how the city drinks coffee.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
   {
     name: "Sample Coffee",
@@ -352,7 +352,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "samplecoffeesydney",
     editorial_blurb: "Rotating guest roasters and genuinely serious pour-overs make Sample the best place in Sydney to discover what's new in specialty.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Reuben Hills",
@@ -367,7 +367,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://reubenhills.com.au/",
     editorial_blurb: "South American bean focus and a roastery café that doubles as a proper brunch destination — the espresso programme is the real reason to visit.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Mecca Coffee",
@@ -382,7 +382,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://meccacoffee.com.au/",
     editorial_blurb: "Sydney's benchmark specialty roastery — for two decades Mecca has been the standard other cafés are judged by and the roastery café earns that reputation daily.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Artificer Coffee",
@@ -396,7 +396,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "artificercoffee",
     editorial_blurb: "Surry Hills espresso bar at the competitive edge of the city's craft — the rotating guest roaster programme and rigorous extraction standards attract baristas on days off.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Paramount Coffee Project",
@@ -411,7 +411,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://paramountcoffeeproject.com.au/",
     editorial_blurb: "Japanese-Australian collaboration café in Surry Hills that proved Sydney could hold its own — the wagyu sando and the pour-over are both non-negotiable.",
     featured_in: ["sprudge", "eater", "timeout"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Brewtown Newtown",
@@ -426,7 +426,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.brewtown.com.au/",
     editorial_blurb: "Newtown's specialty anchor in a converted warehouse — Single O beans, an open roastery floor, and the easy pace of Sydney's most interesting neighbourhood.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Toby's Estate",
@@ -441,7 +441,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://tobysestate.com.au/",
     editorial_blurb: "Sydney's most exported roastery — Toby's Estate trained half of Singapore and New York's barista talent while maintaining a benchmark Surry Hills café.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Pablo & Rusty's",
@@ -456,7 +456,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.pabloandrustyss.com.au/",
     editorial_blurb: "CBD roastery café that brought Surry Hills standards to the financial district — the office-hour espresso programme holds up to anything in the city.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Gumption Coffee",
@@ -470,7 +470,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "gumptioncoffee",
     editorial_blurb: "Strand Arcade heritage shopfront turned specialty espresso bar — Sydney's most theatrical coffee address, where the marble counter and the precision are equally impressive.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Coffee Alchemy",
@@ -485,7 +485,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.coffeealchemy.com.au/",
     editorial_blurb: "Marrickville single-origin laboratory that rewards the trip west — the most comprehensive brew method menu in the city, served by people who teach it.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-04", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-04", verification_source: "admin",
   },
   {
     name: "Rumble Coffee Roasters",
@@ -499,7 +499,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "rumblecoffeeroasters",
     editorial_blurb: "Balmain roastery with an unhurried inner-west pace and a sourcing programme that traces every bean back to the producer — exactly what specialty coffee is supposed to be.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Edition Coffee Roasters",
@@ -514,7 +514,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://editioncoffee.com.au/",
     editorial_blurb: "Surry Hills micro-roastery built on the premise that small batches roasted close to service is the only way to work — every cup proves the point.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Will & Co",
@@ -529,7 +529,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.willandco.com.au/",
     editorial_blurb: "CBD specialty brand that scaled without compromising — the espresso is exacting and the cold brew tap makes every Sydney office worker's afternoon easier.",
     featured_in: ["timeout"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "The Grounds of Alexandria",
@@ -544,7 +544,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://thegrounds.com.au/",
     editorial_blurb: "Sydney's most visited café destination and still genuinely good — the on-site roastery, market garden, and weekend crowds are all real, the coffee holds its own.",
     featured_in: ["eater", "timeout", "guardian"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
 
   // ── AUCKLAND (8) ──────────────────────────────────────────────────────────────
@@ -561,7 +561,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.kokako.co.nz/",
     editorial_blurb: "Grey Lynn's organic specialty roastery is New Zealand's most principled coffee business — fair-trade, bird-friendly, and still producing the city's most interesting single-origins.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Eighthirty Coffee Roasters",
@@ -576,7 +576,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://eighthirty.co.nz/",
     editorial_blurb: "Auckland CBD roastery that supplies half the city's best cafés and runs a flagship bar that demonstrates exactly why — the espresso programme is as good as it gets.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Allpress Espresso Auckland",
@@ -591,7 +591,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://allpressespresso.com/",
     editorial_blurb: "The origin story — Allpress started in this building before taking their espresso gospel to Sydney, Melbourne, Tokyo, and London, and the Auckland roastery still earns the pilgrimage.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-02", verification_source: "admin",
   },
   {
     name: "Atomic Coffee Roasters",
@@ -606,7 +606,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.atomiccoffee.co.nz/",
     editorial_blurb: "Auckland roastery institution with a decades-long direct-trade programme — their Ethiopia and Kenya lots remain benchmarks for what New Zealand expects from specialty.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Paper Crane Coffee",
@@ -620,7 +620,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "papercraneauckland",
     editorial_blurb: "CBD specialty bar with Japanese-influenced precision and an Auckland neighbourhood spirit — the rotating origin filter is the most considered in the city.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-20", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-20", verification_source: "community",
   },
   {
     name: "Coffee Supreme Auckland",
@@ -635,7 +635,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://coffeesupreme.com/",
     editorial_blurb: "K Road's coffee institution from the Wellington roastery that helped shape how Australasia thinks about specialty — the K Rd location has the energy the brand was built on.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "One Ton Coffee",
@@ -649,7 +649,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "onetoncoffee",
     editorial_blurb: "Commercial Bay's most focused espresso stop — the rotating micro-lot programme and the fast counter service make it Auckland CBD's best daily coffee ritual.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-15", verification_source: "community",
   },
   {
     name: "Morning Ritual",
@@ -663,7 +663,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "morningritualauckland",
     editorial_blurb: "Ponsonby's favourite daytime café — the guest roaster programme and the sunlit terrace make this Auckland's most pleasant way to start a morning.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-10", verification_source: "community",
   },
 
   // ── WELLINGTON (7) ────────────────────────────────────────────────────────────
@@ -680,7 +680,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://flightcoffee.co.nz/",
     editorial_blurb: "Wellington's defining specialty roastery — Flight's direct-trade Kenyan and Ethiopian lots set the standard for what New Zealand expects from filter coffee.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
   {
     name: "People's Coffee",
@@ -695,7 +695,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.peoplescoffee.co.nz/",
     editorial_blurb: "Newtown worker-owned roastery that proved ethical trading and exceptional espresso belong in the same cup — Wellington's most principled and most beloved coffee business.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Caffe L'affare",
@@ -710,7 +710,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://www.laffare.co.nz/",
     editorial_blurb: "Wellington's oldest specialty roastery and still one of its best — three decades of direct-trade relationships and a Cuba Street-adjacent courtyard that anchors the city's café culture.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Customs Brew Bar",
@@ -725,7 +725,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://customsbrewbar.com/",
     editorial_blurb: "Lambton Quay specialty bar that serves Wellington's government and legal district a proper alternative to mediocrity — the rotating single-origin pour-over is the reason people walk past the chains.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Coffee Supreme Wellington",
@@ -740,7 +740,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     website: "https://coffeesupreme.com/",
     editorial_blurb: "The Wellington mothership of Australasia's most influential roastery — this is where Coffee Supreme's ethos was formed, and it still pours the most consistent flat white in the city.",
     featured_in: ["sprudge", "standart", "monocle"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Golding's Free Dive",
@@ -754,7 +754,7 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "goldingsfreedive",
     editorial_blurb: "Wellington's most beloved low-key haunt — the daytime coffee is serious, the beer list is legendary, and the Cuba Quarter terrace is where the whole city eventually ends up.",
     featured_in: ["guardian", "timeout"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Midnight Espresso",
@@ -768,6 +768,6 @@ export const OCEANIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     instagram_handle: "midnightespresso",
     editorial_blurb: "Cuba Street's 24-hour institution that has served Wellington's musicians, students, and insomniacs a proper espresso since 1989 — the city's most unconditional coffee.",
     featured_in: ["guardian", "monocle"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
 ];

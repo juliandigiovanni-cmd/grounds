@@ -18,7 +18,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "London's original specialty institution — the queue outside Borough Market moves fast and the cup at the end is always worth it.",
     featured_in: ["guardian", "timeout", "sprudge"],
     verified: true,
-    last_verified_at: "2024-10-30",
+    last_verified_at: "2025-10-30",
     verification_source: "admin",
   },
   {
@@ -37,7 +37,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The roastery that trained a generation of London baristas — their Red Brick blend is a daily ritual for good reason.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-11-02",
+    last_verified_at: "2025-11-02",
     verification_source: "admin",
   },
   {
@@ -56,7 +56,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Fitzrovia's most precise pour-over bar — their seasonal single-origins rotate fast and the staff can tell you exactly why each one tastes the way it does.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-15",
+    last_verified_at: "2025-10-15",
     verification_source: "admin",
   },
   {
@@ -75,7 +75,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "King's Cross canalside roastery where the weekend brunch crowd and the filter-curious meet — the Granary Square setting is one of London's best.",
     featured_in: ["sprudge", "guardian", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-18",
+    last_verified_at: "2025-10-18",
     verification_source: "admin",
   },
   {
@@ -93,7 +93,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Broadway Market institution that helped put East London on the specialty map — the roastery above the café and the Saturday market energy are both essential.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-09-20",
+    last_verified_at: "2025-09-20",
     verification_source: "admin",
   },
   {
@@ -112,7 +112,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "New Zealand's most exported coffee culture landed in Dalston with a roastery that makes some of East London's cleanest espresso.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "admin",
   },
   {
@@ -131,7 +131,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Leather Lane training ground and café where more London baristas have learned their craft than anywhere else — the technical depth is unmatched.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-22",
+    last_verified_at: "2025-10-22",
     verification_source: "admin",
   },
   {
@@ -150,7 +150,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Heavy-metal aesthetics and obsessively sourced beans — the Bethnal Green roastery is proof that great coffee doesn't need to look polite.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-28",
+    last_verified_at: "2025-09-28",
     verification_source: "admin",
   },
   {
@@ -169,7 +169,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Australian-founded Fitzrovia bar that helped define London's flat white era — still one of the best espresso programs in the West End.",
     featured_in: ["sprudge", "guardian", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-10",
+    last_verified_at: "2025-10-10",
     verification_source: "admin",
   },
   {
@@ -188,7 +188,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Trafalgar Square location with a roastery program that punches well above its tourist-adjacent address — the filter menu is genuinely excellent.",
     featured_in: ["sprudge", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-25",
+    last_verified_at: "2025-10-25",
     verification_source: "admin",
   },
   {
@@ -206,7 +206,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "City of London's best specialty bar — a calm, precise counter where the Square Mile's suited workers and the coffee-obsessed share the same bench.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-08",
+    last_verified_at: "2025-10-08",
     verification_source: "admin",
   },
   {
@@ -224,7 +224,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Creechurch Lane's understated gem — a rotating roster of the UK's best roasters and baristas who know how to talk terroir without the attitude.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-01",
+    last_verified_at: "2025-10-01",
     verification_source: "admin",
   },
   {
@@ -243,7 +243,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Spitalfields institution that quietly outlasted every wave of Shoreditch trend — the espresso has always been the point, and it still is.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-09-15",
+    last_verified_at: "2025-09-15",
     verification_source: "admin",
   },
   {
@@ -262,7 +262,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Australian-founded City coffee bar running fast espresso with Australian warmth — the Bank location handles morning rush without ever losing quality.",
     featured_in: ["sprudge", "timeout"],
     verified: true,
-    last_verified_at: "2024-09-30",
+    last_verified_at: "2025-09-30",
     verification_source: "admin",
   },
   {
@@ -281,7 +281,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Social enterprise roastery training baristas in prisons — the coffee is seriously good and the mission behind every cup makes it taste better.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-12",
+    last_verified_at: "2025-10-12",
     verification_source: "admin",
   },
   {
@@ -300,7 +300,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "New Zealand roastery's London flagship on Leonard Street — open kitchen, roastery visible from the bar, and some of the best breakfast in Shoreditch.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-11-01",
+    last_verified_at: "2025-11-01",
     verification_source: "admin",
   },
   {
@@ -318,7 +318,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Bloomsbury standing bar with a ruthlessly edited menu and perfectly calibrated espresso — everything here is intentional, nothing is wasted.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-10",
+    last_verified_at: "2025-09-10",
     verification_source: "admin",
   },
   {
@@ -336,7 +336,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Long Lane strip-back counter where the focus is entirely on the shot — a City/EC1 institution that helped prove London could do espresso as well as Sydney.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-09-25",
+    last_verified_at: "2025-09-25",
     verification_source: "admin",
   },
 
@@ -357,7 +357,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Copenhagen's gold standard for specialty — their direct-trade relationships and obsessive roasting set the benchmark for Northern Europe.",
     featured_in: ["sprudge", "standart", "monocle"],
     verified: true,
-    last_verified_at: "2024-11-10",
+    last_verified_at: "2025-11-10",
     verification_source: "admin",
   },
   {
@@ -375,7 +375,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Vespa and concrete, espresso and natural wine — Prolog made the Copenhagen café look louder and the coffee just as good.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-01",
+    last_verified_at: "2025-10-01",
     verification_source: "admin",
   },
   {
@@ -393,7 +393,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Relaxed, unpretentious, consistently excellent — the kind of neighborhood spot Copenhagen does better than anywhere.",
     featured_in: ["timeout"],
     verified: true,
-    last_verified_at: "2024-08-15",
+    last_verified_at: "2025-08-15",
     verification_source: "community",
   },
   {
@@ -412,7 +412,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Aarhus roastery's Copenhagen outpost brings their competition-pedigree light roasts to the capital — the pour-over menu rewards patience.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-20",
+    last_verified_at: "2025-10-20",
     verification_source: "admin",
   },
   {
@@ -430,7 +430,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "City Hall neighbor serving the kind of filter coffee that makes you stay for a second — relaxed, democratic, and quietly excellent.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "admin",
   },
   {
@@ -448,7 +448,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Frederiksberg roastery café with a small-batch focus and a regulars crowd that knows exactly what they're ordering — a neighborhood gem.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-10",
+    last_verified_at: "2025-09-10",
     verification_source: "community",
   },
   {
@@ -466,7 +466,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Nørrebro corner café where the Fælledparken crowd fuels up before the park — unpretentious specialty coffee done exactly right.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-18",
+    last_verified_at: "2025-09-18",
     verification_source: "community",
   },
   {
@@ -484,7 +484,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Vesterbro's most precise pour-over bar — a tiny footprint, a focused menu, and the kind of attention to extraction that earns its own following.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-28",
+    last_verified_at: "2025-10-28",
     verification_source: "admin",
   },
   {
@@ -502,7 +502,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The cardamom bun queue is real, and so is the coffee — Juno pairs Copenhagen's best pastry with seriously sourced espresso.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-15",
+    last_verified_at: "2025-10-15",
     verification_source: "admin",
   },
   {
@@ -520,7 +520,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Istedgade institution that rode every wave of Copenhagen coffee and emerged as a neighborhood anchor — knowledgeable staff and a welcoming atmosphere.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-05",
+    last_verified_at: "2025-09-05",
     verification_source: "community",
   },
   {
@@ -538,7 +538,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Vinyl plays, filter pours, Vesterbro hums — Sort Kaffe is as Copenhagen as it gets, stripped back to two things done well.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-22",
+    last_verified_at: "2025-09-22",
     verification_source: "community",
   },
 
@@ -559,7 +559,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Berlin's most opinionated roaster — they'll tell you which brew method suits your chosen bean, and they'll be right.",
     featured_in: ["sprudge", "monocle", "standart"],
     verified: true,
-    last_verified_at: "2024-10-25",
+    last_verified_at: "2025-10-25",
     verification_source: "admin",
   },
   {
@@ -578,7 +578,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Kreuzberg coffee institution — the cheesecake has its own fanbase but the roasting is what put them on the world map.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-18",
+    last_verified_at: "2025-10-18",
     verification_source: "admin",
   },
   {
@@ -597,7 +597,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Prenzlauer Berg's original specialty anchor with a sun-drenched roastery courtyard — the light-roast filter menu and the garden are both worth the trip.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-11-05",
+    last_verified_at: "2025-11-05",
     verification_source: "admin",
   },
   {
@@ -616,7 +616,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Mitte all-day café that nailed the specialty-meets-brunch formula before it was fashionable — the espresso program has always been the backbone.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-20",
+    last_verified_at: "2025-10-20",
     verification_source: "admin",
   },
   {
@@ -634,7 +634,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Friedrichshain's most consistent pour-over bar — an ever-rotating guest list of Europe's best roasters in a stripped-back Kiez setting.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-08",
+    last_verified_at: "2025-10-08",
     verification_source: "admin",
   },
   {
@@ -652,7 +652,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Mitte gem on Mulackstraße where the coffee is as considered as the interior — small, focused, and beloved by the people who know Berlin well.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-15",
+    last_verified_at: "2025-09-15",
     verification_source: "community",
   },
   {
@@ -670,7 +670,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Neue Schönhauser corner café that bridges Mitte's tourist-facing streets with a genuinely local specialty scene — the terrace fills fast.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-28",
+    last_verified_at: "2025-09-28",
     verification_source: "community",
   },
   {
@@ -688,7 +688,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Tucked into the Volkspark entrance, Concierge runs a standing bar where the espresso is always on point and the vibe is always Berlin.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-02",
+    last_verified_at: "2025-10-02",
     verification_source: "community",
   },
   {
@@ -706,7 +706,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Kreuzberg's sunlit corner spot where a rotating guest roaster program keeps the pour-over menu perpetually worth exploring.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-20",
+    last_verified_at: "2025-09-20",
     verification_source: "community",
   },
   {
@@ -724,7 +724,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Wedding neighborhood café that brought serious specialty north of the ring — unpretentious, consistent, and worth the detour from Mitte.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-05",
+    last_verified_at: "2025-09-05",
     verification_source: "community",
   },
   {
@@ -742,7 +742,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Neukölln all-day café with an Antipodean ethos and a back courtyard that becomes the best garden in Berlin when the sun is out.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-12",
+    last_verified_at: "2025-10-12",
     verification_source: "admin",
   },
 
@@ -763,7 +763,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Montmartre warehouse roastery that proved Paris could take specialty as seriously as Scandinavia — the filter menu changes weekly.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-25",
+    last_verified_at: "2025-10-25",
     verification_source: "admin",
   },
   {
@@ -782,7 +782,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The café that brought Australian coffee culture to the 7th arrondissement — flat whites and serious filter in equal measure.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-08",
+    last_verified_at: "2025-10-08",
     verification_source: "admin",
   },
   {
@@ -800,7 +800,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Canal Saint-Martin institution pairing natural wines with pour-overs — the terrace is Paris specialty at its most atmospheric.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-20",
+    last_verified_at: "2025-09-20",
     verification_source: "admin",
   },
   {
@@ -818,7 +818,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "11th arrondissement all-day bar where the specialty espresso is as serious as the natural wine list — a neighborhood essential for the Oberkampf crowd.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-10",
+    last_verified_at: "2025-10-10",
     verification_source: "admin",
   },
   {
@@ -837,7 +837,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "19th arrondissement roastery that co-founded the Paris specialty movement with Lomi — light-roast filter coffee and a dog-friendly roasting floor.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-11-05",
+    last_verified_at: "2025-11-05",
     verification_source: "admin",
   },
   {
@@ -855,7 +855,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Marais charmer with a precise pour-over focus and one of Paris's most considered guest roaster programs — small room, big coffee.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "admin",
   },
   {
@@ -873,7 +873,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Hidden inside the Galerie Vivienne arcade — Honor is Paris's most atmospheric specialty bar, where 19th-century glass ceilings frame a 21st-century espresso.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-28",
+    last_verified_at: "2025-10-28",
     verification_source: "admin",
   },
   {
@@ -891,7 +891,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "South Pigalle institution that anchored the neighborhood's café boom — the terrace and the batch brew are both non-negotiable.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-15",
+    last_verified_at: "2025-09-15",
     verification_source: "admin",
   },
   {
@@ -909,7 +909,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Marais gallery-café where the coffee curation is as deliberate as the design — a rotating cast of Europe's finest roasters on a quiet Rue des Tournelles.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-12",
+    last_verified_at: "2025-10-12",
     verification_source: "admin",
   },
   {
@@ -927,7 +927,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "1st arrondissement micro-café where the espresso is calibrated daily and the space forces a pleasant intimacy with the coffee and the barista.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-20",
+    last_verified_at: "2025-10-20",
     verification_source: "admin",
   },
   {
@@ -945,7 +945,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Paris's smallest specialty bar — converted from a shoe repair shop, now serving some of the city's best espresso from a room barely bigger than the machine.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-18",
+    last_verified_at: "2025-10-18",
     verification_source: "admin",
   },
   {
@@ -964,7 +964,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "6th arrondissement roastery with a French sourcing pride — their program champions West African and Caribbean origins alongside the usual suspects.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-11-08",
+    last_verified_at: "2025-11-08",
     verification_source: "admin",
   },
   {
@@ -982,7 +982,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "All-day 11th arrondissement café that proved Paris's Oberkampf quarter could do proper third-wave coffee alongside a full menu — both are good.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-25",
+    last_verified_at: "2025-09-25",
     verification_source: "admin",
   },
   {
@@ -1001,7 +1001,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The grandmother of Paris specialty — Gloria Montenegro opened this Marais institution before the city knew what third-wave meant, and it remains essential.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-11-02",
+    last_verified_at: "2025-11-02",
     verification_source: "admin",
   },
   {
@@ -1019,7 +1019,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Rue Mouffetard market street espresso bar — the outdoor counter and the well-priced specialty shots make this the Latin Quarter's best coffee stop.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-10",
+    last_verified_at: "2025-09-10",
     verification_source: "community",
   },
 
@@ -1040,7 +1040,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Flagship of Dutch specialty coffee — the Jordaan roastery's seasonal menu is the best introduction to serious Amsterdam beans.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-11-02",
+    last_verified_at: "2025-11-02",
     verification_source: "admin",
   },
   {
@@ -1058,7 +1058,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Stripped-back Amsterdam West space with a serious filter focus — no distractions, just excellent beans brewed with precision.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-14",
+    last_verified_at: "2025-10-14",
     verification_source: "admin",
   },
   {
@@ -1077,7 +1077,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "One of Europe's most respected sourcing programs lives in this Westerstraat roastery — the traceability details go further than almost anyone.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "admin",
   },
   {
@@ -1096,7 +1096,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "De Pijp's Nordic outpost — Sarphatipark views, Scandinavian sourcing sensibility, and a pour-over menu that makes the neighborhood even harder to leave.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-11-05",
+    last_verified_at: "2025-11-05",
     verification_source: "admin",
   },
   {
@@ -1115,7 +1115,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "East Amsterdam roastery with a filter-first philosophy and an educational bent — the tasting menus here are among the city's most rewarding coffee experiences.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-22",
+    last_verified_at: "2025-10-22",
     verification_source: "admin",
   },
   {
@@ -1133,7 +1133,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "De Pijp neighborhood anchor where the espresso is always on and the terrace always buzzing — simple, warm, and genuinely excellent.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-10",
+    last_verified_at: "2025-10-10",
     verification_source: "community",
   },
   {
@@ -1152,7 +1152,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Westerpark industrial roastery in a former gas works — the cavernous space and the quality espresso program are both bigger than they look from outside.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-18",
+    last_verified_at: "2025-09-18",
     verification_source: "admin",
   },
   {
@@ -1170,7 +1170,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Oud-West roastery café where the glasses-wearing man on the bag matches the attention to detail inside — a reliable neighborhood institution.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-25",
+    last_verified_at: "2025-09-25",
     verification_source: "community",
   },
   {
@@ -1188,7 +1188,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Nieuwmarkt roastery café with a filter-first menu and the kind of single-origin depth that makes each visit different — Amsterdam's most educational coffee stop.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-15",
+    last_verified_at: "2025-10-15",
     verification_source: "admin",
   },
   {
@@ -1206,7 +1206,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Jordaan canal-side café where the relaxed setting and consistent espresso keep a loyal neighborhood crowd returning daily.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-12",
+    last_verified_at: "2025-09-12",
     verification_source: "community",
   },
 
@@ -1227,7 +1227,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "4th district roastery with an uncompromising single-origin focus — the most technically rigorous coffee in a city famous for café tradition.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-28",
+    last_verified_at: "2025-10-28",
     verification_source: "admin",
   },
   {
@@ -1246,7 +1246,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Books, vinyl, and specialty espresso in Vienna's 6th district — the most atmospheric café in a city built on atmosphere.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-15",
+    last_verified_at: "2025-09-15",
     verification_source: "admin",
   },
   {
@@ -1264,7 +1264,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Third-wave sensibility meets Viennese café tradition in the 1st district — the espresso here bridges two centuries of coffee culture.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-28",
+    last_verified_at: "2025-09-28",
     verification_source: "admin",
   },
   {
@@ -1282,7 +1282,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Inner-city Vienna's most focused specialty bar — a tiny 1st district shop where the pour-over is always worth pausing for.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-11-01",
+    last_verified_at: "2025-11-01",
     verification_source: "admin",
   },
   {
@@ -1301,7 +1301,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Analog lifestyle emporium in the 7th with a coffee bar that matches the obsessive precision of the cameras, film, and records sold alongside it.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-20",
+    last_verified_at: "2025-10-20",
     verification_source: "admin",
   },
   {
@@ -1319,7 +1319,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "3rd district specialty café with a Japanese-influenced minimalism and a filter menu that makes Landstraße worth the walk.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-22",
+    last_verified_at: "2025-09-22",
     verification_source: "community",
   },
   {
@@ -1337,7 +1337,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "9th district roastery with a loyal Alsergrund following and a house-roasted menu that favors clarity and origin transparency.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "community",
   },
   {
@@ -1355,7 +1355,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Mariahilf specialty café with an ever-changing bean roster and a terrace that feels definitively Viennese even when the coffee is Kenyan.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-30",
+    last_verified_at: "2025-09-30",
     verification_source: "community",
   },
   {
@@ -1373,7 +1373,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "7th district standing bar doing exactly what a great neighborhood coffee stop should — fast, precise, and completely unpretentious.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-08",
+    last_verified_at: "2025-09-08",
     verification_source: "community",
   },
 
@@ -1394,7 +1394,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "World competition winners roasting in Södermalm — the precision and restraint in every cup explains every trophy on the shelf.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-11-04",
+    last_verified_at: "2025-11-04",
     verification_source: "admin",
   },
   {
@@ -1413,7 +1413,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The Scandinavian specialty pioneer that opened Sweden's eyes to origin coffee — still the city's most essential roastery café.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-30",
+    last_verified_at: "2025-10-30",
     verification_source: "admin",
   },
   {
@@ -1432,7 +1432,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Vasastan neighborhood roastery with a loyal local following — the rotating single-origins and relaxed setting make it hard to leave.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-10",
+    last_verified_at: "2025-10-10",
     verification_source: "admin",
   },
   {
@@ -1451,7 +1451,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Hornstull waterfront roastery where the view and the single-origins compete for attention — the light-roast filter program is among Stockholm's finest.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-11-06",
+    last_verified_at: "2025-11-06",
     verification_source: "admin",
   },
   {
@@ -1469,7 +1469,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Vasastan neighborhood institution where the morning queue tells you everything you need to know — reliable, warm, and consistently excellent espresso.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-15",
+    last_verified_at: "2025-10-15",
     verification_source: "admin",
   },
   {
@@ -1487,7 +1487,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Östermalm institution famous for Sweden's best cardamom bun — the coffee is equally serious, just slightly less photographed.",
     featured_in: ["sprudge", "guardian"],
     verified: true,
-    last_verified_at: "2024-10-08",
+    last_verified_at: "2025-10-08",
     verification_source: "admin",
   },
   {
@@ -1505,7 +1505,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Hornstull end of Södermalm's main drag — Solde does clean filter coffee and good espresso without any of the fuss that Södermalm sometimes attracts.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-20",
+    last_verified_at: "2025-09-20",
     verification_source: "community",
   },
   {
@@ -1523,7 +1523,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "City center café where brunch and specialty espresso overlap in the best possible way — the light-filled interior and Nordic menu make it a city-centre refuge.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-12",
+    last_verified_at: "2025-09-12",
     verification_source: "community",
   },
   {
@@ -1541,7 +1541,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Södermalm deli-café that takes the coffee as seriously as the cheese and charcuterie — a neighborhood anchor with a reliable specialty program.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-05",
+    last_verified_at: "2025-09-05",
     verification_source: "community",
   },
 
@@ -1562,7 +1562,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Lisbon's first specialty roastery set the standard the rest of the city is still catching up to — the Chiado flagship remains unmissable.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-11-01",
+    last_verified_at: "2025-11-01",
     verification_source: "admin",
   },
   {
@@ -1580,7 +1580,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Danish precision transplanted to Príncipe Real — Scandinavian sourcing and technique in one of Lisbon's best-looking cafés.",
     featured_in: ["sprudge", "monocle"],
     verified: true,
-    last_verified_at: "2024-10-18",
+    last_verified_at: "2025-10-18",
     verification_source: "admin",
   },
   {
@@ -1598,7 +1598,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Natural wines and natural-process coffees at Intendente — the most exciting pairing in Lisbon's rapidly evolving drinks scene.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-25",
+    last_verified_at: "2025-09-25",
     verification_source: "admin",
   },
   {
@@ -1616,7 +1616,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Príncipe Real's finest specialty café — a compact space with a rotating European roaster program and staff who have clearly done the work.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-28",
+    last_verified_at: "2025-10-28",
     verification_source: "admin",
   },
   {
@@ -1634,7 +1634,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Bairro Alto slow coffee bar where the name is the mission — unhurried, considerate service and beans sourced with genuine care.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-12",
+    last_verified_at: "2025-10-12",
     verification_source: "admin",
   },
   {
@@ -1652,7 +1652,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Bairro Alto all-day café with a specialty coffee program that keeps pace with the food — a reliable neighborhood anchor in one of Lisbon's best streets.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-20",
+    last_verified_at: "2025-09-20",
     verification_source: "community",
   },
   {
@@ -1670,7 +1670,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Cais do Sodré terrace institution where the riverside people-watching is as good as the espresso — exactly what Lisbon mornings were invented for.",
     featured_in: ["sprudge", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-05",
+    last_verified_at: "2025-10-05",
     verification_source: "admin",
   },
   {
@@ -1688,7 +1688,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Santa Catarina hillside café where the avocado toast comes with a properly pulled shot — Lisbon's specialty-meets-brunch formula at its most enjoyable.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-15",
+    last_verified_at: "2025-09-15",
     verification_source: "community",
   },
   {
@@ -1706,7 +1706,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Mouraria converted garage turned specialty café — a sign of how far Lisbon's coffee scene has traveled in just a few years.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-08",
+    last_verified_at: "2025-09-08",
     verification_source: "community",
   },
   {
@@ -1724,7 +1724,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Name-as-manifesto coffee bar in Bairro Alto — unhurried pour-overs and a quiet interior that runs counter to the neighborhood's usual energy.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-02",
+    last_verified_at: "2025-09-02",
     verification_source: "community",
   },
 
@@ -1745,7 +1745,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Competition pedigree meets Poblenou industrial — the roastery behind Spain's most decorated specialty program is worth crossing Barcelona for.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-11-05",
+    last_verified_at: "2025-11-05",
     verification_source: "admin",
   },
   {
@@ -1764,7 +1764,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Eixample minimalism done right — clean design and excellent filter coffee make Syra the neighborhood anchor Barcelona needed.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-20",
+    last_verified_at: "2025-10-20",
     verification_source: "admin",
   },
   {
@@ -1782,7 +1782,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Aussie-influenced El Born bar with a strong espresso program and the kind of relaxed confidence Barcelona's specialty scene needed.",
     featured_in: ["sprudge", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-08",
+    last_verified_at: "2025-10-08",
     verification_source: "admin",
   },
   {
@@ -1800,7 +1800,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "The name is a provocation; the espresso is an argument — Satan's tiny Arc de Triomf counter is one of Barcelona's most opinionated coffee stops.",
     featured_in: ["sprudge", "standart"],
     verified: true,
-    last_verified_at: "2024-10-22",
+    last_verified_at: "2025-10-22",
     verification_source: "admin",
   },
   {
@@ -1818,7 +1818,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Eixample light-filled workspace-café where the filter coffee is reliably excellent and the natural-light interior makes afternoon work sessions feel civilized.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-15",
+    last_verified_at: "2025-10-15",
     verification_source: "admin",
   },
   {
@@ -1837,7 +1837,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Australian-style all-day café that showed Sant Antoni what brunch-with-serious-coffee could look like — the terrace queue on Sunday mornings proves it worked.",
     featured_in: ["sprudge", "timeout"],
     verified: true,
-    last_verified_at: "2024-10-18",
+    last_verified_at: "2025-10-18",
     verification_source: "admin",
   },
   {
@@ -1855,7 +1855,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Barcelona's oldest specialty roaster and still the most essential — El Born institution since 1919, still sourcing and roasting with the same exacting standards.",
     featured_in: ["sprudge", "standart", "guardian"],
     verified: true,
-    last_verified_at: "2024-11-05",
+    last_verified_at: "2025-11-05",
     verification_source: "admin",
   },
   {
@@ -1873,7 +1873,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "El Born standing bar where the shots are always dialed in and the space is smaller than the reputation — a necessary stop on any Barcelona coffee tour.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-10-10",
+    last_verified_at: "2025-10-10",
     verification_source: "community",
   },
   {
@@ -1891,7 +1891,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Sant Antoni specialty bar doing precise filter work and well-sourced espresso without the attitude — the morning regulars know exactly what they're doing here.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-25",
+    last_verified_at: "2025-09-25",
     verification_source: "community",
   },
   {
@@ -1909,7 +1909,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Gràcia neighborhood café where the specialty coffee landed quietly and stayed permanently — the Verdi street terrace is one of Barcelona's nicest coffee stops.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-18",
+    last_verified_at: "2025-09-18",
     verification_source: "community",
   },
   {
@@ -1927,7 +1927,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     editorial_blurb: "Eixample roastery café where the industrial bones and the specialty program are both doing serious work — a strong addition to Barcelona's increasingly competitive scene.",
     featured_in: ["sprudge"],
     verified: true,
-    last_verified_at: "2024-09-10",
+    last_verified_at: "2025-09-10",
     verification_source: "community",
   },
 
@@ -1945,7 +1945,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://kronotrop.com.tr/",
     editorial_blurb: "Istanbul's most respected specialty roaster set in Cihangir's creative hub — the filter coffee here challenges everything you thought you knew about Turkish coffee.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-04", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-04", verification_source: "admin",
   },
   {
     name: "Petra Roasting Co.",
@@ -1959,7 +1959,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "petraroasting",
     editorial_blurb: "Karaköy roastery with Bosphorus views and a bean programme worth navigating Istanbul's hills for — specialty coffee with an unmissable setting.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "MOC Coffee",
@@ -1973,7 +1973,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "moccoffeetr",
     editorial_blurb: "Japanese-influenced minimalism in Nişantaşı — the focused pour-over menu and quiet interior are the antidote to Istanbul's sensory overload.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-30", verification_source: "admin",
   },
   {
     name: "Brew Lab Istanbul",
@@ -1987,7 +1987,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "brewlabistanbul",
     editorial_blurb: "Galata's most technically focused specialty bar — the rotating international guest roaster programme brings the world's best lots to a neighbourhood already full of wonders.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Lot Coffee",
@@ -2001,7 +2001,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "lotcoffee",
     editorial_blurb: "Karaköy corner roastery where the Bosphorus breeze and the single-origin filter menu make an argument that Istanbul is one of the world's great coffee cities.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Norm Coffee",
@@ -2015,7 +2015,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "normcoffee",
     editorial_blurb: "Beşiktaş specialty roastery built on the conviction that Turkish coffee culture and third-wave precision belong in the same room — and proving it with every batch.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Paper Cup",
@@ -2029,7 +2029,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "papercupist",
     editorial_blurb: "Cihangir neighbourhood café that the local creative community treats as a second living room — the guest roaster espresso is an honest daily ritual.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-09-20", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-20", verification_source: "community",
   },
   {
     name: "GAIA Coffee Roasters",
@@ -2043,7 +2043,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "gaiacoffeeroasters",
     editorial_blurb: "Kadıköy's leading specialty roastery on the Asian side — GAIA proves the Bosphorus is not a barrier to exceptional coffee, it's just a short ferry ride.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Arkaoda",
@@ -2058,7 +2058,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.arkaoda.com/",
     editorial_blurb: "Kadıköy's beloved cultural venue by day serves specialty coffee on a terrace that doubles as the Asian side's most sociable morning spot.",
     featured_in: ["timeout", "guardian"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Coffee Department",
@@ -2072,7 +2072,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "coffeedeptist",
     editorial_blurb: "İstiklal Street specialty bar that filters out the tourist noise — the single-origin pour-over and standing counter are a deliberate contrast to everything outside the door.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-15", verification_source: "community",
   },
   {
     name: "Totem Coffee",
@@ -2086,7 +2086,7 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "totemcoffee",
     editorial_blurb: "Nişantaşı's most polished new-wave espresso bar — precise, spare, and popular with the neighbourhood's fashion and design crowd for exactly those reasons.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Nar Kahve",
@@ -2100,6 +2100,6 @@ export const EU_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "narkahve",
     editorial_blurb: "Galata roastery that honours Turkish coffee tradition while running one of the city's best specialty programmes — the only bar in Istanbul where both orders are equally correct.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-05", verification_source: "community",
   },
 ];

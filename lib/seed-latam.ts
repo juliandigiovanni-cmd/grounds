@@ -15,7 +15,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cafenilmx",
     editorial_blurb: "Roma Norte's best-kept secret — Mexican single-origins from Oaxaca and Veracruz brewed with the care they deserve.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Buna Coffee",
@@ -29,7 +29,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "bunacoffee",
     editorial_blurb: "Ethiopian coffee expertise meets CDMX warmth — the natural processes here taste like nowhere else in the city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-08-30", verification_source: "community",
+    verified: true, last_verified_at: "2025-08-30", verification_source: "community",
   },
   {
     name: "Quentin Café",
@@ -43,7 +43,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "quentincafe",
     editorial_blurb: "Veracruz single-origins served from a serious pour-over bar in Nápoles — the best argument for CDMX's homegrown specialty beans.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Toma Café",
@@ -58,7 +58,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.tomacafe.mx/",
     editorial_blurb: "Roma Norte's flagship third-wave destination — Toma's rotating seasonal single-origins and sun-drenched patio have made it CDMX's most beloved specialty stop.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Blend Station",
@@ -72,7 +72,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "blendstation",
     editorial_blurb: "Consistent specialty across multiple Roma locations — the house espresso blend is CDMX commuter coffee done properly.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Cardinal",
@@ -86,7 +86,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cardinal.cdmx",
     editorial_blurb: "Stripped-back Roma Norte bar focused entirely on the cup — the rotating pour-over menu is the most intellectually serious in the city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Lalo!",
@@ -100,7 +100,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "lalo_cdmx",
     editorial_blurb: "Roma Norte's most photogenic café — the weekend brunch queue is worth it, and the espresso program keeps pace with the famous food.",
     featured_in: ["infatuation", "timeout"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Cibicafé",
@@ -114,7 +114,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cibicafe",
     editorial_blurb: "Condesa's quiet roastery champion — Mexican terroir takes centre stage in a neighbourhood that rewards those who walk past the chains.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-30", verification_source: "admin",
   },
   {
     name: "Café Avellaneda",
@@ -128,7 +128,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cafeavellaneda",
     editorial_blurb: "Coyoacán's best argument for leaving Roma for an afternoon — meticulous Oaxacan and Chiapan sourcing in a cobblestone neighbourhood setting.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Tierra Garat",
@@ -143,7 +143,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.tierragarat.com.mx/",
     editorial_blurb: "Mexico's most recognised specialty roaster chain with genuine sourcing credentials — the Polanco flagship remains the reference point for the city's coffee scene.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Passmar",
@@ -157,7 +157,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "passmarcafe",
     editorial_blurb: "Tiny Roma Norte bar with outsized ambition — single-origin pour-overs and espresso served with the precision of a much larger operation.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Onze Café",
@@ -171,7 +171,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "oncecafe",
     editorial_blurb: "Condesa corner café that earns loyalty through consistency — the afternoon cortado on the terrace is a CDMX ritual worth adopting.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-08-15", verification_source: "community",
+    verified: false, last_verified_at: "2025-08-15", verification_source: "community",
   },
 
   // ── BUENOS AIRES (12) ─────────────────────────────────────────────────────────
@@ -187,7 +187,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "caferegistrado",
     editorial_blurb: "The café that changed what Buenos Aires understood about coffee — their training program shaped the city's entire specialty scene.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
   {
     name: "LAB Tostadores de Café",
@@ -201,7 +201,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "labtostadores",
     editorial_blurb: "Palermo's most focused roastery café — an ever-changing Colombian single-origin menu and baristas who love to explain the difference.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-08-20", verification_source: "community",
+    verified: true, last_verified_at: "2025-08-20", verification_source: "community",
   },
   {
     name: "Lattente Coffee Roasters",
@@ -215,7 +215,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "lattentecoffee",
     editorial_blurb: "Palermo roastery leading Buenos Aires out of the dark-roast era — their direct-trade Ethiopian and Colombian lots are the city's most technically precise.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Birkin Coffee Bar",
@@ -229,7 +229,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "birkincoffeebar",
     editorial_blurb: "Palermo's most design-conscious specialty bar — the rotating guest roaster programme and impeccable milk pours draw a knowing crowd.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Tres Monos",
@@ -243,7 +243,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "tresmonosbar",
     editorial_blurb: "Better known for cocktails but the daytime coffee programme is equally serious — Palermo's most stylish all-day stop.",
     featured_in: ["infatuation", "timeout"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Unión Tostadores de Café",
@@ -257,7 +257,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "uniontostadores",
     editorial_blurb: "San Telmo roastery where cobblestones meet competition-grade sourcing — the most serious pour-over programme south of Palermo.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Negro Cueva de Café",
@@ -271,7 +271,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "negrocueva",
     editorial_blurb: "San Telmo basement roastery with a neighbourhood following that would walk past anything else to get here — reliable, honest specialty.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-08-25", verification_source: "community",
+    verified: false, last_verified_at: "2025-08-25", verification_source: "community",
   },
   {
     name: "Felfort Café",
@@ -285,7 +285,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "felfortcafe",
     editorial_blurb: "Villa Crespo's neighbourhood answer to Palermo's specialty glut — friendlier prices, the same calibre of pour-over, and half the queue.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-08-18", verification_source: "community",
+    verified: false, last_verified_at: "2025-08-18", verification_source: "community",
   },
   {
     name: "Café Margot",
@@ -299,7 +299,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cafemargot",
     editorial_blurb: "Classic Boedo corner café that predates the third wave and survived it — the espresso is honest, the chairs are mismatched, and the neighbourhood loves it.",
     featured_in: ["guardian"],
-    verified: false, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-05", verification_source: "community",
   },
   {
     name: "Télamo Café",
@@ -313,7 +313,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "telamocafe",
     editorial_blurb: "Understated Palermo café where the focus stays on the cup — the pour-over menu and precise extraction make it a reliable daily destination.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-15", verification_source: "community",
   },
 
   // ── SÃO PAULO (15) ────────────────────────────────────────────────────────────
@@ -329,7 +329,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "guilhotinacoffee",
     editorial_blurb: "Vila Madalena roastery championing Brazilian single-origins — the best argument for why the world should drink more coffee from São Paulo's backyard.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Suplicy Cafés Especiais",
@@ -344,7 +344,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.suplicycafes.com.br/",
     editorial_blurb: "Premium Brazilian specialty done with Jardins elegance — the micro-lot menu showcases what makes this country the world's most interesting origin.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Café Três",
@@ -358,7 +358,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cafetres",
     editorial_blurb: "Pinheiros natural-process specialists who source from farms within driving distance — this is Brazilian coffee at its most transparent.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Coffee Lab",
@@ -373,7 +373,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.coffeelab.com.br/",
     editorial_blurb: "Isabela Raposeiras' Pinheiros laboratory set the bar for Brazilian specialty — her direct sourcing and barista training programme remain the industry reference.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Octávio Café",
@@ -388,7 +388,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.octaviocafe.com.br/",
     editorial_blurb: "Pinheiros stalwart with a micro-lot programme that's been quietly world-class for a decade — the espresso bar draws SCAA judges on their São Paulo visits.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Isso é Café",
@@ -402,7 +402,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "issouecafe",
     editorial_blurb: "Vila Madalena roastery making the case for Cerrado and Sul de Minas terroir — the most flavour-forward single-origins in the neighbourhood.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Orfeu Cafés Especiais",
@@ -417,7 +417,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.orfeucafes.com.br/",
     editorial_blurb: "Higienópolis' grand café and one of Brazil's most respected roasters — the fazenda-specific lots and shaded terrace make it a mandatory São Paulo stop.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Moka Cafés Especiais",
@@ -431,7 +431,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "mokacafes",
     editorial_blurb: "Higienópolis institution known for meticulous espresso preparation and one of the most loyal neighbourhoods followings in the city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Lucca Cafés Especiais",
@@ -446,7 +446,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.luccacafes.com.br/",
     editorial_blurb: "Curitiba's best-loved roastery with a polished Itaim Bibi outpost — their Sul de Minas single-origins arrive days off-roast.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Companhia Brasileira de Café",
@@ -461,7 +461,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.companhiabrasileiradecafe.com.br/",
     editorial_blurb: "Vila Madalena roastery built around the premise that Brazil makes the world's greatest coffee — the evidence is in the cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Kaffa Torrefazione",
@@ -475,7 +475,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "kaffa.torrefazione",
     editorial_blurb: "Italian-influenced torrefazione in Itaim Bibi with Brazilian soul — the best cortado in the financial district and no apologies for being serious about it.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-12", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-12", verification_source: "community",
   },
   {
     name: "Piu Caffè",
@@ -489,7 +489,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "piucaffe.sp",
     editorial_blurb: "Pinheiros all-day café balancing specialty coffee with a proper food menu — the afternoon espresso crowd know this is where the quality is.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-09-08", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-08", verification_source: "community",
   },
 
   // ── LIMA (8) ─────────────────────────────────────────────────────────────────
@@ -506,7 +506,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     website: "https://www.bisetti.pe/",
     editorial_blurb: "Lima's most important roastery — Bisetti built Peru's specialty infrastructure almost single-handedly and still sources the best high-altitude Peruvian lots.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Arabica Dispensario",
@@ -520,7 +520,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "arabicadispensario",
     editorial_blurb: "Barranco's most thoughtful specialty bar — the curated Peruvian roaster programme showcases a coffee geography the rest of the world is only beginning to discover.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Neira Café Lab",
@@ -534,7 +534,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "neiracafelab",
     editorial_blurb: "Competition pedigree café in Miraflores where altitude and varietal are the entire conversation — Lima's most technically exacting barista bar.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Café Verde",
@@ -548,7 +548,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "cafeverdeperu",
     editorial_blurb: "Miraflores specialty roastery committed to Peruvian origins — the single-estate lots from Cajamarca and Amazonas are poured with obvious pride.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-15", verification_source: "community",
   },
   {
     name: "Pergola",
@@ -562,7 +562,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "pergolacafe.lima",
     editorial_blurb: "Barranco's art-district café where the colonial courtyard and single-origin pour-overs compete equally for your attention — and both win.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-09-20", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-20", verification_source: "community",
   },
   {
     name: "Delirious",
@@ -576,7 +576,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "deliriouslima",
     editorial_blurb: "Miraflores café that treats coffee with the same seriousness Lima's dining scene brings to food — the tasting flights are genuinely educational.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-12", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-12", verification_source: "community",
   },
   {
     name: "Bocca Coffee",
@@ -590,7 +590,7 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "boccacoffeelima",
     editorial_blurb: "San Isidro's specialty anchor for the business district crowd — Peruvian micro-lots roasted in-house and served with zero corporate compromise.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-05", verification_source: "community",
   },
   {
     name: "Alma Café",
@@ -604,6 +604,6 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     instagram_handle: "almacafe.pe",
     editorial_blurb: "Miraflores roastery with soul — their Peruvian-only sourcing philosophy and open roasting setup make this the most transparent café in the city.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-08-30", verification_source: "community",
+    verified: false, last_verified_at: "2025-08-30", verification_source: "community",
   },
 ];

@@ -16,7 +16,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.truthcoffee.com/",
     editorial_blurb: "Steampunk décor, serious roasting — Truth earned 'world's best coffee shop' headlines and still delivers on the hype.",
     featured_in: ["sprudge", "guardian", "timeout"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Origin Coffee Roasting",
@@ -30,7 +30,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "origincoffeeroasting",
     editorial_blurb: "Pan-African sourcing done right — Origin's direct relationships with East African farmers show up in every cup.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Rosetta Roastery",
@@ -45,7 +45,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.rosettaroastery.com/",
     editorial_blurb: "Cape Town's most beloved neighbourhood roastery — Kloof Street locals and travelling coffee professionals queue side by side for the same exceptional cup.",
     featured_in: ["sprudge", "standart", "guardian"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Deluxe Coffeeworks",
@@ -60,7 +60,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.deluxecoffeeworks.com/",
     editorial_blurb: "Church Square CBD institution — Deluxe introduced Cape Town's office crowd to what espresso was supposed to taste like and never let standards slip.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Espresso Lab Microroasters",
@@ -75,7 +75,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.espressolab.co.za/",
     editorial_blurb: "Woodstock's Old Biscuit Mill showpiece — the Saturday market crowd and the serious coffee traveller find equal satisfaction in the same roastery space.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Tribe Coffee",
@@ -90,7 +90,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.tribecoffee.co.za/",
     editorial_blurb: "Woodstock roastery run by barista champions who turned competition technique into everyday practice — the most technically consistent cup in Cape Town.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Father Coffee",
@@ -104,7 +104,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "fathercoffee",
     editorial_blurb: "Bree Street's most focused espresso bar — stripped back to just the coffee, served by people who know exactly what they're doing.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Bootlegger Coffee Company",
@@ -119,7 +119,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.bootleggercoffee.com/",
     editorial_blurb: "Sea Point fixture with a loyal neighbourhood following — not the purist destination but the most reliably enjoyable daily coffee stop on the Atlantic Seaboard.",
     featured_in: ["timeout"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "TriBeCa Coffee",
@@ -133,7 +133,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "tribecacoffeect",
     editorial_blurb: "Kloof Street all-day café that works harder than most — the pour-over programme rotates monthly and the patio is Cape Town's best working terrace.",
     featured_in: ["timeout"],
-    verified: false, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Haas Coffee Collective",
@@ -147,7 +147,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "haascoffee",
     editorial_blurb: "City Bowl specialty collective with a rotating guest roster and a loyal following of baristas, designers, and coffee professionals — one of Cape Town's best-kept secrets.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-05", verification_source: "community",
   },
   {
     name: "Honest Chocolate Café",
@@ -162,7 +162,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.honestchocolate.co.za/",
     editorial_blurb: "Bean-to-bar chocolate meets third-wave coffee on Wale Street — a pairing Cape Town made look effortless, with espresso that holds its own against the famous product.",
     featured_in: ["guardian", "timeout"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "HQ Coffee",
@@ -176,7 +176,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "hqcoffeect",
     editorial_blurb: "Central Church Street café built for the serious coffee drinker — rotating guest roasters, methodical extraction, no shortcuts.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-08-28", verification_source: "community",
+    verified: false, last_verified_at: "2025-08-28", verification_source: "community",
   },
 
   // ── NAIROBI (11) ──────────────────────────────────────────────────────────────
@@ -192,7 +192,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "nairobicoffeeexchange",
     editorial_blurb: "Origin-focused CBD café serving single-farm Kenyan lots you simply cannot find anywhere else — drinking here is a direct line to the source.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Kikao Coffee",
@@ -206,7 +206,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "kikaocoffee",
     editorial_blurb: "East Africa's specialty pioneer with a Westlands roastery proving that great Kenyan coffee belongs in the cup, not the export container.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Dormans Coffee",
@@ -221,7 +221,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     website: "https://www.dormanscoffee.co.ke/",
     editorial_blurb: "Kenya's historic roaster reborn as a specialty champion — Karen flagship is the most reliable place in the city for traceable Kenyan lots.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "42 Degrees Coffee",
@@ -235,7 +235,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "42degreescoffee",
     editorial_blurb: "Westlands specialty roastery named for coffee's ideal bloom temperature — the single-origin Kenyan programme is the most precise in the city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Brew Bistro & Lounge",
@@ -249,7 +249,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "brewbistro_ke",
     editorial_blurb: "Kilimani's specialty coffee anchor doubling as a craft cocktail bar — the daytime pour-over programme is every bit as serious as the evening menu.",
     featured_in: ["timeout"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Karo Coffee",
@@ -263,7 +263,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "karocoffee",
     editorial_blurb: "Small-batch Kilimani roastery sourcing exclusively from farms within 200 km — the traceability here is unmatched in East Africa's café scene.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Cultured Roots Coffee",
@@ -277,7 +277,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "culturedrootscoffee",
     editorial_blurb: "Westlands roastery championing smallholder Kenyan farmers by name — the most compelling proof that traceability and great flavour travel together.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-18", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-18", verification_source: "community",
   },
   {
     name: "Jiko Coffee",
@@ -291,6 +291,6 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     instagram_handle: "jikocoffee",
     editorial_blurb: "Upper Hill specialty bar where Nairobi's finance crowd discovered what single-origin Kenyan AA really tastes like — and converted almost immediately.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2024-09-12", verification_source: "community",
+    verified: false, last_verified_at: "2025-09-12", verification_source: "community",
   },
 ];

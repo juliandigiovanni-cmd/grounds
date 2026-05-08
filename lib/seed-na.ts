@@ -15,7 +15,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.devocion.com/",
     editorial_blurb: "Colombian-owned, Williamsburg-roasted — they ship beans farm to cup in 10 days, and you can taste the difference.",
     featured_in: ["sprudge", "ny_times", "infatuation"],
-    verified: true, last_verified_at: "2024-11-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-08", verification_source: "admin",
   },
   {
     name: "Onyx Coffee Lab NYC",
@@ -30,7 +30,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://onyxcoffeelab.com/",
     editorial_blurb: "Arkansas roasters who conquered NYC — their competition-level pours are approachable enough for a Tuesday morning.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Parlor Coffee",
@@ -44,7 +44,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "parlorcoffee",
     editorial_blurb: "Tucked inside a Boerum Hill barbershop, Parlor's espresso is worth the detour and the wait for a stool.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Sey Coffee",
@@ -59,7 +59,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.seycoffee.com/",
     editorial_blurb: "Bushwick roastery chasing the lightest possible roasts — the fruit-forward naturals here taste unlike anything else in the borough.",
     featured_in: ["sprudge", "eater", "ny_times"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Toby's Estate Coffee",
@@ -74,7 +74,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://tobysestate.com/",
     editorial_blurb: "Australian specialty pedigree rooted in Williamsburg — the training program here has shaped half of Brooklyn's barista talent.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Partners Coffee",
@@ -89,7 +89,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.partnerscoffee.com/",
     editorial_blurb: "Brooklyn-roasted, community-minded — the direct-trade single-origins and rotating guest espressos make Partners a perpetual neighborhood anchor.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Joe Coffee",
@@ -104,7 +104,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.joecoffee.com/",
     editorial_blurb: "The café that quietly introduced Manhattan to specialty espresso two decades ago — the West Village original still sets the neighborhood standard.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Everyman Espresso",
@@ -118,7 +118,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "everymanespresso",
     editorial_blurb: "SoHo's tightest espresso program in the smallest possible footprint — the rotating single-origin shots reward the walk-in.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Little Collins",
@@ -132,7 +132,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "littlecollinsnyc",
     editorial_blurb: "Melbourne transplant that brought proper flat whites to Midtown — the Vegemite toast is optional, the coffee is not.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Cafe Grumpy",
@@ -147,7 +147,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://cafegrumpy.com/",
     editorial_blurb: "NYC's most reliably good indie chain — Chelsea flagship serves Grumpy's own roast with the kind of consistency most multi-location cafés never achieve.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "La Cabra NYC",
@@ -162,7 +162,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.lacabra.dk/",
     editorial_blurb: "Copenhagen's most celebrated roastery arrived in Nolita with the same light-handed precision and quietly became essential.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Stumptown Coffee Roasters NYC",
@@ -177,7 +177,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.stumptowncoffee.com/",
     editorial_blurb: "Portland's flagship roastery inside the Ace Hotel — the Flatiron corner that introduced serious filter coffee to a neighborhood that needed it.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Birch Coffee",
@@ -192,7 +192,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.birchcoffee.com/",
     editorial_blurb: "NYC-roasted, phone-optional — Birch's laptop-encouraged, phone-discouraged philosophy produces the most focused café atmosphere in Flatiron.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Oslo Coffee Roasters",
@@ -206,7 +206,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "oslocoffee",
     editorial_blurb: "Bedford Ave institution with Scandinavian-influenced sourcing and a Williamsburg patio that becomes impossible to leave in summer.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Blue Bottle Coffee Williamsburg",
@@ -221,7 +221,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://bluebottlecoffee.com/",
     editorial_blurb: "The café that introduced New York to single-origin pour-overs — Williamsburg flagship still earns the pilgrimages it gets.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Coffee Project New York",
@@ -236,7 +236,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.coffeeprojectny.com/",
     editorial_blurb: "East Village geek bar serving syphons and deconstructed lattes alongside serious single-origins — the most technically adventurous café in Manhattan.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Variety Coffee Roasters",
@@ -251,7 +251,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://varietycoffeeroasters.com/",
     editorial_blurb: "Williamsburg roastery that grew out of a single Greenpoint café into Brooklyn's most consistent specialty program — the house blends and single-origins are both excellent.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Round K",
@@ -265,7 +265,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "roundkcoffee",
     editorial_blurb: "Korean-influenced minimalism with a rotating roster of world-class guest roasters — the most curatorially adventurous café program in the city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
   {
     name: "Prodigy Coffee",
@@ -279,7 +279,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "prodigycoffee",
     editorial_blurb: "Harlem's specialty anchor — Prodigy brought serious coffee culture above 110th Street and made it a neighborhood institution.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-02", verification_source: "admin",
   },
   {
     name: "Variety Coffee Roasters",
@@ -294,7 +294,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.varietycoffeeroasters.com/",
     editorial_blurb: "Greenpoint roastery with a neighborhood café feel and competition-winning Ethiopian naturals that punch well above the price point.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
 
   // SAN FRANCISCO
@@ -311,7 +311,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://sightglasscoffee.com/",
     editorial_blurb: "SOMA roastery flagship with soaring ceilings and a sourcing program that earns every inch of the hype.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Ritual Coffee Roasters",
@@ -326,7 +326,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.ritualroasters.com/",
     editorial_blurb: "The roastery that pioneered SF specialty — Hayes Valley flagship still serves as the city's benchmark for direct-trade espresso.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Linea Caffe",
@@ -340,7 +340,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "lineacaffe",
     editorial_blurb: "Standing bar, no wifi, zero distraction — the serious espresso program here is reason enough to make the Mission pilgrimage.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Blue Bottle Coffee",
@@ -355,7 +355,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://bluebottlecoffee.com/",
     editorial_blurb: "The Mint Plaza kiosk where Blue Bottle's pour-over obsession began — small, seasonal, and still the best introduction to the brand.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Wrecking Ball Coffee Roasters",
@@ -370,7 +370,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.wreckingballcoffee.com/",
     editorial_blurb: "Cow Hollow roastery with a thoughtful approach to lighter roasts — their Nicaraguan and Ethiopian lots are consistently among SF's finest.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Andytown Coffee Roasters",
@@ -385,7 +385,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.andytowncoffee.com/",
     editorial_blurb: "Outer Sunset roastery beloved by surfers and specialty nerds alike — the Snowy Plover (sparkling water, espresso, whipped cream) is the only valid SF invention.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Equator Coffees",
@@ -400,7 +400,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.equatorcoffees.com/",
     editorial_blurb: "Pioneering Marin roaster with a long-standing commitment to fair trade and direct relationships — the Ferry Building perch is the best place to drink them.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "admin",
   },
   {
     name: "Réveille Coffee",
@@ -415,7 +415,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.reveillecoffee.com/",
     editorial_blurb: "North Beach café with a serious roasting operation and a sunny patio that makes it hard to leave — the espresso tonic is a SF rite of passage.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Mazarine Coffee",
@@ -429,7 +429,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "mazarinecoffee",
     editorial_blurb: "Financial District café with a rotating guest roaster program that makes it the most intellectually stimulating coffee stop in downtown SF.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Flywheel Coffee Roasters",
@@ -443,7 +443,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "flywheelcoffee",
     editorial_blurb: "Haight-Ashbury neighborhood roastery operating since 2008 — the longevity says everything about the consistency of what's in the cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-30", verification_source: "admin",
   },
   {
     name: "Contraband Coffee Bar",
@@ -457,7 +457,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "contrabandcoffeebar",
     editorial_blurb: "Nob Hill café punching above its weight with a guest roaster rotation that features the best of the West Coast specialty scene.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
   {
     name: "Verve Coffee Roasters SF",
@@ -472,7 +472,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.vervecoffee.com/",
     editorial_blurb: "Santa Cruz's acclaimed roastery hits the Mission with the same light-roast precision — the Ethiopia Yirgacheffe is a permanent fixture on the menu for good reason.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
 
   // PORTLAND
@@ -489,7 +489,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.stumptowncoffee.com/",
     editorial_blurb: "The roastery that launched Portland's coffee revolution — the original Division location still feels like the center of something important.",
     featured_in: ["sprudge", "ny_times", "eater"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Water Avenue Coffee",
@@ -504,7 +504,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://wateravenuecoffee.com/",
     editorial_blurb: "Eastside Portland's precision roastery — their long extraction pour-overs and obsessive sourcing make the Hawthorne Bridge detour worthwhile.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Coava Coffee Roasters",
@@ -519,7 +519,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://coava.coffee/",
     editorial_blurb: "Roastery inside a repurposed basketball court on Grand Ave — the scale of the space matches the ambition of the single-origin sourcing program.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Heart Coffee Roasters",
@@ -534,7 +534,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.heartroasters.com/",
     editorial_blurb: "Nordic-influenced roasting in a Scandinavian-designed Burnside space — the lightest roasts in Portland with the cleanest possible expression of terroir.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Barista",
@@ -549,7 +549,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.baristapdx.com/",
     editorial_blurb: "Pearl District multi-roaster bar that helped define what a curatorially adventurous espresso program looks like — still the best guest-roaster lineup in town.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Spella Caffè",
@@ -563,7 +563,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "spellacaffe",
     editorial_blurb: "Downtown Portland's most old-school espresso operation — a tiny cart serving the city's best traditional-method shots with Italian conviction.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Proud Mary Coffee",
@@ -578,7 +578,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://proudmarycoffee.com/",
     editorial_blurb: "Melbourne-born, Mississippi Ave-adopted — Proud Mary's Australian approach to hospitality and sourcing brought a new gear to Portland's already-excellent scene.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Extracto Coffee Roasters",
@@ -593,7 +593,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://extractocoffee.com/",
     editorial_blurb: "Alberta Arts District roastery with a community-first ethos and single-origins that reward the walk off the beaten path.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Ristretto Roasters",
@@ -608,7 +608,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://ristrettoroasters.com/",
     editorial_blurb: "N Williams roastery with a decades-long commitment to single-origin transparency — the roast notes on their bags tell you more than most baristas will.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Sterling Coffee Roasters",
@@ -623,7 +623,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.sterlingcoffeeroasters.com/",
     editorial_blurb: "NW Portland's precision roastery with a restrained aesthetic and an unrestrained commitment to sourcing transparency.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-12", verification_source: "admin",
   },
   {
     name: "Courier Coffee Roasters",
@@ -637,7 +637,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "couriercoffeeroasters",
     editorial_blurb: "Downtown Portland's smallest serious roastery — the Oak Street cart-turned-room serves the city's most singular espresso program with no distractions.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-08", verification_source: "admin",
   },
   {
     name: "Deadstock Coffee",
@@ -652,7 +652,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.deadstockcoffee.com/",
     editorial_blurb: "Sneaker culture meets specialty coffee in Old Town — the rotating collabs, the drip, and the community it's built make Deadstock genuinely one-of-a-kind.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Case Study Coffee",
@@ -667,7 +667,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://casestudycoffee.com/",
     editorial_blurb: "Alberta Street multi-roaster with a relaxed, studious atmosphere and a filter program that takes its cue from the best of Portland's roasting scene.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
 
   // CHICAGO
@@ -684,7 +684,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.intelligentsiacoffee.com/",
     editorial_blurb: "The seminal US third-wave roaster that redefined direct trade — every cup carries twenty-five years of hard-won sourcing relationships.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Dark Matter Coffee",
@@ -699,7 +699,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.darkmattercoffee.com/",
     editorial_blurb: "Punk-aesthetic roastery in Wicker Park that proves world-class beans and a loud personality are not mutually exclusive.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Sawada Coffee",
@@ -713,7 +713,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "sawadacoffee",
     editorial_blurb: "Japanese precision in the West Loop — Hiroshi Sawada's military latte and immaculate espresso pull make this a non-negotiable Chicago stop.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Metric Coffee Co.",
@@ -728,7 +728,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://metriccoffee.com/",
     editorial_blurb: "Fulton Market roastery that straddles science and craft — the sourcing transparency and brewing precision attract serious coffee professionals on their days off.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Gaslight Coffee Roasters",
@@ -743,7 +743,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.gaslightcoffeeroasters.com/",
     editorial_blurb: "Logan Square's neighborhood roastery with an honest, unpretentious approach to great beans — the kind of café a neighborhood builds itself around.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Halfwit Coffee Roasters",
@@ -758,7 +758,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.halfwitcoffee.com/",
     editorial_blurb: "Wicker Park roastery with a self-deprecating name and a deadly-serious approach to light-roast Ethiopian and Colombian single-origins.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Ipsento 606",
@@ -773,7 +773,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.ipsento.com/",
     editorial_blurb: "Named for the 606 trail it sits beside — the espresso drinks here are as adventurous as the neighborhood and the patio sees every kind of Chicagoan.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-02", verification_source: "admin",
   },
   {
     name: "Passion House Coffee Roasters",
@@ -788,7 +788,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://passionhousecoffee.com/",
     editorial_blurb: "Logan Square roastery with a thoughtful approach to medium-light roasts — the origin notes are specific enough to reward the curious and the casual drinker both.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "La Colombe Coffee",
@@ -803,7 +803,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.lacolombe.com/",
     editorial_blurb: "Philly-born roastery that brought its serious espresso program and beloved draft latte to Chicago's West Loop restaurant corridor.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Understory",
@@ -817,7 +817,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "understorychicago",
     editorial_blurb: "West Loop multi-roaster bar in a stunning subterranean space — the daily rotating filter selection and pristine espresso make it the best lunch-break café in the Loop.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Big Shoulders Coffee",
@@ -832,7 +832,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.bigshoulderscoffee.com/",
     editorial_blurb: "Named for Sandburg's Chicago, built for the city's specialty drinkers — the West Town flagship serves the neighborhood's best single-origin espresso.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Dayglow",
@@ -846,7 +846,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "dayglow",
     editorial_blurb: "Wicker Park café with a fashion-forward aesthetic and a seriously curated guest roaster program — the kind of place that looks good and tastes better.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
 
   // MONTREAL
@@ -863,7 +863,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://cafemyriade.com/",
     editorial_blurb: "Montreal's specialty anchor — consistently excellent espresso and a rotating guest roaster program that keeps regulars coming back.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Dispatch Coffee",
@@ -877,7 +877,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "dispatchcoffee",
     editorial_blurb: "Plateau neighbourhood staple with a serious roasting operation — the natural-process Ethiopians here are among Canada's best.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Café Olimpico",
@@ -891,7 +891,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cafeolimp",
     editorial_blurb: "Mile End icon since 1970 — the lineups outside on Saint-Viateur are proof that getting the basics exactly right never goes out of style.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Saint-Henri Micro-Torréfacteur",
@@ -906,7 +906,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.sainthenri.ca/",
     editorial_blurb: "Named for its neighbourhood, rooted in it — the micro-roastery behind one of Montreal's most thoughtful direct-sourcing programs.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Café Névé",
@@ -920,7 +920,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "nevemtl",
     editorial_blurb: "Plateau-Mont-Royal's most neighborhood-perfect café — the terrace, the espresso drinks, and the rotation of guest roasters make it hard to find a flaw.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Tommy Café",
@@ -934,7 +934,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "tommycafemtl",
     editorial_blurb: "Griffintown's design-forward specialty café — the rotating guest roasters and clean Scandinavian interior make it the neighbourhood's most aspirational work space.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Pikolo Espresso Bar",
@@ -948,7 +948,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "pikolomontreal",
     editorial_blurb: "The tiniest serious espresso bar in the McGill neighbourhood — the two stools, the rotating single-origins, and the expert pulls make it worth the squeeze.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
   {
     name: "Café Falco",
@@ -962,7 +962,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cafefalco",
     editorial_blurb: "Rosemont café inside a design studio building — where the city's creative class brings their laptops and the guest roaster list changes weekly.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-12", verification_source: "admin",
   },
   {
     name: "Crew Collective & Café",
@@ -977,7 +977,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://crewcollectivecafe.com/",
     editorial_blurb: "A former Royal Bank interior turned co-working café — the Beaux-Arts banking hall is the most dramatic place to drink an espresso in Canada.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Café Larue & Fils",
@@ -991,7 +991,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "larueetfils",
     editorial_blurb: "Rosemont micro-roastery doubling as a serious pour-over bar — the house Colombian lots and the neighbourhood regulars give it an authenticity hard to manufacture.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-08", verification_source: "admin",
   },
   {
     name: "Café Replika",
@@ -1005,7 +1005,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "replicamtl",
     editorial_blurb: "Turkish-influenced café design with a Montreal specialty coffee sensibility — the baklava and espresso pairing makes it the city's most unexpected pleasure.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-08-28", verification_source: "community",
+    verified: true, last_verified_at: "2025-08-28", verification_source: "community",
   },
 
   // TORONTO
@@ -1022,7 +1022,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.pilotcoffeeroasters.com/",
     editorial_blurb: "Toronto's most respected roastery — the Camden St flagship is where the city's specialty scene goes to calibrate its standards.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-11-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-02", verification_source: "admin",
   },
   {
     name: "Sam James Coffee Bar",
@@ -1036,7 +1036,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "samjamescoffeebar",
     editorial_blurb: "Toronto's legendary standing-bar espresso institution — the lineup is the city's most reliable indicator of a genuinely great shot.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Neo Coffee Bar",
@@ -1051,7 +1051,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.neocoffeebar.com/",
     editorial_blurb: "Financial District specialty café with a serious filter program — the Korean-influenced minimalism and rotating guest roasters make it the best work-call café in the core.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Rooster Coffee",
@@ -1065,7 +1065,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "roostercoffeehouse",
     editorial_blurb: "Cabbagetown neighbourhood staple with Parliament St patio energy and a reliable espresso program that's fed the neighbourhood for years.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Boxcar Social",
@@ -1080,7 +1080,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://boxcarsocial.ca/",
     editorial_blurb: "Whisky bar meets specialty café — the Summerhill rooftop and the rotating guest roaster program make Boxcar one of Toronto's most original concepts.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Merchants of Green Coffee",
@@ -1095,7 +1095,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://merchantsofgreencoffee.com/",
     editorial_blurb: "Leslieville roastery and green coffee importer — the sourcing goes deeper than almost any café in Canada and the industrial space does justice to the beans.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Propeller Coffee Co.",
@@ -1110,7 +1110,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.propellercoffee.com/",
     editorial_blurb: "Bloordale roastery in a converted industrial space — the direct-trade program and community events make it West End Toronto's specialty anchor.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Reunion Island Coffee",
@@ -1125,7 +1125,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://reunionislandcoffee.com/",
     editorial_blurb: "Kensington Market's specialty gem from one of Canada's most dedicated roasters — the fair-trade direct relationships show up in every pour.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Jimmy's Coffee",
@@ -1139,7 +1139,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "jimmyscoffee",
     editorial_blurb: "Toronto's most neighbourhood-loyal café group — each location feels genuinely local and the espresso program never coasts.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "De Mello Palheta Coffee",
@@ -1153,7 +1153,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "demellopalhatatoronto",
     editorial_blurb: "Singapore specialty roaster's Toronto outpost — the meticulous sourcing and execution set a standard the local scene is still rising to meet.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Sense Appeal Coffee Roasters",
@@ -1167,7 +1167,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "senseappealcoffee",
     editorial_blurb: "King West roastery café with a sun-drenched terrace and a serious single-origin filter program — the most civilized way to start a Toronto morning.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "admin",
   },
   {
     name: "Te Aro Coffee",
@@ -1181,7 +1181,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "tearocoffee",
     editorial_blurb: "New Zealand-inspired specialty in the heart of the Financial District — the flat whites are a genuine benchmark for the entire city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
   {
     name: "Ezra's Pound",
@@ -1195,7 +1195,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "ezraspound",
     editorial_blurb: "Roncesvalles neighbourhood institution — the literary name, the rotating single-origins, and the book shelves make it the West End's most comfortable long stay.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
 
   // VANCOUVER
@@ -1211,7 +1211,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "revolvercoffee",
     editorial_blurb: "Gastown's most serious coffee destination — the daily rotating roster of world's best roasters and the no-laptop rule make it the city's most focused café.",
     featured_in: ["sprudge", "monocle", "standart"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "49th Parallel Coffee Roasters",
@@ -1226,7 +1226,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://49thcoffee.com/",
     editorial_blurb: "Kitsilano flagship of Vancouver's most celebrated roastery — the Lucky's Donuts counter inside is the greatest coffee-and-doughnut pairing in Canada.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Matchstick Coffee Roasters",
@@ -1241,7 +1241,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.matchstickcoffee.com/",
     editorial_blurb: "Mount Pleasant roastery with an obsessive approach to single-origin transparency — the tasting notes here are written by people who actually tasted them.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Pallet Coffee Roasters",
@@ -1256,7 +1256,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.palletcoffee.com/",
     editorial_blurb: "East Broadway roastery known for accessible entry-level specialty and a team that treats first-timers as well as the serious coffee nerd.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "JJ Bean Coffee Roasters",
@@ -1271,7 +1271,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://jjbeancoffee.com/",
     editorial_blurb: "Vancouver's most loved local chain, earned honestly — the Main Street flagship serves the city's most consistent espresso and raises the bar for every location after it.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Timbertrain Coffee Roasters",
@@ -1286,7 +1286,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.timbertraincoffeeroasters.com/",
     editorial_blurb: "Gastown roastery with a Pacific Northwest-sourcing focus and the kind of industrial-wood interior that coffee shops have been imitating ever since.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Bows & Arrows Coffee Roasters",
@@ -1300,7 +1300,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "bowsandarrowscoffee",
     editorial_blurb: "Fraser Street roastery that stays under the radar while producing some of Vancouver's most technically precise single-origin lots.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Small Victory Bakery",
@@ -1315,7 +1315,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.smallvictory.ca/",
     editorial_blurb: "Yaletown's most beautiful café doubles as a serious bakery — 49th Parallel on espresso and pastries worth delaying any meeting for.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Kafka's Coffee & Tea",
@@ -1329,7 +1329,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "kafkascoffee",
     editorial_blurb: "Main Street's most eclectic specialty café — the rotating guest roasters, the dark corners, and the regulars make Kafka's feel like a neighbourhood secret even when it's full.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Nelson the Seagull",
@@ -1343,7 +1343,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "nelsontheseagull",
     editorial_blurb: "Gastown café and bakery where the sourdough and the espresso are treated with equal seriousness — the no-laptop policy keeps the energy exactly right.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Elysian Coffee",
@@ -1357,7 +1357,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "elysiancoffee",
     editorial_blurb: "West End café with a community-first ethos and a guest roaster program that showcases the best of BC and beyond — the most welcoming specialty café in the neighbourhood.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-12", verification_source: "admin",
   },
   {
     name: "East Van Roasters",
@@ -1372,7 +1372,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.eastvanroasters.com/",
     editorial_blurb: "Social enterprise roastery providing employment to women in the Downtown Eastside — the coffee is excellent and the mission behind it makes every cup matter more.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-02", verification_source: "admin",
   },
 
   // MIAMI
@@ -1389,7 +1389,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.panthercoffee.com/",
     editorial_blurb: "Miami's flagship specialty roastery in the heart of Wynwood — the Cuban-influenced espresso service and rotating single-origins set the city's benchmark.",
     featured_in: ["sprudge", "eater", "infatuation"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Panther Coffee Coconut Grove",
@@ -1404,7 +1404,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.panthercoffee.com/",
     editorial_blurb: "Panther's shaded Grove outpost — the banyan-tree canopy and the same impeccable roasting make it the more relaxed way to experience Miami's best beans.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Eternity Coffee Roasters",
@@ -1419,7 +1419,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.eternitycoffeeroasters.com/",
     editorial_blurb: "Miami Shores roastery focused on traceable Colombian and Ethiopian lots — the sourcing program rivals any roastery in the Southeast.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Threefold Café",
@@ -1434,7 +1434,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.threefoldcafe.com/",
     editorial_blurb: "Australian-style breakfast café in the Gables with a serious espresso program — the Giralda Ave terrace and the avocado toast are both required.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Zak the Baker",
@@ -1449,7 +1449,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.zakthebaker.com/",
     editorial_blurb: "Wynwood Jewish bakery where the sourdough is legendary and Panther Coffee's espresso program gives every loaf the send-off it deserves.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "admin",
   },
   {
     name: "Vice City Bean",
@@ -1463,7 +1463,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "vicecitybean",
     editorial_blurb: "Downtown Miami's specialty anchor serving micro-lot single-origins steps from Brickell — the most serious pour-over program the financial district has ever had.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
 
   // LOS ANGELES
@@ -1480,7 +1480,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.gget.com/",
     editorial_blurb: "LA's most celebrated specialty roaster — the Larchmont flagship serves a textbook filter menu and the most approachable single-origin espresso in the city.",
     featured_in: ["sprudge", "eater", "infatuation"],
-    verified: true, last_verified_at: "2024-11-04", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-04", verification_source: "admin",
   },
   {
     name: "G&B Coffee",
@@ -1494,7 +1494,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "gandberla",
     editorial_blurb: "Standing bar inside Grand Central Market — the cult espresso program and the downtown foot traffic make it the most democratic specialty experience in LA.",
     featured_in: ["sprudge", "eater", "ny_times"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Intelligentsia Coffee Venice",
@@ -1509,7 +1509,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.intelligentsiacoffee.com/",
     editorial_blurb: "Abbot Kinney's specialty anchor — Intelligentsia's Venice location brought Chicago's third-wave seriousness to the most sun-drenched street in LA.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Blue Bottle Coffee Arts District",
@@ -1524,7 +1524,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://bluebottlecoffee.com/",
     editorial_blurb: "The Arts District outpost in a converted industrial space — Blue Bottle's LA flagship proves the brand is at its best in spaces with stories.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Verve Coffee Roasters West Hollywood",
@@ -1539,7 +1539,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.vervecoffee.com/",
     editorial_blurb: "Santa Cruz's acclaimed roastery on Melrose — the outdoor seating and impeccable filter program make it the most desirable coffee stop in WeHo.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Civil Coffee",
@@ -1553,7 +1553,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "civilcoffee",
     editorial_blurb: "Highland Park's specialty anchor — the rotating guest roasters and the neighbourhood regulars make it the best argument for making the drive to the northeast side.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Cognoscenti Coffee",
@@ -1567,7 +1567,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cognoscenticoffee",
     editorial_blurb: "Culver City's pop-culture café with serious coffee roots — the guest roaster program and curated soundtrack pull from the same curatorial instinct.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Demitasse",
@@ -1582,7 +1582,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.demitasse.com/",
     editorial_blurb: "Little Tokyo specialty roaster with a Japanese-influenced approach to extraction — the black sesame latte is the most copied drink in the LA specialty scene.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Caffe Luxxe",
@@ -1597,7 +1597,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.caffeluxxe.com/",
     editorial_blurb: "Santa Monica's Italian-method espresso institution — the Synesso pours and the Montana Ave terrace have made this LA's benchmark for old-school technique done right.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Groundwork Coffee",
@@ -1612,7 +1612,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.groundworkcoffee.com/",
     editorial_blurb: "LA's original specialty roaster — Groundwork has been sourcing organic, direct-trade beans since before it was trendy, and the Rose Ave café shows the longevity of getting it right.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Jones Coffee Roasters",
@@ -1627,7 +1627,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.jonescoffee.com/",
     editorial_blurb: "Pasadena roastery that has quietly operated at the highest level for over two decades — the single-origin Chemex in the courtyard is the best reason to come to the Eastside.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Go Get Em Tiger Los Feliz",
@@ -1642,7 +1642,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.gget.com/",
     editorial_blurb: "GGET's Hillhurst location with the same obsessive pour-over program and a terrace that captures Los Feliz at its most relaxed.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Night Owl Coffee",
@@ -1656,7 +1656,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "nightowlcoffeela",
     editorial_blurb: "Silver Lake's late-night specialty option — the rotating guest roasters and the Sunset Strip patio fill a gap no other LA café bothers to cover.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Weird Wave Coffee",
@@ -1670,7 +1670,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "weirdwavecoffee",
     editorial_blurb: "Boyle Heights specialty café that has become a genuine neighbourhood institution — the community investment and the guest roaster rotation make it as important as it is delicious.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
 
   // SEATTLE
@@ -1687,7 +1687,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.victrolacoffee.com/",
     editorial_blurb: "Capitol Hill roastery where Seattle's specialty culture found its voice — the Pike Street café still pulls the city's most consistently excellent espresso.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Lighthouse Roasters",
@@ -1702,7 +1702,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.lighthouseroasters.com/",
     editorial_blurb: "Fremont's beloved neighborhood roastery operating since 1993 — the longevity is proof that sourcing quality beans and treating regulars well never goes out of style.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Caffe Ladro",
@@ -1717,7 +1717,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.caffeladro.com/",
     editorial_blurb: "Queen Anne flagship of Seattle's most quietly excellent local chain — the direct-trade espresso program has earned decades of neighborhood loyalty.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Slate Coffee Roasters",
@@ -1732,7 +1732,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.slatecoffee.com/",
     editorial_blurb: "Fremont standing bar serving Seattle's most exacting espresso program — the no-frills environment and the immaculate extraction are the whole point.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Elm Coffee Roasters",
@@ -1747,7 +1747,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.elmcoffeeroasters.com/",
     editorial_blurb: "Pioneer Square roastery in a converted brick space — the transparent sourcing program and the light-roast filter menu attract Seattle's most discerning coffee drinkers.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Broadcast Coffee",
@@ -1761,7 +1761,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "broadcastcoffee",
     editorial_blurb: "Roosevelt neighborhood gem with a laid-back atmosphere and a rigorous espresso program — the kind of local café every city neighborhood deserves but few have.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Anchored Ship Coffee Bar",
@@ -1775,7 +1775,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "anchoredshipcoffee",
     editorial_blurb: "Georgetown coffee bar with a rotating roster of Pacific Northwest roasters — the industrial neighborhood and the meticulous brew bar make an unexpectedly great combination.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
   {
     name: "Tougo Coffee",
@@ -1789,7 +1789,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "tougocoffee",
     editorial_blurb: "Central District café that has been a community anchor for years — thoughtfully sourced coffees and a genuine investment in the neighbourhood set it apart.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "admin",
   },
   {
     name: "Analog Coffee",
@@ -1803,7 +1803,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "analogcoffeeseattle",
     editorial_blurb: "Capitol Hill micro-café with rotating guest roasters and an intimate atmosphere — the precision espresso and the small footprint reward those who find it.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-08", verification_source: "admin",
   },
   {
     name: "Fonte Coffee Roaster",
@@ -1818,7 +1818,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.fontecoffee.com/",
     editorial_blurb: "Downtown Seattle roastery that has quietly served some of the city's best espresso since 1992 — the longevity is earned by a consistency most newer cafés chase.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Fuel Coffee",
@@ -1832,7 +1832,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "fuelcoffeeseattle",
     editorial_blurb: "Capitol Hill neighbourhood staple with a welcoming atmosphere and a reliable rotating espresso program — the kind of café that sustains a community over years.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
   {
     name: "Zoka Coffee Roaster",
@@ -1847,7 +1847,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.zokacoffee.com/",
     editorial_blurb: "Tangletown roastery with a spacious café and a sourcing program built on twenty-plus years of origin relationships — the Chemex bar is Seattle at its most unhurried.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-02", verification_source: "admin",
   },
   {
     name: "Seattle Coffee Works",
@@ -1862,7 +1862,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.seattlecoffeeworks.com/",
     editorial_blurb: "Pike Place market-adjacent multi-roaster bar with a methodical approach to filter coffee — the syphon brews draw in out-of-towners who know what they're looking for.",
     featured_in: ["sprudge", "atlas"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Caffe Vita",
@@ -1877,7 +1877,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.caffevita.com/",
     editorial_blurb: "Capitol Hill flagship of Seattle's original specialty roaster — the Pike Street location has shaped the neighborhood's coffee culture since the mid-1990s.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
 
   // MIAMI (additional cafes)
@@ -1894,7 +1894,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.versaillesrestaurant.com/",
     editorial_blurb: "Little Havana's legendary Cuban exile institution — the ventanita window serves Miami's most culturally essential cafecito, unchanged since 1971.",
     featured_in: ["eater", "ny_times"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Mindful Coffee",
@@ -1908,7 +1908,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "mindfulcoffeemiami",
     editorial_blurb: "MiMo district pour-over bar with a thoughtfully curated guest roaster rotation and a pared-back interior that puts the coffee front and center.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Ironside Coffee",
@@ -1922,7 +1922,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "ironsidecoffeemiami",
     editorial_blurb: "Inside Ironside's creative campus in Little Haiti — the specialty espresso program and the buzzing artist community make it Miami's most creative coffee destination.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "The Salty Donut",
@@ -1937,7 +1937,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.thesaltydonut.com/",
     editorial_blurb: "Wynwood's beloved artisan donut shop pours Panther Coffee alongside its legendary maple-bacon and brown butter creations — the weekend queue is worth joining.",
     featured_in: ["eater", "infatuation"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Panther Coffee South Beach",
@@ -1952,7 +1952,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.panthercoffee.com/",
     editorial_blurb: "Panther's South Beach location brings the Wynwood roastery's precision to the Art Deco district — the best espresso within blocks of Ocean Drive.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "OTL Coffee & Kitchen",
@@ -1966,7 +1966,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "otlcoffee",
     editorial_blurb: "Brickell specialty café serving serious filter coffee alongside an all-day kitchen — the best remedy for a neighborhood otherwise served only by chains.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-09-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-12", verification_source: "admin",
   },
 
   // SAN FRANCISCO (additional cafes)
@@ -1983,7 +1983,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.saintfrankcoffee.com/",
     editorial_blurb: "Russian Hill pour-over specialist with a meticulous approach to water temperature, grind size, and origin selection — the thoughtful menu rewards the patient drinker.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Ritual Coffee Roasters Valencia",
@@ -1998,7 +1998,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.ritualroasters.com/",
     editorial_blurb: "Ritual's Mission District location on Valencia Street — the original SF roastery's second home in the neighborhood where specialty coffee first took hold.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Sightglass Coffee Divisadero",
@@ -2013,7 +2013,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://sightglasscoffee.com/",
     editorial_blurb: "Sightglass's Cow Hollow outpost brings the SOMA roastery's single-origin precision to the western neighborhoods — smaller space, same uncompromising sourcing.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Four Barrel Coffee",
@@ -2027,7 +2027,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "fourbarrelcoffee",
     editorial_blurb: "Mission roastery with a commitment to direct-trade sourcing and a sprawling Valencia Street café that defined a generation of SF coffee culture.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Dandelion Chocolate",
@@ -2042,7 +2042,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.dandelionchocolate.com/",
     editorial_blurb: "Mission bean-to-bar chocolate café serving serious espresso alongside hand-crafted drinking chocolate — the combination is unlike anything else on Valencia Street.",
     featured_in: ["eater", "ny_times"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Sightglass Coffee SoMa",
@@ -2057,7 +2057,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://sightglasscoffee.com/",
     editorial_blurb: "The original Sightglass roastery annex in SoMa — the full brew-method menu and the working roaster visible from the bar make it SF's most educational coffee experience.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
 
   // CHICAGO (additional cafes)
@@ -2073,7 +2073,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "bowtrusscoffee",
     editorial_blurb: "Wicker Park roastery with a serious commitment to direct-trade sourcing and a warm industrial space that draws the neighborhood's creative class.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Bridgeport Coffee",
@@ -2088,7 +2088,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.bridgeportcoffee.net/",
     editorial_blurb: "Bridgeport neighborhood anchor serving one of Chicago's south side communities with thoughtful specialty coffee since 2003 — the longevity says everything.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Aje Coffee",
@@ -2102,7 +2102,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "ajechicago",
     editorial_blurb: "Wicker Park multi-roaster café with a curated rotating program and a pared-back space designed to keep the focus entirely on what's in the cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
   {
     name: "Lovely: A Bake Shop",
@@ -2116,7 +2116,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "lovelybakeshop",
     editorial_blurb: "Ukrainian Village bakery café pouring Intelligentsia espresso alongside exceptional pastries — the combination of serious coffee and serious baking is rare to find this good.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Sump Coffee Chicago",
@@ -2130,7 +2130,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "sumpcoffee",
     editorial_blurb: "St. Louis's most adventurous roaster brings its science-forward approach to Chicago — the rotating single-origins and meticulous extraction make it a destination pour-over bar.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Colectivo Coffee",
@@ -2145,7 +2145,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://colectivocoffee.com/",
     editorial_blurb: "Milwaukee's pioneering Midwest roastery now in Lincoln Park — the sustainable sourcing and the spacious café attract Chicago drinkers looking for something more considered.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
 
   // NEW YORK CITY (additional 8)
@@ -2161,7 +2161,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "rootscoffeebk",
     editorial_blurb: "Flatbush specialty anchor rooted in the Caribbean-influenced community — the guest roaster rotation and neighborhood warmth make it essential Brooklyn.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "787 Coffee",
@@ -2176,7 +2176,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.787coffee.com/",
     editorial_blurb: "Puerto Rican specialty roaster serving single-origin island beans in Midtown — coffee tourism and origin storytelling in the same extraordinary cup.",
     featured_in: ["sprudge", "eater", "ny_times"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Laughing Man Coffee",
@@ -2191,7 +2191,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.laughingmancoffee.com/",
     editorial_blurb: "Tribeca fair-trade café founded by Hugh Jackman to benefit coffee-farming communities — the single-origin Ethiopian and Colombian lots fund the producers who grew them.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "admin",
   },
   {
     name: "Nossa Família Coffee NYC",
@@ -2206,7 +2206,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.nossafamiliacoffee.com/",
     editorial_blurb: "Portland roastery's NYC outpost specializing in Brazilian single-origins — the family-farm sourcing tells its story directly in every cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Black Fox Coffee",
@@ -2221,7 +2221,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.blackfoxcoffee.com/",
     editorial_blurb: "Financial District café with a serious rotating single-origin program — the FiDi's most technically rigorous espresso program amid the lunch-hour rush.",
     featured_in: ["sprudge", "infatuation"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Butler",
@@ -2235,7 +2235,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "butlercoffeenyc",
     editorial_blurb: "Chinatown and Lower East Side boundary café with a curatorially focused guest roaster program — the rotating menu and calm minimalist interior attract the city's most discerning palates.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Kobrick Coffee Co.",
@@ -2250,7 +2250,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.kobrickcoffee.com/",
     editorial_blurb: "Meatpacking roastery operating since 1920 — the centennial sourcing program and the new-wave café format bridge NYC coffee history and its future in one address.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Sweatshop",
@@ -2264,7 +2264,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "sweatshopnyc",
     editorial_blurb: "Williamsburg café and creative co-working space where the espresso and the community built around it are taken with equal seriousness.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
 
   // PORTLAND (additional 7)
@@ -2281,7 +2281,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.nevercoffee.com/",
     editorial_blurb: "Mississippi Ave micro-roastery chasing maximum clarity in the cup — the single-origin filter program here is among Portland's most technically exacting.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Guilder",
@@ -2295,7 +2295,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "guilderpdx",
     editorial_blurb: "Downtown Portland's most design-conscious specialty café — the Scandinavian interior and rotating roster of international guest roasters make it a mandatory stop.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Bow & Arrow Coffee Roasters",
@@ -2309,7 +2309,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "bowandarrowcoffee",
     editorial_blurb: "Alberta Arts District roastery with a focus on Indigenous-owned farm sourcing — the mission behind the beans adds a layer of meaning to every pour.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Nossa Família Coffee",
@@ -2324,7 +2324,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.nossafamiliacoffee.com/",
     editorial_blurb: "Pearl District roastery specializing in Brazilian single-origins from a fourth-generation farming family — transparency starts at the farm and ends in the cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Upper Left Roasters",
@@ -2339,7 +2339,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.upperleftroasters.com/",
     editorial_blurb: "Burnside roastery with a Pacific Northwest-first sourcing lens — the light-roast Guatemalan and Ethiopian lots express terroir with exceptional clarity.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Coava Coffee Roasters Mississippi",
@@ -2354,7 +2354,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://coava.coffee/",
     editorial_blurb: "Coava's Mississippi Ave outpost brings the single-origin precision of the Grand Ave roastery to a neighborhood café scale — more approachable, equally excellent.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Oblique Coffee Roasters",
@@ -2368,7 +2368,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "obliquecoffeeroasters",
     editorial_blurb: "Alberta Street roastery with a distinctly Portland commitment to thoughtful sourcing and unhurried filter preparation — the Sunday morning Chemex ritual is unmissable.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
 
   // VANCOUVER (additional 6)
@@ -2385,7 +2385,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.nemesiscoffee.com/",
     editorial_blurb: "Gastown's most design-forward specialty café — the architectural space and the meticulously sourced single-origins have made Nemesis Vancouver's most photographed and most delicious café.",
     featured_in: ["sprudge", "monocle", "standart"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "49th Parallel Coffee Roasters Coal Harbour",
@@ -2400,7 +2400,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://49thcoffee.com/",
     editorial_blurb: "49th Parallel's Coal Harbour outpost serves the same award-winning sourcing in Vancouver's most scenic downtown corridor — the water views and the espresso are both exceptional.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Prototype Coffee",
@@ -2414,7 +2414,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "prototypecoffee",
     editorial_blurb: "Strathcona's specialty anchor with a thoughtfully curated guest roaster program — the industrial-meets-warm interior and the rotating filter menu reward the walk east.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Aperture Coffee Bar",
@@ -2428,7 +2428,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "aperturecoffeebar",
     editorial_blurb: "Yaletown specialty café with a photography-themed aesthetic and a precision espresso program — the rotating guest roasters keep the regulars returning for something new.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "Prado Café",
@@ -2443,7 +2443,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.pradocafe.ca/",
     editorial_blurb: "Commercial Drive neighbourhood institution serving 49th Parallel on espresso with an Italian-influenced hospitality warmth that no other Vancouver café quite matches.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Beaucoup Bakery & Café",
@@ -2458,7 +2458,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.beaucoupbakery.com/",
     editorial_blurb: "South Granville French bakery with 49th Parallel espresso and croissants worth crossing the city for — the buttery, unhurried atmosphere makes it South Van's finest morning ritual.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
 
   // MONTREAL (additional 5)
@@ -2474,7 +2474,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cafeodessamtl",
     editorial_blurb: "Saint-Henri's most inviting specialty café — the rotating guest roasters, the sun-drenched terrace, and the neighbourhood warmth define Montreal specialty at its best.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Coco Espresso Bar",
@@ -2488,7 +2488,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cocoespressobar",
     editorial_blurb: "Old Montreal's sharpest espresso bar — the compact space, the rotating single-origin shots, and the no-laptop rule keep the energy focused and the coffee exceptional.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-08", verification_source: "admin",
   },
   {
     name: "Café Flocon",
@@ -2502,7 +2502,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cafefloconmtl",
     editorial_blurb: "Outremont neighbourhood café with a Franco-Montréalaise character and a precision filter program — the terrace in summer is the city's most civilized coffee hour.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-08-20", verification_source: "community",
+    verified: true, last_verified_at: "2025-08-20", verification_source: "community",
   },
   {
     name: "Café Humble Lion",
@@ -2516,7 +2516,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "humblelionmtl",
     editorial_blurb: "Plateau Saint-Denis café with a warm multicultural identity and a rotating specialty program that draws from the world's best roasteries — unpretentious excellence.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
   {
     name: "Café Eldorado",
@@ -2530,7 +2530,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "cafeeldoradomtl",
     editorial_blurb: "Saint-Laurent Boulevard all-day café where the neighbourhood's artistic energy and a rotating specialty espresso program fuel the city's most creative block.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-08-28", verification_source: "community",
+    verified: true, last_verified_at: "2025-08-28", verification_source: "community",
   },
 
   // TORONTO (additional 5)
@@ -2546,7 +2546,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "quantumcoffeeto",
     editorial_blurb: "Queen West specialty café where the rotating single-origins and the art-gallery-adjacent atmosphere attract Toronto's most culturally curious coffee drinkers.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Hale Coffee",
@@ -2561,7 +2561,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.halecoffee.ca/",
     editorial_blurb: "St. Lawrence Market roastery with a precise filter program and a sourcing story that reaches from Yirgacheffe to Colombia — Toronto's most technically rigorous pour-over bar.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Early Bird Espresso & Brew Bar",
@@ -2575,7 +2575,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "earlybirdespresso",
     editorial_blurb: "Dovercourt neighbourhood brew bar with a welcoming atmosphere and a rotating guest roaster program — the most genuine specialty café in Toronto's west end.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "admin",
   },
   {
     name: "Norwood Coffee",
@@ -2589,7 +2589,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "norwoodcoffeeto",
     editorial_blurb: "East End Danforth-area specialty café built around community and a carefully curated guest roaster program — the patio and the filter menu make it east Toronto's best-kept secret.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "admin",
   },
   {
     name: "Alternative Grounds",
@@ -2603,7 +2603,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "alternativegroundsto",
     editorial_blurb: "Roncesvalles fair-trade café that has been a community gathering point for decades — the ethically sourced rotating program and the welcoming neighbourhood energy are inseparable.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "admin",
   },
 
   // AUSTIN, TX (8 cafes)
@@ -2620,7 +2620,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.wrightbrosbrewbrew.com/",
     editorial_blurb: "East Austin's dual-threat destination for specialty coffee and craft beer — the guest roaster pour-overs during the day give way to Texas craft drafts at night.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Cuvée Coffee",
@@ -2635,7 +2635,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.cuveecoffee.com/",
     editorial_blurb: "East Austin roastery pioneering Texas specialty — Cuvée's nitrogen cold brew and direct-trade single-origins helped establish Austin as a serious coffee destination.",
     featured_in: ["sprudge", "eater", "ny_times"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Figure 8 Coffee Projectory",
@@ -2650,7 +2650,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.figure8coffee.com/",
     editorial_blurb: "Brentwood neighbourhood specialty café with a meticulous guest roaster rotation and a backyard patio that captures Austin's laid-back expertise perfectly.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Fleet Coffee",
@@ -2665,7 +2665,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.fleetcoffee.com/",
     editorial_blurb: "Drive-up window café that redefined what convenience specialty coffee could look like — the rotating guest roasters and the Webberville patio are both unmissable Austin institutions.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Merit Coffee",
@@ -2680,7 +2680,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.meritcoffee.com/",
     editorial_blurb: "San Antonio roastery's Austin flagship with a precision filter program and the most technically accomplished espresso in downtown — where Texas specialty coffee grows up.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Epoch Coffee",
@@ -2695,7 +2695,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.epochcoffee.com/",
     editorial_blurb: "Austin's most legendary 24-hour café — Epoch's North Loop location has fuelled late-night creative sessions and early-morning coffee pilgrimages for over fifteen years.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Houndstooth Coffee",
@@ -2710,7 +2710,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.houndstoothcoffee.com/",
     editorial_blurb: "Downtown Austin specialty bar with a rotating roster of the country's finest roasters — the Congress Ave address puts world-class filter coffee steps from the State Capitol.",
     featured_in: ["sprudge", "eater", "infatuation"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Greater Goods Coffee",
@@ -2725,7 +2725,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.greatergoodscoffee.com/",
     editorial_blurb: "East Austin roastery with a philanthropic model baked into every bag — the direct-trade sourcing and the transparent give-back program make the coffee taste even better.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
 
   // DENVER, CO (8 cafes)
@@ -2742,7 +2742,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.novocoffee.com/",
     editorial_blurb: "Denver's most storied specialty roastery — Novo's downtown café and the sourcing relationships behind it have shaped Colorado's third-wave scene since the beginning.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Crema Coffee House",
@@ -2757,7 +2757,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.cremacoffeehouse.net/",
     editorial_blurb: "RiNo's original specialty café — the rotating guest roasters, the Larimer Street patio, and the community it has built make Crema the best argument for Denver's coffee scene.",
     featured_in: ["sprudge", "eater", "infatuation"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Middle State Coffee",
@@ -2772,7 +2772,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.middlestatecoffee.com/",
     editorial_blurb: "Highland roastery with a farm-forward sourcing philosophy and a precision filter menu that rewards anyone willing to make the walk up 32nd Avenue.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Corvus Coffee Roasters",
@@ -2787,7 +2787,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.corvuscoffee.com/",
     editorial_blurb: "South Broadway roastery roasting at altitude with a single-origin focus — the Ethiopian and Kenyan lots here express what high-elevation Colorado air does to the roasting process.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Steam Espresso Bar",
@@ -2801,7 +2801,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     instagram_handle: "steamespressobar",
     editorial_blurb: "Capitol Hill's precision espresso bar with a rotating roster of America's finest roasters — the single-origin shots change daily and the regulars track every new arrival.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Little Owl Coffee",
@@ -2816,7 +2816,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.littleowlcoffee.com/",
     editorial_blurb: "LoDo neighbourhood café with an ever-rotating guest roaster program and a warm neighbourhood-first hospitality — the most approachable specialty café in downtown Denver.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Amethyst Coffee Co.",
@@ -2831,7 +2831,7 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.amethystcoffee.com/",
     editorial_blurb: "Denver's LGBTQ+-owned specialty roastery in Capitol Hill — the inclusive community ethos and the competition-level single-origins are two sides of the same excellent cup.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Commonplace Coffee Denver",
@@ -2846,6 +2846,6 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     website: "https://www.commonplacecoffee.com/",
     editorial_blurb: "Pittsburgh roastery's first Colorado outpost — the Sunnyside neighbourhood location brings the same meticulous sourcing and unhurried pour-over culture that made the original famous.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
 ];

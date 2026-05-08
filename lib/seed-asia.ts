@@ -15,7 +15,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.fuglen.com/",
     editorial_blurb: "Oslo's cult café landed in Tokyo and raised the bar for the entire city — order the pour-over and stay for the vintage furniture.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Koffee Mameya",
@@ -30,7 +30,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://koffee-mameya.com/",
     editorial_blurb: "No menu, no seating — just a barista asking what you want and delivering the precise cup you didn't know you needed.",
     featured_in: ["sprudge", "ny_times"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Switch Coffee Tokyo",
@@ -44,7 +44,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "switchcoffeetokyo",
     editorial_blurb: "A quietly confident roastery café in Aoyama where single-origins rotate weekly and the staff genuinely wants to talk about terroir.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-20", verification_source: "admin",
   },
   {
     name: "% Arabica Tokyo",
@@ -59,7 +59,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.arabica.coffee/",
     editorial_blurb: "The Kyoto minimalist icon's Aoyama home — a white cube where the espresso is as considered as the architecture.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-08", verification_source: "admin",
   },
   {
     name: "Glitch Coffee & Roasters",
@@ -74,7 +74,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://glitchcoffee.com/",
     editorial_blurb: "Jimbocho roastery with a world-competition record and a filter menu that changes based on what's peaking — the most technically serious café in Tokyo.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Onibus Coffee",
@@ -89,7 +89,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://onibuscoffee.com/",
     editorial_blurb: "Nakameguro roastery tucked off the canal — the Portuguese name (bus) fits a café built on movement, sourcing, and sharing.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
   {
     name: "Woodberry Coffee Roasters",
@@ -104,7 +104,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://woodberrycoffee.com/",
     editorial_blurb: "Yanaka roastery in Tokyo's most atmospheric old neighborhood — Ethiopian and Central American lots roasted with uncommon clarity.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Sarutahiko Coffee",
@@ -118,7 +118,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "sarutahiko_coffee",
     editorial_blurb: "Ebisu standing bar with an obsessive drip culture and a compact menu that never wastes your time or your palate.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "About Life Coffee Brewers",
@@ -132,7 +132,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "aboutlifecoffee",
     editorial_blurb: "Shibuya standing counter with a rotating guest-roaster program — the name is a provocation, the coffee makes good on it.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "Blue Bottle Coffee Kiyosumi",
@@ -147,7 +147,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://bluebottlecoffee.com/",
     editorial_blurb: "Blue Bottle's Tokyo flagship in a converted Kiyosumi warehouse — the roastery that announced specialty coffee's arrival in Japan to a global audience.",
     featured_in: ["sprudge", "ny_times", "monocle"],
-    verified: true, last_verified_at: "2024-11-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-02", verification_source: "admin",
   },
   {
     name: "Arise Coffee Entangle",
@@ -161,7 +161,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "arisecoffeeentangle",
     editorial_blurb: "Blue Bottle's neighbor in Kiyosumi-Shirakawa doing equally serious work in a fraction of the space — a local institution with a cult following.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Bear Pond Espresso",
@@ -175,7 +175,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "bearpondespresso",
     editorial_blurb: "Shimokitazawa espresso purist — a single counter, a single focus, and the most intensely discussed shot in Tokyo. Cash only, always worth it.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Streamer Coffee Company",
@@ -190,7 +190,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://streamer.coffee/",
     editorial_blurb: "Streamer's latte art championship roots are on the walls; the espresso program that won those titles is in the cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Nozy Coffee",
@@ -204,7 +204,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "nozycoffee",
     editorial_blurb: "Sangenjaya roastery that helped define Tokyo's third-wave generation — the outdoor bench and a single-origin V60 are all you need here.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "admin",
   },
   {
     name: "Coffee Supreme Tokyo",
@@ -219,7 +219,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://coffeesupreme.com/",
     editorial_blurb: "New Zealand's most revered roastery in the heart of Harajuku — the Antipodean irreverence and the technical precision are both very real.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Passage Coffee",
@@ -233,7 +233,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "passagecoffee",
     editorial_blurb: "Sendagaya narrow-front café where the guest-roaster list reads like a Tokyo specialty map — a reliable stop before or after a Meiji Shrine morning.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "admin",
   },
   {
     name: "Eagle Coffee",
@@ -247,7 +247,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "eaglecoffee_tokyo",
     editorial_blurb: "Canal-side Nakameguro perch where the cherry blossoms are seasonal but the single-origin pour-overs are year-round excellent.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-01", verification_source: "community",
+    verified: true, last_verified_at: "2025-10-01", verification_source: "community",
   },
   {
     name: "Paul Bassett",
@@ -262,7 +262,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.paulbassett.com/",
     editorial_blurb: "World barista champion Paul Bassett's Shinjuku flagship — the espresso-as-craft philosophy translates into one of Tokyo's most quietly excellent menus.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Café Kitsuné Aoyama",
@@ -277,7 +277,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://cafekitsune.com/",
     editorial_blurb: "Fashion house garden café in Aoyama where the design is exceptional and the specialty espresso is serious — both are reasons to visit.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Coffee Wrights Sendagaya",
@@ -291,7 +291,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "coffee_wrights",
     editorial_blurb: "Yoyogi Park-adjacent coffee stand that captures what Tokyo neighbourhood specialty does best — a small menu, rotating origins, and no fuss.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "community",
   },
 
   // ── SEOUL (15) ───────────────────────────────────────────────────────────────
@@ -308,7 +308,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.fritzcoffee.co.kr/",
     editorial_blurb: "Seoul's most beloved roastery café — the Saturday morning queue is a pilgrimage and the single-origins justify every minute of it.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Namusairo",
@@ -322,7 +322,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "namusairo",
     editorial_blurb: "Tucked in Bukchon Hanok Village, Namusairo pairs traditional architecture with technically immaculate pour-overs — a rare combination.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "% Arabica Seoul",
@@ -337,7 +337,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.arabica.coffee/",
     editorial_blurb: "Kyoto's global minimalist icon in Apgujeong — the same quiet precision, the same exceptional espresso, the same insistence on doing one thing right.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Onion Anguk",
@@ -351,7 +351,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "onion.anguk",
     editorial_blurb: "Bukchon heritage building turned brutalist bakery-café — the concrete interior and the cardamom croissants are both reasons to queue.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-30", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-30", verification_source: "admin",
   },
   {
     name: "Coffee Libre",
@@ -366,7 +366,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://coffeelibre.kr/",
     editorial_blurb: "Yeonnam-dong roastery that built the Seoul specialty movement before it had a name — their Latin American sourcing program is still the city's best.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Anthracite Coffee Roasters",
@@ -381,7 +381,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.anthracitecoffee.com/",
     editorial_blurb: "Itaewon industrial roastery in a converted shoe factory — the space is as compelling as the light-roast single-origins brewed inside it.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-01", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
   {
     name: "Meter Coffee",
@@ -395,7 +395,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "meter_coffee",
     editorial_blurb: "Seongsu industrial café where the espresso dialing is taken as seriously as the concrete design — Seoul's coolest neighbourhood finally has its anchor.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Manufact Coffee Roasters",
@@ -409,7 +409,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "manufact_coffee",
     editorial_blurb: "Seongsu roastery café with a serious light-roast commitment and a filter program that's been shaping Seoul palates for years.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Raw Sugar",
@@ -423,7 +423,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "rawsugar_official",
     editorial_blurb: "Seochon village café where the hanok streetscape and the natural-process pour-overs produce a combination that feels specific to Seoul.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-22", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-22", verification_source: "community",
   },
   {
     name: "Terarosa Coffee Seoul",
@@ -438,7 +438,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.terarosa.com/",
     editorial_blurb: "Gangneung's legendary roastery in Seoul — Terarosa's Gangnam outpost brings the same obsessive sourcing and light-roast conviction to the capital.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-04", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-04", verification_source: "admin",
   },
   {
     name: "Lowkey Coffee",
@@ -452,7 +452,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "lowkeycoffee",
     editorial_blurb: "Itaewon specialty bar where the name is the ethos — no flashy design, just excellent espresso and a rotating filter menu worth returning for.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "community",
   },
   {
     name: "Felt Coffee",
@@ -466,7 +466,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "felt_espresso",
     editorial_blurb: "Mangwon neighborhood café with a warm atmosphere and a filter menu that changes more often than you'd expect — always worth the detour.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Zagmachi",
@@ -480,7 +480,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "zagmachi",
     editorial_blurb: "Bukchon alley café where the hanok setting and the precise pour-over make a strong case for slowing down in the city's fastest neighborhood.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "community",
   },
   {
     name: "Onion Ahyeon",
@@ -494,7 +494,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "onion.ahyeon",
     editorial_blurb: "Brutalist Mapo-gu powerhouse with a rooftop terrace and a café program that punches well above most bakery-coffee hybrids.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Café Layered",
@@ -508,7 +508,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "cafe_layered",
     editorial_blurb: "Seochon multi-floor café where the specialty coffee is as considered as the layered Korean desserts — a neighborhood institution with staying power.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "community",
   },
 
   // ── SINGAPORE (12) ───────────────────────────────────────────────────────────
@@ -525,7 +525,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.nyloncoffee.sg/",
     editorial_blurb: "Tanjong Pagar institution that defined Singapore specialty — Everton Park HDB block setting is as iconic as the coffee itself.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-06", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-06", verification_source: "admin",
   },
   {
     name: "Cata",
@@ -539,7 +539,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "cata_sg",
     editorial_blurb: "Where Singapore's wine bar scene meets specialty coffee — the curated pairing menu makes Cata one of the city's most original concepts.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Chye Seng Huat Hardware",
@@ -554,7 +554,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.cshhardware.com/",
     editorial_blurb: "Converted hardware shop turned roastery flagship — the courtyard, the pour-overs, and the industrial bones are all reasons to visit.",
     featured_in: ["sprudge", "guardian"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "Common Man Coffee Roasters",
@@ -569,7 +569,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.commonmancoffeeroasters.com/",
     editorial_blurb: "Robertson Quay roastery that made specialty coffee accessible without dumbing it down — the training academy and the café are both world-class.",
     featured_in: ["sprudge", "standart", "monocle"],
-    verified: true, last_verified_at: "2024-11-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-05", verification_source: "admin",
   },
   {
     name: "Sarnies",
@@ -583,7 +583,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "sarniessg",
     editorial_blurb: "Telok Ayer shophouse café where the Antipodean sandwich and the flat white are equally non-negotiable — CBD specialty coffee done right.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "PPP Coffee",
@@ -598,7 +598,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.pppcoffee.com/",
     editorial_blurb: "Tiong Bahru roastery that started as a delivery service and became one of Singapore's most progressive specialty programs — the subscriptions built the café.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "Jewel Coffee",
@@ -612,7 +612,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "jewel_coffee",
     editorial_blurb: "CBD specialty café serving some of the city's most consistent espresso to Singapore's finance district — the after-work filter crowd is loyal for a reason.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "admin",
   },
   {
     name: "Ronin",
@@ -626,7 +626,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "roninsg",
     editorial_blurb: "Telok Ayer specialty bar where the focused menu and the stripped-back aesthetic let the coffee do the talking — and it always has something interesting to say.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "community",
   },
   {
     name: "Columbus Coffee Co.",
@@ -640,7 +640,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "columbuscoffeeco",
     editorial_blurb: "Holland Village neighborhood anchor with a breezy terrace and a reliable specialty program — the kind of café that keeps a neighborhood grounded.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Assembly Coffee",
@@ -654,7 +654,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "assemblycoffee",
     editorial_blurb: "Singapore specialty café with a clean aesthetic and a filter menu that changes more often than most — always worth checking what's on the bar.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "community",
   },
   {
     name: "Tiong Hoe Specialty Coffee",
@@ -668,7 +668,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "tionghoecoffee",
     editorial_blurb: "Tiong Bahru roastery that's been quietly excellent for longer than most — the house roasts and the barista knowledge both reward the regular.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "Kafe Utu",
@@ -682,7 +682,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "kafeutu",
     editorial_blurb: "Pan-African specialty café in Duxton with East African sourcing focus — drinking single-farm Ethiopian or Kenyan here, surrounded by the continent's art, is something else.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
 
   // ── TAIPEI (11) ──────────────────────────────────────────────────────────────
@@ -699,7 +699,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.fikafika.com.tw/",
     editorial_blurb: "Taiwan's first Scandinavian-style roastery brought light-roast competition culture to Taipei — and the city never looked back.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-02", verification_source: "admin",
   },
   {
     name: "Simple Kaffa",
@@ -714,7 +714,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://simplekaffa.com/",
     editorial_blurb: "World barista champion Berg Wu's Da'an flagship — technically flawless espresso from a café that's earned every accolade it carries.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-08", verification_source: "admin",
   },
   {
     name: "Rufous Coffee",
@@ -728,7 +728,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "rufous_coffee",
     editorial_blurb: "Zhongshan's serious single-origin program draws the kind of crowd that wants to talk about altitude and processing — and the baristas are ready.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
   },
   {
     name: "% Arabica Taipei",
@@ -743,7 +743,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.arabica.coffee/",
     editorial_blurb: "The Kyoto minimalist icon in Zhongshan — the same precision pour-over, the same calm intention, the same reason to stay for a second cup.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-20", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-20", verification_source: "admin",
   },
   {
     name: "Gabee Coffee",
@@ -758,7 +758,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.gabee.com.tw/",
     editorial_blurb: "Zhongshan latte art pioneer that helped build Taiwan's barista culture — still one of Taipei's most essential café-roastery experiences.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-28", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
   {
     name: "MJCOFFEE",
@@ -772,7 +772,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "mjcoffee.tw",
     editorial_blurb: "Progressive Zhongshan specialty café with one of Taipei's most forward-thinking filter programs — the sourcing notes are always worth reading.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-10", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
   },
   {
     name: "15g Specialty Coffee",
@@ -786,7 +786,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "15g_coffee",
     editorial_blurb: "Da'an roastery built on competition-level sourcing and a belief that every gram matters — the filter menu rewards the curious.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-28", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-28", verification_source: "community",
   },
   {
     name: "Goodman Roaster",
@@ -800,7 +800,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "goodmanroaster",
     editorial_blurb: "Xinyi roastery café doing serious filter work in the shadow of Taipei 101 — the setting is dramatic, the coffee is the reason to come back.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "community",
   },
   {
     name: "WA Living Coffee",
@@ -814,7 +814,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "wa_living",
     editorial_blurb: "Japanese-influenced lifestyle café in Zhongshan where the ceramics, the coffee, and the calm are equally worth your time.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-15", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-15", verification_source: "community",
   },
   {
     name: "Zhi Xin Coffee",
@@ -828,7 +828,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "zhixincoffee",
     editorial_blurb: "Zhongshan roastery focused on Taiwanese-adjacent origins from Southeast Asia — a sourcing philosophy that makes the filter menu distinctly different.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Hiyori Coffee",
@@ -842,7 +842,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "hiyori_coffee_tw",
     editorial_blurb: "Da'an specialty café where the Japanese-minimalist aesthetic and the rotating pour-over menu both reward multiple visits.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "community",
   },
 
   // ── OSAKA (10) ───────────────────────────────────────────────────────────────
@@ -859,7 +859,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.arabica.coffee/",
     editorial_blurb: "Iconic river-facing minimalist space where Kitahama's beauty meets specialty precision — the best Instagram backdrop in Osaka that actually earns it.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-07", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-07", verification_source: "admin",
   },
   {
     name: "Kurasu Osaka",
@@ -874,7 +874,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://kurasu.kyoto/",
     editorial_blurb: "Kyoto roastery's Osaka flagship bringing direct-trade beans and Shinsaibashi foot traffic together — the pour-over menu rewards the extra walk.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-10-22", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
   },
   {
     name: "Mel Coffee Roasters",
@@ -888,7 +888,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "melcoffeeroasters",
     editorial_blurb: "Namba roastery with a natural-process focus that stands apart from Osaka's lighter-roast mainstream — complex and worth seeking out.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-08", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
   {
     name: "LiLo Coffee Roasters",
@@ -903,7 +903,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://lilocoffee.jp/",
     editorial_blurb: "Minamisenba roastery that's quietly become one of the Kansai region's most respected — the African-origin filter program has no equal in Osaka.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-04", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-04", verification_source: "admin",
   },
   {
     name: "Takamura Wine & Coffee Roasters",
@@ -918,7 +918,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.takamura.co.jp/",
     editorial_blurb: "Utsubo Park-adjacent roastery that pairs natural wine sourcing sensibility with serious coffee — the best of two obsessive worlds under one roof.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-02", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-02", verification_source: "admin",
   },
   {
     name: "Graph Coffee",
@@ -932,7 +932,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "graphcoffee",
     editorial_blurb: "Shinsaibashi standing bar with an analytical approach to extraction and a pour-over program that changes based on what's at peak — Osaka's most precise coffee stop.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-15", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-15", verification_source: "admin",
   },
   {
     name: "Fuglen Osaka",
@@ -947,7 +947,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.fuglen.com/",
     editorial_blurb: "Oslo's vintage-furniture café in Namba — the same precision Nordic pour-overs that made Tokyo's Fuglen famous, now with Osaka's energy.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Coffee Base Nashinoki",
@@ -961,7 +961,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "coffeebase_nashinoki",
     editorial_blurb: "Nipponbashi specialty bar with a focused menu and the kind of filter-first conviction that makes every cup feel deliberate.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "community",
   },
   {
     name: "% Arabica Osaka Nakanoshima",
@@ -976,7 +976,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.arabica.coffee/",
     editorial_blurb: "Island location on the Dojima River — the Nakanoshima setting for % Arabica's second Osaka outpost may be their most beautiful globally.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "Maruyama Coffee Osaka",
@@ -991,7 +991,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.maruyamacoffee.com/",
     editorial_blurb: "Matsumoto legend's Osaka outpost bringing their COE-trophy sourcing program and immaculate pour-over technique to Kansai's biggest city.",
     featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
 
   // ── HO CHI MINH CITY (9) ─────────────────────────────────────────────────────
@@ -1008,7 +1008,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.theworkshop.coffee/",
     editorial_blurb: "Rooftop industrial space in District 1 that reimagined what a Vietnamese café could be — the specialty program here sets the city's benchmark.",
     featured_in: ["sprudge", "monocle"],
-    verified: true, last_verified_at: "2024-11-03", verification_source: "admin",
+    verified: true, last_verified_at: "2025-11-03", verification_source: "admin",
   },
   {
     name: "Shin Coffee",
@@ -1022,7 +1022,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "shincoffee",
     editorial_blurb: "Vietnamese robusta meets specialty arabica in District 3 — Shin bridges the country's coffee heritage with third-wave technique in a single menu.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-18", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-18", verification_source: "admin",
   },
   {
     name: "L'Usine",
@@ -1037,7 +1037,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     website: "https://www.lusinespace.com/",
     editorial_blurb: "French colonial architecture meets third-wave coffee in the heart of District 1 — the design alone is reason to linger over a second cup.",
     featured_in: ["sprudge", "timeout"],
-    verified: true, last_verified_at: "2024-10-25", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-25", verification_source: "admin",
   },
   {
     name: "Bosgaurus Coffee Roasters",
@@ -1051,7 +1051,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "bosgaurus",
     editorial_blurb: "District 3 roastery building Vietnam's most ambitious specialty program — the sourcing stories and the extraction quality are both exceptional.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-12", verification_source: "admin",
+    verified: true, last_verified_at: "2025-10-12", verification_source: "admin",
   },
   {
     name: "Windmills Coffee Roasters",
@@ -1065,7 +1065,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "windmillscoffee",
     editorial_blurb: "Bình Thạnh roastery café with a pour-over focus and a bean program that leans heavily on Vietnam's own highland growing regions.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-10-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-10-05", verification_source: "community",
   },
   {
     name: "Kairo Coffee",
@@ -1079,7 +1079,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "kairocoffee",
     editorial_blurb: "District 1 specialty bar with a stripped-back aesthetic and a filter menu that makes a clear argument for why Ho Chi Minh City is becoming a serious coffee city.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-25", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-25", verification_source: "community",
   },
   {
     name: "Hola Coffee",
@@ -1093,7 +1093,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "holacoffeevn",
     editorial_blurb: "District 3 specialty café doing careful pour-overs and well-sourced espresso in a space that feels more neighborhood gem than urban showcase.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-18", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-18", verification_source: "community",
   },
   {
     name: "Gemma",
@@ -1107,7 +1107,7 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "gemma_saigon",
     editorial_blurb: "Thảo Điền expat neighborhood café with a specialty espresso program that holds its own globally — the riverside setting doesn't hurt.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-10", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-10", verification_source: "community",
   },
   {
     name: "Yoko Coffee",
@@ -1121,6 +1121,6 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     instagram_handle: "yokocoffeevn",
     editorial_blurb: "Japanese-influenced specialty café in District 3 where the pour-over menu and the clean aesthetic signal what the next chapter of HCMC coffee looks like.",
     featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2024-09-05", verification_source: "community",
+    verified: true, last_verified_at: "2025-09-05", verification_source: "community",
   },
 ];

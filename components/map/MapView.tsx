@@ -233,14 +233,12 @@ export function MapView() {
       <div className="flex-1 relative bg-grounds-cream">
         {/* Mobile top bar */}
         {isMobile && (
-          <div className="absolute top-0 left-0 right-0 z-20 bg-grounds-cream/95 backdrop-blur-sm border-b border-grounds-brown/10 px-4 py-3 safe-area-inset-top">
-            <div className="flex items-center gap-2">
-              <h1 className="mr-2"><Logo variant="dark" size="sm" /></h1>
-              <div className="flex-1">
-                <TravelerModeSearch onCitySelect={flyToCity} variant="mobile" />
-              </div>
+          <div className="absolute top-0 left-0 right-0 z-20 bg-grounds-cream/95 backdrop-blur-sm border-b border-grounds-brown/10 px-4 pt-3 pb-2 safe-area-inset-top">
+            <div className="flex items-center justify-between mb-2">
+              <h1><Logo variant="dark" size="sm" /></h1>
               <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
             </div>
+            <TravelerModeSearch onCitySelect={flyToCity} variant="mobile" />
           </div>
         )}
 
