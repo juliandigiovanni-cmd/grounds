@@ -6,67 +6,11 @@ import { ASIA_RAW_CAFES } from './seed-asia';
 import { LATAM_RAW_CAFES } from './seed-latam';
 import { AFRICA_RAW_CAFES } from './seed-africa';
 import { OCEANIA_RAW_CAFES } from './seed-oceania';
+import { ISTANBUL_RAW_CAFES } from './seed-istanbul';
 
-const rawCafes: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [
-  // ISTANBUL (3 cafes)
-  {
-    name: "Kronotrop",
-    slug: "kronotrop-istanbul",
-    lat: 41.0326,
-    lng: 28.9828,
-    city: "Istanbul",
-    country: "Turkey",
-    address: "Sıraselviler Cad. 69, Cihangir, 34433 Istanbul",
-    roaster: "Kronotrop",
-    brew_methods: ["pour-over", "espresso", "aeropress", "cold-brew"],
-    vibe_tags: ["roastery-on-site", "laptop-friendly"],
-    instagram_handle: "kronotrop",
-    website: "https://kronotrop.com.tr/",
-    editorial_blurb: "Istanbul's most respected specialty roaster set in Cihangir's creative hub — the filter coffee here challenges everything you thought you knew about Turkish coffee.",
-    featured_in: ["sprudge", "monocle"],
-    verified: true,
-    last_verified_at: "2024-11-04",
-    verification_source: "admin",
-  },
-  {
-    name: "Petra Roasting Co.",
-    slug: "petra-roasting-istanbul",
-    lat: 41.0233,
-    lng: 28.9748,
-    city: "Istanbul",
-    country: "Turkey",
-    address: "Kemankeş Karamustafa Paşa Mah., Karaköy, Istanbul",
-    roaster: "Petra Roasting Co.",
-    brew_methods: ["espresso", "pour-over", "chemex"],
-    vibe_tags: ["roastery-on-site", "outdoor-seating"],
-    instagram_handle: "petraroasting",
-    editorial_blurb: "Karaköy roastery with Bosphorus views and a bean program worth navigating Istanbul's hills for — specialty coffee with an unmissable setting.",
-    featured_in: ["sprudge"],
-    verified: true,
-    last_verified_at: "2024-10-15",
-    verification_source: "admin",
-  },
-  {
-    name: "MOC Coffee",
-    slug: "moc-coffee-istanbul",
-    lat: 41.0472,
-    lng: 28.9944,
-    city: "Istanbul",
-    country: "Turkey",
-    address: "Abdi İpekçi Cad., Nişantaşı, Istanbul",
-    roaster: "Multiple guest roasters",
-    brew_methods: ["espresso", "pour-over", "aeropress"],
-    vibe_tags: ["minimalist", "no-laptop"],
-    instagram_handle: "moccoffeetr",
-    editorial_blurb: "Japanese-influenced minimalism in Nişantaşı — the focused pour-over menu and quiet interior are the antidote to Istanbul's sensory overload.",
-    featured_in: ["sprudge"],
-    verified: true,
-    last_verified_at: "2024-09-30",
-    verification_source: "admin",
-  },
-];
+const rawCafes: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [];
 
-const allRawCafes = [...NA_RAW_CAFES, ...EU_RAW_CAFES, ...ASIA_RAW_CAFES, ...LATAM_RAW_CAFES, ...AFRICA_RAW_CAFES, ...OCEANIA_RAW_CAFES, ...rawCafes];
+const allRawCafes = [...NA_RAW_CAFES, ...EU_RAW_CAFES, ...ASIA_RAW_CAFES, ...LATAM_RAW_CAFES, ...AFRICA_RAW_CAFES, ...OCEANIA_RAW_CAFES, ...ISTANBUL_RAW_CAFES, ...rawCafes];
 
 export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
   const scoreBreakdown = calculateScore({
@@ -114,7 +58,7 @@ export const SEED_CITIES = [
   { id: 'city-22', name: 'Singapore', country: 'Singapore', lat: 1.3521, lng: 103.8198, slug: 'singapore', cafe_count: 12, city_blurb: 'Singapore\'s coffee culture runs from hawker-centre kopi to competition-level pour-overs — the specialty scene here is among Asia\'s most sophisticated.' },
   { id: 'city-23', name: 'Taipei', country: 'Taiwan', lat: 25.0330, lng: 121.5654, slug: 'taipei', cafe_count: 11, city_blurb: 'Taipei\'s barista talent and roasting culture are world-class — world competition champions run cafés here and the density of quality is quietly remarkable.' },
   { id: 'city-24', name: 'São Paulo', country: 'Brazil', lat: -23.5505, lng: -46.6333, slug: 'sao-paulo', cafe_count: 15, city_blurb: 'The world\'s largest coffee-producing country is finally drinking its own best beans — São Paulo\'s Vila Madalena and Pinheiros lead that transformation.' },
-  { id: 'city-25', name: 'Istanbul', country: 'Turkey', lat: 41.0082, lng: 28.9784, slug: 'istanbul', cafe_count: 3, city_blurb: 'Istanbul\'s specialty scene sits at the crossroads of coffee history — Cihangir and Karaköy roasters are building something entirely new on ancient grounds.' },
+  { id: 'city-25', name: 'Istanbul', country: 'Turkey', lat: 41.0082, lng: 28.9784, slug: 'istanbul', cafe_count: 12, city_blurb: 'Istanbul\'s specialty scene sits at the crossroads of coffee history — Cihangir and Karaköy roasters are building something entirely new on ancient grounds.' },
   { id: 'city-26', name: 'Nairobi', country: 'Kenya', lat: -1.2921, lng: 36.8219, slug: 'nairobi', cafe_count: 11, city_blurb: 'Nairobi is the world\'s most exciting origin city for coffee — drinking single-farm Kenyan lots here, where they\'re grown and roasted, is irreplaceable.' },
   { id: 'city-27', name: 'Ho Chi Minh City', country: 'Vietnam', lat: 10.8231, lng: 106.6297, slug: 'ho-chi-minh-city', cafe_count: 9, city_blurb: 'Ho Chi Minh City has one of the world\'s oldest café cultures and is now adding specialty precision to it — District 1\'s third-wave scene is worth the trip alone.' },
   { id: 'city-28', name: 'Osaka', country: 'Japan', lat: 34.6937, lng: 135.5023, slug: 'osaka', cafe_count: 10, city_blurb: 'Osaka\'s coffee scene is Tokyo\'s more relaxed sibling — Kitahama and Namba have quietly built a specialty culture that rewards the traveler who looks beyond ramen.' },
