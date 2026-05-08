@@ -35,8 +35,9 @@ export function MapView() {
     return () => window.removeEventListener("resize", check);
   }, []);
 
-  // Auto-focus nearest covered city on load
+  // Auto-focus nearest covered city — waits for map to be ready
   useEffect(() => {
+    if (!mapLoaded) return;
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(({ coords }) => {
       const nearest = SEED_CITIES.reduce((best, city) => {
@@ -46,7 +47,7 @@ export function MapView() {
       flyToCity(nearest.lat, nearest.lng, 12, nearest.name);
     }, () => { /* permission denied — leave globe view */ });
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [mapLoaded]);
 
   // Apply filters to cafe list
   const filteredCafes = useMemo(() => {
