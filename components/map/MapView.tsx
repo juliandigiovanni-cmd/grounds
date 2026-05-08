@@ -28,6 +28,7 @@ export function MapView() {
   const [filterOpen, setFilterOpen] = useState(false);
   const [focusedCity, setFocusedCity] = useState<string | null>(null);
   const [locating, setLocating] = useState<'idle' | 'loading' | 'denied'>("idle");
+  const [mobileCityListOpen, setMobileCityListOpen] = useState(false);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -58,7 +59,7 @@ export function MapView() {
 
   const flyToCity = useCallback((lat: number, lng: number, zoom = 12, cityName?: string) => {
     mapRef.current?.flyTo({ center: [lng, lat], zoom, duration: 1800, essential: true });
-    if (cityName) setFocusedCity(cityName);
+    if (cityName) { setFocusedCity(cityName); setMobileCityListOpen(false); }
   }, []);
 
   const locateMe = useCallback(() => {
@@ -239,6 +240,22 @@ export function MapView() {
               <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
             </div>
             <TravelerModeSearch onCitySelect={flyToCity} variant="mobile" />
+            {/* City chips — horizontal scroll */}
+            <div className="flex gap-1.5 overflow-x-auto mt-2 -mx-1 px-1 pb-0.5 scrollbar-hide">
+              {SEED_CITIES.slice().sort((a, b) => a.name.localeCompare(b.name)).map(city => (
+                <button
+                  key={city.id}
+                  onClick={() => flyToCity(city.lat, city.lng, 12, city.name)}
+                  className={`shrink-0 text-xs px-3 py-1.5 rounded-full border transition-all whitespace-nowrap ${
+                    focusedCity === city.name
+                      ? "bg-grounds-gold/25 text-grounds-espresso border-grounds-gold/50 font-medium"
+                      : "bg-grounds-brown/8 text-grounds-brown/70 border-grounds-brown/10"
+                  }`}
+                >
+                  {city.name}
+                </button>
+              ))}
+            </div>
           </div>
         )}
 
@@ -294,6 +311,46 @@ export function MapView() {
             onChange={setFilters}
             onClose={() => setFilterOpen(false)}
           />
+        )}
+
+        {/* Mobile: floating "Browse cafés" pill when city is focused */}
+        {isMobile && focusedCity && !selectedCafe && !mobileCityListOpen && (
+          <div className="absolute bottom-20 left-4 right-4 z-20">
+            <button
+              onClick={() => setMobileCityListOpen(true)}
+              className="w-full py-3.5 bg-grounds-espresso text-grounds-cream rounded-2xl font-medium text-sm shadow-xl flex items-center justify-between px-5"
+            >
+              <span>{sidebarCafes.length} café{sidebarCafes.length !== 1 ? "s" : ""} in {focusedCity}</span>
+              <span className="text-grounds-gold">↑ Browse</span>
+            </button>
+          </div>
+        )}
+
+        {/* Mobile: city cafe list bottom sheet */}
+        {isMobile && mobileCityListOpen && (
+          <BottomSheet onClose={() => setMobileCityListOpen(false)}>
+            <div className="px-4 pt-1 pb-2 border-b border-grounds-brown/10 flex items-center justify-between">
+              <p className="font-serif font-bold text-grounds-espresso">{focusedCity}</p>
+              <p className="text-xs text-grounds-brown/50">{sidebarCafes.length} cafés</p>
+            </div>
+            <div className="overflow-y-auto">
+              {sidebarCafes.map(cafe => (
+                <div key={cafe.id} className="border-b border-grounds-brown/5 last:border-0">
+                  <CafeCard
+                    cafe={cafe}
+                    onClick={() => {
+                      setMobileCityListOpen(false);
+                      handleMarkerClick(cafe);
+                    }}
+                    compact
+                  />
+                </div>
+              ))}
+              {sidebarCafes.length === 0 && (
+                <p className="p-6 text-center text-sm text-grounds-brown/50">No cafés found with current filters.</p>
+              )}
+            </div>
+          </BottomSheet>
         )}
 
         {/* Mobile: bottom sheet for selected cafe */}

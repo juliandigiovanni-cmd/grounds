@@ -13,7 +13,7 @@ export function BottomSheet({ children, onClose }: Props) {
   const [startY, setStartY] = useState(0);
   const [dragging, setDragging] = useState(false);
 
-  const snapHeights = { partial: "42%", full: "92%" };
+  const snapHeights = { partial: "65%", full: "92%" };
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setStartY(e.touches[0].clientY);
