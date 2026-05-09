@@ -561,18 +561,5 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     featured_in: ["sprudge"],
     verified: false, last_verified_at: "2025-09-01", verification_source: "community",
   },
-  {
-    name: "Samovar Tea Room & Coffee",
-    slug: "samovar-coffee-nairobi",
-    lat: -1.2815, lng: 36.8200,
-    city: "Nairobi", country: "Kenya",
-    address: "Bruce House, Standard St, Nairobi CBD, Nairobi",
-    roaster: "Multiple guest roasters",
-    brew_methods: ["pour-over", "espresso", "french-press"],
-    vibe_tags: ["laptop-friendly", "outdoor-seating"],
-    instagram_handle: "samovar_nairobi",
-    editorial_blurb: "CBD heritage café where colonial-era ambience meets current-generation Kenyan specialty — the rotating single-origin pour-over is the most surprising coffee in the city centre.",
-    featured_in: ["timeout"],
-    verified: false, last_verified_at: "2025-09-01", verification_source: "community",
-  },
+
 ];

@@ -958,20 +958,6 @@ export const LATAM_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     featured_in: ["sprudge"],
     verified: false, last_verified_at: "2025-09-01", verification_source: "community",
   },
-  {
-    name: "ONA Café São Paulo",
-    slug: "ona-cafe-sao-paulo",
-    lat: -23.5735, lng: -46.6850,
-    city: "São Paulo", country: "Brazil",
-    address: "Rua Augusta 2690, Jardins, São Paulo, SP 01412-100",
-    roaster: "ONA Coffee",
-    brew_methods: ["espresso", "pour-over", "aeropress", "cold-brew"],
-    vibe_tags: ["roastery-on-site", "minimalist"],
-    instagram_handle: "onacoffee",
-    editorial_blurb: "Australia's most decorated specialty roastery opens in Jardins — the São Paulo outpost applies the same World Barista Championship pedigree to Brazilian-sourced lots.",
-    featured_in: ["sprudge", "standart"],
-    verified: false, last_verified_at: "2025-09-01", verification_source: "community",
-  },
 
   // ── LIMA (8) ─────────────────────────────────────────────────────────────────
   {
