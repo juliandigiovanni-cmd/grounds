@@ -670,20 +670,6 @@ export const ASIA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score'
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-10-08", verification_source: "admin",
   },
-  {
-    name: "Kafe Utu",
-    slug: "kafe-utu-singapore",
-    lat: 1.2786, lng: 103.8391,
-    city: "Singapore", country: "Singapore",
-    address: "12 Jiak Chuan Rd, Singapore 089265",
-    roaster: "Multiple guest roasters",
-    brew_methods: ["pour-over", "espresso", "cold-brew"],
-    vibe_tags: ["outdoor-seating", "no-laptop"],
-    instagram_handle: "kafeutu",
-    editorial_blurb: "Pan-African specialty café in Duxton with East African sourcing focus — drinking single-farm Ethiopian or Kenyan here, surrounded by the continent's art, is something else.",
-    featured_in: ["sprudge", "standart"],
-    verified: true, last_verified_at: "2025-10-22", verification_source: "admin",
-  },
 
   // ── TAIPEI (11) ──────────────────────────────────────────────────────────────
   {
