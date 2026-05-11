@@ -547,12 +547,12 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     lat: 1.3127, lng: 103.8644,
     city: "Singapore", country: "Singapore",
     address: "150 Tyrwhitt Rd, Singapore 207563",
-    roaster: "Papa Palheta",
+    roaster: "PPP Coffee",
     brew_methods: ["pour-over", "espresso", "syphon", "cold-brew"],
     vibe_tags: ["roastery-on-site", "outdoor-seating", "laptop-friendly"],
     instagram_handle: "cshhardware",
     website: "https://www.cshhardware.com/",
-    editorial_blurb: "Converted hardware shop turned roastery flagship — the courtyard, the pour-overs, and the industrial bones are all reasons to visit.",
+    editorial_blurb: "Converted hardware shop turned café flagship for PPP Coffee — the courtyard, the pour-overs, and the industrial bones are all reasons to visit.",
     featured_in: ["sprudge", "guardian"],
     verified: true, last_verified_at: "2025-10-28", verification_source: "admin",
   },
@@ -1729,22 +1729,7 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
 
-  // ── SINGAPORE NEW (13) ───────────────────────────────────────────────────────
-  {
-    name: "Papa Palheta",
-    slug: "papa-palheta-singapore",
-    lat: 1.2838, lng: 103.8304,
-    city: "Singapore", country: "Singapore",
-    address: "150 Tyrwhitt Rd, Singapore 207563",
-    roaster: "Papa Palheta",
-    brew_methods: ["pour-over", "espresso", "aeropress", "chemex"],
-    vibe_tags: ["roastery-on-site", "laptop-friendly"],
-    instagram_handle: "papapalheta",
-    website: "https://papapalheta.com/",
-    editorial_blurb: "The founding force behind Singapore specialty — Papa Palheta's Tyrwhitt Road original is where the city's coffee scene was born and still beats strongest.",
-    featured_in: ["sprudge", "standart", "monocle"],
-    verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
-  },
+  // ── SINGAPORE NEW (12) ───────────────────────────────────────────────────────
   {
     name: "Dutch Colony Coffee Co Chip Bee",
     slug: "dutch-colony-coffee-chip-bee",
