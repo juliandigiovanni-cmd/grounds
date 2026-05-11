@@ -19,6 +19,27 @@ import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
 import type { Cafe } from "@/types";
 
+function SteamingCup({ className = "" }: { className?: string }) {
+  return (
+    <svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
+      {/* Steam wisps */}
+      <path d="M16 12 C15 9 17 6 16 3" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.7"/>
+      <path d="M24 10 C23 7 25 4 24 1" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.9"/>
+      <path d="M32 12 C31 9 33 6 32 3" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.7"/>
+      {/* Cup body */}
+      <path d="M10 16 L13 44 H35 L38 16 Z" fill="#3D1C00"/>
+      <rect x="10" y="14" width="28" height="5" rx="2.5" fill="#2C1200"/>
+      {/* Coffee surface */}
+      <ellipse cx="24" cy="17" rx="11" ry="2.5" fill="#6B3A1F"/>
+      {/* Handle */}
+      <path d="M38 22 Q46 22 46 30 Q46 38 38 38" stroke="#3D1C00" strokeWidth="3" strokeLinecap="round" fill="none"/>
+      {/* Saucer */}
+      <ellipse cx="24" cy="45" rx="16" ry="3" fill="#2C1200"/>
+      <ellipse cx="24" cy="44" rx="13" ry="2" fill="#3D1C00"/>
+    </svg>
+  );
+}
+
 export function MapView() {
   const mapRef = useRef<MapRef>(null);
   const [selectedCafe, setSelectedCafe] = useState<Cafe | null>(null);
@@ -125,12 +146,18 @@ export function MapView() {
       {/* Desktop: left sidebar */}
       {!isMobile && (
         <div className="hidden lg:flex flex-col w-[380px] h-full bg-grounds-cream border-r border-grounds-brown/10 z-10 shrink-0">
-          <div className="px-5 pt-4 pb-3 border-b border-grounds-brown/10">
-            <h1 className="mb-1"><Logo variant="dark" size="md" /></h1>
-            <p className="text-xs text-grounds-brown/60 mt-1 leading-relaxed">The specialty coffee map for travelers. Curated, scored, and editorially verified.</p>
-            <div className="flex items-center gap-3 mt-2">
-              <p className="text-xs text-grounds-gold">{SEED_CAFES.length} cafés · {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
-              <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 transition-colors">About</Link>
+          <div className="px-5 pt-5 pb-4 border-b border-grounds-brown/10">
+            <div className="flex items-start gap-4">
+              <SteamingCup className="shrink-0 mt-1" />
+              <div className="flex-1 min-w-0">
+                <h1 className="mb-1.5"><Logo variant="dark" size="md" /></h1>
+                <p className="text-sm font-medium text-grounds-espresso leading-snug">The specialty coffee map for travelers.</p>
+                <p className="text-xs text-grounds-brown/50 mt-0.5 leading-relaxed">Curated, scored, and editorially verified.</p>
+                <div className="flex items-center gap-3 mt-2.5">
+                  <p className="text-xs text-grounds-gold font-medium">{SEED_CAFES.length} cafés · {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
+                  <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 transition-colors">About</Link>
+                </div>
+              </div>
             </div>
           </div>
           <div className="px-4 py-3 border-b border-grounds-brown/10">
@@ -248,11 +275,16 @@ export function MapView() {
         {/* Mobile top bar */}
         {isMobile && (
           <div className="absolute top-0 left-0 right-0 z-20 bg-grounds-cream/95 backdrop-blur-sm border-b border-grounds-brown/10 px-4 pt-3 pb-2 safe-area-inset-top">
-            <div className="flex items-center justify-between mb-2">
-              <h1><Logo variant="dark" size="sm" /></h1>
+            <div className="flex items-center justify-between mb-1">
+              <div>
+                <h1><Logo variant="dark" size="sm" /></h1>
+                <p className="text-[11px] text-grounds-brown/55 font-medium tracking-wide mt-0.5">Specialty coffee for travelers</p>
+              </div>
               <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
             </div>
-            <TravelerModeSearch onCitySelect={flyToCity} onCafeSelect={handleCafeSelect} variant="mobile" />
+            <div className="mt-2">
+              <TravelerModeSearch onCitySelect={flyToCity} onCafeSelect={handleCafeSelect} variant="mobile" />
+            </div>
             {/* City chips — horizontal scroll */}
             <div className="flex gap-1.5 overflow-x-auto mt-2 -mx-1 px-1 pb-0.5 scrollbar-hide">
               {SEED_CITIES.slice().sort((a, b) => a.name.localeCompare(b.name)).map(city => (
