@@ -5,14 +5,22 @@ import { SEED_CITIES, SEED_CAFES } from "@/lib/seed-data";
 import { MAPBOX_TOKEN } from "@/lib/mapbox";
 import type { Cafe } from "@/types";
 
-interface GeoResult {
+interface CityResult {
   id: string;
-  place_name: string;
-  center: [number, number];
   text: string;
-  context?: { id: string; text: string }[];
-  type: 'city-curated' | 'city-geo' | 'cafe';
-  cafe?: Cafe;
+  subtitle: string;
+  center: [number, number];
+  type: 'city-curated' | 'city-geo';
+  cafeCount?: string;
+}
+
+interface CafeResult {
+  id: string;
+  text: string;
+  city: string;
+  score: number;
+  center: [number, number];
+  cafe: Cafe;
 }
 
 interface Props {
@@ -23,54 +31,47 @@ interface Props {
 
 export function TravelerModeSearch({ onCitySelect, onCafeSelect, variant = "sidebar" }: Props) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<GeoResult[]>([]);
-  const [open, setOpen] = useState(false);
+  const [cityResults, setCityResults] = useState<CityResult[]>([]);
+  const [cafeResults, setCafeResults] = useState<CafeResult[]>([]);
   const [loading, setLoading] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const searchIdRef = useRef(0);
+
+  const open = cityResults.length > 0 || cafeResults.length > 0;
 
   const search = useCallback(async (val: string) => {
-    if (val.length < 2) {
-      setResults([]);
-      setOpen(false);
-      return;
-    }
-
+    const id = ++searchIdRef.current;
     const q = val.toLowerCase();
 
-    const seededMatches = SEED_CITIES.filter(c =>
-      c.name.toLowerCase().includes(q) ||
-      c.country.toLowerCase().includes(q)
-    );
-
-    const cafeMatches = SEED_CAFES.filter(c =>
+    // — Cafes: sync, isolated from Mapbox —
+    const cafes = SEED_CAFES.filter(c =>
       c.name.toLowerCase().includes(q) ||
       (c.roaster ?? "").toLowerCase().includes(q)
     ).slice(0, 4);
-
-    const cityResults: GeoResult[] = seededMatches.map(c => ({
+    setCafeResults(cafes.map(c => ({
       id: c.id,
-      place_name: `${c.name}, ${c.country}`,
-      center: [c.lng, c.lat],
       text: c.name,
-      context: [{ id: "cafe_count", text: `${c.cafe_count} curated cafés` }],
-      type: 'city-curated',
-    }));
-
-    const cafeResults: GeoResult[] = cafeMatches.map(c => ({
-      id: c.id,
-      place_name: `${c.name}, ${c.city}`,
+      city: `${c.city}, ${c.country}`,
+      score: c.third_wave_score ?? 0,
       center: [c.lng, c.lat],
-      text: c.name,
-      context: [{ id: "city", text: `${c.city}, ${c.country}` }, { id: "score", text: `GS ${c.third_wave_score}` }],
-      type: 'cafe',
       cafe: c,
+    })));
+
+    // — Seeded cities: sync —
+    const seeded = SEED_CITIES.filter(c =>
+      c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
+    );
+    const seededResults: CityResult[] = seeded.map(c => ({
+      id: c.id,
+      text: c.name,
+      subtitle: `${c.cafe_count} curated cafés`,
+      center: [c.lng, c.lat],
+      type: 'city-curated',
+      cafeCount: String(c.cafe_count),
     }));
+    setCityResults(seededResults);
 
-    if (cityResults.length > 0 || cafeResults.length > 0) {
-      setResults([...cityResults, ...cafeResults]);
-      setOpen(true);
-    }
-
+    // — Mapbox: async worldwide cities —
     if (!MAPBOX_TOKEN) return;
     setLoading(true);
     try {
@@ -78,23 +79,23 @@ export function TravelerModeSearch({ onCitySelect, onCafeSelect, variant = "side
         `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(val)}.json?types=place,region&limit=5&access_token=${MAPBOX_TOKEN}`
       );
       const data = await res.json();
-      const geoResults: GeoResult[] = (data.features ?? [])
+      if (id !== searchIdRef.current) return; // stale response — discard
+      const geoResults: CityResult[] = (data.features ?? [])
         .filter((f: { text: string }) =>
-          !seededMatches.some(s => f.text.toLowerCase().includes(s.name.toLowerCase()))
+          !seeded.some(s => f.text.toLowerCase().includes(s.name.toLowerCase()))
         )
         .map((f: { id: string; place_name: string; center: [number, number]; text: string }) => ({
-          ...f,
+          id: f.id,
+          text: f.text,
+          subtitle: f.place_name.split(", ").slice(1).join(", "),
+          center: f.center,
           type: 'city-geo' as const,
         }));
-
-      if (geoResults.length > 0 || cityResults.length > 0 || cafeResults.length > 0) {
-        setResults([...cityResults, ...geoResults, ...cafeResults]);
-        setOpen(true);
-      }
+      setCityResults([...seededResults, ...geoResults]);
     } catch {
-      // Geocoding failed — seeded results still show
+      // seeded results remain
     } finally {
-      setLoading(false);
+      if (id === searchIdRef.current) setLoading(false);
     }
   }, []);
 
@@ -102,20 +103,35 @@ export function TravelerModeSearch({ onCitySelect, onCafeSelect, variant = "side
     const val = e.target.value;
     setQuery(val);
     if (debounceRef.current) clearTimeout(debounceRef.current);
-    if (val.length < 2) { setResults([]); setOpen(false); return; }
+    if (val.length < 2) {
+      setCityResults([]);
+      setCafeResults([]);
+      return;
+    }
     debounceRef.current = setTimeout(() => search(val), 300);
   }, [search]);
 
-  const handleSelect = useCallback((result: GeoResult) => {
-    setQuery(result.type === 'cafe' ? result.text : result.text);
-    setOpen(false);
-    if (result.type === 'cafe' && result.cafe && onCafeSelect) {
-      onCafeSelect(result.cafe);
-      return;
-    }
-    const [lng, lat] = result.center;
-    onCitySelect(lat, lng, 12, result.type === 'city-curated' ? result.text : undefined);
-  }, [onCitySelect, onCafeSelect]);
+  const handleCitySelect = useCallback((result: CityResult) => {
+    setQuery(result.text);
+    setCityResults([]);
+    setCafeResults([]);
+    onCitySelect(result.center[1], result.center[0], 12, result.type === 'city-curated' ? result.text : undefined);
+  }, [onCitySelect]);
+
+  const handleCafeSelect = useCallback((result: CafeResult) => {
+    setQuery(result.text);
+    setCityResults([]);
+    setCafeResults([]);
+    onCafeSelect?.(result.cafe);
+  }, [onCafeSelect]);
+
+  const handleBlur = useCallback(() => {
+    setTimeout(() => { setCityResults([]); setCafeResults([]); }, 150);
+  }, []);
+
+  const handleFocus = useCallback(() => {
+    if (query.length >= 2) search(query);
+  }, [query, search]);
 
   const inputClass = variant === "mobile"
     ? "w-full bg-white/80 border border-grounds-brown/20 rounded-xl px-3 py-2 text-sm placeholder:text-grounds-brown/40 focus:outline-none focus:ring-2 focus:ring-grounds-gold/50"
@@ -129,8 +145,8 @@ export function TravelerModeSearch({ onCitySelect, onCafeSelect, variant = "side
           placeholder="Search cities or cafés…"
           value={query}
           onChange={handleChange}
-          onFocus={() => query.length >= 2 && setOpen(true)}
-          onBlur={() => setTimeout(() => setOpen(false), 150)}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
           className={inputClass}
           aria-label="Search for a city or café"
           style={{ minHeight: 44 }}
@@ -142,50 +158,54 @@ export function TravelerModeSearch({ onCitySelect, onCafeSelect, variant = "side
         )}
       </div>
 
-      {open && results.length > 0 && (
+      {open && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-grounds-brown/10 rounded-xl shadow-xl z-50 overflow-hidden max-h-80 overflow-y-auto">
-          {results.map(result => {
-            const isCafe = result.type === 'cafe';
-            const isCurated = result.type === 'city-curated';
-            const cafeCount = result.context?.find(c => c.id === "cafe_count")?.text;
-            const cafeCity = result.context?.find(c => c.id === "city")?.text;
-            const cafeScore = result.context?.find(c => c.id === "score")?.text;
+          {/* City results */}
+          {cityResults.map(result => (
+            <button
+              key={result.id}
+              className="w-full text-left px-4 py-3 hover:bg-grounds-cream transition-colors flex items-center gap-3 border-b border-grounds-brown/5 last:border-0"
+              onMouseDown={() => handleCitySelect(result)}
+              style={{ minHeight: 44 }}
+            >
+              <span className="text-base shrink-0">{result.type === 'city-curated' ? "☕" : "📍"}</span>
+              <div className="flex-1 min-w-0">
+                <div className="text-sm font-medium text-grounds-espresso truncate">{result.text}</div>
+                <div className="text-xs text-grounds-brown/50 truncate">{result.subtitle}</div>
+              </div>
+              {result.type === 'city-curated' && (
+                <span className="text-xs text-grounds-gold font-medium shrink-0">Curated</span>
+              )}
+            </button>
+          ))}
 
-            return (
-              <button
-                key={result.id}
-                className="w-full text-left px-4 py-3 hover:bg-grounds-cream transition-colors flex items-center gap-3 border-b border-grounds-brown/5 last:border-0"
-                onMouseDown={() => handleSelect(result)}
-                style={{ minHeight: 44 }}
-              >
-                <span className="text-base shrink-0">
-                  {isCafe ? "☕" : isCurated ? "☕" : "📍"}
-                </span>
-                <div className="flex-1 min-w-0">
-                  <div className="text-sm font-medium text-grounds-espresso truncate">{result.text}</div>
-                  <div className="text-xs text-grounds-brown/50 truncate">
-                    {isCafe
-                      ? cafeCity
-                      : isCurated
-                        ? cafeCount
-                        : result.place_name.split(", ").slice(1).join(", ")}
-                  </div>
-                </div>
-                <div className="shrink-0 text-right">
-                  {isCafe && cafeScore && (
-                    <span className="text-xs font-semibold text-grounds-gold">{cafeScore}</span>
-                  )}
-                  {isCurated && !isCafe && (
-                    <span className="text-xs text-grounds-gold font-medium">Curated</span>
-                  )}
-                </div>
-              </button>
-            );
-          })}
+          {/* Divider when both sections present */}
+          {cityResults.length > 0 && cafeResults.length > 0 && (
+            <div className="px-4 py-1.5 bg-grounds-cream/60 border-y border-grounds-brown/8">
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-grounds-brown/40">Cafés</p>
+            </div>
+          )}
+
+          {/* Cafe results */}
+          {cafeResults.map(result => (
+            <button
+              key={result.id}
+              className="w-full text-left px-4 py-3 hover:bg-grounds-cream transition-colors flex items-center gap-3 border-b border-grounds-brown/5 last:border-0"
+              onMouseDown={() => handleCafeSelect(result)}
+              style={{ minHeight: 44 }}
+            >
+              <span className="text-base shrink-0">☕</span>
+              <div className="flex-1 min-w-0">
+                <div className="text-sm font-medium text-grounds-espresso truncate">{result.text}</div>
+                <div className="text-xs text-grounds-brown/50 truncate">{result.city}</div>
+              </div>
+              <span className="text-xs font-semibold text-grounds-gold shrink-0">GS {result.score}</span>
+            </button>
+          ))}
         </div>
       )}
 
-      {open && results.length === 0 && query.length >= 2 && !loading && (
+      {!open && query.length >= 2 && !loading && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-grounds-brown/10 rounded-xl shadow-xl z-50 px-4 py-3">
           <p className="text-sm text-grounds-brown/50">No results for &ldquo;{query}&rdquo;</p>
         </div>
