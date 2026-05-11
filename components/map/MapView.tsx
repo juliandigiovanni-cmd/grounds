@@ -89,6 +89,19 @@ export function MapView() {
     });
   }, [isMobile]);
 
+  const handleCafeSelect = useCallback((cafe: Cafe) => {
+    setSelectedCafe(cafe);
+    setFocusedCity(cafe.city);
+    setMobileCityListOpen(false);
+    mapRef.current?.flyTo({
+      center: [cafe.lng, cafe.lat],
+      zoom: 15,
+      offset: isMobile ? [0, -80] : [-200, 0],
+      duration: 1200,
+      essential: true,
+    });
+  }, [isMobile]);
+
   const handleMapClick = useCallback(() => {
     setSelectedCafe(null);
   }, []);
@@ -121,7 +134,7 @@ export function MapView() {
             </div>
           </div>
           <div className="px-4 py-3 border-b border-grounds-brown/10">
-            <TravelerModeSearch onCitySelect={flyToCity} variant="sidebar" />
+            <TravelerModeSearch onCitySelect={flyToCity} onCafeSelect={handleCafeSelect} variant="sidebar" />
           </div>
           {/* Location button — shown immediately when no city focused */}
           {!focusedCity && (
@@ -239,7 +252,7 @@ export function MapView() {
               <h1><Logo variant="dark" size="sm" /></h1>
               <FilterBar filters={filters} onOpen={() => setFilterOpen(true)} />
             </div>
-            <TravelerModeSearch onCitySelect={flyToCity} variant="mobile" />
+            <TravelerModeSearch onCitySelect={flyToCity} onCafeSelect={handleCafeSelect} variant="mobile" />
             {/* City chips — horizontal scroll */}
             <div className="flex gap-1.5 overflow-x-auto mt-2 -mx-1 px-1 pb-0.5 scrollbar-hide">
               {SEED_CITIES.slice().sort((a, b) => a.name.localeCompare(b.name)).map(city => (
