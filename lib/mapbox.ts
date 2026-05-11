@@ -4,7 +4,7 @@ export const MAP_DEFAULTS = {
   style: 'mapbox://styles/mapbox/outdoors-v12',
   initialViewState: {
     longitude: 15,
-    latitude: 30,
-    zoom: 2.2,
+    latitude: 20,
+    zoom: 1.5,
   },
 };

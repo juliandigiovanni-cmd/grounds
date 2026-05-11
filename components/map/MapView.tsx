@@ -267,12 +267,13 @@ export function MapView() {
           mapStyle={MAP_DEFAULTS.style}
           onLoad={(evt) => {
             setMapLoaded(true);
+            evt.target.setProjection({ name: 'globe' });
             evt.target.setFog({
-              'space-color': '#F5F0E8',
-              'star-intensity': 0,
+              'space-color': '#1a1a2e',
+              'star-intensity': 0.15,
               'color': '#F5F0E8',
               'high-color': '#d4c9b8',
-              'horizon-blend': 0.08,
+              'horizon-blend': 0.06,
             });
           }}
           onClick={handleMapClick}
@@ -311,6 +312,13 @@ export function MapView() {
             onChange={setFilters}
             onClose={() => setFilterOpen(false)}
           />
+        )}
+
+        {/* Mobile: score legend — shown on global view before any city is focused */}
+        {isMobile && !focusedCity && !selectedCafe && (
+          <div className="absolute bottom-[88px] left-3 z-20">
+            <ScoreLegend />
+          </div>
         )}
 
         {/* Mobile: floating "Browse cafés" pill when city is focused */}
@@ -370,6 +378,69 @@ export function MapView() {
           <BottomNav />
         )}
       </div>
+    </div>
+  );
+}
+
+const SCORE_TIERS = [
+  { min: 85, label: 'Exceptional', color: '#22c55e' },
+  { min: 70, label: 'Very Good',   color: '#C8972A' },
+  { min: 55, label: 'Good',        color: '#f97316' },
+  { min: 0,  label: 'Unrated',     color: '#94a3b8' },
+] as const;
+
+function ScoreLegend() {
+  const [open, setOpen] = useState(false);
+
+  if (!open) {
+    return (
+      <button
+        onClick={() => setOpen(true)}
+        className="flex items-center gap-1.5 bg-grounds-cream/92 backdrop-blur-sm rounded-full shadow-md px-3 py-1.5 border border-grounds-brown/10 active:scale-95 transition-transform"
+        aria-label="Show score guide"
+      >
+        <span className="flex gap-0.5 items-center">
+          {SCORE_TIERS.map(t => (
+            <span key={t.min} className="w-2.5 h-2.5 rounded-full block" style={{ backgroundColor: t.color }} />
+          ))}
+        </span>
+        <span className="text-[11px] text-grounds-brown/70 font-medium">What are these?</span>
+      </button>
+    );
+  }
+
+  return (
+    <div className="bg-grounds-cream/96 backdrop-blur-sm rounded-2xl shadow-xl border border-grounds-brown/10 p-3 w-52">
+      <div className="flex items-center justify-between mb-2.5">
+        <p className="text-xs font-semibold text-grounds-espresso">Grounds Score</p>
+        <button
+          onClick={() => setOpen(false)}
+          className="text-grounds-brown/40 hover:text-grounds-brown text-sm leading-none px-1"
+          aria-label="Close"
+        >✕</button>
+      </div>
+      <div className="space-y-2">
+        {SCORE_TIERS.map(({ min, label, color }, i) => {
+          const next = SCORE_TIERS[i - 1];
+          const range = next ? `${min}–${next.min - 1}` : `<${SCORE_TIERS[SCORE_TIERS.length - 2].min}`;
+          const displayScore = min === 0 ? '40' : String(min);
+          return (
+            <div key={min} className="flex items-center gap-2.5">
+              <span
+                className="w-7 h-7 rounded-full flex items-center justify-center text-white font-bold text-[10px] shrink-0 shadow-sm"
+                style={{ backgroundColor: color }}
+              >{displayScore}</span>
+              <div>
+                <p className="text-[11px] font-semibold text-grounds-espresso leading-tight">{label}</p>
+                <p className="text-[10px] text-grounds-brown/50 leading-tight">{min === 0 ? 'below 55' : `${min}+`} pts</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <a href="/about/score" className="mt-2.5 pt-2 border-t border-grounds-brown/10 text-[10px] text-grounds-gold flex items-center gap-1 hover:underline">
+        How scores are calculated →
+      </a>
     </div>
   );
 }

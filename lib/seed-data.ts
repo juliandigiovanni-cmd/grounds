@@ -7,7 +7,8 @@ import { LATAM_RAW_CAFES } from './seed-latam';
 import { AFRICA_RAW_CAFES } from './seed-africa';
 import { OCEANIA_RAW_CAFES } from './seed-oceania';
 
-const rawCafes: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [];
+type RawCafe = Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count'> & { permanently_closed?: boolean };
+const rawCafes: RawCafe[] = [];
 
 const allRawCafes = [...NA_RAW_CAFES, ...EU_RAW_CAFES, ...ASIA_RAW_CAFES, ...LATAM_RAW_CAFES, ...AFRICA_RAW_CAFES, ...OCEANIA_RAW_CAFES, ...rawCafes];
 
@@ -32,7 +33,7 @@ export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
     third_wave_score: scoreBreakdown.total,
     overall_rating: parseFloat((4.2 + seededRandom(index) * 0.7).toFixed(1)),
     review_count: 50 + Math.floor(seededRandom(index * 7 + 3) * 200),
-    permanently_closed: false,
+    permanently_closed: (cafe as { permanently_closed?: boolean }).permanently_closed ?? false,
     flagged: false,
     sponsored: false,
   };

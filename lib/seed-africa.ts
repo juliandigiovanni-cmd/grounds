@@ -248,7 +248,7 @@ export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     brew_methods: ["espresso", "pour-over", "french-press"],
     vibe_tags: ["outdoor-seating", "laptop-friendly"],
     instagram_handle: "dormanscoffee",
-    website: "https://www.dormanscoffee.co.ke/",
+    website: "https://www.dormanscoffee.com/",
     editorial_blurb: "Kenya's historic roaster reborn as a specialty champion — Karen flagship is the most reliable place in the city for traceable Kenyan lots.",
     featured_in: ["sprudge", "guardian"],
     verified: true, last_verified_at: "2025-10-05", verification_source: "admin",
