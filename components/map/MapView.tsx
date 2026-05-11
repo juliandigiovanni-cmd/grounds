@@ -19,46 +19,24 @@ import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
 import type { Cafe } from "@/types";
 
-function LatteCup({ className = "" }: { className?: string }) {
+function CupIcon({ className = "" }: { className?: string }) {
   return (
-    <svg width="76" height="76" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
-      <defs>
-        <radialGradient id="cremaGrad" cx="42%" cy="38%" r="58%">
-          <stop offset="0%" stopColor="#D4924A" stopOpacity="0.55"/>
-          <stop offset="100%" stopColor="#7B4A28" stopOpacity="0"/>
-        </radialGradient>
-        <radialGradient id="saucerGrad" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#FFFFFF"/>
-          <stop offset="100%" stopColor="#EDE8E2"/>
-        </radialGradient>
-        <filter id="cupShadow" x="-10%" y="-10%" width="120%" height="120%">
-          <feDropShadow dx="0" dy="2" stdDeviation="3" floodOpacity="0.12"/>
-        </filter>
-      </defs>
-      {/* Saucer */}
-      <circle cx="45" cy="46" r="43" fill="black" opacity="0.07"/>
-      <circle cx="45" cy="45" r="43" fill="url(#saucerGrad)" filter="url(#cupShadow)"/>
-      <circle cx="45" cy="45" r="38" fill="white" stroke="#DDD8D2" strokeWidth="0.8"/>
-      {/* Cup rim */}
-      <circle cx="45" cy="45" r="31" fill="#F9F5F1" stroke="#D8D2CA" strokeWidth="1.2"/>
+    <svg width="52" height="56" viewBox="0 0 52 56" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
+      {/* Steam */}
+      <path d="M17 10 C16 7.5 18 5 17 2" stroke="#C8973E" strokeWidth="1.6" strokeLinecap="round"/>
+      <path d="M26 8 C25 5.5 27 3 26 0" stroke="#C8973E" strokeWidth="1.6" strokeLinecap="round"/>
+      <path d="M35 10 C34 7.5 36 5 35 2" stroke="#C8973E" strokeWidth="1.6" strokeLinecap="round"/>
+      {/* Cup body */}
+      <path d="M8 14 Q8 12 10 12 L42 12 Q44 12 44 14 L40 46 Q40 48 38 48 L14 48 Q12 48 12 46 Z" fill="#3D1C00"/>
+      {/* Rim highlight */}
+      <rect x="8" y="11" width="36" height="5" rx="2.5" fill="#2C1200"/>
       {/* Coffee surface */}
-      <circle cx="45" cy="45" r="29" fill="#7B4A28"/>
-      {/* Crema radial wash */}
-      <circle cx="45" cy="45" r="29" fill="url(#cremaGrad)"/>
-      {/* Latte art: tulip — bottom oval */}
-      <ellipse cx="45" cy="58" rx="12" ry="9.5" fill="#F8F3EE" opacity="0.92"/>
-      {/* Middle oval */}
-      <ellipse cx="45" cy="47" rx="10" ry="8.5" fill="#F8F3EE" opacity="0.92"/>
-      {/* Top teardrop */}
-      <path d="M45 24 C38 29 37 38 45 40 C53 38 52 29 45 24Z" fill="#F8F3EE" opacity="0.92"/>
-      {/* Fine detail: centre vein */}
-      <path d="M45 24 L45 66" stroke="#8B5530" strokeWidth="0.9" opacity="0.28" strokeLinecap="round"/>
-      {/* Leaf veins on bottom oval */}
-      <path d="M45 55 C39 52 36 57 39.5 60" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
-      <path d="M45 55 C51 52 54 57 50.5 60" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
-      {/* Leaf veins on middle oval */}
-      <path d="M45 45 C39 42 37 47 40.5 50" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
-      <path d="M45 45 C51 42 53 47 49.5 50" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
+      <ellipse cx="26" cy="14" rx="14" ry="3" fill="#7B4A28"/>
+      {/* Handle */}
+      <path d="M44 20 Q52 20 52 28 Q52 36 44 36" stroke="#2C1200" strokeWidth="3.5" strokeLinecap="round" fill="none"/>
+      {/* Saucer */}
+      <ellipse cx="26" cy="50" rx="20" ry="3.5" fill="#2C1200"/>
+      <ellipse cx="26" cy="49" rx="16" ry="2.5" fill="#4D2800"/>
     </svg>
   );
 }
@@ -171,7 +149,7 @@ export function MapView() {
         <div className="hidden lg:flex flex-col w-[380px] h-full bg-grounds-cream border-r border-grounds-brown/10 z-10 shrink-0">
           <div className="px-5 pt-5 pb-4 border-b border-grounds-brown/10">
             <div className="flex items-center gap-4">
-              <LatteCup className="shrink-0" />
+              <CupIcon className="shrink-0" />
               <div className="flex-1 min-w-0">
                 <h1 className="mb-2"><Logo variant="dark" size="md" showMark={false} /></h1>
                 <p className="text-base font-semibold text-grounds-espresso leading-snug">The specialty coffee map for travelers.</p>
