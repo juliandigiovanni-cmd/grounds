@@ -450,6 +450,21 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
+  {
+    name: "Suited",
+    slug: "suited-nyc",
+    lat: 40.7079, lng: -74.0067,
+    city: "New York City", country: "United States",
+    address: "45 John St, New York, NY 10038",
+    roaster: "Suited",
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: ["minimalist", "no-laptop"],
+    instagram_handle: "suited_nyc",
+    website: "https://www.suitednyc.com/",
+    editorial_blurb: "The Financial District's most considered specialty café — Suited roasts their own beans in-house and serves them in a space that matches the neighbourhood's ambition without any of its stuffiness.",
+    featured_in: ["sprudge"],
+    verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
+  },
 
   // SAN FRANCISCO
   {
