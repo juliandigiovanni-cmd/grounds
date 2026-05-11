@@ -7,6 +7,9 @@ import { ClosedBanner } from "@/components/cafe/ClosedBanner";
 import { VerificationPrompt } from "@/components/cafe/VerificationPrompt";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return SEED_CAFES.map(c => ({ slug: c.slug }));
@@ -30,7 +33,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 export default function CafePage({ params }: { params: { slug: string } }) {
   const cafe = SEED_CAFES.find(c => c.slug === params.slug);
-  if (!cafe) return <div className="p-8">Cafe not found</div>;
+  if (!cafe) notFound();
 
   return (
     <div className="min-h-screen bg-grounds-cream">
