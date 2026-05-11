@@ -19,23 +19,46 @@ import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
 import type { Cafe } from "@/types";
 
-function SteamingCup({ className = "" }: { className?: string }) {
+function LatteCup({ className = "" }: { className?: string }) {
   return (
-    <svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
-      {/* Steam wisps */}
-      <path d="M16 12 C15 9 17 6 16 3" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.7"/>
-      <path d="M24 10 C23 7 25 4 24 1" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.9"/>
-      <path d="M32 12 C31 9 33 6 32 3" stroke="#C8973E" strokeWidth="1.5" strokeLinecap="round" fill="none" opacity="0.7"/>
-      {/* Cup body */}
-      <path d="M10 16 L13 44 H35 L38 16 Z" fill="#3D1C00"/>
-      <rect x="10" y="14" width="28" height="5" rx="2.5" fill="#2C1200"/>
-      {/* Coffee surface */}
-      <ellipse cx="24" cy="17" rx="11" ry="2.5" fill="#6B3A1F"/>
-      {/* Handle */}
-      <path d="M38 22 Q46 22 46 30 Q46 38 38 38" stroke="#3D1C00" strokeWidth="3" strokeLinecap="round" fill="none"/>
+    <svg width="76" height="76" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
+      <defs>
+        <radialGradient id="cremaGrad" cx="42%" cy="38%" r="58%">
+          <stop offset="0%" stopColor="#D4924A" stopOpacity="0.55"/>
+          <stop offset="100%" stopColor="#7B4A28" stopOpacity="0"/>
+        </radialGradient>
+        <radialGradient id="saucerGrad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="#FFFFFF"/>
+          <stop offset="100%" stopColor="#EDE8E2"/>
+        </radialGradient>
+        <filter id="cupShadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" floodOpacity="0.12"/>
+        </filter>
+      </defs>
       {/* Saucer */}
-      <ellipse cx="24" cy="45" rx="16" ry="3" fill="#2C1200"/>
-      <ellipse cx="24" cy="44" rx="13" ry="2" fill="#3D1C00"/>
+      <circle cx="45" cy="46" r="43" fill="black" opacity="0.07"/>
+      <circle cx="45" cy="45" r="43" fill="url(#saucerGrad)" filter="url(#cupShadow)"/>
+      <circle cx="45" cy="45" r="38" fill="white" stroke="#DDD8D2" strokeWidth="0.8"/>
+      {/* Cup rim */}
+      <circle cx="45" cy="45" r="31" fill="#F9F5F1" stroke="#D8D2CA" strokeWidth="1.2"/>
+      {/* Coffee surface */}
+      <circle cx="45" cy="45" r="29" fill="#7B4A28"/>
+      {/* Crema radial wash */}
+      <circle cx="45" cy="45" r="29" fill="url(#cremaGrad)"/>
+      {/* Latte art: tulip — bottom oval */}
+      <ellipse cx="45" cy="58" rx="12" ry="9.5" fill="#F8F3EE" opacity="0.92"/>
+      {/* Middle oval */}
+      <ellipse cx="45" cy="47" rx="10" ry="8.5" fill="#F8F3EE" opacity="0.92"/>
+      {/* Top teardrop */}
+      <path d="M45 24 C38 29 37 38 45 40 C53 38 52 29 45 24Z" fill="#F8F3EE" opacity="0.92"/>
+      {/* Fine detail: centre vein */}
+      <path d="M45 24 L45 66" stroke="#8B5530" strokeWidth="0.9" opacity="0.28" strokeLinecap="round"/>
+      {/* Leaf veins on bottom oval */}
+      <path d="M45 55 C39 52 36 57 39.5 60" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
+      <path d="M45 55 C51 52 54 57 50.5 60" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
+      {/* Leaf veins on middle oval */}
+      <path d="M45 45 C39 42 37 47 40.5 50" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
+      <path d="M45 45 C51 42 53 47 49.5 50" stroke="#8B5530" strokeWidth="0.75" fill="none" opacity="0.25"/>
     </svg>
   );
 }
@@ -147,12 +170,12 @@ export function MapView() {
       {!isMobile && (
         <div className="hidden lg:flex flex-col w-[380px] h-full bg-grounds-cream border-r border-grounds-brown/10 z-10 shrink-0">
           <div className="px-5 pt-5 pb-4 border-b border-grounds-brown/10">
-            <div className="flex items-start gap-4">
-              <SteamingCup className="shrink-0 mt-1" />
+            <div className="flex items-center gap-4">
+              <LatteCup className="shrink-0" />
               <div className="flex-1 min-w-0">
-                <h1 className="mb-1.5"><Logo variant="dark" size="md" /></h1>
-                <p className="text-sm font-medium text-grounds-espresso leading-snug">The specialty coffee map for travelers.</p>
-                <p className="text-xs text-grounds-brown/50 mt-0.5 leading-relaxed">Curated, scored, and editorially verified.</p>
+                <h1 className="mb-2"><Logo variant="dark" size="md" showMark={false} /></h1>
+                <p className="text-base font-semibold text-grounds-espresso leading-snug">The specialty coffee map for travelers.</p>
+                <p className="text-sm text-grounds-brown/55 mt-1 leading-relaxed">Curated, scored, and editorially verified.</p>
                 <div className="flex items-center gap-3 mt-2.5">
                   <p className="text-xs text-grounds-gold font-medium">{SEED_CAFES.length} cafés · {new Set(SEED_CAFES.map(c => c.city)).size} cities</p>
                   <Link href="/about" className="text-xs text-grounds-brown/40 hover:text-grounds-brown/70 transition-colors">About</Link>
