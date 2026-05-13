@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { BRAND_NAME, BRAND_TAGLINE, BRAND_URL } from "@/lib/brand";
 import { CookieConsent } from "@/components/ui/CookieConsent";
+import { GoogleAnalytics } from "@/components/ui/GoogleAnalytics";
 import { Footer } from "@/components/layout/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -45,9 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CookieConsent />
         {children}
         <Footer />
-        {/* Google Analytics — gated behind cookie consent, activate when ready:
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`} strategy="afterInteractive" />
-        */}
+        <GoogleAnalytics />
       </body>
     </html>
   );

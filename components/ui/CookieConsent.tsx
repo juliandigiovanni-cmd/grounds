@@ -25,7 +25,7 @@ export function CookieConsent() {
   const accept = () => {
     localStorage.setItem("grounds_cookie_consent", "accepted");
     setState("accepted");
-    // Initialize analytics/ads here when consent is granted
+    window.dispatchEvent(new Event("grounds:consent-accepted"));
   };
 
   const decline = () => {
