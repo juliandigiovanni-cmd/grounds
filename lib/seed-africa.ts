@@ -1,6 +1,6 @@
 import type { Cafe } from '@/types';
 
-export const AFRICA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [
+export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'> & { permanently_closed?: boolean })[] = [
 
   // ── CAPE TOWN (12) ────────────────────────────────────────────────────────────
   {

@@ -1065,7 +1065,6 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
   {
-  {
     name: "% Arabica Tokyo Daikanyama",
     slug: "arabica-tokyo-daikanyama",
     lat: 35.6490, lng: 139.7024,

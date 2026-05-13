@@ -1,6 +1,6 @@
 import type { Cafe } from '@/types';
 
-export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'>[] = [
+export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'> & { permanently_closed?: boolean })[] = [
   // NEW YORK CITY
   {
     name: "Devoción",
@@ -3277,19 +3277,6 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
   {
-    name: "Equator Coffees Mill Valley",
-    slug: "equator-coffees-mill-valley-sf",
-    lat: 37.9057, lng: -122.5553,
-    city: "San Francisco", country: "United States",
-    address: "14 Corte Madera Ave, Mill Valley, CA 94941",
-    roaster: "Equator Coffees",
-    brew_methods: ["espresso", "pour-over", "cold-brew"],
-    vibe_tags: ["outdoor-seating", "laptop-friendly"],
-    editorial_blurb: "Equator's Marin hometown café serves the Bay Area's most established fair-trade program in the shadow of Mount Tamalpais — thoughtful sourcing in a very beautiful place.",
-    featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
-  },
-  {
     name: "Ritual Coffee Roasters Castro",
     slug: "ritual-coffee-castro-sf",
     lat: 37.7617, lng: -122.4349,
@@ -3739,19 +3726,6 @@ export const NA_RAW_CAFES: Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' |
     vibe_tags: ["outdoor-seating", "laptop-friendly"],
     editorial_blurb: "Intelligentsia's Silver Lake location on the Sunset Strip — the Chemex program and the al fresco terrace make this their most characteristically LA expression.",
     featured_in: ["sprudge", "eater"],
-    verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
-  },
-  {
-    name: "Klatch Coffee Pasadena",
-    slug: "klatch-coffee-pasadena",
-    lat: 34.1486, lng: -118.1353,
-    city: "Los Angeles", country: "United States",
-    address: "162 E Foothill Blvd, Upland, CA 91786",
-    roaster: "Klatch Coffee",
-    brew_methods: ["pour-over", "espresso", "chemex", "cold-brew"],
-    vibe_tags: ["roastery-on-site", "laptop-friendly"],
-    editorial_blurb: "Inland Empire roastery with a national competition record and world-class cupping lab — the public café sessions here are the most educational coffee experience in the greater LA area.",
-    featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
   {
