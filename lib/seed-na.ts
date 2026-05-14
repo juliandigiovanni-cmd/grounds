@@ -1287,7 +1287,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Matchstick Coffee Roasters",
     slug: "matchstick-coffee-roasters-vancouver",
-    lat: 49.2797, lng: -123.0963,
+    lat: 49.2573, lng: -123.0902,
     city: "Vancouver", country: "Canada",
     address: "639 E 15th Ave, Vancouver, BC V5T 2S6",
     roaster: "Matchstick Coffee Roasters",
@@ -1302,7 +1302,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Pallet Coffee Roasters",
     slug: "pallet-coffee-roasters-vancouver",
-    lat: 49.2722, lng: -123.0697,
+    lat: 49.2630, lng: -123.0985,
     city: "Vancouver", country: "Canada",
     address: "323 E Broadway, Vancouver, BC V5T 1W5",
     roaster: "Pallet Coffee Roasters",
@@ -1408,7 +1408,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "East Van Roasters",
     slug: "east-van-roasters-vancouver",
-    lat: 49.2811, lng: -123.0594,
+    lat: 49.2816, lng: -123.1020,
     city: "Vancouver", country: "Canada",
     address: "101 E Hastings St, Vancouver, BC V6A 1N7",
     roaster: "East Van Roasters",
@@ -2136,7 +2136,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Nemesis Coffee",
     slug: "nemesis-coffee-vancouver",
-    lat: 49.2795, lng: -123.1094,
+    lat: 49.2818, lng: -123.1109,
     city: "Vancouver", country: "Canada",
     address: "302 W Hastings St, Vancouver, BC V6B 1K6",
     roaster: "Nemesis Coffee",
@@ -2181,7 +2181,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Aperture Coffee Bar",
     slug: "aperture-coffee-bar-vancouver",
-    lat: 49.2417, lng: -123.1008,
+    lat: 49.2484, lng: -123.1008,
     city: "Vancouver", country: "Canada",
     address: "4124 Main St, Vancouver, BC V5V 3P7",
     roaster: "Multiple guest roasters",
@@ -2196,7 +2196,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Prado Café",
     slug: "prado-cafe-vancouver",
-    lat: 49.2823, lng: -123.0822,
+    lat: 49.2672, lng: -123.0694,
     city: "Vancouver", country: "Canada",
     address: "1938 Commercial Dr, Vancouver, BC V5N 4A7",
     roaster: "49th Parallel Coffee Roasters",
@@ -3465,7 +3465,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Matchstick Coffee Fairview",
     slug: "matchstick-coffee-fairview-vancouver",
-    lat: 49.2634, lng: -123.1283,
+    lat: 49.2640, lng: -123.1618,
     city: "Vancouver", country: "Canada",
     address: "2696 W Broadway, Vancouver, BC V6K 2G3",
     roaster: "Matchstick Coffee Roasters",
@@ -3494,7 +3494,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Bump n' Grind",
     slug: "bump-n-grind-coffee-vancouver",
-    lat: 49.2600, lng: -123.1015,
+    lat: 49.2764, lng: -123.0694,
     city: "Vancouver", country: "Canada",
     address: "916 Commercial Dr, Vancouver, BC V5L 3W6",
     roaster: "Multiple guest roasters",
@@ -3508,7 +3508,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Matchstick Coffee Fraser",
     slug: "matchstick-coffee-fraser-vancouver",
-    lat: 49.2472, lng: -123.0928,
+    lat: 49.2153, lng: -123.0910,
     city: "Vancouver", country: "Canada",
     address: "6804 Fraser St, Vancouver, BC V5X 3T3",
     roaster: "Matchstick Coffee Roasters",
