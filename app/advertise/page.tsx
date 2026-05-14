@@ -8,9 +8,9 @@ export default function AdvertisePage() {
         <p className="text-xl text-grounds-brown/70 mb-12">{BRAND_NAME} connects roasters and specialty importers with serious coffee travelers at the moment they&apos;re deciding where to go.</p>
         <div className="grid gap-6 md:grid-cols-3 mb-16">
           {[
-            { tier: "City Feature", price: "TBD/mo", desc: "Top placement in one city's café list with a Featured Roaster badge." },
-            { tier: "Global Feature", price: "TBD/mo", desc: "Priority placement across all city lists and homepage visibility." },
-            { tier: "Roaster Profile", price: "TBD/mo", desc: "Dedicated profile page with your story, bean lineup, and linked cafés." },
+            { tier: "City Feature", price: "$99/mo", desc: "Top placement in one city's café list with a Featured Roaster badge." },
+            { tier: "Global Feature", price: "$299/mo", desc: "Priority placement across all city lists and homepage visibility." },
+            { tier: "Roaster Profile", price: "$149/mo", desc: "Dedicated profile page with your story, bean lineup, and linked cafés." },
           ].map(t => (
             <div key={t.tier} className="bg-white rounded-2xl p-6 shadow-sm">
               <h3 className="font-serif text-xl font-bold text-grounds-espresso mb-1">{t.tier}</h3>
