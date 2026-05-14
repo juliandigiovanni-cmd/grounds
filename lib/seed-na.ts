@@ -4304,7 +4304,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     slug: "dose-coffee-nashville",
     lat: 36.1957, lng: -86.7335,
     city: "Nashville", country: "United States",
-    address: "1978 Eastland Ave, Nashville, TN 37206",
+    address: "1400 McGavock Pike, Nashville, TN 37216",
     roaster: "Dose Coffee & Tea",
     brew_methods: ["pour-over", "espresso", "cold-brew"],
     vibe_tags: ["laptop-friendly", "outdoor-seating"],
