@@ -37,3 +37,6 @@ Thumbs.db
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code local settings (machine-specific permissions)
+.claude/settings.local.json
