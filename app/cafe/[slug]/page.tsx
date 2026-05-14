@@ -1,4 +1,4 @@
-import { SEED_CAFES } from "@/lib/seed-data";
+import { SEED_CAFES, SEED_CITIES } from "@/lib/seed-data";
 import { BRAND_NAME } from "@/lib/brand";
 import { ScoreBadge } from "@/components/map/ScoreBadge";
 import { DirectionsButton } from "@/components/cafe/DirectionsButton";
@@ -35,10 +35,12 @@ export default function CafePage({ params }: { params: { slug: string } }) {
   const cafe = SEED_CAFES.find(c => c.slug === params.slug);
   if (!cafe) notFound();
 
+  const citySlug = SEED_CITIES.find(c => c.name === cafe.city)?.slug;
+
   return (
     <div className="min-h-screen bg-grounds-cream">
       <header className="bg-grounds-espresso text-grounds-cream px-6 py-4 flex items-center gap-4">
-        <Link href="/" className="text-grounds-cream/70 hover:text-grounds-cream">← Map</Link>
+        <Link href={citySlug ? `/city/${citySlug}` : "/"} className="text-grounds-cream/70 hover:text-grounds-cream">← Map</Link>
         <h1 className="font-serif text-xl font-bold">{cafe.name}</h1>
       </header>
       <div className="max-w-2xl mx-auto px-6 py-8">
