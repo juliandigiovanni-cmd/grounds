@@ -3721,7 +3721,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     roaster: "Multiple guest roasters",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
     vibe_tags: ["laptop-friendly", "outdoor-seating"],
-    instagram: "bumpngrindcafe",
+    instagram_handle: "bumpngrindcafe",
     editorial_blurb: "Commercial Drive institution with a warm, unpretentious approach to specialty coffee — the espresso program and the neighbourhood regulars have made it an East Van anchor.",
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
