@@ -51,6 +51,8 @@ export function MapView() {
   const [focusedCity, setFocusedCity] = useState<string | null>(null);
   const [locating, setLocating] = useState<'idle' | 'loading' | 'denied'>("idle");
   const [mobileCityListOpen, setMobileCityListOpen] = useState(false);
+  const [initialCafeSlug, setInitialCafeSlug] = useState<string | null>(null);
+  const [initialCityName, setInitialCityName] = useState<string | null>(null);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 1024);
@@ -58,6 +60,43 @@ export function MapView() {
     window.addEventListener("resize", check);
     return () => window.removeEventListener("resize", check);
   }, []);
+
+  // Restore map state from URL on mount (e.g. after navigating back from a café profile)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const cafeSlug = params.get('cafe');
+    const cityName = params.get('city');
+    if (cafeSlug) {
+      const cafe = SEED_CAFES.find(c => c.slug === cafeSlug);
+      if (cafe) {
+        setInitialCafeSlug(cafeSlug);
+        setSelectedCafe(cafe);
+        setFocusedCity(cafe.city);
+      }
+    } else if (cityName) {
+      const city = SEED_CITIES.find(c => c.name === cityName);
+      if (city) {
+        setInitialCityName(cityName);
+        setFocusedCity(city.name);
+      }
+    }
+  }, []);
+
+  // Fly to restored café or city once the map is ready
+  useEffect(() => {
+    if (!mapLoaded) return;
+    if (initialCafeSlug) {
+      const cafe = SEED_CAFES.find(c => c.slug === initialCafeSlug);
+      if (cafe) {
+        mapRef.current?.flyTo({ center: [cafe.lng, cafe.lat], zoom: 15, offset: isMobile ? [0, -80] : [-200, 0], duration: 800, essential: true });
+      }
+    } else if (initialCityName) {
+      const city = SEED_CITIES.find(c => c.name === initialCityName);
+      if (city) {
+        mapRef.current?.flyTo({ center: [city.lng, city.lat], zoom: 12, duration: 800, essential: true });
+      }
+    }
+  }, [mapLoaded, initialCafeSlug, initialCityName, isMobile]);
 
   // Apply filters to cafe list
   const filteredCafes = useMemo(() => {
@@ -81,7 +120,11 @@ export function MapView() {
 
   const flyToCity = useCallback((lat: number, lng: number, zoom = 12, cityName?: string) => {
     mapRef.current?.flyTo({ center: [lng, lat], zoom, duration: 1800, essential: true });
-    if (cityName) { setFocusedCity(cityName); setMobileCityListOpen(false); }
+    if (cityName) {
+      setFocusedCity(cityName);
+      setMobileCityListOpen(false);
+      window.history.replaceState(null, '', `/?city=${encodeURIComponent(cityName)}`);
+    }
   }, []);
 
   const locateMe = useCallback(() => {
@@ -102,6 +145,7 @@ export function MapView() {
 
   const handleMarkerClick = useCallback((cafe: Cafe) => {
     setSelectedCafe(cafe);
+    window.history.replaceState(null, '', `/?cafe=${cafe.slug}`);
     mapRef.current?.flyTo({
       center: [cafe.lng, cafe.lat],
       zoom: 15,
@@ -115,6 +159,7 @@ export function MapView() {
     setSelectedCafe(cafe);
     setFocusedCity(cafe.city);
     setMobileCityListOpen(false);
+    window.history.replaceState(null, '', `/?cafe=${cafe.slug}`);
     mapRef.current?.flyTo({
       center: [cafe.lng, cafe.lat],
       zoom: 15,
@@ -126,6 +171,12 @@ export function MapView() {
 
   const handleMapClick = useCallback(() => {
     setSelectedCafe(null);
+    window.history.replaceState(null, '', '/');
+  }, []);
+
+  const closePanel = useCallback(() => {
+    setSelectedCafe(null);
+    window.history.replaceState(null, '', '/');
   }, []);
 
   if (!MAPBOX_TOKEN) {
@@ -232,7 +283,7 @@ export function MapView() {
                   {sidebarCafes.length} café{sidebarCafes.length !== 1 ? "s" : ""} in {focusedCity}
                 </p>
                 <button
-                  onClick={() => setFocusedCity(null)}
+                  onClick={() => { setFocusedCity(null); window.history.replaceState(null, '', '/'); }}
                   className="text-xs text-grounds-brown/50 hover:text-grounds-brown transition-colors"
                 >
                   Show all
@@ -409,14 +460,14 @@ export function MapView() {
 
         {/* Mobile: bottom sheet for selected cafe */}
         {isMobile && selectedCafe && (
-          <BottomSheet onClose={() => setSelectedCafe(null)}>
+          <BottomSheet onClose={closePanel}>
             <CafeCard cafe={selectedCafe} />
           </BottomSheet>
         )}
 
         {/* Desktop: side panel for selected cafe */}
         {!isMobile && selectedCafe && (
-          <SidePanel cafe={selectedCafe} onClose={() => setSelectedCafe(null)} />
+          <SidePanel cafe={selectedCafe} onClose={closePanel} />
         )}
 
         {/* Mobile bottom nav */}
