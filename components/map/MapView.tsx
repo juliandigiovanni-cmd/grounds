@@ -17,6 +17,7 @@ import type { FilterState } from "@/components/ui/FilterModal";
 import { Logo } from "@/components/ui/Logo";
 import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { Cafe } from "@/types";
 
 function CupIcon({ className = "" }: { className?: string }) {
@@ -42,6 +43,7 @@ function CupIcon({ className = "" }: { className?: string }) {
 }
 
 export function MapView() {
+  const router = useRouter();
   const mapRef = useRef<MapRef>(null);
   const [selectedCafe, setSelectedCafe] = useState<Cafe | null>(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -123,7 +125,7 @@ export function MapView() {
     if (cityName) {
       setFocusedCity(cityName);
       setMobileCityListOpen(false);
-      window.history.replaceState(null, '', `/?city=${encodeURIComponent(cityName)}`);
+      router.replace(`/?city=${encodeURIComponent(cityName)}`, { scroll: false });
     }
   }, []);
 
@@ -145,7 +147,7 @@ export function MapView() {
 
   const handleMarkerClick = useCallback((cafe: Cafe) => {
     setSelectedCafe(cafe);
-    window.history.replaceState(null, '', `/?cafe=${cafe.slug}`);
+    router.replace(`/?cafe=${cafe.slug}`, { scroll: false });
     mapRef.current?.flyTo({
       center: [cafe.lng, cafe.lat],
       zoom: 15,
@@ -159,7 +161,7 @@ export function MapView() {
     setSelectedCafe(cafe);
     setFocusedCity(cafe.city);
     setMobileCityListOpen(false);
-    window.history.replaceState(null, '', `/?cafe=${cafe.slug}`);
+    router.replace(`/?cafe=${cafe.slug}`, { scroll: false });
     mapRef.current?.flyTo({
       center: [cafe.lng, cafe.lat],
       zoom: 15,
@@ -171,12 +173,12 @@ export function MapView() {
 
   const handleMapClick = useCallback(() => {
     setSelectedCafe(null);
-    window.history.replaceState(null, '', '/');
+    router.replace('/', { scroll: false });
   }, []);
 
   const closePanel = useCallback(() => {
     setSelectedCafe(null);
-    window.history.replaceState(null, '', '/');
+    router.replace('/', { scroll: false });
   }, []);
 
   if (!MAPBOX_TOKEN) {
@@ -283,7 +285,7 @@ export function MapView() {
                   {sidebarCafes.length} café{sidebarCafes.length !== 1 ? "s" : ""} in {focusedCity}
                 </p>
                 <button
-                  onClick={() => { setFocusedCity(null); window.history.replaceState(null, '', '/'); }}
+                  onClick={() => { setFocusedCity(null); router.replace('/', { scroll: false }); }}
                   className="text-xs text-grounds-brown/50 hover:text-grounds-brown transition-colors"
                 >
                   Show all
