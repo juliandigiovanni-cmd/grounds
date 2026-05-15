@@ -1264,7 +1264,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Revolver Coffee",
     slug: "revolver-coffee-gastown",
-    lat: 49.2831, lng: -123.1054,
+    lat: 49.2832, lng: -123.1095,
     city: "Vancouver", country: "Canada",
     address: "325 Cambie St, Vancouver, BC V6B 2N4",
     roaster: "Multiple guest roasters",
@@ -1279,7 +1279,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "49th Parallel Coffee Roasters",
     slug: "49th-parallel-coffee-kitsilano",
-    lat: 49.2669, lng: -123.1544,
+    lat: 49.2680, lng: -123.1548,
     city: "Vancouver", country: "Canada",
     address: "2198 W 4th Ave, Vancouver, BC V6K 1N8",
     roaster: "49th Parallel Coffee Roasters",
@@ -1339,7 +1339,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Timbertrain Coffee Roasters",
     slug: "timbertrain-coffee-gastown",
-    lat: 49.2839, lng: -123.1056,
+    lat: 49.2839, lng: -123.1095,
     city: "Vancouver", country: "Canada",
     address: "311 W Cordova St, Vancouver, BC V6B 1E5",
     roaster: "Timbertrain Coffee Roasters",
@@ -1354,7 +1354,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Small Victory Bakery",
     slug: "small-victory-bakery-vancouver",
-    lat: 49.2751, lng: -123.1206,
+    lat: 49.2765, lng: -123.1212,
     city: "Vancouver", country: "Canada",
     address: "1088 Homer St, Vancouver, BC V6B 2X2",
     roaster: "49th Parallel Coffee Roasters",
@@ -1385,7 +1385,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Nelson the Seagull",
     slug: "nelson-the-seagull-gastown",
-    lat: 49.2839, lng: -123.1019,
+    lat: 49.2822, lng: -123.1045,
     city: "Vancouver", country: "Canada",
     address: "315 Carrall St, Vancouver, BC V6B 2J4",
     roaster: "49th Parallel Coffee Roasters",
@@ -1400,7 +1400,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Elysian Coffee",
     slug: "elysian-coffee-west-end-vancouver",
-    lat: 49.2645, lng: -123.1470,
+    lat: 49.2670, lng: -123.1451,
     city: "Vancouver", country: "Canada",
     address: "1778 W 5th Ave, Vancouver, BC V6J 1P2",
     roaster: "Multiple guest roasters",
@@ -2150,9 +2150,9 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Nemesis Coffee",
     slug: "nemesis-coffee-vancouver",
-    lat: 49.2818, lng: -123.1109,
+    lat: 49.2828, lng: -123.1103,
     city: "Vancouver", country: "Canada",
-    address: "302 W Hastings St, Vancouver, BC V6B 1K6",
+    address: "302 W Hastings St, Vancouver, BC V6B 2N4",
     roaster: "Nemesis Coffee",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
     vibe_tags: ["minimalist", "laptop-friendly"],
@@ -2165,7 +2165,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "49th Parallel Coffee Roasters Coal Harbour",
     slug: "49th-parallel-coffee-coal-harbour",
-    lat: 49.2875, lng: -123.1177,
+    lat: 49.2871, lng: -123.1260,
     city: "Vancouver", country: "Canada",
     address: "1200 W Georgia St, Vancouver, BC V6E 4R2",
     roaster: "49th Parallel Coffee Roasters",
@@ -2180,7 +2180,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Prototype Coffee",
     slug: "prototype-coffee-vancouver",
-    lat: 49.2813, lng: -123.0891,
+    lat: 49.2813, lng: -123.0853,
     city: "Vancouver", country: "Canada",
     address: "883 E Hastings St, Vancouver, BC V6A 3Y1",
     roaster: "Multiple guest roasters",
@@ -2225,7 +2225,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Beaucoup Bakery & Café",
     slug: "beaucoup-bakery-cafe-vancouver",
-    lat: 49.2660, lng: -123.1462,
+    lat: 49.2665, lng: -123.1407,
     city: "Vancouver", country: "Canada",
     address: "2150 Fir St, Vancouver, BC V6J 3B5",
     roaster: "49th Parallel Coffee Roasters",
@@ -3530,7 +3530,7 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Matchstick Coffee Fraser",
     slug: "matchstick-coffee-fraser-vancouver",
-    lat: 49.2153, lng: -123.0910,
+    lat: 49.2257, lng: -123.0908,
     city: "Vancouver", country: "Canada",
     address: "6804 Fraser St, Vancouver, BC V5X 3T3",
     roaster: "Matchstick Coffee Roasters",
