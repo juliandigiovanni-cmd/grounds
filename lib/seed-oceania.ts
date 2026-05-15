@@ -1026,7 +1026,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
 
-  // ── AUCKLAND (8) ──────────────────────────────────────────────────────────────
+  // ── AUCKLAND (11) ──────────────────────────────────────────────────────────────
   {
     name: "Kokako",
     slug: "kokako-auckland",
@@ -1119,7 +1119,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
   {
-    name: "Ima Boutique Restaurant & Café",
+    name: "Ima Cuisine",
     slug: "ima-boutique-auckland",
     lat: -36.8502, lng: 174.7614,
     city: "Auckland", country: "New Zealand",
@@ -1128,6 +1128,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     brew_methods: ["espresso", "pour-over"],
     vibe_tags: ["outdoor-seating", "no-laptop"],
     instagram_handle: "imaboutique",
+    website: "https://www.imacuisine.co.nz/",
     editorial_blurb: "Fort Street Middle-Eastern café where Kokako organic espresso accompanies brunch platters designed for sharing — the most civilised morning stop in Auckland's CBD.",
     featured_in: ["timeout"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
@@ -1144,20 +1145,6 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     instagram_handle: "flightcoffee",
     website: "https://flightcoffee.co.nz/",
     editorial_blurb: "Wellington's defining roastery extends its direct-trade East African programme to Auckland's CBD — the single-origin pour-over board changes with each Wellington roast release.",
-    featured_in: ["sprudge"],
-    verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
-  },
-  {
-    name: "Caffeine Laboratory",
-    slug: "caffeine-laboratory-auckland",
-    lat: -36.8530, lng: 174.7559,
-    city: "Auckland", country: "New Zealand",
-    address: "21 Britomart Place, Britomart, Auckland 1010",
-    roaster: "Multiple guest roasters",
-    brew_methods: ["pour-over", "espresso", "syphon", "aeropress"],
-    vibe_tags: ["minimalist", "standing-bar", "no-laptop"],
-    instagram_handle: "caffeinelaboratory",
-    editorial_blurb: "Britomart lab-format specialty bar where the white-coat aesthetic is earned — rotating international roasters and a syphon menu that Auckland's coffee professionals visit on days off.",
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
@@ -1207,7 +1194,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     verified: true, last_verified_at: "2025-09-01", verification_source: "community",
   },
 
-  // ── WELLINGTON (7) ────────────────────────────────────────────────────────────
+  // ── WELLINGTON (12) ────────────────────────────────────────────────────────────
   {
     name: "Flight Coffee",
     slug: "flight-coffee-wellington",
@@ -1256,9 +1243,9 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Customs Brew Bar",
     slug: "customs-brew-bar-wellington",
-    lat: -41.2856, lng: 174.7763,
+    lat: -41.2934, lng: 174.7753,
     city: "Wellington", country: "New Zealand",
-    address: "39 Customhouse Quay, Wellington 6011",
+    address: "39 Ghuznee St, Te Aro, Wellington 6011",
     roaster: "Multiple guest roasters",
     brew_methods: ["pour-over", "espresso", "aeropress", "chemex"],
     vibe_tags: ["minimalist", "standing-bar"],
@@ -1292,6 +1279,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     brew_methods: ["espresso", "pour-over"],
     vibe_tags: ["outdoor-seating", "no-laptop"],
     instagram_handle: "goldingsfreedive",
+    website: "https://www.goldingsfreedive.co.nz/",
     editorial_blurb: "Wellington's most beloved low-key haunt — the daytime coffee is serious, the beer list is legendary, and the Cuba Quarter terrace is where the whole city eventually ends up.",
     featured_in: ["guardian", "timeout"],
     verified: true, last_verified_at: "2025-10-10", verification_source: "admin",
@@ -1335,6 +1323,7 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
     brew_methods: ["espresso", "pour-over", "aeropress"],
     vibe_tags: ["minimalist", "standing-bar"],
     instagram_handle: "karakaespresso",
+    website: "https://www.karakacafe.co.nz/",
     editorial_blurb: "Lambton Quarter espresso bar built for Wellington's parliamentary precinct — the rotating New Zealand roaster programme and the zero-fuss service make this the government district's best coffee stop.",
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
