@@ -6,7 +6,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "St Ali",
     slug: "st-ali-melbourne",
-    lat: -37.8067, lng: 144.9580,
+    lat: -37.8312, lng: 144.9604,
+    google_place_id: "ChIJJ5bS6P9n1moRx76U3LjtN1A",
     city: "Melbourne", country: "Australia",
     address: "12-18 Yarra Place, South Melbourne VIC 3205",
     roaster: "St Ali",
@@ -21,7 +22,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Patricia Coffee Brewers",
     slug: "patricia-coffee-brewers",
-    lat: -37.8150, lng: 144.9608,
+    lat: -37.8147, lng: 144.9582,
+    google_place_id: "ChIJn1FUnktd1moRgZCDC6aPCcw",
     city: "Melbourne", country: "Australia",
     address: "493-495 Little Bourke St, Melbourne VIC 3000",
     roaster: "Multiple roasters",
@@ -36,7 +38,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Market Lane Coffee",
     slug: "market-lane-coffee",
-    lat: -37.8083, lng: 144.9702,
+    lat: -37.8458, lng: 144.9933,
+    google_place_id: "ChIJlZ5XDiZo1moRV7DQNGNXi2I",
     city: "Melbourne", country: "Australia",
     address: "Prahran Market, 163 Commercial Rd, Prahran VIC 3181",
     roaster: "Market Lane",
@@ -51,7 +54,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Proud Mary",
     slug: "proud-mary-melbourne",
-    lat: -37.8031, lng: 144.9874,
+    lat: -37.8023, lng: 144.9852,
+    google_place_id: "ChIJQZ-aOeBC1moRuuo3eAh3hGE",
     city: "Melbourne", country: "Australia",
     address: "172 Oxford St, Collingwood VIC 3066",
     roaster: "Proud Mary",
@@ -66,7 +70,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Seven Seeds",
     slug: "seven-seeds-melbourne",
-    lat: -37.8041, lng: 144.9599,
+    lat: -37.8030, lng: 144.9590,
+    google_place_id: "ChIJvdx3kjJd1moRHnjYhByshFo",
     city: "Melbourne", country: "Australia",
     address: "114 Berkeley St, Carlton VIC 3053",
     roaster: "Seven Seeds",
@@ -81,7 +86,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Dukes Coffee Roasters",
     slug: "dukes-coffee-melbourne",
-    lat: -37.8188, lng: 144.9634,
+    lat: -37.8168, lng: 144.9662,
+    google_place_id: "ChIJyaNNI7RC1moRQcMRU8Ucz8o",
     city: "Melbourne", country: "Australia",
     address: "247 Flinders Lane, Melbourne VIC 3000",
     roaster: "Dukes Coffee Roasters",
@@ -96,7 +102,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Axil Coffee Roasters",
     slug: "axil-coffee-roasters-melbourne",
-    lat: -37.8226, lng: 145.0369,
+    lat: -37.8226, lng: 145.0343,
+    google_place_id: "ChIJ2-ShXzFC1moRFSFI9lFKM7c",
     city: "Melbourne", country: "Australia",
     address: "322 Burwood Rd, Hawthorn VIC 3122",
     roaster: "Axil Coffee Roasters",
@@ -127,7 +134,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Brother Baba Budan",
     slug: "brother-baba-budan-melbourne",
-    lat: -37.8133, lng: 144.9634,
+    lat: -37.8135, lng: 144.9621,
+    google_place_id: "ChIJ6VLiOLVC1moRUX_Qgb0CEyU",
     city: "Melbourne", country: "Australia",
     address: "359 Little Bourke St, Melbourne VIC 3000",
     roaster: "Seven Seeds",
@@ -142,7 +150,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Wide Open Road",
     slug: "wide-open-road-brunswick",
-    lat: -37.7698, lng: 144.9584,
+    lat: -37.7763, lng: 144.9612,
+    google_place_id: "ChIJt_EqLTVD1moRpkK9XYJ9y4A",
     city: "Melbourne", country: "Australia",
     address: "274 Blyth St, Brunswick VIC 3056",
     roaster: "Wide Open Road",
@@ -157,7 +166,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Higher Ground",
     slug: "higher-ground-melbourne",
-    lat: -37.8133, lng: 144.9584,
+    lat: -37.8157, lng: 144.9530,
+    google_place_id: "ChIJ-R8fAE9d1moR3yFuI2x1z00",
     city: "Melbourne", country: "Australia",
     address: "650 Little Bourke St, Melbourne VIC 3000",
     roaster: "Multiple guest roasters",
@@ -172,7 +182,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Top Paddock",
     slug: "top-paddock-richmond",
-    lat: -37.8237, lng: 145.0072,
+    lat: -37.8328, lng: 144.9964,
+    google_place_id: "ChIJ1fFuWYVC1moRoaV3KOybEQQ",
     city: "Melbourne", country: "Australia",
     address: "658 Church St, Richmond VIC 3121",
     roaster: "Market Lane",
@@ -187,7 +198,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Allpress Espresso Melbourne",
     slug: "allpress-espresso-melbourne",
-    lat: -37.8028, lng: 144.9858,
+    lat: -37.8066, lng: 144.9894,
+    google_place_id: "ChIJ97GV_uNC1moRTHYYvdZInGk",
     city: "Melbourne", country: "Australia",
     address: "150 Johnston St, Collingwood VIC 3066",
     roaster: "Allpress Espresso",
@@ -202,7 +214,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Padre Coffee",
     slug: "padre-coffee-brunswick",
-    lat: -37.7734, lng: 144.9598,
+    lat: -37.7641, lng: 144.9733,
+    google_place_id: "ChIJYeSX8llD1moReVgb27XXvqY",
     city: "Melbourne", country: "Australia",
     address: "438 Sydney Rd, Brunswick VIC 3056",
     roaster: "Padre Coffee",
@@ -217,7 +230,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Monk Bodhi Dharma",
     slug: "monk-bodhi-dharma-melbourne",
-    lat: -37.8648, lng: 144.9958,
+    lat: -37.8680, lng: 144.9909,
+    google_place_id: "ChIJDwqU2kRo1moRZGwNnv7-xPs",
     city: "Melbourne", country: "Australia",
     address: "202 Carlisle St, Balaclava VIC 3183",
     roaster: "Multiple guest roasters",
@@ -232,7 +246,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Hardware Société",
     slug: "hardware-societe-melbourne",
-    lat: -37.8118, lng: 144.9625,
+    lat: -37.8121, lng: 144.9604,
+    google_place_id: "ChIJ22hhMyVd1moRhP7ARjsyWc8",
     city: "Melbourne", country: "Australia",
     address: "120 Hardware St, Melbourne VIC 3000",
     roaster: "Market Lane",
@@ -247,7 +262,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Aunty Peg's",
     slug: "aunty-pegs-collingwood",
-    lat: -37.8042, lng: 144.9832,
+    lat: -37.8028, lng: 144.9870,
+    google_place_id: "ChIJOc2VxeFC1moR7HgPdWw5KME",
     city: "Melbourne", country: "Australia",
     address: "200 Wellington St, Collingwood VIC 3066",
     roaster: "Proud Mary",
@@ -262,7 +278,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Everyday Coffee",
     slug: "everyday-coffee-fitzroy",
-    lat: -37.8052, lng: 144.9868,
+    lat: -37.7982, lng: 144.9859,
+    google_place_id: "ChIJhb8hqx9D1moREUdvGRuSNic",
     city: "Melbourne", country: "Australia",
     address: "36-38 Sackville St, Collingwood VIC 3066",
     roaster: "Multiple guest roasters",
@@ -277,7 +294,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Code Black Coffee",
     slug: "code-black-coffee-brunswick",
-    lat: -37.7703, lng: 144.9604,
+    lat: -37.7746, lng: 144.9625,
+    google_place_id: "ChIJT3I-okpD1moRBNshH62Qt7Q",
     city: "Melbourne", country: "Australia",
     address: "Albert St, Brunswick VIC 3056",
     roaster: "Code Black Coffee",
@@ -292,7 +310,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Auction Rooms",
     slug: "auction-rooms-north-melbourne",
-    lat: -37.7986, lng: 144.9440,
+    lat: -37.8025, lng: 144.9495,
+    google_place_id: "ChIJAYc1Djpd1moRmGwu2RuDrsk",
     city: "Melbourne", country: "Australia",
     address: "103-107 Errol St, North Melbourne VIC 3051",
     roaster: "Multiple guest roasters",
@@ -307,7 +326,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Stagger Lee's",
     slug: "stagger-lees-fitzroy",
-    lat: -37.7998, lng: 144.9759,
+    lat: -37.7990, lng: 144.9785,
+    google_place_id: "ChIJl0FJoSBD1moRFMiAZXRKHsc",
     city: "Melbourne", country: "Australia",
     address: "276 Brunswick St, Fitzroy VIC 3065",
     roaster: "Seven Seeds",
@@ -323,7 +343,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Industry Beans Fitzroy",
     slug: "industry-beans-fitzroy",
-    lat: -37.7994, lng: 144.9810,
+    lat: -37.7948, lng: 144.9781,
+    google_place_id: "ChIJ_7ffMiFD1moR5NCnlSFhECk",
     city: "Melbourne", country: "Australia",
     address: "3/62 Rose St, Fitzroy VIC 3065",
     roaster: "Industry Beans",
@@ -338,7 +359,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Industry Beans CBD",
     slug: "industry-beans-cbd",
-    lat: -37.8165, lng: 144.9657,
+    lat: -37.8155, lng: 144.9633,
+    google_place_id: "ChIJgRXO-rRC1moRwcB73rcSyIE",
     city: "Melbourne", country: "Australia",
     address: "270 Flinders Lane, Melbourne VIC 3000",
     roaster: "Industry Beans",
@@ -353,7 +375,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mecca Espresso Melbourne",
     slug: "mecca-espresso-melbourne",
-    lat: -37.8148, lng: 144.9671,
+    lat: -37.8141, lng: 144.9647,
+    google_place_id: "ChIJm7TdGwBD1moRmHCs7rKvskI",
     city: "Melbourne", country: "Australia",
     address: "335 Little Collins St, Melbourne VIC 3000",
     roaster: "Mecca Coffee",
@@ -368,7 +391,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Market Lane Collins Street",
     slug: "market-lane-collins-st",
-    lat: -37.8183, lng: 144.9692,
+    lat: -37.8133, lng: 144.9734,
+    google_place_id: "ChIJYQxRN8ZC1moRZPYsVv8YrEQ",
     city: "Melbourne", country: "Australia",
     address: "Emporium Melbourne, 287 Lonsdale St, Melbourne VIC 3000",
     roaster: "Market Lane",
@@ -383,7 +407,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Commonfolk Coffee",
     slug: "commonfolk-coffee-mornington",
-    lat: -38.2228, lng: 145.0373,
+    lat: -38.2349, lng: 145.0576,
+    google_place_id: "ChIJWQmrSqje1WoRAHdFfPHU3gw",
     city: "Melbourne", country: "Australia",
     address: "7/31 Barkly St, Mornington VIC 3931",
     roaster: "Commonfolk Coffee",
@@ -398,7 +423,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Axil Coffee Roasters CBD",
     slug: "axil-coffee-roasters-cbd",
-    lat: -37.8175, lng: 144.9638,
+    lat: -37.8169, lng: 144.9687,
+    google_place_id: "ChIJgwgMg99D1moR4u3FR8Nq1x8",
     city: "Melbourne", country: "Australia",
     address: "291 Flinders Lane, Melbourne VIC 3000",
     roaster: "Axil Coffee Roasters",
@@ -413,7 +439,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Ona Coffee Melbourne",
     slug: "ona-coffee-melbourne",
-    lat: -37.8022, lng: 144.9875,
+    lat: -37.7649, lng: 144.9617,
+    google_place_id: "ChIJ0Rw8XyND1moRlQ3nyEFLcqk",
     city: "Melbourne", country: "Australia",
     address: "169 Oxford St, Collingwood VIC 3066",
     roaster: "ONA Coffee",
@@ -428,7 +455,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Pope Joan",
     slug: "pope-joan-melbourne",
-    lat: -37.7700, lng: 144.9984,
+    lat: -37.7749, lng: 144.9788,
+    google_place_id: "ChIJ9YE-7END1moRaqNRuMgazBg",
     city: "Melbourne", country: "Australia",
     address: "77-79 Nicholson St, Brunswick East VIC 3057",
     roaster: "Multiple guest roasters",
@@ -457,7 +485,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Padre Coffee Fitzroy",
     slug: "padre-coffee-fitzroy",
-    lat: -37.7991, lng: 144.9782,
+    lat: -37.8009, lng: 144.9789,
+    google_place_id: "ChIJcVmoPd9C1moRTuzUF59Md4Y",
     city: "Melbourne", country: "Australia",
     address: "312 Smith St, Fitzroy VIC 3065",
     roaster: "Padre Coffee",
@@ -472,7 +501,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Traveller Coffee",
     slug: "traveller-coffee-melbourne",
-    lat: -37.8218, lng: 144.9615,
+    lat: -37.8147, lng: 144.9582,
+    google_place_id: "ChIJn1FUnktd1moRgZCDC6aPCcw",
     city: "Melbourne", country: "Australia",
     address: "Rear, 493-495 Little Bourke St, Melbourne VIC 3000",
     roaster: "Seven Seeds",
@@ -487,7 +517,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Kettle Black",
     slug: "kettle-black-south-melbourne",
-    lat: -37.8318, lng: 144.9612,
+    lat: -37.8341, lng: 144.9713,
+    google_place_id: "ChIJrVqwpwJo1moRJ5oA8Rm_SBY",
     city: "Melbourne", country: "Australia",
     address: "50 Albert Rd, South Melbourne VIC 3205",
     roaster: "Market Lane",
@@ -502,7 +533,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Lune Croissanterie",
     slug: "lune-croissanterie-fitzroy",
-    lat: -37.7974, lng: 144.9762,
+    lat: -37.7960, lng: 144.9799,
+    google_place_id: "ChIJ1zV4U_Zo1moR9MXOJ461Jd0",
     city: "Melbourne", country: "Australia",
     address: "119 Rose St, Fitzroy VIC 3065",
     roaster: "Multiple guest roasters",
@@ -517,7 +549,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "St Ali North",
     slug: "st-ali-north-brunswick",
-    lat: -37.7713, lng: 144.9589,
+    lat: -37.8312, lng: 144.9604,
+    google_place_id: "ChIJJ5bS6P9n1moRx76U3LjtN1A",
     city: "Melbourne", country: "Australia",
     address: "395 Sydney Rd, Brunswick VIC 3056",
     roaster: "St Ali",
@@ -532,7 +565,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Market Lane Carlton",
     slug: "market-lane-carlton",
-    lat: -37.8031, lng: 144.9672,
+    lat: -37.7985, lng: 144.9685,
+    google_place_id: "ChIJm6Hi8dZC1moRiZwOkU2VUgQ",
     city: "Melbourne", country: "Australia",
     address: "Argyle Square, 138 Faraday St, Carlton VIC 3053",
     roaster: "Market Lane",
@@ -562,7 +596,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Dukes Coffee Hawksburn",
     slug: "dukes-coffee-hawksburn",
-    lat: -37.8435, lng: 144.9938,
+    lat: -37.8168, lng: 144.9662,
+    google_place_id: "ChIJyaNNI7RC1moRQcMRU8Ucz8o",
     city: "Melbourne", country: "Australia",
     address: "106 Malvern Rd, Hawksburn VIC 3142",
     roaster: "Dukes Coffee Roasters",
@@ -577,7 +612,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Seven Seeds Carlton North",
     slug: "seven-seeds-carlton-north",
-    lat: -37.7917, lng: 144.9707,
+    lat: -37.8030, lng: 144.9590,
+    google_place_id: "ChIJvdx3kjJd1moRHnjYhByshFo",
     city: "Melbourne", country: "Australia",
     address: "71 Nicholson St, Carlton North VIC 3054",
     roaster: "Seven Seeds",
@@ -594,7 +630,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Single O",
     slug: "single-o-surry-hills",
-    lat: -33.8896, lng: 151.2094,
+    lat: -33.8811, lng: 151.2096,
+    google_place_id: "ChIJNUOUhSKuEmsRj2F2Arcx_OQ",
     city: "Sydney", country: "Australia",
     address: "60-64 Reservoir St, Surry Hills NSW 2010",
     roaster: "Single O",
@@ -609,7 +646,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Sample Coffee",
     slug: "sample-coffee-sydney",
-    lat: -33.8923, lng: 151.2077,
+    lat: -33.8867, lng: 151.2091,
+    google_place_id: "ChIJHUVSMyCuEmsRcOVnCCEwodc",
     city: "Sydney", country: "Australia",
     address: "118 Devonshire St, Surry Hills NSW 2010",
     roaster: "Multiple guest roasters",
@@ -624,7 +662,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Reuben Hills",
     slug: "reuben-hills-sydney",
-    lat: -33.8910, lng: 151.2060,
+    lat: -33.8829, lng: 151.2110,
+    google_place_id: "ChIJm_F_mhiuEmsR3Ah4Quu1Odg",
     city: "Sydney", country: "Australia",
     address: "61 Albion St, Surry Hills NSW 2010",
     roaster: "Reuben Hills",
@@ -639,7 +678,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mecca Coffee",
     slug: "mecca-coffee-surry-hills",
-    lat: -33.8882, lng: 151.2108,
+    lat: -33.9066, lng: 151.2000,
+    google_place_id: "ChIJ92I17cexEmsRQMdkCcGReCI",
     city: "Sydney", country: "Australia",
     address: "46 Myrtle St, Chippendale NSW 2008",
     roaster: "Mecca Coffee",
@@ -654,7 +694,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Artificer Coffee",
     slug: "artificer-coffee-sydney",
-    lat: -33.8898, lng: 151.2062,
+    lat: -33.8871, lng: 151.2151,
+    google_place_id: "ChIJs4Lblh6uEmsRlGsK1tv6qY8",
     city: "Sydney", country: "Australia",
     address: "547 Bourke St, Surry Hills NSW 2010",
     roaster: "Multiple guest roasters",
@@ -669,7 +710,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Paramount Coffee Project",
     slug: "paramount-coffee-project-sydney",
-    lat: -33.8876, lng: 151.2073,
+    lat: -33.8794, lng: 151.2111,
+    google_place_id: "ChIJHRwF-BeuEmsRRwfUQVNfsdU",
     city: "Sydney", country: "Australia",
     address: "80 Commonwealth St, Surry Hills NSW 2010",
     roaster: "Multiple guest roasters",
@@ -684,7 +726,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Brewtown Newtown",
     slug: "brewtown-newtown-sydney",
-    lat: -33.8965, lng: 151.1795,
+    lat: -33.8939, lng: 151.1824,
+    google_place_id: "ChIJExZmFTKwEmsReP_uIMPdOOI",
     city: "Sydney", country: "Australia",
     address: "6-8 O'Connell St, Newtown NSW 2042",
     roaster: "Single O",
@@ -699,7 +742,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Toby's Estate",
     slug: "tobys-estate-sydney",
-    lat: -33.8867, lng: 151.2053,
+    lat: -33.8859, lng: 151.1944,
+    google_place_id: "ChIJR-S-I9axEmsRGjjcmNfvx6k",
     city: "Sydney", country: "Australia",
     address: "129 Devonshire St, Surry Hills NSW 2010",
     roaster: "Toby's Estate",
@@ -714,7 +758,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Pablo & Rusty's",
     slug: "pablo-rustys-sydney",
-    lat: -33.8672, lng: 151.2083,
+    lat: -33.8724, lng: 151.2091,
+    google_place_id: "ChIJlQzbPT6uEmsRdMutKU9hWds",
     city: "Sydney", country: "Australia",
     address: "161 Castlereagh St, Sydney NSW 2000",
     roaster: "Pablo & Rusty's",
@@ -729,7 +774,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Gumption Coffee",
     slug: "gumption-coffee-sydney",
-    lat: -33.8694, lng: 151.2082,
+    lat: -33.8694, lng: 151.2075,
+    google_place_id: "ChIJDycznj-uEmsRCrYS0ALQByk",
     city: "Sydney", country: "Australia",
     address: "The Strand Arcade, 412 George St, Sydney NSW 2000",
     roaster: "Multiple guest roasters",
@@ -744,7 +790,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Coffee Alchemy",
     slug: "coffee-alchemy-marrickville",
-    lat: -33.9091, lng: 151.1636,
+    lat: -33.9110, lng: 151.1645,
+    google_place_id: "ChIJ_YbDfEGwEmsRANEuZjL_uSI",
     city: "Sydney", country: "Australia",
     address: "100 Marrickville Rd, Marrickville NSW 2204",
     roaster: "Coffee Alchemy",
@@ -759,7 +806,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Edition Coffee Roasters",
     slug: "edition-coffee-roasters-sydney",
-    lat: -33.8820, lng: 151.1994,
+    lat: -33.8785, lng: 151.2012,
+    google_place_id: "ChIJJeRjRtmvEmsRvku-OhXBVAI",
     city: "Sydney", country: "Australia",
     address: "60 Darling Dr, Darling Square, Haymarket NSW 2000",
     roaster: "Edition Coffee Roasters",
@@ -789,7 +837,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "The Grounds of Alexandria",
     slug: "the-grounds-of-alexandria-sydney",
-    lat: -33.9041, lng: 151.1955,
+    lat: -33.9107, lng: 151.1941,
+    google_place_id: "ChIJFbIJpLaxEmsRSrzMZif-DK8",
     city: "Sydney", country: "Australia",
     address: "7A/2 Huntley St, Alexandria NSW 2015",
     roaster: "The Grounds Roasters",
@@ -805,7 +854,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Single O Haberfield",
     slug: "single-o-haberfield",
-    lat: -33.8833, lng: 151.1478,
+    lat: -33.8811, lng: 151.2096,
+    google_place_id: "ChIJNUOUhSKuEmsRj2F2Arcx_OQ",
     city: "Sydney", country: "Australia",
     address: "241 Ramsay St, Haberfield NSW 2045",
     roaster: "Single O",
@@ -835,7 +885,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Workshop Espresso Sydney",
     slug: "workshop-espresso-sydney",
-    lat: -33.8741, lng: 151.2065,
+    lat: -33.8726, lng: 151.2071,
+    google_place_id: "ChIJRzzaXz6uEmsRrImlmJUqnmU",
     city: "Sydney", country: "Australia",
     address: "Shop RG01A, 500 George St, Sydney NSW 2000",
     roaster: "Multiple guest roasters",
@@ -849,7 +900,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Reformatory Caffeine Lab",
     slug: "reformatory-caffeine-lab-sydney",
-    lat: -33.8895, lng: 151.2062,
+    lat: -33.8843, lng: 151.2100,
+    google_place_id: "ChIJ-Up3-CGuEmsRQ5hNzCEqPtA",
     city: "Sydney", country: "Australia",
     address: "Shop 7B, 28 Foveaux St, Surry Hills NSW 2010",
     roaster: "Reformatory Caffeine Lab",
@@ -864,7 +916,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Skittle Lane",
     slug: "skittle-lane-sydney",
-    lat: -33.8656, lng: 151.2078,
+    lat: -33.8685, lng: 151.2048,
+    google_place_id: "ChIJpz8eTD-uEmsRIQrn3Y2wl6Q",
     city: "Sydney", country: "Australia",
     address: "40 King St, Sydney NSW 2000",
     roaster: "Multiple guest roasters",
@@ -879,7 +932,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Ona Coffee Sydney",
     slug: "ona-coffee-sydney",
-    lat: -33.8888, lng: 151.2059,
+    lat: -33.9073, lng: 151.1673,
+    google_place_id: "ChIJ9--VtvaxEmsR7dk5e90VOLI",
     city: "Sydney", country: "Australia",
     address: "9 Foster St, Surry Hills NSW 2010",
     roaster: "ONA Coffee",
@@ -894,7 +948,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "The Commons",
     slug: "the-commons-surry-hills",
-    lat: -33.8852, lng: 151.2095,
+    lat: -33.8782, lng: 151.2151,
+    google_place_id: "ChIJbaiSJheuEmsRwSEUmr6pldY",
     city: "Sydney", country: "Australia",
     address: "32 Burton St, Darlinghurst NSW 2010",
     roaster: "Single O",
@@ -908,7 +963,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Single O Pyrmont",
     slug: "single-o-pyrmont",
-    lat: -33.8706, lng: 151.1944,
+    lat: -33.8811, lng: 151.2096,
+    google_place_id: "ChIJNUOUhSKuEmsRj2F2Arcx_OQ",
     city: "Sydney", country: "Australia",
     address: "60 Union St, Pyrmont NSW 2009",
     roaster: "Single O",
@@ -923,7 +979,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Cali Press Newtown",
     slug: "cali-press-newtown",
-    lat: -33.8960, lng: 151.1825,
+    lat: -33.8676, lng: 151.2048,
+    google_place_id: "ChIJq4OpghmvEmsR1fD7JNpWfwk",
     city: "Sydney", country: "Australia",
     address: "400 King St, Newtown NSW 2042",
     roaster: "Multiple guest roasters",
@@ -938,7 +995,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Axil Coffee Sydney",
     slug: "axil-coffee-sydney",
-    lat: -33.8671, lng: 151.2051,
+    lat: -33.8850, lng: 151.2139,
+    google_place_id: "ChIJZT4fSgCvEmsRR2hQ499sqJ0",
     city: "Sydney", country: "Australia",
     address: "30 Bond St, Sydney NSW 2000",
     roaster: "Axil Coffee Roasters",
@@ -953,7 +1011,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Five Senses Coffee Sydney",
     slug: "five-senses-coffee-sydney",
-    lat: -33.8902, lng: 151.2071,
+    lat: -33.8967, lng: 151.1530,
+    google_place_id: "ChIJx9uP5xewEmsRNT69oLXyORA",
     city: "Sydney", country: "Australia",
     address: "77a Foveaux St, Surry Hills NSW 2010",
     roaster: "Five Senses Coffee",
@@ -968,7 +1027,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Black Star Pastry",
     slug: "black-star-pastry-newtown",
-    lat: -33.8983, lng: 151.1785,
+    lat: -33.8972, lng: 151.1790,
+    google_place_id: "ChIJgwF71jawEmsRWUOXoYpNxjM",
     city: "Sydney", country: "Australia",
     address: "277 Australia St, Newtown NSW 2042",
     roaster: "Single O",
@@ -983,7 +1043,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Room 10",
     slug: "room-10-potts-point",
-    lat: -33.8744, lng: 151.2197,
+    lat: -33.8724, lng: 151.2245,
+    google_place_id: "ChIJVdZk1HKuEmsRn_UpO_K5Lag",
     city: "Sydney", country: "Australia",
     address: "10 Llankelly Place, Potts Point NSW 2011",
     roaster: "Multiple guest roasters",
@@ -998,7 +1059,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Campos Coffee Newtown",
     slug: "campos-coffee-newtown",
-    lat: -33.8956, lng: 151.1792,
+    lat: -33.8930, lng: 151.1832,
+    google_place_id: "ChIJ9QILdzKwEmsRIjQVzqIASrc",
     city: "Sydney", country: "Australia",
     address: "193 Missenden Rd, Newtown NSW 2042",
     roaster: "Campos Coffee",
@@ -1013,7 +1075,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mecca Coffee Rosebery",
     slug: "mecca-coffee-rosebery",
-    lat: -33.9106, lng: 151.2025,
+    lat: -33.9066, lng: 151.2000,
+    google_place_id: "ChIJ92I17cexEmsRQMdkCcGReCI",
     city: "Sydney", country: "Australia",
     address: "64 Mentmore Ave, Rosebery NSW 2018",
     roaster: "Mecca Coffee",
@@ -1045,7 +1108,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Eighthirty Coffee Roasters",
     slug: "eighthirty-auckland",
-    lat: -36.8487, lng: 174.7633,
+    lat: -36.8703, lng: 174.7510,
+    google_place_id: "ChIJafc9vv1HDW0RzfVoysWXu0k",
     city: "Auckland", country: "New Zealand",
     address: "34 Wyndham St, Auckland CBD, Auckland 1010",
     roaster: "Eighthirty Coffee Roasters",
@@ -1060,7 +1124,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Allpress Espresso Auckland",
     slug: "allpress-espresso-auckland",
-    lat: -36.8612, lng: 174.7479,
+    lat: -36.8487, lng: 174.7556,
+    google_place_id: "ChIJv0PWevJHDW0RtXr7A1vPYC4",
     city: "Auckland", country: "New Zealand",
     address: "8 Drake St, Freemans Bay, Auckland 1011",
     roaster: "Allpress Espresso",
@@ -1075,7 +1140,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Atomic Coffee Roasters",
     slug: "atomic-coffee-auckland",
-    lat: -36.8542, lng: 174.7452,
+    lat: -36.8719, lng: 174.7461,
+    google_place_id: "ChIJTTRWv7BHDW0RUjXyu15qbT0",
     city: "Auckland", country: "New Zealand",
     address: "3 Sale St, Freemans Bay, Auckland 1011",
     roaster: "Atomic Coffee Roasters",
@@ -1090,7 +1156,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Coffee Supreme Auckland",
     slug: "coffee-supreme-auckland",
-    lat: -36.8498, lng: 174.7605,
+    lat: -36.8661, lng: 174.7428,
+    google_place_id: "ChIJG_CSltmmLwARBkPfMhPLz_k",
     city: "Auckland", country: "New Zealand",
     address: "376 Karangahape Rd, Newton, Auckland 1010",
     roaster: "Coffee Supreme",
@@ -1106,7 +1173,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mojo Coffee Queen Street",
     slug: "mojo-coffee-queen-street",
-    lat: -36.8480, lng: 174.7637,
+    lat: -36.8466, lng: 174.7646,
+    google_place_id: "ChIJG0nyq4NHDW0RdwaDg19LK0Q",
     city: "Auckland", country: "New Zealand",
     address: "29 Queen St, Auckland CBD, Auckland 1010",
     roaster: "Mojo Coffee",
@@ -1121,7 +1189,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Ima Cuisine",
     slug: "ima-boutique-auckland",
-    lat: -36.8502, lng: 174.7614,
+    lat: -36.8465, lng: 174.7688,
+    google_place_id: "ChIJ64UPbPxHDW0RDj_fTPmFQlk",
     city: "Auckland", country: "New Zealand",
     address: "53 Fort St, Auckland CBD, Auckland 1010",
     roaster: "Kokako",
@@ -1136,7 +1205,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Flight Coffee Auckland",
     slug: "flight-coffee-auckland",
-    lat: -36.8511, lng: 174.7601,
+    lat: -36.8474, lng: 174.7652,
+    google_place_id: "ChIJeb8SAftHDW0RYo1n_ePm098",
     city: "Auckland", country: "New Zealand",
     address: "O'Connell St, Auckland CBD, Auckland 1010",
     roaster: "Flight Coffee",
@@ -1151,7 +1221,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mojo Coffee Britomart",
     slug: "mojo-coffee-britomart",
-    lat: -36.8445, lng: 174.7688,
+    lat: -36.8441, lng: 174.7672,
+    google_place_id: "ChIJ0aN7DfpHDW0RJ4MlEDAZHtc",
     city: "Auckland", country: "New Zealand",
     address: "29 Galway St, Britomart, Auckland 1010",
     roaster: "Mojo Coffee",
@@ -1181,7 +1252,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Eighthirty Ponsonby",
     slug: "eighthirty-ponsonby",
-    lat: -36.8572, lng: 174.7479,
+    lat: -36.8561, lng: 174.7461,
+    google_place_id: "ChIJ5SZ-k5ZHDW0RCyOtsdNNmsw",
     city: "Auckland", country: "New Zealand",
     address: "136-146 Ponsonby Rd, Ponsonby Central, Auckland 1011",
     roaster: "Eighthirty Coffee Roasters",
@@ -1213,7 +1285,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "People's Coffee",
     slug: "peoples-coffee-wellington",
-    lat: -41.3098, lng: 174.7841,
+    lat: -41.3138, lng: 174.7806,
+    google_place_id: "ChIJi4ZL---vOG0REV-QTBcdqVk",
     city: "Wellington", country: "New Zealand",
     address: "4 Constable St, Newtown, Wellington 6021",
     roaster: "People's Coffee",
@@ -1228,7 +1301,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Caffe L'affare",
     slug: "caffe-laffare-wellington",
-    lat: -41.2952, lng: 174.7758,
+    lat: -41.2962, lng: 174.7804,
+    google_place_id: "ChIJrST1sNuvOG0R3vzcciiyQWc",
     city: "Wellington", country: "New Zealand",
     address: "27 College St, Te Aro, Wellington 6011",
     roaster: "L'affare",
@@ -1243,7 +1317,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Customs Brew Bar",
     slug: "customs-brew-bar-wellington",
-    lat: -41.2934, lng: 174.7753,
+    lat: -41.2936, lng: 174.7762,
+    google_place_id: "ChIJLXv2zdmvOG0R6kwX9B7jFsQ",
     city: "Wellington", country: "New Zealand",
     address: "39 Ghuznee St, Te Aro, Wellington 6011",
     roaster: "Multiple guest roasters",
@@ -1257,7 +1332,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Coffee Supreme Wellington",
     slug: "coffee-supreme-wellington",
-    lat: -41.2928, lng: 174.7746,
+    lat: -41.2994, lng: 174.7741,
+    google_place_id: "ChIJhSaVZN-vOG0R3AzA3-xML_Y",
     city: "Wellington", country: "New Zealand",
     address: "45 Dixon St, Te Aro, Wellington 6011",
     roaster: "Coffee Supreme",
@@ -1272,7 +1348,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Golding's Free Dive",
     slug: "goldings-free-dive-wellington",
-    lat: -41.2944, lng: 174.7744,
+    lat: -41.2928, lng: 174.7771,
+    google_place_id: "ChIJw6DRYdevOG0R78qgsoWJQ1I",
     city: "Wellington", country: "New Zealand",
     address: "14 Leeds St, Te Aro, Wellington 6011",
     roaster: "Multiple guest roasters",
@@ -1287,7 +1364,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Midnight Espresso",
     slug: "midnight-espresso-wellington",
-    lat: -41.2963, lng: 174.7745,
+    lat: -41.2946, lng: 174.7749,
+    google_place_id: "ChIJpUeBQ9ivOG0RfJfyJsdczAo",
     city: "Wellington", country: "New Zealand",
     address: "178 Cuba St, Te Aro, Wellington 6011",
     roaster: "Multiple guest roasters",
@@ -1301,7 +1379,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Havana Coffee Works",
     slug: "havana-coffee-works-wellington",
-    lat: -41.2967, lng: 174.7759,
+    lat: -41.2977, lng: 174.7790,
+    google_place_id: "ChIJ20sF8divOG0RBSITJe-MJvY",
     city: "Wellington", country: "New Zealand",
     address: "163 Tory St, Te Aro, Wellington 6011",
     roaster: "Havana Coffee Works",
@@ -1361,7 +1440,8 @@ export const OCEANIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sc
   {
     name: "Mojo Coffee Wellington",
     slug: "mojo-coffee-wellington",
-    lat: -41.2870, lng: 174.7766,
+    lat: -41.2836, lng: 174.7775,
+    google_place_id: "ChIJhZszj2evOG0RI6HQWDTYpzQ",
     city: "Wellington", country: "New Zealand",
     address: "14 Brandon St, Wellington 6011",
     roaster: "Mojo Coffee",

@@ -3065,7 +3065,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kronotrop",
     slug: "kronotrop-istanbul",
-    lat: 41.0326, lng: 28.9828,
+    lat: 41.0314, lng: 28.9824,
+    google_place_id: "ChIJeYEDP2C3yhQR-hDsHPTBDDw",
     city: "Istanbul", country: "Turkey",
     address: "Sıraselviler Cad. 69, Cihangir, 34433 Istanbul",
     roaster: "Kronotrop",
@@ -3080,7 +3081,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Petra Roasting Co.",
     slug: "petra-roasting-istanbul",
-    lat: 41.0233, lng: 28.9748,
+    lat: 41.0284, lng: 28.9729,
+    google_place_id: "ChIJb6Y2Qja5yhQR4PnaycQDBdE",
     city: "Istanbul", country: "Turkey",
     address: "Kemankeş Karamustafa Paşa Mah., Karaköy, Istanbul",
     roaster: "Petra Roasting Co.",
@@ -3095,7 +3097,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "MOC Coffee",
     slug: "moc-coffee-istanbul",
-    lat: 41.0472, lng: 28.9944,
+    lat: 41.0493, lng: 28.9960,
+    google_place_id: "ChIJ_XnZzwu3yhQRjVFLzRK3-f8",
     city: "Istanbul", country: "Turkey",
     address: "Abdi İpekçi Cad., Nişantaşı, Istanbul",
     roaster: "Multiple guest roasters",
@@ -3110,7 +3113,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Lot Coffee",
     slug: "lot-coffee-istanbul",
-    lat: 41.0241, lng: 28.9752,
+    lat: 41.0259, lng: 28.9812,
+    google_place_id: "ChIJOdKrqd65yhQR7RGqfc4HK5g",
     city: "Istanbul", country: "Turkey",
     address: "Kemankeş Cad., Karaköy, 34425 Istanbul",
     roaster: "Lot Coffee",
@@ -3124,7 +3128,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Norm Coffee",
     slug: "norm-coffee-istanbul",
-    lat: 41.0435, lng: 29.0063,
+    lat: 41.0320, lng: 28.9853,
+    google_place_id: "ChIJm9wXAmO3yhQRvx92eZdb_lk",
     city: "Istanbul", country: "Turkey",
     address: "Beşiktaş, Istanbul",
     roaster: "Norm Coffee",
@@ -3139,7 +3144,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "GAIA Coffee Roasters",
     slug: "gaia-coffee-kadikoy",
-    lat: 40.9904, lng: 29.0241,
+    lat: 40.9850, lng: 29.0255,
+    google_place_id: "ChIJQce432C4yhQRKlx16syzfGs",
     city: "Istanbul", country: "Turkey",
     address: "Moda, Kadıköy, Istanbul",
     roaster: "GAIA Coffee Roasters",
@@ -3153,7 +3159,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Arkaoda",
     slug: "arkaoda-kadikoy",
-    lat: 40.9912, lng: 29.0253,
+    lat: 40.9866, lng: 29.0265,
+    google_place_id: "ChIJJwApwma4yhQR7T2fpIAK2og",
     city: "Istanbul", country: "Turkey",
     address: "Moda Cad. 109, Kadıköy, 34710 Istanbul",
     roaster: "Multiple guest roasters",
@@ -3168,7 +3175,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kronotrop Nişantaşı",
     slug: "kronotrop-nisantasi",
-    lat: 41.0488, lng: 28.9928,
+    lat: 41.0510, lng: 28.9951,
+    google_place_id: "ChIJoQXgAWO3yhQRuD9VSwEYuHY",
     city: "Istanbul", country: "Turkey",
     address: "Teşvikiye Cad. 25, Nişantaşı, 34365 Istanbul",
     roaster: "Kronotrop",
@@ -3182,7 +3190,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kronotrop Karaköy",
     slug: "kronotrop-karakoy",
-    lat: 41.0237, lng: 28.9754,
+    lat: 41.0253, lng: 28.9790,
+    google_place_id: "ChIJ-b-3m065yhQRqla75myq1gQ",
     city: "Istanbul", country: "Turkey",
     address: "Kemankeş Cad. 10, Karaköy, 34425 Istanbul",
     roaster: "Kronotrop",
@@ -3196,7 +3205,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Arabica Istanbul",
     slug: "arabica-istanbul",
-    lat: 40.9675, lng: 29.0708,
+    lat: 40.9623, lng: 29.0771,
+    google_place_id: "ChIJfWX3pGHHyhQRA519C5kXd68",
     city: "Istanbul", country: "Turkey",
     address: "Bağdat Cad. 387A, Suadiye, 34740 Istanbul",
     roaster: "% Arabica",
@@ -3210,7 +3220,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Espresso Lab Nişantaşı",
     slug: "espresso-lab-nisantasi",
-    lat: 41.0498, lng: 28.9944,
+    lat: 41.0486, lng: 28.9947,
+    google_place_id: "ChIJa26PNBu3yhQRLBBQbovQzpk",
     city: "Istanbul", country: "Turkey",
     address: "Mim Kemal Öke Cad. 18, Nişantaşı, 34367 Istanbul",
     roaster: "Espresso Lab",
@@ -3238,7 +3249,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coffeetopia Cihangir",
     slug: "coffeetopia-cihangir",
-    lat: 41.0319, lng: 28.9824,
+    lat: 41.0166, lng: 28.9733,
+    google_place_id: "ChIJ927MrOu5yhQRbGbld5o2Rqc",
     city: "Istanbul", country: "Turkey",
     address: "Akarsu Yokuşu 23, Cihangir, 34433 Istanbul",
     roaster: "Coffeetopia",
@@ -3253,7 +3265,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Tim Wendelboe",
     slug: "tim-wendelboe-oslo",
-    lat: 59.9243, lng: 10.7600,
+    lat: 59.9234, lng: 10.7557,
+    google_place_id: "ChIJ9SVQVG9uQUYRh2k5AHiREC8",
     city: "Oslo", country: "Norway",
     address: "Grüners gate 1, 0552 Oslo",
     roaster: "Tim Wendelboe",
@@ -3268,7 +3281,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fuglen Oslo",
     slug: "fuglen-oslo",
-    lat: 59.9139, lng: 10.7326,
+    lat: 59.9171, lng: 10.7399,
+    google_place_id: "ChIJc8XN8nxuQUYRVgqbPUEYzLE",
     city: "Oslo", country: "Norway",
     address: "Universitetsgata 2, 0164 Oslo",
     roaster: "Fuglen",
@@ -3283,7 +3297,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Supreme Roastworks",
     slug: "supreme-roastworks-oslo",
-    lat: 59.9221, lng: 10.7583,
+    lat: 59.9280, lng: 10.7594,
+    google_place_id: "ChIJmajkImtuQUYRBQWIGVLwrj8",
     city: "Oslo", country: "Norway",
     address: "Thorvald Meyers gate 18A, 0555 Oslo",
     roaster: "Supreme Roastworks",
@@ -3298,7 +3313,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stockfleths",
     slug: "stockfleths-oslo",
-    lat: 59.9243, lng: 10.7239,
+    lat: 59.9232, lng: 10.7261,
+    google_place_id: "ChIJhaCRVRxtQUYRo38W3JvsvWI",
     city: "Oslo", country: "Norway",
     address: "Josefines gate 23, 0351 Oslo",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
@@ -3314,7 +3330,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kaffa Roastery",
     slug: "kaffa-roastery-helsinki",
-    lat: 60.1560, lng: 24.9432,
+    lat: 60.1585, lng: 24.9341,
+    google_place_id: "ChIJx7csnrYLkkYRHu4tXVZYXP0",
     city: "Helsinki", country: "Finland",
     address: "Pursimiehenkatu 29, 00150 Helsinki",
     roaster: "Kaffa Roastery",
@@ -3362,7 +3379,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Artisan Roast",
     slug: "artisan-roast-edinburgh",
-    lat: 55.9572, lng: -3.1896,
+    lat: 55.9579, lng: -3.1889,
+    google_place_id: "ChIJNV2BUozHh0gRxu5wA6Twdiw",
     city: "Edinburgh", country: "United Kingdom",
     address: "57 Broughton St, Edinburgh EH1 3RJ",
     roaster: "Artisan Roast",
@@ -3377,7 +3395,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Williams & Johnson Coffee Co.",
     slug: "williams-and-johnson-edinburgh",
-    lat: 55.9748, lng: -3.1734,
+    lat: 55.9768, lng: -3.1705,
+    google_place_id: "ChIJ8_fCRAS4h0gRXkwbtGrJzkg",
     city: "Edinburgh", country: "United Kingdom",
     address: "1 Customs Wharf, Edinburgh EH6 6AL",
     roaster: "Williams & Johnson Coffee Co.",
@@ -3392,7 +3411,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fortitude Coffee",
     slug: "fortitude-coffee-edinburgh",
-    lat: 55.9577, lng: -3.2095,
+    lat: 55.9592, lng: -3.2071,
+    google_place_id: "ChIJ4_K-nfjHh0gRiqMNDOp-Dzk",
     city: "Edinburgh", country: "United Kingdom",
     address: "66 Hamilton Place, Edinburgh EH3 5AZ",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
@@ -3408,7 +3428,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "3fe Coffee",
     slug: "3fe-coffee-dublin",
-    lat: 53.3413, lng: -6.2392,
+    lat: 53.3400, lng: -6.2420,
+    google_place_id: "ChIJN1lxjJQOZ0gRLEW5vZh6AA0",
     city: "Dublin", country: "Ireland",
     address: "32-34 Grand Canal St Lower, Dublin 2",
     roaster: "3fe Coffee",
@@ -3423,7 +3444,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Two Fifty Square",
     slug: "two-fifty-square-dublin",
-    lat: 53.3256, lng: -6.2647,
+    lat: 53.3092, lng: -6.2841,
+    google_place_id: "ChIJdW2jYEYLZ0gRoye0fK6sbsI",
     city: "Dublin", country: "Ireland",
     address: "52 Williams Park, Dublin 6",
     brew_methods: ["pour-over", "espresso", "aeropress"],
@@ -3437,7 +3459,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Clement & Pekoe",
     slug: "clement-and-pekoe-dublin",
-    lat: 53.3398, lng: -6.2613,
+    lat: 53.3416, lng: -6.2627,
+    google_place_id: "ChIJD6iL954IZ0gREwIN_V6uQAE",
     city: "Dublin", country: "Ireland",
     address: "50 William St S, Dublin 2, D02 Y610",
     brew_methods: ["pour-over", "espresso", "french-press"],
@@ -3451,7 +3474,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Proper Order Coffee Co.",
     slug: "proper-order-coffee-dublin",
-    lat: 53.3472, lng: -6.2790,
+    lat: 53.3476, lng: -6.2780,
+    google_place_id: "ChIJl_R2Vi4MZ0gRVxttVX8tIUg",
     city: "Dublin", country: "Ireland",
     address: "7 Haymarket, Smithfield, Dublin 7",
     roaster: "Proper Order Coffee Co.",
@@ -3468,7 +3492,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Orsonero Coffee",
     slug: "orsonero-coffee-milan",
-    lat: 45.4709, lng: 9.2108,
+    lat: 45.4777, lng: 9.2113,
+    google_place_id: "ChIJYV131cHGhkcRU3btwb85dQ4",
     city: "Milan", country: "Italy",
     address: "Via Giuseppe Broggi 15, 20129 Milan",
     roaster: "Orsonero Coffee",
@@ -3483,7 +3508,8 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Micamera",
     slug: "micamera-milan",
-    lat: 45.4883, lng: 9.1751,
+    lat: 45.4897, lng: 9.1858,
+    google_place_id: "ChIJqQX7gy7BhkcR56wbZV5TaYE",
     city: "Milan", country: "Italy",
     address: "Via Medardo Rosso 19, 20159 Milan",
     roaster: "Micamera",

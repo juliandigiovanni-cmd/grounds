@@ -6,7 +6,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Truth Coffee Roasting",
     slug: "truth-coffee-cape-town",
-    lat: -33.9249, lng: 18.4241,
+    lat: -33.9282, lng: 18.4227,
+    google_place_id: "ChIJk0_6kHxnzB0R9hOYtdW5I_s",
     city: "Cape Town", country: "South Africa",
     address: "36 Buitenkant St, Cape Town City Centre, 8001",
     roaster: "Truth Coffee",
@@ -21,7 +22,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Origin Coffee Roasting",
     slug: "origin-coffee-cape-town",
-    lat: -33.9173, lng: 18.4234,
+    lat: -33.9171, lng: 18.4175,
+    google_place_id: "ChIJsf7bhfhp1h0RXcxh-mAfb_0",
     city: "Cape Town", country: "South Africa",
     address: "28 Hudson St, De Waterkant, Cape Town, 8001",
     roaster: "Origin Coffee",
@@ -36,7 +38,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Rosetta Roastery",
     slug: "rosetta-roastery-cape-town",
-    lat: -33.9361, lng: 18.4148,
+    lat: -33.9212, lng: 18.4184,
+    google_place_id: "ChIJiYmWjKlnzB0R8FHe6o6VsQ4",
     city: "Cape Town", country: "South Africa",
     address: "8 Kloof Nek Rd, Gardens, Cape Town, 8001",
     roaster: "Rosetta Roastery",
@@ -51,7 +54,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Deluxe Coffeeworks",
     slug: "deluxe-coffeeworks-cape-town",
-    lat: -33.9240, lng: 18.4212,
+    lat: -33.9274, lng: 18.4131,
+    google_place_id: "ChIJYbjp029nzB0Rf9Ox-VEbJfE",
     city: "Cape Town", country: "South Africa",
     address: "19 Church Square, Cape Town City Centre, 8001",
     roaster: "Deluxe Coffeeworks",
@@ -96,7 +100,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Bootlegger Coffee Company",
     slug: "bootlegger-coffee-cape-town",
-    lat: -33.9112, lng: 18.4056,
+    lat: -33.9197, lng: 18.3855,
+    google_place_id: "ChIJ6TdBjCFnzB0RM8gdI-9aXEs",
     city: "Cape Town", country: "South Africa",
     address: "Regent Rd, Sea Point, Cape Town, 8060",
     roaster: "Bootlegger Coffee",
@@ -111,7 +116,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Honest Chocolate Café",
     slug: "honest-chocolate-cape-town",
-    lat: -33.9233, lng: 18.4170,
+    lat: -33.9227, lng: 18.4172,
+    google_place_id: "ChIJb0-WwmVnzB0Rmw4NJmQGZdM",
     city: "Cape Town", country: "South Africa",
     address: "64A Wale St, Cape Town City Centre, 8001",
     roaster: "Multiple guest roasters",
@@ -127,7 +133,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Jason Bakery",
     slug: "jason-bakery-cape-town",
-    lat: -33.9213, lng: 18.4183,
+    lat: -33.9245, lng: 18.4148,
+    google_place_id: "ChIJ2w4tcW9nzB0RttovXa748fg",
     city: "Cape Town", country: "South Africa",
     address: "185 Bree St, Cape Town City Centre, 8001",
     roaster: "Truth Coffee",
@@ -175,7 +182,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Dormans Coffee",
     slug: "dormans-coffee-nairobi",
-    lat: -1.3244, lng: 36.7139,
+    lat: -1.3117, lng: 36.6986,
+    google_place_id: "ChIJrVsBtYEbLxgRyIpXm05sOq8",
     city: "Nairobi", country: "Kenya",
     address: "Karen Shopping Centre, Karen, Nairobi",
     roaster: "Dormans Coffee",
@@ -190,7 +198,8 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
   {
     name: "Kaldi's Coffee",
     slug: "kaldis-coffee-nairobi",
-    lat: -1.2821, lng: 36.8174,
+    lat: -1.2828, lng: 36.8218,
+    google_place_id: "ChIJhQMqMdQQLxgRhGoxZ9K7AZc",
     city: "Nairobi", country: "Kenya",
     address: "Kimathi St, Nairobi CBD, Nairobi",
     website: "https://kaldisafrica.com/",

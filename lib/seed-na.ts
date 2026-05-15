@@ -5,7 +5,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Devoción",
     slug: "devocion-nyc",
-    lat: 40.7134, lng: -73.9634,
+    lat: 40.7148, lng: -73.9622,
+    google_place_id: "ChIJi7flemFZwokRDpIJuxfOGek",
     city: "New York City", country: "United States",
     address: "69 Grand St, Brooklyn, NY 11249",
     roaster: "Devoción",
@@ -35,7 +36,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Parlor Coffee",
     slug: "parlor-coffee-brooklyn",
-    lat: 40.6967, lng: -73.9704,
+    lat: 40.6975, lng: -73.9705,
+    google_place_id: "ChIJJQS0PMZbwokRfYUbpcoCAJo",
     city: "New York City", country: "United States",
     address: "11 Vanderbilt Ave, Brooklyn, NY 11205",
     roaster: "Parlor Coffee",
@@ -50,7 +52,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sey Coffee",
     slug: "sey-coffee-bushwick",
-    lat: 40.7047, lng: -73.9374,
+    lat: 40.7053, lng: -73.9324,
+    google_place_id: "ChIJtz83BQFcwokRrUZ9HpeGOng",
     city: "New York City", country: "United States",
     address: "18 Grattan St, Brooklyn, NY 11206",
     roaster: "Sey Coffee",
@@ -65,7 +68,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Toby's Estate Coffee",
     slug: "tobys-estate-williamsburg",
-    lat: 40.7121, lng: -73.9605,
+    lat: 40.7180, lng: -73.9592,
+    google_place_id: "ChIJ0zAa911ZwokRQlmIU8v4Kzs",
     city: "New York City", country: "United States",
     address: "125 N 6th St, Brooklyn, NY 11249",
     roaster: "Toby's Estate Coffee",
@@ -80,7 +84,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Partners Coffee",
     slug: "partners-coffee-williamsburg",
-    lat: 40.7159, lng: -73.9585,
+    lat: 40.7180, lng: -73.9592,
+    google_place_id: "ChIJ0zAa911ZwokRQlmIU8v4Kzs",
     city: "New York City", country: "United States",
     address: "125 N 6th St, Brooklyn, NY 11249",
     roaster: "Partners Coffee",
@@ -95,7 +100,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Joe Coffee",
     slug: "joe-coffee-west-village",
-    lat: 40.7333, lng: -74.0037,
+    lat: 40.7333, lng: -74.0006,
+    google_place_id: "ChIJOzyVqZZZwokRbNBEKeJZADs",
     city: "New York City", country: "United States",
     address: "141 Waverly Pl, New York, NY 10014",
     roaster: "Joe Coffee",
@@ -110,7 +116,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Little Collins",
     slug: "little-collins-midtown",
-    lat: 40.7575, lng: -73.9718,
+    lat: 40.7524, lng: -73.9735,
+    google_place_id: "ChIJuU3yhK9ZwokRVls7Mp3XqLY",
     city: "New York City", country: "United States",
     address: "667 Lexington Ave, New York, NY 10022",
     roaster: "Multiple roasters",
@@ -125,7 +132,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Cafe Grumpy",
     slug: "cafe-grumpy-chelsea",
-    lat: 40.7455, lng: -74.0001,
+    lat: 40.7151, lng: -73.9903,
+    google_place_id: "ChIJka6YlSlawokRMhN3aYCZWG0",
     city: "New York City", country: "United States",
     address: "224 W 20th St, New York, NY 10011",
     roaster: "Cafe Grumpy",
@@ -140,7 +148,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "La Cabra NYC",
     slug: "la-cabra-nyc",
-    lat: 40.7233, lng: -74.0007,
+    lat: 40.7243, lng: -73.9962,
+    google_place_id: "ChIJ064AVwtZwokRK_IbyKmCNBQ",
     city: "New York City", country: "United States",
     address: "284 Lafayette St, New York, NY 10012",
     roaster: "La Cabra",
@@ -155,7 +164,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stumptown Coffee Roasters NYC",
     slug: "stumptown-ace-hotel-nyc",
-    lat: 40.7472, lng: -73.9916,
+    lat: 40.7457, lng: -73.9882,
+    google_place_id: "ChIJT2h1HKZZwokR0kgzEtsa03k",
     city: "New York City", country: "United States",
     address: "18 W 29th St, New York, NY 10001",
     roaster: "Stumptown Coffee Roasters",
@@ -170,7 +180,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Birch Coffee",
     slug: "birch-coffee-flatiron",
-    lat: 40.7434, lng: -73.9892,
+    lat: 40.7384, lng: -74.0002,
+    google_place_id: "ChIJ2x9X5b1ZwokRxgCbZGuyoyo",
     city: "New York City", country: "United States",
     address: "134 5th Ave, New York, NY 10011",
     roaster: "Birch Coffee",
@@ -185,7 +196,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Oslo Coffee Roasters",
     slug: "oslo-coffee-williamsburg",
-    lat: 40.7131, lng: -73.9559,
+    lat: 40.7132, lng: -73.9624,
+    google_place_id: "ChIJ37CvLWBZwokRq6k-IAy-l7Q",
     city: "New York City", country: "United States",
     address: "328 Bedford Ave, Brooklyn, NY 11211",
     roaster: "Oslo Coffee Roasters",
@@ -200,7 +212,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Blue Bottle Coffee Williamsburg",
     slug: "blue-bottle-williamsburg",
-    lat: 40.7142, lng: -73.9607,
+    lat: 40.7170, lng: -73.9610,
+    google_place_id: "ChIJ7_CZzWBZwokR7b6tc1xIiNU",
     city: "New York City", country: "United States",
     address: "160 Berry St, Brooklyn, NY 11249",
     roaster: "Blue Bottle Coffee",
@@ -215,7 +228,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coffee Project New York",
     slug: "coffee-project-new-york",
-    lat: 40.7259, lng: -73.9847,
+    lat: 40.7271, lng: -73.9894,
+    google_place_id: "ChIJ_dckWptZwokR_LkU9WxPNZ4",
     city: "New York City", country: "United States",
     address: "239 E 5th St, New York, NY 10003",
     roaster: "Multiple guest roasters",
@@ -230,7 +244,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Variety Coffee Roasters",
     slug: "variety-coffee-williamsburg",
-    lat: 40.7190, lng: -73.9580,
+    lat: 40.7027, lng: -73.9171,
+    google_place_id: "ChIJu-iIlB5cwokROYiL8-Sxe2Y",
     city: "New York City", country: "United States",
     address: "146 Wythe Ave, Brooklyn, NY 11249",
     roaster: "Variety Coffee Roasters",
@@ -245,7 +260,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Variety Coffee Roasters",
     slug: "variety-coffee-roasters-greenpoint",
-    lat: 40.7267, lng: -73.9569,
+    lat: 40.7232, lng: -73.9443,
+    google_place_id: "ChIJu921LlFZwokRCx8U6m3DobQ",
     city: "New York City", country: "United States",
     address: "146 Driggs Ave, Brooklyn, NY 11222",
     roaster: "Variety Coffee Roasters",
@@ -262,7 +278,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (TriBeCa)",
     slug: "hungry-ghost-tribeca",
-    lat: 40.7136, lng: -74.0086,
+    lat: 40.7153, lng: -74.0075,
+    google_place_id: "ChIJoX8prKxbwokRRdoG4EbHC14",
     city: "New York City", country: "United States",
     address: "165 Church St, New York, NY 10007",
     roaster: "Hungry Ghost Coffee",
@@ -277,7 +294,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (West Village)",
     slug: "hungry-ghost-west-village",
-    lat: 40.7319, lng: -74.0027,
+    lat: 40.7329, lng: -74.0038,
+    google_place_id: "ChIJY1CeeZNZwokRN8a0oUERoPg",
     city: "New York City", country: "United States",
     address: "315 Bleecker St, New York, NY 10014",
     roaster: "Hungry Ghost Coffee",
@@ -292,7 +310,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Park Slope 7th Ave)",
     slug: "hungry-ghost-park-slope-7th",
-    lat: 40.6733, lng: -73.9768,
+    lat: 40.6723, lng: -73.9773,
+    google_place_id: "ChIJ019PkNdbwokR_mDePAsnQBs",
     city: "New York City", country: "United States",
     address: "156 7th Ave, Brooklyn, NY 11215",
     roaster: "Hungry Ghost Coffee",
@@ -307,7 +326,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Park Slope 5th Ave)",
     slug: "hungry-ghost-park-slope-5th",
-    lat: 40.6711, lng: -73.9800,
+    lat: 40.6722, lng: -73.9835,
+    google_place_id: "ChIJU_IqPBJbwokRDI9lfDcs524",
     city: "New York City", country: "United States",
     address: "337 5th Ave, Brooklyn, NY 11215",
     roaster: "Hungry Ghost Coffee",
@@ -322,7 +342,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Prospect Heights)",
     slug: "hungry-ghost-prospect-heights",
-    lat: 40.6782, lng: -73.9753,
+    lat: 40.6803, lng: -73.9744,
+    google_place_id: "ChIJWZJ2165bwokRHvtRWm0d_fI",
     city: "New York City", country: "United States",
     address: "253 Flatbush Ave, Brooklyn, NY 11217",
     roaster: "Hungry Ghost Coffee",
@@ -337,7 +358,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Fort Greene)",
     slug: "hungry-ghost-fort-greene",
-    lat: 40.6866, lng: -73.9736,
+    lat: 40.6861, lng: -73.9736,
+    google_place_id: "ChIJnetYyxlawokR981q31LnAzU",
     city: "New York City", country: "United States",
     address: "781 Fulton St, Brooklyn, NY 11217",
     roaster: "Hungry Ghost Coffee",
@@ -352,7 +374,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (DeKalb)",
     slug: "hungry-ghost-dekalb",
-    lat: 40.6905, lng: -73.9810,
+    lat: 40.6898, lng: -73.9802,
+    google_place_id: "ChIJaeFesjdbwokRpkP5gLeLQDs",
     city: "New York City", country: "United States",
     address: "80 DeKalb Ave, Brooklyn, NY 11201",
     roaster: "Hungry Ghost Coffee",
@@ -367,7 +390,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (North Williamsburg)",
     slug: "hungry-ghost-north-williamsburg",
-    lat: 40.7143, lng: -73.9582,
+    lat: 40.7160, lng: -73.9594,
+    google_place_id: "ChIJ9Tcb61hZwokR_XsSpGVsY3U",
     city: "New York City", country: "United States",
     address: "231 Bedford Ave, Brooklyn, NY 11249",
     roaster: "Hungry Ghost Coffee",
@@ -382,7 +406,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (East Williamsburg)",
     slug: "hungry-ghost-east-williamsburg",
-    lat: 40.7102, lng: -73.9514,
+    lat: 40.7146, lng: -73.9451,
+    google_place_id: "ChIJNVfnKFdZwokRAMeqKwqmPVw",
     city: "New York City", country: "United States",
     address: "721 Metropolitan Ave, Brooklyn, NY 11211",
     roaster: "Hungry Ghost Coffee",
@@ -412,7 +437,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Clinton Hill)",
     slug: "hungry-ghost-clinton-hill",
-    lat: 40.6847, lng: -73.9662,
+    lat: 40.6836, lng: -73.9683,
+    google_place_id: "ChIJFxQERvlbwokRWOqS1SHMGJE",
     city: "New York City", country: "United States",
     address: "810 Fulton St, Brooklyn, NY 11238",
     roaster: "Hungry Ghost Coffee",
@@ -427,7 +453,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hungry Ghost Coffee (Sterling Place)",
     slug: "hungry-ghost-sterling-place",
-    lat: 40.6755, lng: -73.9656,
+    lat: 40.6765, lng: -73.9717,
+    google_place_id: "ChIJjURJeqhbwokRqBgKedqFn0A",
     city: "New York City", country: "United States",
     address: "183 Sterling Pl, Brooklyn, NY 11238",
     roaster: "Hungry Ghost Coffee",
@@ -442,7 +469,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Soul Cafe",
     slug: "soul-cafe-brooklyn",
-    lat: 40.6830, lng: -73.9375,
+    lat: 40.6833, lng: -73.9350,
+    google_place_id: "ChIJTYNWFJRdwokRJkcNsZYfAOw",
     city: "New York City", country: "United States",
     address: "478 Halsey St, Brooklyn, NY 11233",
     roaster: "Soul Cafe",
@@ -457,7 +485,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Suited",
     slug: "suited-nyc",
-    lat: 40.7079, lng: -74.0067,
+    lat: 40.7093, lng: -74.0078,
+    google_place_id: "ChIJoVAtgOxbwokRLSQFeYiJjOI",
     city: "New York City", country: "United States",
     address: "45 John St, New York, NY 10038",
     roaster: "Suited",
@@ -474,7 +503,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sightglass Coffee",
     slug: "sightglass-coffee-sf",
-    lat: 37.7749, lng: -122.4066,
+    lat: 37.7770, lng: -122.4085,
+    google_place_id: "ChIJf-V9OIKAhYARu8bBG2S6RME",
     city: "San Francisco", country: "United States",
     address: "270 7th St, San Francisco, CA 94103",
     roaster: "Sightglass Coffee",
@@ -504,7 +534,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Linea Caffe",
     slug: "linea-caffe-sf",
-    lat: 37.7599, lng: -122.4148,
+    lat: 37.7617, lng: -122.4200,
+    google_place_id: "ChIJFUuuvzx-j4ARAYJkkQoM5so",
     city: "San Francisco", country: "United States",
     address: "3417 18th St, San Francisco, CA 94110",
     roaster: "Linea Caffe",
@@ -519,7 +550,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Wrecking Ball Coffee Roasters",
     slug: "wrecking-ball-coffee-sf",
-    lat: 37.7990, lng: -122.4344,
+    lat: 37.7968, lng: -122.4366,
+    google_place_id: "ChIJ5-YJa9CAhYARotrWtgywaAE",
     city: "San Francisco", country: "United States",
     address: "2271 Union St, San Francisco, CA 94123",
     roaster: "Wrecking Ball Coffee Roasters",
@@ -534,7 +566,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Andytown Coffee Roasters",
     slug: "andytown-coffee-outer-sunset",
-    lat: 37.7608, lng: -122.4796,
+    lat: 37.7567, lng: -122.5023,
+    google_place_id: "ChIJee4DupqHhYARXadb2DlBtr8",
     city: "San Francisco", country: "United States",
     address: "3655 Lawton St, San Francisco, CA 94122",
     roaster: "Andytown Coffee Roasters",
@@ -549,7 +582,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Equator Coffees",
     slug: "equator-coffees-ferry-building",
-    lat: 37.7956, lng: -122.3936,
+    lat: 37.7866, lng: -122.3983,
+    google_place_id: "ChIJgXCr_HyAhYARwuh0KYbwaMc",
     city: "San Francisco", country: "United States",
     address: "Ferry Building Marketplace, San Francisco, CA 94111",
     roaster: "Equator Coffees",
@@ -564,7 +598,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Réveille Coffee",
     slug: "reveille-coffee-north-beach",
-    lat: 37.7985, lng: -122.4078,
+    lat: 37.7973, lng: -122.4056,
+    google_place_id: "ChIJsU3K7vSAhYARv8bNtVUBHYo",
     city: "San Francisco", country: "United States",
     address: "200 Columbus Ave, San Francisco, CA 94133",
     roaster: "Réveille Coffee",
@@ -595,7 +630,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Flywheel Coffee Roasters",
     slug: "flywheel-coffee-haight",
-    lat: 37.7700, lng: -122.4436,
+    lat: 37.7697, lng: -122.4535,
+    google_place_id: "ChIJdam9at-HhYAReFFog6hjhdo",
     city: "San Francisco", country: "United States",
     address: "672 Stanyan St, San Francisco, CA 94117",
     roaster: "Flywheel Coffee Roasters",
@@ -627,7 +663,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stumptown Coffee Roasters",
     slug: "stumptown-portland",
-    lat: 45.5143, lng: -122.6545,
+    lat: 45.5054, lng: -122.6156,
+    google_place_id: "ChIJe0QQFIaglVQRLZESoeJnAoc",
     city: "Portland", country: "United States",
     address: "4525 SE Division St, Portland, OR 97206",
     roaster: "Stumptown Coffee Roasters",
@@ -642,7 +679,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Water Avenue Coffee",
     slug: "water-avenue-coffee-portland",
-    lat: 45.5168, lng: -122.6649,
+    lat: 45.5152, lng: -122.6656,
+    google_place_id: "ChIJ8XIZ2AsKlVQRiDRF4AULtrQ",
     city: "Portland", country: "United States",
     address: "1028 SE Water Ave, Portland, OR 97214",
     roaster: "Water Avenue Coffee",
@@ -657,7 +695,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coava Coffee Roasters",
     slug: "coava-coffee-portland",
-    lat: 45.5170, lng: -122.6604,
+    lat: 45.5135, lng: -122.6606,
+    google_place_id: "ChIJeWs-6QoKlVQRrTobPU_sOsY",
     city: "Portland", country: "United States",
     address: "1300 SE Grand Ave, Portland, OR 97214",
     roaster: "Coava Coffee Roasters",
@@ -672,7 +711,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Heart Coffee Roasters",
     slug: "heart-coffee-roasters-portland",
-    lat: 45.5228, lng: -122.6466,
+    lat: 45.5230, lng: -122.6432,
+    google_place_id: "ChIJZV6m-buglVQR0sMmh83Ajo8",
     city: "Portland", country: "United States",
     address: "2211 E Burnside St, Portland, OR 97214",
     roaster: "Heart Coffee Roasters",
@@ -687,7 +727,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Barista",
     slug: "barista-pearl-portland",
-    lat: 45.5252, lng: -122.6832,
+    lat: 45.5270, lng: -122.6845,
+    google_place_id: "ChIJi9ihzvgJlVQRvOv1rwgpfsE",
     city: "Portland", country: "United States",
     address: "539 NW 13th Ave, Portland, OR 97209",
     roaster: "Multiple guest roasters",
@@ -702,7 +743,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Proud Mary Coffee",
     slug: "proud-mary-coffee-portland",
-    lat: 45.5496, lng: -122.6699,
+    lat: 45.5590, lng: -122.6445,
+    google_place_id: "ChIJC4lfHCCnlVQRcplEgf2qbfA",
     city: "Portland", country: "United States",
     address: "2012 NE Alberta St, Portland, OR 97211",
     roaster: "Proud Mary Coffee",
@@ -717,7 +759,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Extracto Coffee Roasters",
     slug: "extracto-coffee-portland",
-    lat: 45.5381, lng: -122.6453,
+    lat: 45.5629, lng: -122.6354,
+    google_place_id: "ChIJZ0RuceemlVQRIMsgLvnmEsA",
     city: "Portland", country: "United States",
     address: "2921 NE Killingsworth St, Portland, OR 97211",
     roaster: "Extracto Coffee Roasters",
@@ -732,7 +775,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sterling Coffee Roasters",
     slug: "sterling-coffee-roasters-portland",
-    lat: 45.5261, lng: -122.6944,
+    lat: 45.5266, lng: -122.6942,
+    google_place_id: "ChIJ726ePPcJlVQRJXCmdJlPBYg",
     city: "Portland", country: "United States",
     address: "518 NW 21st Ave, Portland, OR 97209",
     roaster: "Sterling Coffee Roasters",
@@ -747,7 +791,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Courier Coffee Roasters",
     slug: "courier-coffee-portland",
-    lat: 45.5220, lng: -122.6808,
+    lat: 45.5228, lng: -122.6805,
+    google_place_id: "ChIJ60A86QMKlVQR6GrGl3dif4c",
     city: "Portland", country: "United States",
     address: "923 SW Oak St, Portland, OR 97205",
     roaster: "Courier Coffee Roasters",
@@ -762,7 +807,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Case Study Coffee",
     slug: "case-study-coffee-portland",
-    lat: 45.5289, lng: -122.6596,
+    lat: 45.5589, lng: -122.6511,
+    google_place_id: "ChIJ97z9Lx-nlVQRTgynkWWyI3I",
     city: "Portland", country: "United States",
     address: "1422 NE Alberta St, Portland, OR 97211",
     roaster: "Case Study Coffee",
@@ -779,7 +825,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee",
     slug: "intelligentsia-millennium-park",
-    lat: 41.8820, lng: -87.6244,
+    lat: 41.8781, lng: -87.6296,
+    google_place_id: "ChIJj_WHnaUsDogRPiO9gqm-Z3U",
     city: "Chicago", country: "United States",
     address: "53 W Jackson Blvd, Chicago, IL 60604",
     roaster: "Intelligentsia Coffee",
@@ -794,7 +841,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dark Matter Coffee",
     slug: "dark-matter-coffee-wicker-park",
-    lat: 41.9086, lng: -87.6788,
+    lat: 41.8951, lng: -87.6871,
+    google_place_id: "ChIJWRIIZ00tDogRiM95S7fMqPs",
     city: "Chicago", country: "United States",
     address: "738 N Western Ave, Chicago, IL 60622",
     roaster: "Dark Matter Coffee",
@@ -809,7 +857,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sawada Coffee",
     slug: "sawada-coffee-chicago",
-    lat: 41.8834, lng: -87.6479,
+    lat: 41.8836, lng: -87.6487,
+    google_place_id: "ChIJ6ZFu2tosDogRPqdBeBkX6IU",
     city: "Chicago", country: "United States",
     address: "112 N Green St, Chicago, IL 60607",
     roaster: "Intelligentsia Coffee",
@@ -824,7 +873,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Metric Coffee Co.",
     slug: "metric-coffee-chicago",
-    lat: 41.8847, lng: -87.6510,
+    lat: 41.8865, lng: -87.6783,
+    google_place_id: "ChIJFe_FAUgtDogRNvsYZUbeFFk",
     city: "Chicago", country: "United States",
     address: "2021 W Fulton St, Chicago, IL 60612",
     roaster: "Metric Coffee Co.",
@@ -839,7 +889,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Gaslight Coffee Roasters",
     slug: "gaslight-coffee-roasters-chicago",
-    lat: 41.9228, lng: -87.7002,
+    lat: 41.9246, lng: -87.6998,
+    google_place_id: "ChIJC5zA_GLND4gRM8au6lVnREs",
     city: "Chicago", country: "United States",
     address: "2385 N Milwaukee Ave, Chicago, IL 60647",
     roaster: "Gaslight Coffee Roasters",
@@ -854,7 +905,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ipsento 606",
     slug: "ipsento-606-chicago",
-    lat: 41.9064, lng: -87.6720,
+    lat: 41.9144, lng: -87.6833,
+    google_place_id: "ChIJ7VDy2r3SD4gRo7aJ8aaxQ1w",
     city: "Chicago", country: "United States",
     address: "2035 N Western Ave, Chicago, IL 60647",
     roaster: "Multiple guest roasters",
@@ -869,7 +921,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Passion House Coffee Roasters",
     slug: "passion-house-coffee-chicago",
-    lat: 41.9230, lng: -87.7048,
+    lat: 41.8873, lng: -87.7041,
+    google_place_id: "ChIJPz36_TctDogRM--NJeZoRHE",
     city: "Chicago", country: "United States",
     address: "2356 W Fullerton Ave, Chicago, IL 60647",
     roaster: "Passion House Coffee Roasters",
@@ -884,7 +937,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "La Colombe Coffee",
     slug: "la-colombe-chicago-river-north",
-    lat: 41.8952, lng: -87.6336,
+    lat: 41.8841, lng: -87.6520,
+    google_place_id: "ChIJc6-FONosDogRddTA9wm8FXU",
     city: "Chicago", country: "United States",
     address: "955 W Randolph St, Chicago, IL 60607",
     roaster: "La Colombe Coffee",
@@ -899,7 +953,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Big Shoulders Coffee",
     slug: "big-shoulders-coffee-chicago",
-    lat: 41.9117, lng: -87.6388,
+    lat: 41.8961, lng: -87.6556,
+    google_place_id: "ChIJESvtKSvTD4gRR1nXPNiU_po",
     city: "Chicago", country: "United States",
     address: "1105 W Chicago Ave, Chicago, IL 60642",
     roaster: "Big Shoulders Coffee",
@@ -916,7 +971,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Myriade",
     slug: "cafe-myriade-montreal",
-    lat: 45.4972, lng: -73.5773,
+    lat: 45.4961, lng: -73.5779,
+    google_place_id: "ChIJd29QR2oayUwRRgaPwH8Ok9c",
     city: "Montreal", country: "Canada",
     address: "1432 Rue Mackay, Montréal, QC H3G 2H7",
     roaster: "Multiple guest roasters",
@@ -931,7 +987,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dispatch Coffee",
     slug: "dispatch-coffee-montreal",
-    lat: 45.5231, lng: -73.5790,
+    lat: 45.5170, lng: -73.5791,
+    google_place_id: "ChIJ__8PNTMayUwRA4Ovujm_Oro",
     city: "Montreal", country: "Canada",
     address: "4231 Rue Saint-Denis, Montréal, QC H2J 2K9",
     roaster: "Dispatch Coffee",
@@ -946,7 +1003,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Olimpico",
     slug: "cafe-olimpico-montreal",
-    lat: 45.5196, lng: -73.5935,
+    lat: 45.5241, lng: -73.6003,
+    google_place_id: "ChIJZ1CISXkZyUwRcCfuPM5b-Lo",
     city: "Montreal", country: "Canada",
     address: "124 Rue Saint-Viateur O, Montréal, QC H2T 2L1",
     roaster: "Caffè San Simeon",
@@ -961,7 +1019,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Saint-Henri Micro-Torréfacteur",
     slug: "saint-henri-montreal",
-    lat: 45.4799, lng: -73.5820,
+    lat: 45.4794, lng: -73.5811,
+    google_place_id: "ChIJRYlWwncayUwRhPSqxlJIgK4",
     city: "Montreal", country: "Canada",
     address: "3632 Notre-Dame St W, Montréal, QC H4C 1P8",
     roaster: "Saint-Henri Micro-Torréfacteur",
@@ -976,7 +1035,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Névé",
     slug: "cafe-neve-montreal",
-    lat: 45.5270, lng: -73.5777,
+    lat: 45.5195, lng: -73.5805,
+    google_place_id: "ChIJr974C80byUwRq9XigQUkO68",
     city: "Montreal", country: "Canada",
     address: "151 Rue Rachel E, Montréal, QC H2W 1C7",
     roaster: "Multiple guest roasters",
@@ -990,7 +1050,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Tommy Café",
     slug: "tommy-cafe-montreal",
-    lat: 45.4917, lng: -73.5592,
+    lat: 45.5038, lng: -73.5574,
+    google_place_id: "ChIJQSA7-1kayUwRzdsFazDcshU",
     city: "Montreal", country: "Canada",
     address: "200 Notre-Dame St W, Montréal, QC H2Y 1T3",
     roaster: "Multiple guest roasters",
@@ -1019,7 +1080,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Falco",
     slug: "cafe-falco-montreal",
-    lat: 45.5460, lng: -73.5778,
+    lat: 45.5282, lng: -73.5980,
+    google_place_id: "ChIJrdd4ZHsZyUwR-lL-Ja_ugNo",
     city: "Montreal", country: "Canada",
     address: "5605 Ave de Gaspé, Montréal, QC H2T 2A4",
     roaster: "Multiple guest roasters",
@@ -1034,7 +1096,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Crew Collective & Café",
     slug: "crew-collective-cafe-montreal",
-    lat: 45.5085, lng: -73.5565,
+    lat: 45.5023, lng: -73.5593,
+    google_place_id: "ChIJBdEBS1gayUwRaDkzJYgthoQ",
     city: "Montreal", country: "Canada",
     address: "360 Rue Saint-Jacques, Montréal, QC H2Y 1P5",
     roaster: "Multiple guest roasters",
@@ -1049,7 +1112,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Larue & Fils",
     slug: "cafe-larue-fils-montreal",
-    lat: 45.5410, lng: -73.5803,
+    lat: 45.5429, lng: -73.6293,
+    google_place_id: "ChIJWysKSx8ZyUwRiwFXsI1BTz8",
     city: "Montreal", country: "Canada",
     address: "3955 Rue Beaubien E, Montréal, QC H1X 1H4",
     roaster: "Larue & Fils",
@@ -1064,7 +1128,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Replika",
     slug: "cafe-replika-montreal",
-    lat: 45.5270, lng: -73.5785,
+    lat: 45.5204, lng: -73.5794,
+    google_place_id: "ChIJe7Oius0byUwRoL0l4Gv-zuM",
     city: "Montreal", country: "Canada",
     address: "252 Rue Rachel Est, Montréal, QC H2W 1E5",
     roaster: "Multiple guest roasters",
@@ -1081,7 +1146,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Pilot Coffee Roasters",
     slug: "pilot-coffee-roasters-toronto",
-    lat: 43.6503, lng: -79.3591,
+    lat: 43.6477, lng: -79.3970,
+    google_place_id: "ChIJ7zPkpSQ1K4gRB4N3-T7fnnE",
     city: "Toronto", country: "Canada",
     address: "49 Camden St, Toronto, ON M5V 1V2",
     roaster: "Pilot Coffee Roasters",
@@ -1096,7 +1162,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sam James Coffee Bar",
     slug: "sam-james-coffee-bar-toronto",
-    lat: 43.6609, lng: -79.4024,
+    lat: 43.6603, lng: -79.4154,
+    google_place_id: "ChIJBWlgk_I0K4gR3y4oDw_gzpM",
     city: "Toronto", country: "Canada",
     address: "297 Harbord St, Toronto, ON M6G 1G7",
     roaster: "Sam James Coffee Bar",
@@ -1111,7 +1178,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Neo Coffee Bar",
     slug: "neo-coffee-bar-toronto",
-    lat: 43.6527, lng: -79.3971,
+    lat: 43.6450, lng: -79.3944,
+    google_place_id: "ChIJG01e4c01K4gR5inw-zuOYr4",
     city: "Toronto", country: "Canada",
     address: "181 University Ave, Toronto, ON M5H 3M7",
     roaster: "Multiple guest roasters",
@@ -1126,7 +1194,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Rooster Coffee",
     slug: "rooster-coffee-toronto",
-    lat: 43.6614, lng: -79.3676,
+    lat: 43.6692, lng: -79.3527,
+    google_place_id: "ChIJW6Qpo2bL1IkRwOQK_ztXNYk",
     city: "Toronto", country: "Canada",
     address: "479 Broadview Ave, Toronto, ON M4K 2N4",
     roaster: "Multiple guest roasters",
@@ -1141,7 +1210,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Boxcar Social",
     slug: "boxcar-social-summerhill-toronto",
-    lat: 43.6825, lng: -79.3896,
+    lat: 43.6818, lng: -79.3916,
+    google_place_id: "ChIJFcciOyYzK4gRMWQlvzFBCcI",
     city: "Toronto", country: "Canada",
     address: "235 Summerhill Ave, Toronto, ON M4T 1B3",
     roaster: "Multiple guest roasters",
@@ -1156,7 +1226,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Merchants of Green Coffee",
     slug: "merchants-of-green-coffee-toronto",
-    lat: 43.6627, lng: -79.3348,
+    lat: 43.6601, lng: -79.3542,
+    google_place_id: "ChIJzcCHNe3L1IkRgulFh588s4o",
     city: "Toronto", country: "Canada",
     address: "2 Matilda St, Toronto, ON M4M 1X5",
     roaster: "Merchants of Green Coffee",
@@ -1171,7 +1242,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Propeller Coffee Co.",
     slug: "propeller-coffee-toronto",
-    lat: 43.6628, lng: -79.4383,
+    lat: 43.6594, lng: -79.4449,
+    google_place_id: "ChIJfdgn1kY0K4gRFaL2RlJR10g",
     city: "Toronto", country: "Canada",
     address: "50 Wade Ave, Toronto, ON M6H 1A4",
     roaster: "Propeller Coffee Co.",
@@ -1186,7 +1258,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Reunion Island Coffee",
     slug: "reunion-island-coffee-toronto",
-    lat: 43.6573, lng: -79.4014,
+    lat: 43.6506, lng: -79.4505,
+    google_place_id: "ChIJmwVg0zU0K4gRzdG07rGdzzw",
     city: "Toronto", country: "Canada",
     address: "254 Kensington Ave, Toronto, ON M5T 2H8",
     roaster: "Reunion Island Coffee",
@@ -1201,7 +1274,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Jimmy's Coffee",
     slug: "jimmys-coffee-toronto",
-    lat: 43.6499, lng: -79.4232,
+    lat: 43.6453, lng: -79.4002,
+    google_place_id: "ChIJbStjd8I1K4gRzG3TNnJPh8w",
     city: "Toronto", country: "Canada",
     address: "107 Portland St, Toronto, ON M5V 2N3",
     roaster: "Multiple guest roasters",
@@ -1216,7 +1290,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "De Mello Coffee",
     slug: "de-mello-palheta-toronto",
-    lat: 43.7145, lng: -79.3994,
+    lat: 43.7118, lng: -79.3992,
+    google_place_id: "ChIJJWWw2iMzK4gRguD50KdIGxQ",
     city: "Toronto", country: "Canada",
     address: "2489 Yonge St, Toronto, ON M4P 2H6",
     roaster: "De Mello Coffee",
@@ -1247,7 +1322,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ezra's Pound",
     slug: "ezras-pound-toronto",
-    lat: 43.6433, lng: -79.4490,
+    lat: 43.6753, lng: -79.4059,
+    google_place_id: "ChIJBeL91J40K4gRk6FqGQF49l4",
     city: "Toronto", country: "Canada",
     address: "238 Dupont St, Toronto, ON M5R 1V7",
     roaster: "Multiple guest roasters",
@@ -1309,7 +1385,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Pallet Coffee Roasters",
     slug: "pallet-coffee-roasters-vancouver",
-    lat: 49.2630, lng: -123.0985,
+    lat: 49.2842, lng: -123.0958,
+    google_place_id: "ChIJsZ9K1ZxxhlQRsrDvxeWkcdw",
     city: "Vancouver", country: "Canada",
     address: "323 E Broadway, Vancouver, BC V5T 1W5",
     roaster: "Pallet Coffee Roasters",
@@ -1324,7 +1401,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "JJ Bean Coffee Roasters",
     slug: "jj-bean-coffee-main-street",
-    lat: 49.2548, lng: -123.1011,
+    lat: 49.2650, lng: -123.0694,
+    google_place_id: "ChIJ812kokhxhlQRMkHWuTIQBuw",
     city: "Vancouver", country: "Canada",
     address: "2206 Main St, Vancouver, BC V5T 3C3",
     roaster: "JJ Bean Coffee Roasters",
@@ -1354,7 +1432,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Small Victory Bakery",
     slug: "small-victory-bakery-vancouver",
-    lat: 49.2765, lng: -123.1212,
+    lat: 49.2736, lng: -123.1184,
+    google_place_id: "ChIJKfWuZdZzhlQR1ObbobZteYU",
     city: "Vancouver", country: "Canada",
     address: "1088 Homer St, Vancouver, BC V6B 2X2",
     roaster: "49th Parallel Coffee Roasters",
@@ -1415,7 +1494,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "East Van Roasters",
     slug: "east-van-roasters-vancouver",
-    lat: 49.2816, lng: -123.1020,
+    lat: 49.2821, lng: -123.1045,
+    google_place_id: "ChIJK9j-B3pxhlQRnX17IWtj0Vg",
     city: "Vancouver", country: "Canada",
     address: "101 E Hastings St, Vancouver, BC V6A 1N7",
     roaster: "East Van Roasters",
@@ -1447,7 +1527,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Panther Coffee Coconut Grove",
     slug: "panther-coffee-coconut-grove",
-    lat: 25.7344, lng: -80.2385,
+    lat: 25.7277, lng: -80.2424,
+    google_place_id: "ChIJf4Gym8-32YgRZbTDebFFNJk",
     city: "Miami", country: "United States",
     address: "3407 Main Hwy, Miami, FL 33133",
     roaster: "Panther Coffee",
@@ -1462,7 +1543,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Eternity Coffee Roasters",
     slug: "eternity-coffee-roasters-miami",
-    lat: 25.8163, lng: -80.1956,
+    lat: 25.8272, lng: -80.1883,
+    google_place_id: "ChIJn-i9CWCx2YgRZnNjTpqqFXQ",
     city: "Miami", country: "United States",
     address: "6645 NE 4th Ave, Miami, FL 33138",
     roaster: "Eternity Coffee Roasters",
@@ -1477,7 +1559,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Zak the Baker",
     slug: "zak-the-baker-miami",
-    lat: 25.8013, lng: -80.1988,
+    lat: 25.8016, lng: -80.2010,
+    google_place_id: "ChIJMVmQ-LK22YgRXCFmM480oqw",
     city: "Miami", country: "United States",
     address: "405 NW 26th St, Miami, FL 33127",
     roaster: "Panther Coffee",
@@ -1492,7 +1575,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Vice City Bean",
     slug: "vice-city-bean-miami",
-    lat: 25.7594, lng: -80.1923,
+    lat: 25.7622, lng: -80.1907,
+    google_place_id: "ChIJVWXNkUG32YgRix9vpkztA8M",
     city: "Miami", country: "United States",
     address: "1111 Brickell Ave, Miami, FL 33131",
     roaster: "Vice City Bean",
@@ -1509,7 +1593,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Go Get Em Tiger",
     slug: "go-get-em-tiger-larchmont",
-    lat: 34.0721, lng: -118.3244,
+    lat: 34.0756, lng: -118.3235,
+    google_place_id: "ChIJy_y8ese4woARDs78kURK5Gk",
     city: "Los Angeles", country: "United States",
     address: "230 N Larchmont Blvd, Los Angeles, CA 90004",
     roaster: "Go Get Em Tiger",
@@ -1524,7 +1609,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee Venice",
     slug: "intelligentsia-coffee-venice",
-    lat: 33.9895, lng: -118.4734,
+    lat: 33.9911, lng: -118.4669,
+    google_place_id: "ChIJmQGsZb-6woARosdaaG-x8RI",
     city: "Los Angeles", country: "United States",
     address: "1331 Abbot Kinney Blvd, Venice, CA 90291",
     roaster: "Intelligentsia Coffee",
@@ -1539,7 +1625,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Blue Bottle Coffee Arts District",
     slug: "blue-bottle-coffee-arts-district-la",
-    lat: 34.0418, lng: -118.2327,
+    lat: 34.0391, lng: -118.2325,
+    google_place_id: "ChIJg7xPJCPGwoAReA9jUBE23DA",
     city: "Los Angeles", country: "United States",
     address: "582 Mateo St, Los Angeles, CA 90013",
     roaster: "Blue Bottle Coffee",
@@ -1554,7 +1641,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Verve Coffee Roasters West Hollywood",
     slug: "verve-coffee-west-hollywood",
-    lat: 34.0916, lng: -118.3614,
+    lat: 34.0809, lng: -118.3875,
+    google_place_id: "ChIJOYY00ai-woAR0cS37s-f9v8",
     city: "Los Angeles", country: "United States",
     address: "8925 Melrose Ave, West Hollywood, CA 90069",
     roaster: "Verve Coffee Roasters",
@@ -1569,7 +1657,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Civil Coffee",
     slug: "civil-coffee-highland-park",
-    lat: 34.1149, lng: -118.2050,
+    lat: 34.1096, lng: -118.1935,
+    google_place_id: "ChIJkeL_bxDEwoARAAhbEUN213U",
     city: "Los Angeles", country: "United States",
     address: "5629 N Figueroa St, Los Angeles, CA 90042",
     roaster: "Multiple guest roasters",
@@ -1584,7 +1673,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Cognoscenti Coffee",
     slug: "cognoscenti-coffee-culver-city",
-    lat: 34.0173, lng: -118.3907,
+    lat: 34.0311, lng: -118.3778,
+    google_place_id: "ChIJhxIlWpy5woARe6w1IL9WMrs",
     city: "Los Angeles", country: "United States",
     address: "6114 Washington Blvd, Culver City, CA 90232",
     roaster: "Cognoscenti Coffee",
@@ -1614,7 +1704,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Caffe Luxxe",
     slug: "caffe-luxxe-santa-monica",
-    lat: 34.0195, lng: -118.4912,
+    lat: 34.0290, lng: -118.4994,
+    google_place_id: "ChIJQfNV8rmkwoARN9zy8-_OaXM",
     city: "Los Angeles", country: "United States",
     address: "925 Montana Ave, Santa Monica, CA 90403",
     roaster: "Caffe Luxxe",
@@ -1629,7 +1720,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Groundwork Coffee",
     slug: "groundwork-coffee-venice",
-    lat: 33.9905, lng: -118.4680,
+    lat: 34.0004, lng: -118.4703,
+    google_place_id: "ChIJMdyyucS6woAR5ZGh1-AKa0Q",
     city: "Los Angeles", country: "United States",
     address: "671 Rose Ave, Venice, CA 90291",
     roaster: "Groundwork Coffee",
@@ -1644,7 +1736,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Jones Coffee Roasters",
     slug: "jones-coffee-roasters-pasadena",
-    lat: 34.1453, lng: -118.1308,
+    lat: 34.1338, lng: -118.1492,
+    google_place_id: "ChIJ18_Dan3DwoARks_vk8taqMU",
     city: "Los Angeles", country: "United States",
     address: "537 S Raymond Ave, Pasadena, CA 91105",
     roaster: "Jones Coffee Roasters",
@@ -1659,7 +1752,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Go Get Em Tiger Los Feliz",
     slug: "go-get-em-tiger-los-feliz",
-    lat: 34.1068, lng: -118.2920,
+    lat: 34.0999, lng: -118.2903,
+    google_place_id: "ChIJJYwaqq3AwoARlffUqxasvdo",
     city: "Los Angeles", country: "United States",
     address: "4630 Hollywood Blvd, Los Angeles, CA 90027",
     roaster: "Go Get Em Tiger",
@@ -1674,7 +1768,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Weird Wave Coffee",
     slug: "weird-wave-coffee-boyle-heights",
-    lat: 34.0334, lng: -118.2029,
+    lat: 34.0467, lng: -118.2071,
+    google_place_id: "ChIJ8XpyDAjGwoARQ7aF7Ww0hTs",
     city: "Los Angeles", country: "United States",
     address: "2415 E Cesar E Chavez Ave, Los Angeles, CA 90033",
     roaster: "Multiple guest roasters",
@@ -1690,7 +1785,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Victrola Coffee Roasters",
     slug: "victrola-coffee-seattle",
-    lat: 47.6162, lng: -122.3204,
+    lat: 47.6143, lng: -122.3273,
+    google_place_id: "ChIJ7bdU9rJqkFQRqx0_701azUU",
     city: "Seattle", country: "United States",
     address: "310 E Pike St, Seattle, WA 98122",
     roaster: "Victrola Coffee Roasters",
@@ -1705,7 +1801,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Lighthouse Roasters",
     slug: "lighthouse-roasters-seattle",
-    lat: 47.6601, lng: -122.3505,
+    lat: 47.6591, lng: -122.3542,
+    google_place_id: "ChIJwd-h4qwVkFQRgqm5OODEBQw",
     city: "Seattle", country: "United States",
     address: "400 N 43rd St, Seattle, WA 98103",
     roaster: "Lighthouse Roasters",
@@ -1720,7 +1817,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Caffe Ladro",
     slug: "caffe-ladro-queen-anne",
-    lat: 47.6318, lng: -122.3571,
+    lat: 47.6387, lng: -122.3571,
+    google_place_id: "ChIJjeYIeRIVkFQRQOTWHF40t4U",
     city: "Seattle", country: "United States",
     address: "2205 Queen Anne Ave N, Seattle, WA 98109",
     roaster: "Caffe Ladro",
@@ -1735,7 +1833,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Slate Coffee Roasters",
     slug: "slate-coffee-roasters-seattle",
-    lat: 47.6601, lng: -122.3510,
+    lat: 47.6517, lng: -122.3531,
+    google_place_id: "ChIJXZ0e56kVkFQRwVQfCjfg-sM",
     city: "Seattle", country: "United States",
     address: "4210 Fremont Ave N, Seattle, WA 98103",
     roaster: "Slate Coffee Roasters",
@@ -1750,7 +1849,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Elm Coffee Roasters",
     slug: "elm-coffee-seattle",
-    lat: 47.5989, lng: -122.3306,
+    lat: 47.6001, lng: -122.3311,
+    google_place_id: "ChIJv4Ih4LpqkFQRsEFZjeKx2tY",
     city: "Seattle", country: "United States",
     address: "240 2nd Ave Ext S, Seattle, WA 98104",
     roaster: "Elm Coffee Roasters",
@@ -1765,7 +1865,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fred by Broadcast",
     slug: "fred-by-broadcast-seattle",
-    lat: 47.6715, lng: -122.3183,
+    lat: 47.6762, lng: -122.3175,
+    google_place_id: "ChIJ2R6HNG4UkFQRqEX7ozyZDp8",
     city: "Seattle", country: "United States",
     address: "6515 Roosevelt Way NE, Seattle, WA 98115",
     roaster: "Broadcast Coffee",
@@ -1780,7 +1881,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Anchored Ship Coffee Bar",
     slug: "anchored-ship-coffee-seattle",
-    lat: 47.6677, lng: -122.3827,
+    lat: 47.6667, lng: -122.3834,
+    google_place_id: "ChIJw0AiTsYVkFQRfPC0AeYiCJo",
     city: "Seattle", country: "United States",
     address: "5308 Ballard Ave NW, Seattle, WA 98107",
     roaster: "Multiple guest roasters",
@@ -1809,7 +1911,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Analog Coffee",
     slug: "analog-coffee-seattle",
-    lat: 47.6140, lng: -122.3211,
+    lat: 47.6207, lng: -122.3255,
+    google_place_id: "ChIJxzt-NDIVkFQRN6_owVzkCp0",
     city: "Seattle", country: "United States",
     address: "235 Summit Ave E, Seattle, WA 98102",
     roaster: "Multiple guest roasters",
@@ -1824,7 +1927,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fonte Coffee Roaster",
     slug: "fonte-coffee-roaster-seattle",
-    lat: 47.6092, lng: -122.3405,
+    lat: 47.6072, lng: -122.3390,
+    google_place_id: "ChIJx_rKPrJqkFQR7OliFT0Jk-A",
     city: "Seattle", country: "United States",
     address: "1321 1st Ave, Seattle, WA 98101",
     roaster: "Fonte Coffee Roaster",
@@ -1839,7 +1943,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fuel Coffee",
     slug: "fuel-coffee-seattle",
-    lat: 47.6228, lng: -122.3215,
+    lat: 47.6247, lng: -122.3069,
+    google_place_id: "ChIJXUtQgNUUkFQRpIkboOc-13k",
     city: "Seattle", country: "United States",
     address: "610 19th Ave E, Seattle, WA 98112",
     roaster: "Multiple guest roasters",
@@ -1854,7 +1959,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Zoka Coffee Roaster",
     slug: "zoka-coffee-roaster-seattle",
-    lat: 47.6710, lng: -122.3362,
+    lat: 47.6688, lng: -122.3329,
+    google_place_id: "ChIJbwN2TEMUkFQR7UMDEHAT3aQ",
     city: "Seattle", country: "United States",
     address: "2200 N 56th St, Seattle, WA 98103",
     roaster: "Zoka Coffee Roaster",
@@ -1884,7 +1990,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Caffe Vita",
     slug: "caffe-vita-capitol-hill",
-    lat: 47.6154, lng: -122.3207,
+    lat: 47.6140, lng: -122.3190,
+    google_place_id: "ChIJJc84R8xqkFQRZqYMFhmH8e8",
     city: "Seattle", country: "United States",
     address: "1005 E Pike St, Seattle, WA 98122",
     roaster: "Caffe Vita",
@@ -1901,7 +2008,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ironside Coffee",
     slug: "ironside-coffee-miami",
-    lat: 25.8038, lng: -80.1956,
+    lat: 25.8451, lng: -80.1882,
+    google_place_id: "ChIJI91nKJKx2YgRZKpnQdhIlY0",
     city: "Miami", country: "United States",
     address: "7580 NE 4th Ct, Miami, FL 33138",
     roaster: "Multiple guest roasters",
@@ -1916,7 +2024,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Panther Coffee South Beach",
     slug: "panther-coffee-south-beach",
-    lat: 25.7786, lng: -80.1352,
+    lat: 25.7865, lng: -80.1305,
+    google_place_id: "ChIJP5mQFZC02YgRBVmf3U7AUkc",
     city: "Miami", country: "United States",
     address: "829 Washington Ave, Miami Beach, FL 33139",
     roaster: "Panther Coffee",
@@ -1933,7 +2042,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Saint Frank Coffee",
     slug: "saint-frank-coffee-sf",
-    lat: 37.7985, lng: -122.4185,
+    lat: 37.7985, lng: -122.4221,
+    google_place_id: "ChIJmfgIQ-iAhYARq5osc-JybBo",
     city: "San Francisco", country: "United States",
     address: "2340 Polk St, San Francisco, CA 94109",
     roaster: "Saint Frank Coffee",
@@ -1948,7 +2058,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ritual Coffee Roasters Valencia",
     slug: "ritual-coffee-valencia-sf",
-    lat: 37.7644, lng: -122.4218,
+    lat: 37.7564, lng: -122.4214,
+    google_place_id: "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
     city: "San Francisco", country: "United States",
     address: "1026 Valencia St, San Francisco, CA 94110",
     roaster: "Ritual Coffee Roasters",
@@ -1963,7 +2074,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dandelion Chocolate",
     slug: "dandelion-chocolate-mission-sf",
-    lat: 37.7632, lng: -122.4193,
+    lat: 37.7610, lng: -122.4217,
+    google_place_id: "ChIJ3d31Iz1-j4ARkwerSZRVQjM",
     city: "San Francisco", country: "United States",
     address: "740 Valencia St, San Francisco, CA 94110",
     roaster: "Multiple guest roasters",
@@ -1980,7 +2092,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Bridgeport Coffee",
     slug: "bridgeport-coffee-chicago",
-    lat: 41.8346, lng: -87.6550,
+    lat: 41.8379, lng: -87.6509,
+    google_place_id: "ChIJQwv5skksDogR2Ix6vBgNPQs",
     city: "Chicago", country: "United States",
     address: "3101 S Morgan St, Chicago, IL 60608",
     roaster: "Bridgeport Coffee",
@@ -1995,7 +2108,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Colectivo Coffee",
     slug: "colectivo-coffee-chicago-lincoln-park",
-    lat: 41.9239, lng: -87.6352,
+    lat: 41.9287, lng: -87.6426,
+    google_place_id: "ChIJbzp4OwzTD4gRmuDBNwQtauc",
     city: "Chicago", country: "United States",
     address: "2530 N Clark St, Chicago, IL 60614",
     roaster: "Colectivo Coffee",
@@ -2012,7 +2126,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Roots Coffee",
     slug: "roots-coffee-brooklyn",
-    lat: 40.6892, lng: -73.9442,
+    lat: 40.6898, lng: -73.9512,
+    google_place_id: "ChIJLwlwGZNbwokRx86bnl6HSYc",
     city: "New York City", country: "United States",
     address: "1162 Nostrand Ave, Brooklyn, NY 11225",
     roaster: "Multiple guest roasters",
@@ -2026,7 +2141,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "787 Coffee",
     slug: "787-coffee-nyc",
-    lat: 40.7484, lng: -73.9872,
+    lat: 40.7589, lng: -73.9620,
+    google_place_id: "ChIJK0YMWmdZwokRwRsOreYzArU",
     city: "New York City", country: "United States",
     address: "131 E 43rd St, New York, NY 10017",
     roaster: "787 Coffee",
@@ -2041,7 +2157,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Laughing Man Coffee",
     slug: "laughing-man-coffee-tribeca",
-    lat: 40.7196, lng: -74.0089,
+    lat: 40.7173, lng: -74.0101,
+    google_place_id: "ChIJh_u0pR9awokRn78h97cEAV4",
     city: "New York City", country: "United States",
     address: "184 Duane St, New York, NY 10013",
     roaster: "Laughing Man Coffee",
@@ -2056,7 +2173,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Black Fox Coffee",
     slug: "black-fox-coffee-nyc",
-    lat: 40.7072, lng: -74.0113,
+    lat: 40.7065, lng: -74.0078,
+    google_place_id: "ChIJKeU4NBZawokROz07vTp32BQ",
     city: "New York City", country: "United States",
     address: "70 Pine St, New York, NY 10005",
     roaster: "Multiple guest roasters",
@@ -2071,7 +2189,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Butler",
     slug: "butler-coffee-nyc",
-    lat: 40.7228, lng: -74.0033,
+    lat: 40.7201, lng: -73.9988,
+    google_place_id: "ChIJXQzMABtZwokRzQOuqFYxgUY",
     city: "New York City", country: "United States",
     address: "177 Lafayette St, New York, NY 10013",
     roaster: "Multiple guest roasters",
@@ -2086,7 +2205,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kobrick Coffee Co.",
     slug: "kobrick-coffee-nyc",
-    lat: 40.7474, lng: -74.0043,
+    lat: 40.7403, lng: -74.0056,
+    google_place_id: "ChIJB9FFib9ZwokRPzsGaqjCnoo",
     city: "New York City", country: "United States",
     address: "24 9th Ave, New York, NY 10014",
     roaster: "Kobrick Coffee Co.",
@@ -2103,7 +2223,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Never Coffee Lab",
     slug: "never-coffee-lab-portland",
-    lat: 45.5503, lng: -122.6549,
+    lat: 45.5167, lng: -122.6188,
+    google_place_id: "ChIJPZn5x-2glVQR9JZ4JDOkNYw",
     city: "Portland", country: "United States",
     address: "4243 SE Belmont St, Portland, OR 97214",
     roaster: "Never Coffee Lab",
@@ -2118,7 +2239,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Upper Left Roasters",
     slug: "upper-left-roasters-portland",
-    lat: 45.5224, lng: -122.6544,
+    lat: 45.5114, lng: -122.6534,
+    google_place_id: "ChIJ07z6Mp6glVQRE-BnTUYuxBo",
     city: "Portland", country: "United States",
     address: "1204 SE Clay St, Portland, OR 97214",
     roaster: "Upper Left Roasters",
@@ -2133,7 +2255,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Oblique Coffee Roasters",
     slug: "oblique-coffee-roasters-portland",
-    lat: 45.5314, lng: -122.6343,
+    lat: 45.5194, lng: -122.6340,
+    google_place_id: "ChIJuT3Dm5WglVQRddEzjab3zAk",
     city: "Portland", country: "United States",
     address: "3039 SE Stark St, Portland, OR 97214",
     roaster: "Oblique Coffee Roasters",
@@ -2165,7 +2288,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "49th Parallel Coffee Roasters Coal Harbour",
     slug: "49th-parallel-coffee-coal-harbour",
-    lat: 49.2871, lng: -123.1260,
+    lat: 49.2861, lng: -123.1229,
+    google_place_id: "ChIJeagUDoFxhlQRMxkGRMCUWs8",
     city: "Vancouver", country: "Canada",
     address: "1200 W Georgia St, Vancouver, BC V6E 4R2",
     roaster: "49th Parallel Coffee Roasters",
@@ -2242,7 +2366,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coco Espresso Bar",
     slug: "coco-espresso-bar-montreal",
-    lat: 45.5143, lng: -73.5653,
+    lat: 40.7476, lng: -73.9455,
+    google_place_id: "ChIJw-s3ErhZwokRagnDJLqG9GQ",
     city: "Montreal", country: "Canada",
     address: "400 Rue Notre-Dame E, Montréal, QC H2Y 1C8",
     roaster: "Multiple guest roasters",
@@ -2270,7 +2395,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Humble Lion",
     slug: "cafe-humble-lion-montreal",
-    lat: 45.5031, lng: -73.5824,
+    lat: 45.5033, lng: -73.5749,
+    google_place_id: "ChIJa2TV4EYayUwRvC6xfXCW8kA",
     city: "Montreal", country: "Canada",
     address: "904 Rue Sherbrooke O, Montréal, QC H3A 1E2",
     roaster: "Multiple guest roasters",
@@ -2287,7 +2413,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Hale Coffee",
     slug: "hale-coffee-toronto",
-    lat: 43.6561, lng: -79.3841,
+    lat: 43.6504, lng: -79.3780,
+    google_place_id: "ChIJe54Pel7L1IkRFRcxrg8jWY8",
     city: "Toronto", country: "Canada",
     address: "10 George St, Toronto, ON M5A 4A1",
     roaster: "Hale Coffee",
@@ -2320,7 +2447,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Chalait Chelsea",
     slug: "chalait-chelsea-nyc",
-    lat: 40.7427, lng: -74.0020,
+    lat: 40.7382, lng: -73.9977,
+    google_place_id: "ChIJvZvvn71ZwokR2LqBVbg-Clo",
     city: "New York City", country: "United States",
     address: "254 W 15th St, New York, NY 10011",
     roaster: "Multiple guest roasters",
@@ -2335,7 +2463,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Chalait West Village",
     slug: "chalait-west-village-nyc",
-    lat: 40.7338, lng: -74.0057,
+    lat: 40.7294, lng: -73.9983,
+    google_place_id: "ChIJZRP3DW9ZwokR6NnJ9PaMZxI",
     city: "New York City", country: "United States",
     address: "68 W 3rd St, New York, NY 10012",
     roaster: "Multiple guest roasters",
@@ -2365,7 +2494,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Think Coffee Astor Place",
     slug: "think-coffee-astor-place-nyc",
-    lat: 40.7291, lng: -73.9902,
+    lat: 40.7395, lng: -74.0029,
+    google_place_id: "ChIJS-gkDZBZwokRTU47k4eihtE",
     city: "New York City", country: "United States",
     address: "85 Washington Pl, New York, NY 10011",
     roaster: "Think Coffee",
@@ -2380,7 +2510,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ramini Espresso Bar",
     slug: "ramini-espresso-bar-nyc",
-    lat: 40.7480, lng: -73.9862,
+    lat: 40.7541, lng: -73.9917,
+    google_place_id: "ChIJico0-axZwokRPeqC2TdsOKI",
     city: "New York City", country: "United States",
     address: "52 E 41st St, New York, NY 10017",
     roaster: "Multiple guest roasters",
@@ -2393,7 +2524,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Blank Street Coffee Williamsburg",
     slug: "blank-street-coffee-williamsburg-nyc",
-    lat: 40.7151, lng: -73.9570,
+    lat: 40.6935, lng: -73.9860,
+    google_place_id: "ChIJoav2wRZbwokRDXdld5p8gbE",
     city: "New York City", country: "United States",
     address: "284 N 7th St, Brooklyn, NY 11211",
     roaster: "Blank Street Coffee",
@@ -2408,7 +2540,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sycamore Bar & Flower Shop",
     slug: "sycamore-bar-flower-shop-brooklyn-nyc",
-    lat: 40.6497, lng: -73.9779,
+    lat: 40.6397, lng: -73.9672,
+    google_place_id: "ChIJjavsZTFbwokRYniaJrQ1Gg4",
     city: "New York City", country: "United States",
     address: "1118 Cortelyou Rd, Brooklyn, NY 11218",
     roaster: "Multiple guest roasters",
@@ -2425,7 +2558,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stumptown Coffee Roasters West Village",
     slug: "stumptown-coffee-west-village-nyc",
-    lat: 40.7336, lng: -74.0041,
+    lat: 40.7328, lng: -73.9980,
+    google_place_id: "ChIJ7c9s1JZZwokRs_zFHYCtNDA",
     city: "New York City", country: "United States",
     address: "30 W 8th St, New York, NY 10011",
     roaster: "Stumptown Coffee Roasters",
@@ -2439,7 +2573,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee High Line",
     slug: "intelligentsia-coffee-high-line-nyc",
-    lat: 40.7449, lng: -74.0040,
+    lat: 40.7459, lng: -74.0051,
+    google_place_id: "ChIJy6rdX7hZwokRYmiVJWN3XmQ",
     city: "New York City", country: "United States",
     address: "180 10th Ave, New York, NY 10011",
     roaster: "Intelligentsia Coffee",
@@ -2453,7 +2588,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Joe Coffee Columbia University",
     slug: "joe-coffee-columbia-nyc",
-    lat: 40.8076, lng: -73.9640,
+    lat: 40.8100, lng: -73.9620,
+    google_place_id: "ChIJLdxtJI73wokR6uNXUS83AnA",
     city: "New York City", country: "United States",
     address: "550 W 120th St, New York, NY 10027",
     roaster: "Joe Coffee",
@@ -2467,7 +2603,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Joe Coffee Upper West Side",
     slug: "joe-coffee-upper-west-side-nyc",
-    lat: 40.7838, lng: -73.9799,
+    lat: 40.7858, lng: -73.9730,
+    google_place_id: "ChIJ5fQIH4VYwokRrlU4_6lUNGg",
     city: "New York City", country: "United States",
     address: "514 Columbus Ave, New York, NY 10024",
     roaster: "Joe Coffee",
@@ -2481,7 +2618,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Birch Coffee Midtown East",
     slug: "birch-coffee-midtown-east-nyc",
-    lat: 40.7555, lng: -73.9717,
+    lat: 40.7575, lng: -73.9675,
+    google_place_id: "ChIJG6ZFFOlZwokRr5ioyQcmw-M",
     city: "New York City", country: "United States",
     address: "750 Lexington Ave, New York, NY 10022",
     roaster: "Birch Coffee",
@@ -2495,7 +2633,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Partners Coffee Nomad",
     slug: "partners-coffee-nomad-nyc",
-    lat: 40.7449, lng: -73.9877,
+    lat: 40.7452, lng: -73.9902,
+    google_place_id: "ChIJo7aE7KVZwokRTFQSEMeHNhM",
     city: "New York City", country: "United States",
     address: "17 W 28th St, New York, NY 10001",
     roaster: "Partners Coffee",
@@ -2509,7 +2648,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Cafe Grumpy Greenpoint",
     slug: "cafe-grumpy-greenpoint-nyc",
-    lat: 40.7281, lng: -73.9570,
+    lat: 40.7285, lng: -73.9486,
+    google_place_id: "ChIJ6QyMxUdZwokRALKVM6-NhGY",
     city: "New York City", country: "United States",
     address: "193 Meserole Ave, Brooklyn, NY 11222",
     roaster: "Cafe Grumpy",
@@ -2523,7 +2663,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Cafe Grumpy Lower East Side",
     slug: "cafe-grumpy-les-nyc",
-    lat: 40.7189, lng: -73.9872,
+    lat: 40.7151, lng: -73.9903,
+    google_place_id: "ChIJka6YlSlawokRMhN3aYCZWG0",
     city: "New York City", country: "United States",
     address: "13 Essex St, New York, NY 10002",
     roaster: "Cafe Grumpy",
@@ -2537,7 +2678,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Kaffe 1668 Tribeca",
     slug: "kaffe-1668-tribeca-nyc",
-    lat: 40.7192, lng: -74.0107,
+    lat: 40.7151, lng: -74.0111,
+    google_place_id: "ChIJQYmJtx5awokR45_sopkXVNE",
     city: "New York City", country: "United States",
     address: "275 Greenwich St, New York, NY 10007",
     roaster: "Multiple guest roasters",
@@ -2551,7 +2693,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "La Colombe Soho",
     slug: "la-colombe-soho-nyc",
-    lat: 40.7227, lng: -73.9990,
+    lat: 40.7283, lng: -73.9932,
+    google_place_id: "ChIJITzs6ppZwokRS5MAY3a5ee0",
     city: "New York City", country: "United States",
     address: "400 Lafayette St, New York, NY 10003",
     roaster: "La Colombe Coffee",
@@ -2565,7 +2708,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Think Coffee Greenwich Village",
     slug: "think-coffee-greenwich-village-nyc",
-    lat: 40.7293, lng: -73.9978,
+    lat: 40.7283, lng: -73.9953,
+    google_place_id: "ChIJ1atSGIVZwokRmyJxm9r4OdQ",
     city: "New York City", country: "United States",
     address: "248 Mercer St, New York, NY 10012",
     roaster: "Think Coffee",
@@ -2579,7 +2723,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sweetleaf Coffee Roasters Long Island City",
     slug: "sweetleaf-coffee-long-island-city-nyc",
-    lat: 40.7448, lng: -73.9486,
+    lat: 40.7433, lng: -73.9516,
+    google_place_id: "ChIJc50m9iRZwokReFDd1LOMp8U",
     city: "New York City", country: "United States",
     address: "10-93 Jackson Ave, Long Island City, NY 11101",
     roaster: "Sweetleaf Coffee Roasters",
@@ -2593,7 +2738,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sweetleaf Coffee Roasters Greenpoint",
     slug: "sweetleaf-coffee-greenpoint-nyc",
-    lat: 40.7313, lng: -73.9587,
+    lat: 40.7345, lng: -73.9554,
+    google_place_id: "ChIJ11Kj6D5ZwokR1_xM1x2XwVs",
     city: "New York City", country: "United States",
     address: "159 Freeman St, Brooklyn, NY 11222",
     roaster: "Sweetleaf Coffee Roasters",
@@ -2607,7 +2753,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Variety Coffee Roasters Bushwick",
     slug: "variety-coffee-roasters-bushwick-nyc",
-    lat: 40.7034, lng: -73.9312,
+    lat: 40.7154, lng: -73.9443,
+    google_place_id: "ChIJwbb1LlFZwokR43Wu0vdntIY",
     city: "New York City", country: "United States",
     address: "368 Graham Ave, Brooklyn, NY 11211",
     roaster: "Variety Coffee Roasters",
@@ -2621,7 +2768,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Devoción Flatiron",
     slug: "devocion-flatiron-nyc",
-    lat: 40.7407, lng: -73.9902,
+    lat: 40.7391, lng: -73.9891,
+    google_place_id: "ChIJH1KZKilZwokRYwSxtHI3_N0",
     city: "New York City", country: "United States",
     address: "25 E 20th St, New York, NY 10003",
     roaster: "Devoción",
@@ -2635,7 +2783,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Blue Bottle Coffee Rockefeller Center",
     slug: "blue-bottle-rockefeller-center-nyc",
-    lat: 40.7583, lng: -73.9797,
+    lat: 40.7582, lng: -73.9787,
+    google_place_id: "ChIJh8do2v5YwokRYPmXuTCIx-A",
     city: "New York City", country: "United States",
     address: "1 Rockefeller Plaza, New York, NY 10020",
     roaster: "Blue Bottle Coffee",
@@ -2649,7 +2798,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Toby's Estate Coffee Flatiron",
     slug: "tobys-estate-flatiron-nyc",
-    lat: 40.7410, lng: -73.9890,
+    lat: 40.7401, lng: -73.9909,
+    google_place_id: "ChIJHy0ZlqNZwokRABxBCQR_37o",
     city: "New York City", country: "United States",
     address: "44 E 21st St, New York, NY 10010",
     roaster: "Toby's Estate Coffee",
@@ -2663,7 +2813,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Grumpy Midtown",
     slug: "cafe-grumpy-midtown-nyc",
-    lat: 40.7524, lng: -73.9756,
+    lat: 40.7592, lng: -73.9796,
+    google_place_id: "ChIJW84VC9tZwokRNQKWjZmwjm8",
     city: "New York City", country: "United States",
     address: "500 W 51st St, New York, NY 10019",
     roaster: "Cafe Grumpy",
@@ -2677,7 +2828,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Maman Coffee",
     slug: "maman-coffee-tribeca-nyc",
-    lat: 40.7197, lng: -74.0092,
+    lat: 40.7203, lng: -73.9984,
+    google_place_id: "ChIJL8_mB4lZwokR9RPJzSCMrmw",
     city: "New York City", country: "United States",
     address: "239 Centre St, New York, NY 10013",
     roaster: "Multiple guest roasters",
@@ -2691,7 +2843,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Abraço Espresso",
     slug: "abraco-espresso-east-village-nyc",
-    lat: 40.7262, lng: -73.9841,
+    lat: 40.7274, lng: -73.9862,
+    google_place_id: "ChIJA9c33pxZwokRzubVjQK9pFM",
     city: "New York City", country: "United States",
     address: "81 E 7th St, New York, NY 10003",
     roaster: "Multiple guest roasters",
@@ -2748,7 +2901,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Southside Coffee",
     slug: "southside-coffee-windsor-terrace-nyc",
-    lat: 40.6555, lng: -73.9797,
+    lat: 40.6612, lng: -73.9903,
+    google_place_id: "ChIJU8t5Q6NZwokRArb-jBlcl38",
     city: "New York City", country: "United States",
     address: "654 6th Ave, Brooklyn, NY 11215",
     roaster: "Multiple guest roasters",
@@ -2762,7 +2916,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Daily Provisions",
     slug: "daily-provisions-coffee-nyc",
-    lat: 40.7367, lng: -73.9898,
+    lat: 40.7377, lng: -73.9876,
+    google_place_id: "ChIJM77SlaFZwokRUdDxtDv9560",
     city: "New York City", country: "United States",
     address: "103 E 19th St, New York, NY 10003",
     roaster: "Stumptown Coffee Roasters",
@@ -2776,7 +2931,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Integral",
     slug: "cafe-integral-nyc",
-    lat: 40.7227, lng: -74.0078,
+    lat: 40.7204, lng: -73.9952,
+    google_place_id: "ChIJq6oum4hZwokRfG222QtKeGY",
     city: "New York City", country: "United States",
     address: "149 Elizabeth St, New York, NY 10012",
     roaster: "Café Integral",
@@ -2805,7 +2961,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Partners Coffee Dumbo",
     slug: "partners-coffee-dumbo-nyc",
-    lat: 40.7033, lng: -73.9891,
+    lat: 40.7019, lng: -73.9895,
+    google_place_id: "ChIJI4YtUjFawokRirhCTkv48p4",
     city: "New York City", country: "United States",
     address: "81 Washington St, Brooklyn, NY 11201",
     roaster: "Partners Coffee",
@@ -2821,7 +2978,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Keeper Coffee",
     slug: "keeper-coffee-portland",
-    lat: 45.5226, lng: -122.6592,
+    lat: 45.4900, lng: -122.6200,
+    google_place_id: "ChIJwVBb6R0LlVQR52pe_0J9y4E",
     city: "Portland", country: "United States",
     address: "4515 SE 41st Ave, Portland, OR 97202",
     roaster: "Multiple guest roasters",
@@ -2835,7 +2993,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Tov Coffee & Tea",
     slug: "tov-coffee-tea-portland",
-    lat: 45.5321, lng: -122.6471,
+    lat: 45.5123, lng: -122.6261,
+    google_place_id: "ChIJDYLRsZGglVQRfr9u2xi1hZc",
     city: "Portland", country: "United States",
     address: "3639 SE Hawthorne Blvd, Portland, OR 97214",
     roaster: "Multiple guest roasters",
@@ -2849,7 +3008,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coava Coffee Roasters Hawthorne",
     slug: "coava-coffee-hawthorne-portland",
-    lat: 45.5121, lng: -122.6376,
+    lat: 45.5122, lng: -122.6385,
+    google_place_id: "ChIJWwJBcpqglVQRiZm-V58S2GY",
     city: "Portland", country: "United States",
     address: "2631 SE Hawthorne Blvd, Portland, OR 97214",
     roaster: "Coava Coffee Roasters",
@@ -2864,7 +3024,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Albina Press",
     slug: "albina-press-portland",
-    lat: 45.5449, lng: -122.6723,
+    lat: 45.5568, lng: -122.6751,
+    google_place_id: "ChIJG0MwJBOnlVQRZnbrSkxy7gE",
     city: "Portland", country: "United States",
     address: "4637 N Albina Ave, Portland, OR 97217",
     roaster: "Multiple guest roasters",
@@ -2878,7 +3039,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Roseline Coffee",
     slug: "roseline-coffee-portland",
-    lat: 45.5241, lng: -122.6849,
+    lat: 45.5246, lng: -122.6625,
+    google_place_id: "ChIJ8WaP9JShlVQRf_bGxtd3Qw0",
     city: "Portland", country: "United States",
     address: "321 NE Davis St, Portland, OR 97232",
     roaster: "Roseline Coffee",
@@ -2892,7 +3054,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Push x Pull Coffee",
     slug: "push-x-pull-coffee-portland",
-    lat: 45.5538, lng: -122.6710,
+    lat: 45.5195, lng: -122.6569,
+    google_place_id: "ChIJ_asFu6aglVQR49noZPup4bI",
     city: "Portland", country: "United States",
     address: "821 SE Stark St, Portland, OR 97214",
     roaster: "Push x Pull Coffee",
@@ -2920,7 +3083,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stumptown Coffee Roasters Annex",
     slug: "stumptown-coffee-annex-portland",
-    lat: 45.5197, lng: -122.6783,
+    lat: 45.5218, lng: -122.6735,
+    google_place_id: "ChIJbT5i5AYKlVQRHZOtE8vGAz4",
     city: "Portland", country: "United States",
     address: "128 SW 3rd Ave, Portland, OR 97204",
     roaster: "Stumptown Coffee Roasters",
@@ -2934,7 +3098,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Bipartisan Café",
     slug: "bipartisan-cafe-portland",
-    lat: 45.5108, lng: -122.6227,
+    lat: 45.5193, lng: -122.5823,
+    google_place_id: "ChIJ8c-vzwahlVQR3Nynm6j6cT8",
     city: "Portland", country: "United States",
     address: "7901 SE Stark St, Portland, OR 97215",
     roaster: "Multiple guest roasters",
@@ -2950,7 +3115,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sightglass Coffee Divisadero",
     slug: "sightglass-coffee-divisadero-sf",
-    lat: 37.7731, lng: -122.4370,
+    lat: 37.7723, lng: -122.4375,
+    google_place_id: "ChIJ0ZnTPK-AhYARbVoaoZLrzv8",
     city: "San Francisco", country: "United States",
     address: "301 Divisadero St, San Francisco, CA 94117",
     roaster: "Sightglass Coffee",
@@ -2980,7 +3146,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Andytown Coffee Roasters West Portal",
     slug: "andytown-coffee-west-portal-sf",
-    lat: 37.7445, lng: -122.4649,
+    lat: 37.7422, lng: -122.4986,
+    google_place_id: "ChIJUaf97nt9j4AR5zDiKQn-4ks",
     city: "San Francisco", country: "United States",
     address: "14 W Portal Ave, San Francisco, CA 94127",
     roaster: "Andytown Coffee Roasters",
@@ -2995,7 +3162,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sextant Coffee Roasters",
     slug: "sextant-coffee-sf",
-    lat: 37.7746, lng: -122.4138,
+    lat: 37.7725, lng: -122.4130,
+    google_place_id: "ChIJg1s92Sd-j4ARTKJr-IhF_-Q",
     city: "San Francisco", country: "United States",
     address: "1415 Folsom St, San Francisco, CA 94103",
     roaster: "Sextant Coffee",
@@ -3009,7 +3177,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ritual Coffee Roasters Castro",
     slug: "ritual-coffee-castro-sf",
-    lat: 37.7617, lng: -122.4349,
+    lat: 37.7564, lng: -122.4214,
+    google_place_id: "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
     city: "San Francisco", country: "United States",
     address: "3969 Market St, San Francisco, CA 94114",
     roaster: "Ritual Coffee Roasters",
@@ -3023,7 +3192,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Andytown Coffee Roasters Upper Haight",
     slug: "andytown-coffee-upper-haight-sf",
-    lat: 37.7695, lng: -122.4486,
+    lat: 37.7567, lng: -122.5023,
+    google_place_id: "ChIJee4DupqHhYARXadb2DlBtr8",
     city: "San Francisco", country: "United States",
     address: "1890 Haight St, San Francisco, CA 94117",
     roaster: "Andytown Coffee Roasters",
@@ -3037,7 +3207,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sightglass Coffee Mission",
     slug: "sightglass-coffee-mission-sf",
-    lat: 37.7617, lng: -122.4267,
+    lat: 37.7592, lng: -122.4113,
+    google_place_id: "ChIJH3-XPzd-j4ARxc5pUq9X8CU",
     city: "San Francisco", country: "United States",
     address: "3014 20th St, San Francisco, CA 94110",
     roaster: "Sightglass Coffee",
@@ -3067,7 +3238,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ipsento Bucktown",
     slug: "ipsento-bucktown-chicago",
-    lat: 41.9181, lng: -87.6798,
+    lat: 41.9144, lng: -87.6833,
+    google_place_id: "ChIJ7VDy2r3SD4gRo7aJ8aaxQ1w",
     city: "Chicago", country: "United States",
     address: "1813 N Milwaukee Ave, Chicago, IL 60647",
     roaster: "Multiple guest roasters",
@@ -3082,7 +3254,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee Lincoln Park",
     slug: "intelligentsia-coffee-lincoln-park-chicago",
-    lat: 41.9241, lng: -87.6360,
+    lat: 41.9383, lng: -87.6442,
+    google_place_id: "ChIJeX1U26bTD4gRMk1CzDOFQqA",
     city: "Chicago", country: "United States",
     address: "3123 N Broadway St, Chicago, IL 60657",
     roaster: "Intelligentsia Coffee",
@@ -3097,7 +3270,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee Wicker Park",
     slug: "intelligentsia-coffee-wicker-park-chicago",
-    lat: 41.9029, lng: -87.6622,
+    lat: 41.9031, lng: -87.6678,
+    google_place_id: "ChIJ-fNs0dHSD4gRz6pDeVSqkJs",
     city: "Chicago", country: "United States",
     address: "1609 W Division St, Chicago, IL 60622",
     roaster: "Intelligentsia Coffee",
@@ -3111,7 +3285,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dark Matter Coffee Star Lounge",
     slug: "dark-matter-coffee-star-lounge-chicago",
-    lat: 41.8972, lng: -87.6619,
+    lat: 41.8956, lng: -87.6902,
+    google_place_id: "ChIJbRig2FItDogRLoRJJB0HMBM",
     city: "Chicago", country: "United States",
     address: "2521 W Chicago Ave, Chicago, IL 60622",
     roaster: "Dark Matter Coffee",
@@ -3125,7 +3300,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sparrow Coffee",
     slug: "sparrow-coffee-chicago",
-    lat: 41.8868, lng: -87.6830,
+    lat: 41.8870, lng: -87.6785,
+    google_place_id: "ChIJEXl_GtgsDogRqAywUvjkcMw",
     city: "Chicago", country: "United States",
     address: "2040 W Fulton St, Chicago, IL 60612",
     roaster: "Sparrow Coffee",
@@ -3139,7 +3315,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Metropolis Coffee Company",
     slug: "metropolis-coffee-chicago",
-    lat: 41.9790, lng: -87.6697,
+    lat: 41.9944, lng: -87.6572,
+    google_place_id: "ChIJTbz6TnXRD4gR5NeDxllsUbw",
     city: "Chicago", country: "United States",
     address: "1039 W Granville Ave, Chicago, IL 60660",
     roaster: "Metropolis Coffee Company",
@@ -3170,7 +3347,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dayglow Coffee West Hollywood",
     slug: "dayglow-coffee-west-hollywood",
-    lat: 34.0879, lng: -118.3503,
+    lat: 34.0869, lng: -118.3805,
+    google_place_id: "ChIJg36Tyrm_woARWmn7qtxzAC0",
     city: "Los Angeles", country: "United States",
     address: "866 Huntley Dr, West Hollywood, CA 90069",
     roaster: "Multiple guest roasters",
@@ -3185,7 +3363,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Alfred Coffee Melrose Place",
     slug: "alfred-coffee-melrose-place-la",
-    lat: 34.0831, lng: -118.3636,
+    lat: 34.0834, lng: -118.3743,
+    google_place_id: "ChIJ1Vmg3La-woARKqknCfb0sxw",
     city: "Los Angeles", country: "United States",
     address: "8428 Melrose Pl, Los Angeles, CA 90069",
     roaster: "Multiple guest roasters",
@@ -3200,7 +3379,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Alfred Coffee Brentwood",
     slug: "alfred-coffee-brentwood-la",
-    lat: 34.0501, lng: -118.4762,
+    lat: 34.0524, lng: -118.4706,
+    google_place_id: "ChIJXWBzZqe8woARmHCkaNO295Q",
     city: "Los Angeles", country: "United States",
     address: "11650 San Vicente Blvd, Los Angeles, CA 90049",
     roaster: "Multiple guest roasters",
@@ -3215,7 +3395,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Go Get Em Tiger Grand Central Market",
     slug: "go-get-em-tiger-grand-central-market-la",
-    lat: 34.0521, lng: -118.2492,
+    lat: 34.0511, lng: -118.2493,
+    google_place_id: "ChIJy4RMgUvGwoARxcVCshVZCwk",
     city: "Los Angeles", country: "United States",
     address: "317 S Broadway, Los Angeles, CA 90013",
     roaster: "Go Get Em Tiger",
@@ -3230,7 +3411,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Verve Coffee Roasters Silver Lake",
     slug: "verve-coffee-silver-lake-la",
-    lat: 34.0872, lng: -118.2738,
+    lat: 34.0722, lng: -118.3650,
+    google_place_id: "ChIJaRLkvja5woARegre2p17hiU",
     city: "Los Angeles", country: "United States",
     address: "2426 Sunset Blvd, Los Angeles, CA 90026",
     roaster: "Verve Coffee Roasters",
@@ -3245,7 +3427,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Stumptown Coffee Roasters LA",
     slug: "stumptown-coffee-la",
-    lat: 34.0450, lng: -118.2659,
+    lat: 34.0333, lng: -118.2299,
+    google_place_id: "ChIJ7_CA0SHGwoAReG-WAhF5ms8",
     city: "Los Angeles", country: "United States",
     address: "806 S Spring St, Los Angeles, CA 90014",
     roaster: "Stumptown Coffee Roasters",
@@ -3259,7 +3442,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Verve Coffee Roasters Los Angeles",
     slug: "verve-coffee-dtla",
-    lat: 34.0441, lng: -118.2510,
+    lat: 34.0424, lng: -118.2546,
+    google_place_id: "ChIJ6x_X48rHwoARW8z-yvtJ1lQ",
     city: "Los Angeles", country: "United States",
     address: "833 S Spring St, Los Angeles, CA 90014",
     roaster: "Verve Coffee Roasters",
@@ -3273,7 +3457,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Lamill Coffee",
     slug: "lamill-coffee-silver-lake",
-    lat: 34.0869, lng: -118.2703,
+    lat: 34.0888, lng: -118.2686,
+    google_place_id: "ChIJNRFXxzvHwoARNCv7qgBYY08",
     city: "Los Angeles", country: "United States",
     address: "1636 Silver Lake Blvd, Los Angeles, CA 90026",
     roaster: "Lamill Coffee",
@@ -3287,7 +3472,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dinosaur Coffee",
     slug: "dinosaur-coffee-silver-lake",
-    lat: 34.0872, lng: -118.2721,
+    lat: 34.0953, lng: -118.2838,
+    google_place_id: "ChIJfaYfR0zHwoARAqzXr3o2bEA",
     city: "Los Angeles", country: "United States",
     address: "4334 W Sunset Blvd, Los Angeles, CA 90029",
     roaster: "Multiple guest roasters",
@@ -3301,7 +3487,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Blue Bottle Coffee Los Feliz",
     slug: "blue-bottle-coffee-los-feliz",
-    lat: 34.1070, lng: -118.2912,
+    lat: 34.1095, lng: -118.2872,
+    google_place_id: "ChIJx8Q4trrAwoARvPLhP-ihFHg",
     city: "Los Angeles", country: "United States",
     address: "4353 Fountain Ave, Los Angeles, CA 90029",
     roaster: "Blue Bottle Coffee",
@@ -3315,7 +3502,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Intelligentsia Coffee Silver Lake",
     slug: "intelligentsia-coffee-silver-lake",
-    lat: 34.0871, lng: -118.2670,
+    lat: 34.0921, lng: -118.2802,
+    google_place_id: "ChIJ763W4UjHwoARhP2LIuCn2dU",
     city: "Los Angeles", country: "United States",
     address: "3922 W Sunset Blvd, Los Angeles, CA 90029",
     roaster: "Intelligentsia Coffee",
@@ -3357,7 +3545,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Go Get Em Tiger Pasadena",
     slug: "go-get-em-tiger-pasadena",
-    lat: 34.1455, lng: -118.1519,
+    lat: 34.1106, lng: -118.1904,
+    google_place_id: "ChIJkxtPkqjFwoARwOZAWzqZ3pQ",
     city: "Los Angeles", country: "United States",
     address: "2 W California Blvd, Pasadena, CA 91105",
     roaster: "Go Get Em Tiger",
@@ -3373,7 +3562,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fahrenheit Coffee",
     slug: "fahrenheit-coffee-toronto",
-    lat: 43.6507, lng: -79.3753,
+    lat: 43.6524, lng: -79.3729,
+    google_place_id: "ChIJ4bJ3djvL1IkRWav6-FyyDds",
     city: "Toronto", country: "Canada",
     address: "120 Lombard St, Toronto, ON M5C 3H5",
     roaster: "Multiple guest roasters",
@@ -3387,7 +3577,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coffee Oysters Champagne",
     slug: "coffee-oysters-champagne-toronto",
-    lat: 43.6474, lng: -79.3895,
+    lat: 43.6474, lng: -79.3868,
+    google_place_id: "ChIJX8ZuHKU1K4gRo4Mz76BKroY",
     city: "Toronto", country: "Canada",
     address: "214 King St W, Toronto, ON M5H 1K4",
     roaster: "Multiple guest roasters",
@@ -3401,7 +3592,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Pilot Coffee Roasters Distillery",
     slug: "pilot-coffee-distillery-toronto",
-    lat: 43.6504, lng: -79.3590,
+    lat: 43.6453, lng: -79.3808,
+    google_place_id: "ChIJ84vitCzL1IkRDT5wnL5MaBs",
     city: "Toronto", country: "Canada",
     address: "35 Tank House Lane, Toronto, ON M5A 3C4",
     roaster: "Pilot Coffee Roasters",
@@ -3415,7 +3607,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Propeller Coffee Kensington",
     slug: "propeller-coffee-kensington-toronto",
-    lat: 43.6567, lng: -79.4038,
+    lat: 43.6594, lng: -79.4449,
+    google_place_id: "ChIJfdgn1kY0K4gRFaL2RlJR10g",
     city: "Toronto", country: "Canada",
     address: "145 Augusta Ave, Toronto, ON M5T 2L5",
     roaster: "Propeller Coffee Co.",
@@ -3429,7 +3622,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Balzac's Coffee Distillery",
     slug: "balzacs-coffee-distillery-toronto",
-    lat: 43.6501, lng: -79.3573,
+    lat: 43.6498, lng: -79.3591,
+    google_place_id: "ChIJr22uVRdTV0ARhqf3bW-O-QU",
     city: "Toronto", country: "Canada",
     address: "55 Mill St, Toronto, ON M5A 3C4",
     roaster: "Balzac's Coffee",
@@ -3443,7 +3637,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Sam James Coffee Bar Harbord",
     slug: "sam-james-coffee-harbord-toronto",
-    lat: 43.6606, lng: -79.4044,
+    lat: 43.6603, lng: -79.4154,
+    google_place_id: "ChIJBWlgk_I0K4gR3y4oDw_gzpM",
     city: "Toronto", country: "Canada",
     address: "620 Harbord St, Toronto, ON M6G 1J5",
     roaster: "Sam James Coffee Bar",
@@ -3457,7 +3652,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Jimmy's Coffee Dundas West",
     slug: "jimmys-coffee-dundas-west-toronto",
-    lat: 43.6502, lng: -79.4381,
+    lat: 43.6538, lng: -79.4514,
+    google_place_id: "ChIJI_GFEkA1K4gRlWpnLkmZ9RE",
     city: "Toronto", country: "Canada",
     address: "1310 Dundas St W, Toronto, ON M6J 1Y5",
     roaster: "Multiple guest roasters",
@@ -3471,7 +3667,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "HotBlack Coffee",
     slug: "hotblack-coffee-toronto",
-    lat: 43.6493, lng: -79.4697,
+    lat: 43.6502, lng: -79.3886,
+    google_place_id: "ChIJa_8ELc40K4gR4xMPeDUvr8A",
     city: "Toronto", country: "Canada",
     address: "2196 Bloor St W, Toronto, ON M6S 1N2",
     roaster: "Multiple guest roasters",
@@ -3502,7 +3699,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "49th Parallel Coffee Roasters Main Street",
     slug: "49th-parallel-coffee-main-street-vancouver",
-    lat: 49.2576, lng: -123.1013,
+    lat: 49.2592, lng: -123.1008,
+    google_place_id: "ChIJL7wlu-NzhlQR_WJtTl2Njvw",
     city: "Vancouver", country: "Canada",
     address: "2902 Main St, Vancouver, BC V5T 3G2",
     roaster: "49th Parallel Coffee Roasters",
@@ -3530,7 +3728,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Matchstick Coffee Fraser",
     slug: "matchstick-coffee-fraser-vancouver",
-    lat: 49.2257, lng: -123.0908,
+    lat: 49.2573, lng: -123.0903,
+    google_place_id: "ChIJ0wJ0xFdxhlQRiaPFJzM07W4",
     city: "Vancouver", country: "Canada",
     address: "6804 Fraser St, Vancouver, BC V5X 3T3",
     roaster: "Matchstick Coffee Roasters",
@@ -3561,7 +3760,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Myriade Westmount",
     slug: "cafe-myriade-westmount-montreal",
-    lat: 45.4822, lng: -73.5866,
+    lat: 45.4783, lng: -73.6015,
+    google_place_id: "ChIJJd-zKi4RyUwR8RjTmQYcwYA",
     city: "Montreal", country: "Canada",
     address: "347 Ave Victoria, Westmount, QC H3Z 2N1",
     roaster: "Multiple guest roasters",
@@ -3575,7 +3775,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Café Parvis",
     slug: "cafe-parvis-montreal",
-    lat: 45.5088, lng: -73.5740,
+    lat: 45.5058, lng: -73.5693,
+    google_place_id: "ChIJu1OQ9kUayUwRY8HESTqnl5E",
     city: "Montreal", country: "Canada",
     address: "433 Rue Mayor, Montréal, QC H3A 1N8",
     roaster: "Multiple guest roasters",
@@ -3589,7 +3790,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dispatch Coffee Mile End",
     slug: "dispatch-coffee-mile-end-montreal",
-    lat: 45.5236, lng: -73.5985,
+    lat: 45.5170, lng: -73.5791,
+    google_place_id: "ChIJ__8PNTMayUwRA4Ovujm_Oro",
     city: "Montreal", country: "Canada",
     address: "4001 Blvd Saint-Laurent, Montréal, QC H2W 1Y4",
     roaster: "Dispatch Coffee",
@@ -3605,7 +3807,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Victrola Coffee Roasters Fremont",
     slug: "victrola-coffee-fremont-seattle",
-    lat: 47.6519, lng: -122.3499,
+    lat: 47.6689, lng: -122.3846,
+    google_place_id: "ChIJIa1s4MUVkFQREK7lZUBOaCM",
     city: "Seattle", country: "United States",
     address: "700 N 34th St, Seattle, WA 98103",
     roaster: "Victrola Coffee Roasters",
@@ -3620,7 +3823,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Caffe Fiore",
     slug: "caffe-fiore-seattle",
-    lat: 47.6647, lng: -122.3551,
+    lat: 47.6905, lng: -122.3981,
+    google_place_id: "ChIJc81YlXwWkFQRKolaZ9kKqps",
     city: "Seattle", country: "United States",
     address: "224 N 36th St, Seattle, WA 98103",
     roaster: "Caffe Fiore",
@@ -3635,7 +3839,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Coyle's Bakeshop",
     slug: "coyles-bakeshop-seattle",
-    lat: 47.6885, lng: -122.3556,
+    lat: 47.6893, lng: -122.3550,
+    google_place_id: "ChIJmWZchiEUkFQRv4VtD3ldSn8",
     city: "Seattle", country: "United States",
     address: "8300 Greenwood Ave N, Seattle, WA 98103",
     roaster: "Stumptown Coffee Roasters",
@@ -3650,7 +3855,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Espresso Vivace Roasteria",
     slug: "espresso-vivace-roasteria-seattle",
-    lat: 47.6207, lng: -122.3203,
+    lat: 47.6238, lng: -122.3206,
+    google_place_id: "ChIJ6Sd77S0VkFQRcMeTs1sg6iU",
     city: "Seattle", country: "United States",
     address: "901 E Denny Way, Seattle, WA 98122",
     roaster: "Espresso Vivace",
@@ -3664,7 +3870,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Espresso Vivace Brix",
     slug: "espresso-vivace-brix-seattle",
-    lat: 47.6226, lng: -122.3218,
+    lat: 47.6238, lng: -122.3206,
+    google_place_id: "ChIJ6Sd77S0VkFQRcMeTs1sg6iU",
     city: "Seattle", country: "United States",
     address: "532 Broadway Ave E, Seattle, WA 98102",
     roaster: "Espresso Vivace",
@@ -3678,7 +3885,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Portage Bay Café Coffee",
     slug: "portage-bay-cafe-coffee-seattle",
-    lat: 47.6540, lng: -122.3282,
+    lat: 47.6576, lng: -122.3177,
+    google_place_id: "ChIJzZzBbfQUkFQRP0f0nUznInY",
     city: "Seattle", country: "United States",
     address: "4130 Roosevelt Way NE, Seattle, WA 98105",
     roaster: "Caffe Vita",
@@ -3692,7 +3900,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Olympia Coffee Roasting",
     slug: "olympia-coffee-roasting-seattle",
-    lat: 47.6110, lng: -122.3358,
+    lat: 47.6104, lng: -122.3352,
+    google_place_id: "ChIJp77dZ15rkFQRYIEJmZfTJcU",
     city: "Seattle", country: "United States",
     address: "1420 5th Ave Suite 103, Seattle, WA 98101",
     roaster: "Olympia Coffee Roasting",
@@ -3706,7 +3915,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Storyville Coffee Company",
     slug: "storyville-coffee-seattle",
-    lat: 47.6097, lng: -122.3406,
+    lat: 47.6090, lng: -122.3404,
+    google_place_id: "ChIJBR3G8LJqkFQRWD2Wzn0qG3c",
     city: "Seattle", country: "United States",
     address: "94 Pike St, Seattle, WA 98101",
     roaster: "Storyville Coffee Company",
@@ -3720,7 +3930,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Makeda & Mingus",
     slug: "makeda-and-mingus-coffee-seattle",
-    lat: 47.6130, lng: -122.3157,
+    lat: 47.6853, lng: -122.3557,
+    google_place_id: "ChIJuaBUnSQUkFQRp4sxUdxExfo",
     city: "Seattle", country: "United States",
     address: "1423 23rd Ave, Seattle, WA 98122",
     roaster: "Multiple guest roasters",
@@ -3736,7 +3947,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Per'La Specialty Roasters",
     slug: "perla-specialty-roasters-miami",
-    lat: 25.7978, lng: -80.1932,
+    lat: 25.7271, lng: -80.3084,
+    google_place_id: "ChIJWVSgXnC42YgRxDUoJEjDwEs",
     city: "Miami", country: "United States",
     address: "100 NE 1st Ave, Miami, FL 33132",
     roaster: "Per'La Specialty Roasters",
@@ -3765,7 +3977,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Panther Coffee Little Haiti",
     slug: "panther-coffee-little-haiti-miami",
-    lat: 25.8143, lng: -80.1926,
+    lat: 25.8300, lng: -80.2005,
+    google_place_id: "ChIJIU21RGix2YgR0Vr1OcGQVUE",
     city: "Miami", country: "United States",
     address: "6825 Biscayne Blvd, Miami, FL 33138",
     roaster: "Panther Coffee",
@@ -3779,7 +3992,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Milani Coffee Roasters",
     slug: "milani-coffee-roasters-miami",
-    lat: 25.8025, lng: -80.2011,
+    lat: 25.6388, lng: -80.4232,
+    google_place_id: "ChIJq1liz-DB2YgRfbtnRwN-83Y",
     city: "Miami", country: "United States",
     address: "57 NW 36th St, Miami, FL 33127",
     roaster: "Milani Coffee Roasters",
@@ -3794,7 +4008,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Flat Track Coffee",
     slug: "flat-track-coffee-austin",
-    lat: 30.2687, lng: -97.7208,
+    lat: 30.2577, lng: -97.7272,
+    google_place_id: "ChIJkTM4la61RIYRm51Cg7lRuLg",
     city: "Austin", country: "United States",
     address: "1619 E Cesar Chavez St, Austin, TX 78702",
     roaster: "Flat Track Coffee",
@@ -3809,7 +4024,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Radio Coffee & Beer",
     slug: "radio-coffee-beer-austin",
-    lat: 30.2478, lng: -97.7764,
+    lat: 30.2315, lng: -97.7877,
+    google_place_id: "ChIJR55fXzRLW4YRuB1uAbBXcpg",
     city: "Austin", country: "United States",
     address: "4204 Manchaca Rd, Austin, TX 78704",
     roaster: "Multiple guest roasters",
@@ -3839,7 +4055,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Houndstooth Coffee Domain",
     slug: "houndstooth-coffee-domain-austin",
-    lat: 30.4014, lng: -97.7249,
+    lat: 30.4006, lng: -97.7228,
+    google_place_id: "ChIJ1QyfC17NRIYRXfCDsZSRrZI",
     city: "Austin", country: "United States",
     address: "11601 Domain Blvd, Austin, TX 78758",
     roaster: "Multiple guest roasters",
@@ -3869,7 +4086,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Medici Roasting",
     slug: "medici-roasting-austin",
-    lat: 30.2711, lng: -97.7396,
+    lat: 30.2855, lng: -97.7420,
+    google_place_id: "ChIJu0sb2Xe1RIYRei78GeX-SnQ",
     city: "Austin", country: "United States",
     address: "2222 Guadalupe St, Austin, TX 78705",
     roaster: "Medici Roasting",
@@ -3884,7 +4102,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Wright Bros. Brew & Brew",
     slug: "wright-bros-brew-brew-austin",
-    lat: 30.2671, lng: -97.7424,
+    lat: 30.2644, lng: -97.7331,
+    google_place_id: "ChIJ_bOMha-1RIYRycZ5_NUCyho",
     city: "Austin", country: "United States",
     address: "500 San Marcos St, Austin, TX 78702",
     roaster: "Multiple guest roasters",
@@ -3899,7 +4118,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Cuvée Coffee",
     slug: "cuvee-coffee-austin",
-    lat: 30.3001, lng: -97.7073,
+    lat: 30.2614, lng: -97.7211,
+    google_place_id: "ChIJsQ5zNra1RIYR9_HWh8wRCCg",
     city: "Austin", country: "United States",
     address: "2000 E 6th St, Austin, TX 78702",
     roaster: "Cuvée Coffee",
@@ -3929,7 +4149,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fleet Coffee",
     slug: "fleet-coffee-austin",
-    lat: 30.2476, lng: -97.7186,
+    lat: 30.2628, lng: -97.7143,
+    google_place_id: "ChIJRV2c1M61RIYR7nHB1em5jCc",
     city: "Austin", country: "United States",
     address: "2427 Webberville Rd, Austin, TX 78702",
     roaster: "Multiple guest roasters",
@@ -3944,7 +4165,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Merit Coffee",
     slug: "merit-coffee-austin",
-    lat: 30.2698, lng: -97.7592,
+    lat: 30.3156, lng: -97.7348,
+    google_place_id: "ChIJPStkGtTLRIYRXjPGWgr9dmE",
     city: "Austin", country: "United States",
     address: "205 W 5th St, Austin, TX 78701",
     roaster: "Merit Coffee",
@@ -3959,7 +4181,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Epoch Coffee",
     slug: "epoch-coffee-austin",
-    lat: 30.3198, lng: -97.7305,
+    lat: 30.3186, lng: -97.7245,
+    google_place_id: "ChIJG-gJw2vKRIYROWi2uwOp8QE",
     city: "Austin", country: "United States",
     address: "221 W North Loop Blvd, Austin, TX 78751",
     roaster: "Multiple guest roasters",
@@ -3974,7 +4197,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Houndstooth Coffee",
     slug: "houndstooth-coffee-austin",
-    lat: 30.2956, lng: -97.7440,
+    lat: 30.2662, lng: -97.7431,
+    google_place_id: "ChIJn3uWRwi1RIYRFf5C6_ymWJw",
     city: "Austin", country: "United States",
     address: "401 Congress Ave, Austin, TX 78701",
     roaster: "Multiple guest roasters",
@@ -3989,7 +4213,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Greater Goods Coffee",
     slug: "greater-goods-coffee-austin",
-    lat: 30.2490, lng: -97.7214,
+    lat: 30.2080, lng: -98.1410,
+    google_place_id: "ChIJ3XH3b3JqW4YRl27lgZI5tBI",
     city: "Austin", country: "United States",
     address: "2501 E 6th St, Austin, TX 78702",
     roaster: "Greater Goods Coffee",
@@ -4006,7 +4231,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Novo Coffee Cherry Creek",
     slug: "novo-coffee-cherry-creek-denver",
-    lat: 39.7190, lng: -104.9512,
+    lat: 39.7624, lng: -104.9798,
+    google_place_id: "ChIJqZ_Tzx55bIcRHjD5Qacyv98",
     city: "Denver", country: "United States",
     address: "2817 E 3rd Ave, Denver, CO 80206",
     roaster: "Novo Coffee",
@@ -4021,7 +4247,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Pablo's Coffee Colfax",
     slug: "pablos-coffee-colfax-denver",
-    lat: 39.7409, lng: -104.9602,
+    lat: 39.7254, lng: -104.9790,
+    google_place_id: "ChIJ2TrHwtt-bIcRxEMq9iOvk6w",
     city: "Denver", country: "United States",
     address: "630 E Colfax Ave, Denver, CO 80203",
     roaster: "Pablo's Coffee",
@@ -4036,7 +4263,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Novo Coffee",
     slug: "novo-coffee-denver",
-    lat: 39.7330, lng: -104.9762,
+    lat: 39.7440, lng: -104.9900,
+    google_place_id: "ChIJ1ehL6tZ4bIcR8WyKkLSsMEQ",
     city: "Denver", country: "United States",
     address: "1600 Glenarm Pl, Denver, CO 80202",
     roaster: "Novo Coffee",
@@ -4051,7 +4279,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Crema Coffee House",
     slug: "crema-coffee-house-denver",
-    lat: 39.7427, lng: -104.9783,
+    lat: 39.7612, lng: -104.9817,
+    google_place_id: "ChIJH4pgGx95bIcRUArM77N9zr0",
     city: "Denver", country: "United States",
     address: "2862 Larimer St, Denver, CO 80205",
     roaster: "Multiple guest roasters",
@@ -4066,7 +4295,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Middle State Coffee",
     slug: "middle-state-coffee-denver",
-    lat: 39.7491, lng: -104.9867,
+    lat: 39.7618, lng: -105.0196,
+    google_place_id: "ChIJN5mNDrZ5bIcRmSTHre0tYUo",
     city: "Denver", country: "United States",
     address: "2622 W 32nd Ave, Denver, CO 80211",
     roaster: "Middle State Coffee",
@@ -4081,7 +4311,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Corvus Coffee Roasters",
     slug: "corvus-coffee-roasters-denver",
-    lat: 39.7109, lng: -104.9871,
+    lat: 39.6850, lng: -104.9872,
+    google_place_id: "ChIJ20D77LR_bIcRngEDKqLRtI4",
     city: "Denver", country: "United States",
     address: "1740 S Broadway, Denver, CO 80210",
     roaster: "Corvus Coffee Roasters",
@@ -4096,7 +4327,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Steam Espresso Bar",
     slug: "steam-espresso-bar-denver",
-    lat: 39.6956, lng: -104.9787,
+    lat: 39.6839, lng: -104.9808,
+    google_place_id: "ChIJT7NLCUx-bIcRtPVhO__H_Oo",
     city: "Denver", country: "United States",
     address: "1801 S Pearl St, Denver, CO 80210",
     roaster: "Multiple guest roasters",
@@ -4111,7 +4343,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Little Owl Coffee",
     slug: "little-owl-coffee-denver",
-    lat: 39.7523, lng: -104.9994,
+    lat: 39.7505, lng: -104.9997,
+    google_place_id: "ChIJJxEIjcR4bIcR5SbVYngKOz0",
     city: "Denver", country: "United States",
     address: "1555 Blake St, Denver, CO 80202",
     roaster: "Multiple guest roasters",
@@ -4143,7 +4376,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "George Howell Coffee",
     slug: "george-howell-coffee-boston",
-    lat: 42.3561, lng: -71.0601,
+    lat: 42.3548, lng: -71.0615,
+    google_place_id: "ChIJ6yS40oJw44kRISRX73kgcck",
     city: "Boston", country: "United States",
     address: "505 Washington St, Boston, MA 02111",
     roaster: "George Howell Coffee",
@@ -4158,7 +4392,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Gracenote Coffee",
     slug: "gracenote-coffee-boston",
-    lat: 42.3513, lng: -71.0592,
+    lat: 42.3515, lng: -71.0581,
+    google_place_id: "ChIJK3NGjnh644kR9xgXwFx6Tks",
     city: "Boston", country: "United States",
     address: "108 Lincoln St, Boston, MA 02111",
     roaster: "Gracenote Coffee",
@@ -4173,7 +4408,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ogawa Coffee",
     slug: "ogawa-coffee-boston",
-    lat: 42.3563, lng: -71.0558,
+    lat: 42.3568, lng: -71.0581,
+    google_place_id: "ChIJBwSVgYNw44kRDG1TtmfpVXM",
     city: "Boston", country: "United States",
     address: "10 Milk St, Boston, MA 02108",
     roaster: "Ogawa Coffee",
@@ -4190,7 +4426,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "La Colombe Philadelphia",
     slug: "la-colombe-philadelphia",
-    lat: 39.9736, lng: -75.1309,
+    lat: 39.9712, lng: -75.1340,
+    google_place_id: "ChIJWXerz2vIxokRkue1--XSK5M",
     city: "Philadelphia", country: "United States",
     address: "1335 Frankford Ave, Philadelphia, PA 19125",
     roaster: "La Colombe",
@@ -4205,7 +4442,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Elixr Coffee Roasters",
     slug: "elixr-coffee-roasters-philadelphia",
-    lat: 39.9432, lng: -75.1712,
+    lat: 39.9493, lng: -75.1667,
+    google_place_id: "ChIJ4V9vVCXGxokRc6G0KXOyrZQ",
     city: "Philadelphia", country: "United States",
     address: "207 S Sydenham St, Philadelphia, PA 19102",
     roaster: "Elixr Coffee Roasters",
@@ -4220,7 +4458,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "ReAnimator Coffee",
     slug: "reanimator-coffee-philadelphia",
-    lat: 39.9757, lng: -75.1358,
+    lat: 39.9764, lng: -75.1270,
+    google_place_id: "ChIJS8LVGT_IxokRdigtWt_jXaA",
     city: "Philadelphia", country: "United States",
     address: "1523 E Susquehanna Ave, Philadelphia, PA 19125",
     roaster: "ReAnimator Coffee",
@@ -4235,7 +4474,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Rival Bros Coffee Roasters",
     slug: "rival-bros-coffee-philadelphia",
-    lat: 39.9412, lng: -75.1837,
+    lat: 39.9465, lng: -75.1806,
+    google_place_id: "ChIJpTufNEfGxokRYlkrqYUIdP8",
     city: "Philadelphia", country: "United States",
     address: "2400 Lombard St, Philadelphia, PA 19146",
     roaster: "Rival Bros Coffee Roasters",
@@ -4250,7 +4490,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Ultimo Coffee",
     slug: "ultimo-coffee-philadelphia",
-    lat: 39.9397, lng: -75.1748,
+    lat: 39.9425, lng: -75.1791,
+    google_place_id: "ChIJ3WsUa0DGxokRTLx_DrWRsZQ",
     city: "Philadelphia", country: "United States",
     address: "2149 Catharine St, Philadelphia, PA 19146",
     roaster: "Ultimo Coffee",
@@ -4267,7 +4508,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Slipstream Coffee",
     slug: "slipstream-coffee-dc",
-    lat: 38.9107, lng: -77.0323,
+    lat: 38.9099, lng: -77.0316,
+    google_place_id: "ChIJHxIaX-q3t4kR-fGIJglefr4",
     city: "Washington DC", country: "United States",
     address: "1333 14th St NW, Washington, DC 20005",
     roaster: "Slipstream Coffee",
@@ -4282,7 +4524,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Compass Coffee",
     slug: "compass-coffee-dc",
-    lat: 38.9130, lng: -77.0210,
+    lat: 38.9106, lng: -77.0218,
+    google_place_id: "ChIJ9Y6D4_G3t4kR6GDgjWIRHJw",
     city: "Washington DC", country: "United States",
     address: "1535 7th St NW, Washington, DC 20001",
     roaster: "Compass Coffee",
@@ -4297,7 +4540,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Peregrine Espresso",
     slug: "peregrine-espresso-dc",
-    lat: 38.8870, lng: -76.9964,
+    lat: 38.8851, lng: -76.9964,
+    google_place_id: "ChIJs4X-NTK4t4kR1_9O1GaE9ck",
     city: "Washington DC", country: "United States",
     address: "660 Pennsylvania Ave SE, Washington, DC 20003",
     roaster: "Peregrine Espresso",
@@ -4314,7 +4558,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Crema Coffee Roasters",
     slug: "crema-coffee-nashville",
-    lat: 36.1542, lng: -86.7679,
+    lat: 36.1568, lng: -86.7697,
+    google_place_id: "ChIJdQcQ-0JmZIgRSgV44OZA_L0",
     city: "Nashville", country: "United States",
     address: "15 Hermitage Ave, Nashville, TN 37210",
     roaster: "Crema Coffee Roasters",
@@ -4329,7 +4574,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dose Coffee & Tea",
     slug: "dose-coffee-nashville",
-    lat: 36.1957, lng: -86.7335,
+    lat: 36.2046, lng: -86.7240,
+    google_place_id: "ChIJbbn4VRZoZIgRFJ7mfjEeA0k",
     city: "Nashville", country: "United States",
     address: "1400 McGavock Pike, Nashville, TN 37216",
     roaster: "Dose Coffee & Tea",
@@ -4344,7 +4590,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Fido Nashville",
     slug: "fido-nashville",
-    lat: 36.1386, lng: -86.8019,
+    lat: 36.1363, lng: -86.8008,
+    google_place_id: "ChIJc7TLn59mZIgRRL3LMnrSolA",
     city: "Nashville", country: "United States",
     address: "1812 21st Ave S, Nashville, TN 37212",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
@@ -4360,7 +4607,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "French Truck Coffee",
     slug: "french-truck-coffee-new-orleans",
-    lat: 29.9253, lng: -90.0968,
+    lat: 29.9292, lng: -90.1046,
+    google_place_id: "ChIJZTEjGK2lIIYR8E3h6ku70uU",
     city: "New Orleans", country: "United States",
     address: "4536 Dryades St, New Orleans, LA 70115",
     roaster: "French Truck Coffee",
@@ -4375,7 +4623,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Congregation Coffee",
     slug: "congregation-coffee-new-orleans",
-    lat: 29.9282, lng: -90.1062,
+    lat: 29.9211, lng: -90.1153,
+    google_place_id: "ChIJqR6bXlelIIYRHYTsTcgHCkE",
     city: "New Orleans", country: "United States",
     address: "900 Jefferson Ave, New Orleans, LA 70115",
     roaster: "Congregation Coffee",
@@ -4390,7 +4639,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "HiVolt Coffee",
     slug: "hivolt-coffee-new-orleans",
-    lat: 29.9334, lng: -90.0761,
+    lat: 29.9323, lng: -90.0745,
+    google_place_id: "ChIJ1zgkX3-mIIYR8OpwkrvfSik",
     city: "New Orleans", country: "United States",
     address: "1829 Sophie Wright Pl, New Orleans, LA 70130",
     brew_methods: ["espresso", "pour-over", "cold-brew"],
@@ -4406,7 +4656,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Dogwood Coffee Company",
     slug: "dogwood-coffee-minneapolis",
-    lat: 44.9999, lng: -93.2400,
+    lat: 44.9999, lng: -93.2454,
+    google_place_id: "ChIJAdmh1Jkts1IRsjkOVAe3S3U",
     city: "Minneapolis", country: "United States",
     address: "1209 Tyler St NE, Minneapolis, MN 55413",
     roaster: "Dogwood Coffee Company",
@@ -4421,7 +4672,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Spyhouse Coffee Roasters",
     slug: "spyhouse-coffee-minneapolis",
-    lat: 44.9999, lng: -93.2544,
+    lat: 44.9989, lng: -93.2463,
+    google_place_id: "ChIJAbkBsJkts1IRNj7L1NnbGUg",
     city: "Minneapolis", country: "United States",
     address: "945 Broadway St NE, Minneapolis, MN 55413",
     roaster: "Spyhouse Coffee Roasters",
@@ -4436,7 +4688,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
   {
     name: "Five Watt Coffee",
     slug: "five-watt-coffee-minneapolis",
-    lat: 44.9193, lng: -93.2880,
+    lat: 44.9345, lng: -93.2777,
+    google_place_id: "ChIJUfm3AsAn9ocRJyRbH1OWTXg",
     city: "Minneapolis", country: "United States",
     address: "3745 Nicollet Ave S, Minneapolis, MN 55409",
     roaster: "Five Watt Coffee",

@@ -20,7 +20,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Buna Coffee",
     slug: "buna-coffee-mexico-city",
-    lat: 19.4284, lng: -99.1607,
+    lat: 19.4220, lng: -99.1605,
+    google_place_id: "ChIJhY2F6zD_0YUReXd8RE_uYwI",
     city: "Mexico City", country: "Mexico",
     address: "Tonalá 10, Roma Norte, 06700 Ciudad de México",
     roaster: "Buna",
@@ -65,7 +66,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Blend Station",
     slug: "blend-station-roma",
-    lat: 19.4162, lng: -99.1606,
+    lat: 19.4120, lng: -99.1733,
+    google_place_id: "ChIJEZKE30P_0YURp8id6kZbn4Y",
     city: "Mexico City", country: "Mexico",
     address: "Álvaro Obregón 286, Roma Norte, 06700 Ciudad de México",
     roaster: "Blend Station",
@@ -123,7 +125,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Avellaneda",
     slug: "cafe-avellaneda-coyoacan",
-    lat: 19.3513, lng: -99.1616,
+    lat: 19.3483, lng: -99.1607,
+    google_place_id: "ChIJazsNP9v_0YURcpA0b692xDw",
     city: "Mexico City", country: "Mexico",
     address: "Higuera 40, Barrio de Santa Catarina, Coyoacán, 04010 Ciudad de México",
     roaster: "Café Avellaneda",
@@ -138,7 +141,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Tierra Garat",
     slug: "tierra-garat-polanco",
-    lat: 19.4340, lng: -99.1991,
+    lat: 19.4312, lng: -99.1847,
+    google_place_id: "ChIJacIQUav40YURdKSo3sKvgjE",
     city: "Mexico City", country: "Mexico",
     address: "Virgilio 8, Polanco, 11560 Ciudad de México",
     roaster: "Tierra Garat",
@@ -154,7 +158,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Almanegra Café",
     slug: "almanegra-cafe-cdmx",
-    lat: 19.4270, lng: -99.1550,
+    lat: 19.4152, lng: -99.1625,
+    google_place_id: "ChIJFdBfijr_0YURFCS4mMuW7jY",
     city: "Mexico City", country: "Mexico",
     address: "Orizaba 8, Roma Norte, 06700 Ciudad de México",
     roaster: "Almanegra Café",
@@ -198,7 +203,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Punta del Cielo",
     slug: "cafe-punta-del-cielo-polanco",
-    lat: 19.4362, lng: -99.1975,
+    lat: 19.4314, lng: -99.1908,
+    google_place_id: "ChIJKQikOQAC0oUR0vmcC5v8-nQ",
     city: "Mexico City", country: "Mexico",
     address: "Presidente Masaryk 390, Polanco, 11560 Ciudad de México",
     roaster: "Café Punta del Cielo",
@@ -213,7 +219,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Toscano",
     slug: "cafe-toscano-polanco",
-    lat: 19.4358, lng: -99.1915,
+    lat: 19.4290, lng: -99.1925,
+    google_place_id: "ChIJx5JCn_8B0oURWVC8EvXIWK4",
     city: "Mexico City", country: "Mexico",
     address: "Temistocles 26, Polanco, 11560 Ciudad de México",
     roaster: "Café Toscano",
@@ -228,7 +235,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Avellaneda Roma",
     slug: "cafe-avellaneda-roma",
-    lat: 19.4200, lng: -99.1600,
+    lat: 19.3483, lng: -99.1607,
+    google_place_id: "ChIJazsNP9v_0YURcpA0b692xDw",
     city: "Mexico City", country: "Mexico",
     address: "Durango 279, Roma Norte, 06700 Ciudad de México",
     roaster: "Café Avellaneda",
@@ -243,7 +251,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Boicot Café",
     slug: "boicot-cafe-cdmx",
-    lat: 19.4175, lng: -99.1580,
+    lat: 19.4185, lng: -99.1614,
+    google_place_id: "ChIJ60llPTr_0YURR_z02s0iock",
     city: "Mexico City", country: "Mexico",
     address: "Jalapa 99, Roma Norte, 06700 Ciudad de México",
     roaster: "Multiple guest roasters",
@@ -260,7 +269,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Registrado",
     slug: "cafe-registrado-buenos-aires",
-    lat: -34.5884, lng: -58.4161,
+    lat: -34.5802, lng: -58.4377,
+    google_place_id: "ChIJicAeDJO1vJUR-IjBjxB3Gvk",
     city: "Buenos Aires", country: "Argentina",
     address: "Humboldt 1542, C1414 CABA, Buenos Aires",
     roaster: "Café Registrado",
@@ -275,7 +285,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "LAB Tostadores de Café",
     slug: "lab-tostadores-buenos-aires",
-    lat: -34.5961, lng: -58.3928,
+    lat: -34.5860, lng: -58.4369,
+    google_place_id: "ChIJkV4fU4y1vJUR7DkMZtkj5ow",
     city: "Buenos Aires", country: "Argentina",
     address: "Thames 1885, C1414 CABA, Buenos Aires",
     roaster: "LAB Tostadores",
@@ -334,7 +345,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Margot",
     slug: "cafe-margot-boedo",
-    lat: -34.6291, lng: -58.4139,
+    lat: -34.6233, lng: -58.4165,
+    google_place_id: "ChIJMRcGRP_KvJUR0XxDkTyYQ7Q",
     city: "Buenos Aires", country: "Argentina",
     address: "Av. Boedo 857, Boedo, C1218 CABA, Buenos Aires",
     roaster: "Café Margot",
@@ -349,7 +361,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Ninina Bakery & Café",
     slug: "ninina-bakery-palermo",
-    lat: -34.5882, lng: -58.4267,
+    lat: -34.5913, lng: -58.4286,
+    google_place_id: "ChIJy9gfAXjKvJURdgkuK0by_RE",
     city: "Buenos Aires", country: "Argentina",
     address: "Gorriti 4738, Palermo Soho, C1414 CABA, Buenos Aires",
     roaster: "Multiple guest roasters",
@@ -364,7 +377,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Coffee Town",
     slug: "coffee-town-buenos-aires",
-    lat: -34.5929, lng: -58.4128,
+    lat: -34.5882, lng: -58.4297,
+    google_place_id: "ChIJzzyHACe1vJURF528Kj1yke8",
     city: "Buenos Aires", country: "Argentina",
     address: "Gorriti 4596, Palermo, C1414 CABA, Buenos Aires",
     roaster: "Coffee Town",
@@ -453,7 +467,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Café Três",
     slug: "cafe-tres-sao-paulo",
-    lat: -23.5614, lng: -46.6760,
+    lat: -23.5636, lng: -46.6798,
+    google_place_id: "ChIJT2rNqIJXzpQRzhxlzWMwDEg",
     city: "São Paulo", country: "Brazil",
     address: "Rua Francisco Leitão 111, Pinheiros, São Paulo, SP 05416-050",
     roaster: "Café Três",
@@ -467,7 +482,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Coffee Lab",
     slug: "coffee-lab-sao-paulo",
-    lat: -23.5604, lng: -46.6830,
+    lat: -23.5568, lng: -46.6877,
+    google_place_id: "ChIJMx_GCb1XzpQR0HcKUeEoCxk",
     city: "São Paulo", country: "Brazil",
     address: "Rua Fradique Coutinho 1340, Pinheiros, São Paulo, SP 05416-001",
     roaster: "Coffee Lab",
@@ -482,7 +498,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Octávio Café",
     slug: "octavio-cafe-sao-paulo",
-    lat: -23.5652, lng: -46.6804,
+    lat: -23.5723, lng: -46.6957,
+    google_place_id: "ChIJZxftbAlXzpQRlMh-zgBlhxk",
     city: "São Paulo", country: "Brazil",
     address: "Rua Cardeal Arcoverde 1855, Pinheiros, São Paulo, SP 05407-001",
     roaster: "Octávio Café",
@@ -497,7 +514,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Isso é Café",
     slug: "isso-e-cafe-sao-paulo",
-    lat: -23.5622, lng: -46.6891,
+    lat: -23.5511, lng: -46.6925,
+    google_place_id: "ChIJaymPoMRXzpQRq1P6Yh-eAEM",
     city: "São Paulo", country: "Brazil",
     address: "Rua Girassol 285, Vila Madalena, São Paulo, SP 05433-000",
     roaster: "Isso é Café",
@@ -512,7 +530,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Orfeu Cafés Especiais",
     slug: "orfeu-cafes-sao-paulo",
-    lat: -23.5476, lng: -46.6522,
+    lat: -23.5303, lng: -46.9432,
+    google_place_id: "ChIJs6SOW9xQzpQR3vpy-gOHb14",
     city: "São Paulo", country: "Brazil",
     address: "Rua Maranhão 625, Higienópolis, São Paulo, SP 01240-001",
     roaster: "Orfeu Cafés Especiais",
@@ -527,7 +546,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Lucca Cafés Especiais",
     slug: "lucca-cafes-sao-paulo",
-    lat: -23.5787, lng: -46.6567,
+    lat: -25.4380, lng: -49.2823,
+    google_place_id: "ChIJ67SzWiDl3JQR-Xa2kN5Ujhw",
     city: "São Paulo", country: "Brazil",
     address: "Rua Joaquim Antunes 210, Itaim Bibi, São Paulo, SP 05415-001",
     roaster: "Lucca Cafés Especiais",
@@ -574,7 +594,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Neira Café Lab",
     slug: "neira-cafe-lab-lima",
-    lat: -12.1230, lng: -77.0290,
+    lat: -12.1170, lng: -77.0398,
+    google_place_id: "ChIJY_kXejvIBZERTWEcdO8U6XQ",
     city: "Lima", country: "Peru",
     address: "Calle Enrique Palacios 1074, Miraflores, Lima 15074",
     website: "https://neiracafelab.com/",
@@ -589,7 +610,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Puku Puku Café",
     slug: "puku-puku-cafe-lima",
-    lat: -12.1177, lng: -77.0353,
+    lat: -12.1307, lng: -77.0297,
+    google_place_id: "ChIJPxxb2uG3BZER6PYrH3Zut2s",
     city: "Lima", country: "Peru",
     address: "Av. Larco 1285, Miraflores, Lima 15074",
     website: "https://pukupuku.pe/",
@@ -604,7 +626,8 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
   {
     name: "Tostaduría Bisetti Barranco",
     slug: "tostaduria-bisetti-barranco",
-    lat: -12.1450, lng: -77.0196,
+    lat: -12.1498, lng: -77.0219,
+    google_place_id: "ChIJqTOAgvK3BZERuWIf2GyKvw4",
     city: "Lima", country: "Peru",
     address: "Pedro de Osma 116, Barranco, Lima 15063",
     website: "https://cafebisetti.com/",

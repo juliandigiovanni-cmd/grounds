@@ -5,7 +5,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fuglen Tokyo",
     slug: "fuglen-tokyo",
-    lat: 35.6696, lng: 139.6916,
+    lat: 35.6666, lng: 139.6924,
+    google_place_id: "ChIJrWB6lbKMGGARp0QB0mMSNe4",
     city: "Tokyo", country: "Japan",
     address: "1-16-11 Tomigaya, Shibuya-ku, Tokyo",
     roaster: "Fuglen Coffee Roasters",
@@ -20,7 +21,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Koffee Mameya",
     slug: "koffee-mameya",
-    lat: 35.6654, lng: 139.7104,
+    lat: 35.6684, lng: 139.7109,
+    google_place_id: "ChIJB1oleKOMGGAR_10GNeoySkY",
     city: "Tokyo", country: "Japan",
     address: "4-15-3 Jingumae, Shibuya-ku, Tokyo",
     roaster: "Multiple guest roasters",
@@ -35,7 +37,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Tokyo",
     slug: "arabica-tokyo-aoyama",
-    lat: 35.6640, lng: 139.7099,
+    lat: 35.6470, lng: 139.6972,
+    google_place_id: "ChIJRdpcYwCLGGARP_gSlMnFYCw",
     city: "Tokyo", country: "Japan",
     address: "5-17-13 Minami-Aoyama, Minato-ku, Tokyo",
     roaster: "% Arabica",
@@ -50,7 +53,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Glitch Coffee & Roasters",
     slug: "glitch-coffee-tokyo",
-    lat: 35.6963, lng: 139.7590,
+    lat: 35.6937, lng: 139.7613,
+    google_place_id: "ChIJDxYKIhCMGGARScnqzc-T-TU",
     city: "Tokyo", country: "Japan",
     address: "3-16 Kanda Nishikicho, Chiyoda-ku, Tokyo",
     roaster: "Glitch Coffee",
@@ -65,7 +69,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Onibus Coffee",
     slug: "onibus-coffee-nakameguro",
-    lat: 35.6401, lng: 139.7004,
+    lat: 35.6432, lng: 139.6980,
+    google_place_id: "ChIJvXUZEEmLGGARlC39ZdeJ06Q",
     city: "Tokyo", country: "Japan",
     address: "2-14-1 Kamimeguro, Meguro-ku, Tokyo",
     roaster: "Onibus Coffee",
@@ -80,7 +85,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Woodberry Coffee Roasters",
     slug: "woodberry-coffee-tokyo",
-    lat: 35.7122, lng: 139.7744,
+    lat: 35.6539, lng: 139.7094,
+    google_place_id: "ChIJvbYOsEaLGGARszQEtIIvb54",
     city: "Tokyo", country: "Japan",
     address: "1-19-8 Yanaka, Taito-ku, Tokyo",
     roaster: "Woodberry Coffee Roasters",
@@ -95,7 +101,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Sarutahiko Coffee",
     slug: "sarutahiko-coffee-ebisu",
-    lat: 35.6468, lng: 139.7099,
+    lat: 35.6477, lng: 139.7109,
+    google_place_id: "ChIJRaBmLUCLGGARbU1gw-zbId0",
     city: "Tokyo", country: "Japan",
     address: "1-6-6 Ebisu, Shibuya-ku, Tokyo",
     roaster: "Sarutahiko Coffee",
@@ -110,7 +117,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "About Life Coffee Brewers",
     slug: "about-life-coffee-shibuya",
-    lat: 35.6587, lng: 139.6979,
+    lat: 35.6567, lng: 139.6958,
+    google_place_id: "ChIJXVNv51WLGGARAFLANNXRSoo",
     city: "Tokyo", country: "Japan",
     address: "1-19-8 Dogenzaka, Shibuya-ku, Tokyo",
     roaster: "Multiple guest roasters",
@@ -124,7 +132,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Blue Bottle Coffee Kiyosumi",
     slug: "blue-bottle-kiyosumi-tokyo",
-    lat: 35.6778, lng: 139.8052,
+    lat: 35.6778, lng: 139.8006,
+    google_place_id: "ChIJVVVp3BaJGGARfAgSR2yEybw",
     city: "Tokyo", country: "Japan",
     address: "4-7-2 Hirano, Koto-ku, Tokyo",
     roaster: "Blue Bottle Coffee",
@@ -139,7 +148,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Arise Coffee Entangle",
     slug: "arise-coffee-tokyo",
-    lat: 35.6781, lng: 139.8044,
+    lat: 35.6784, lng: 139.8010,
+    google_place_id: "ChIJGTP74RaJGGARy5Fp3vNCwn4",
     city: "Tokyo", country: "Japan",
     address: "3-16-3 Shirakawa, Koto-ku, Tokyo",
     roaster: "Arise Coffee",
@@ -153,7 +163,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Bear Pond Espresso",
     slug: "bear-pond-espresso-tokyo",
-    lat: 35.6615, lng: 139.6673,
+    lat: 35.6640, lng: 139.6679,
+    google_place_id: "ChIJ_6-SI2vzGGARTwHyOGabtyI",
     city: "Tokyo", country: "Japan",
     address: "2-36-12 Kitazawa, Setagaya-ku, Tokyo",
     roaster: "Bear Pond Espresso",
@@ -168,7 +179,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Streamer Coffee Company",
     slug: "streamer-coffee-shibuya",
-    lat: 35.6597, lng: 139.6977,
+    lat: 35.6635, lng: 139.7039,
+    google_place_id: "ChIJJ-aF_6aMGGARfbFeJO3hQuU",
     city: "Tokyo", country: "Japan",
     address: "1-20-28 Shibuya, Shibuya-ku, Tokyo",
     roaster: "Streamer Coffee",
@@ -183,7 +195,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Nozy Coffee",
     slug: "nozy-coffee-sangenjaya",
-    lat: 35.6439, lng: 139.6708,
+    lat: 35.6656, lng: 139.7048,
+    google_place_id: "ChIJCS0wmqaMGGAR2h4xKb_ah8c",
     city: "Tokyo", country: "Japan",
     address: "5-17-13 Sangenjaya, Setagaya-ku, Tokyo",
     roaster: "Nozy Coffee",
@@ -198,7 +211,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Coffee Supreme Tokyo",
     slug: "coffee-supreme-tokyo",
-    lat: 35.6690, lng: 139.7079,
+    lat: 35.6655, lng: 139.6923,
+    google_place_id: "ChIJAcCIX62MGGARGEilMb3hpkQ",
     city: "Tokyo", country: "Japan",
     address: "6-12-6 Jingumae, Shibuya-ku, Tokyo",
     roaster: "Coffee Supreme",
@@ -213,7 +227,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Passage Coffee",
     slug: "passage-coffee-shiba",
-    lat: 35.6535, lng: 139.7454,
+    lat: 35.6485, lng: 139.7448,
+    google_place_id: "ChIJNwVt9rCLGGAR_TvVpvAyhK8",
     city: "Tokyo", country: "Japan",
     address: "5-14-16 Shiba, Minato-ku, Tokyo 108-0014",
     roaster: "Multiple guest roasters",
@@ -228,7 +243,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Paul Bassett",
     slug: "paul-bassett-shinjuku",
-    lat: 35.6900, lng: 139.6919,
+    lat: 35.6928, lng: 139.6951,
+    google_place_id: "ChIJE6uvw9WMGGARBzGk1OSnj74",
     city: "Tokyo", country: "Japan",
     address: "1-26-2 Nishishinjuku, B1F Nomura Building, Shinjuku-ku, Tokyo 163-0590",
     roaster: "Paul Bassett",
@@ -243,7 +259,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Kitsuné Aoyama",
     slug: "cafe-kitsune-aoyama-tokyo",
-    lat: 35.6641, lng: 139.7121,
+    lat: 35.6648, lng: 139.7153,
+    google_place_id: "ChIJJ3xR02GLGGARQuKJA_ZJp-0",
     city: "Tokyo", country: "Japan",
     address: "3-17-1 Minami-Aoyama, Minato-ku, Tokyo",
     roaster: "Multiple guest roasters",
@@ -258,7 +275,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Coffee Wrights Sendagaya",
     slug: "coffee-wrights-sendagaya",
-    lat: 35.6810, lng: 139.7092,
+    lat: 35.6678, lng: 139.7105,
+    google_place_id: "ChIJB4nX_beNGGARcvfg36ImbP8",
     city: "Tokyo", country: "Japan",
     address: "4-3-4 Sendagaya, Shibuya-ku, Tokyo",
     roaster: "Coffee Wrights",
@@ -275,7 +293,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fritz Coffee Company",
     slug: "fritz-coffee-seoul",
-    lat: 37.5139, lng: 126.9931,
+    lat: 37.5410, lng: 126.9490,
+    google_place_id: "ChIJe1ONC6aYfDUR6IUAfWMCG44",
     city: "Seoul", country: "South Korea",
     address: "11-5 Mapo-daero 18-gil, Mapo-gu, Seoul",
     roaster: "Fritz Coffee",
@@ -290,7 +309,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Namusairo",
     slug: "namusairo-seoul",
-    lat: 37.5796, lng: 126.9770,
+    lat: 37.5747, lng: 126.9709,
+    google_place_id: "ChIJA3_W7JVrMhURUlozmc4p7yA",
     city: "Seoul", country: "South Korea",
     address: "21 Jahamun-ro 5-gil, Jongno-gu, Seoul",
     roaster: "Namusairo",
@@ -305,7 +325,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Seoul Hannam",
     slug: "arabica-seoul-hannam",
-    lat: 37.5327, lng: 127.0014,
+    lat: 37.5338, lng: 127.0021,
+    google_place_id: "ChIJZ9ND8AajfDURu0hJFPJp5HA",
     city: "Seoul", country: "South Korea",
     address: "35 Daesagwan-ro, 2F, Yongsan-gu, Seoul 04420",
     roaster: "% Arabica",
@@ -320,7 +341,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Onion Anguk",
     slug: "onion-anguk-seoul",
-    lat: 37.5790, lng: 126.9869,
+    lat: 37.5776, lng: 126.9866,
+    google_place_id: "ChIJLXL2BvijfDURmTrYFPQIGUc",
     city: "Seoul", country: "South Korea",
     address: "102 Gyedong-gil, Jongno-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -334,7 +356,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Coffee Libre",
     slug: "coffee-libre-seoul",
-    lat: 37.5578, lng: 126.9266,
+    lat: 37.5636, lng: 126.9237,
+    google_place_id: "ChIJK05lru6YfDUR22H8d3bQr58",
     city: "Seoul", country: "South Korea",
     address: "227-15 Yeonnam-dong, Mapo-gu, Seoul 03985",
     roaster: "Coffee Libre",
@@ -349,7 +372,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Anthracite Coffee Roasters",
     slug: "anthracite-coffee-seoul",
-    lat: 37.5435, lng: 126.9908,
+    lat: 37.5361, lng: 127.0001,
+    google_place_id: "ChIJO_uFm7OjfDURH3ULjJYYuKg",
     city: "Seoul", country: "South Korea",
     address: "131 Itaewon-ro, Yongsan-gu, Seoul",
     roaster: "Anthracite Coffee",
@@ -364,7 +388,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Manufact Coffee Roasters",
     slug: "manufact-coffee-seoul",
-    lat: 37.5675, lng: 126.9339,
+    lat: 37.5678, lng: 126.9296,
+    google_place_id: "ChIJC8mDVPKYfDURhxX_yE8bjPE",
     city: "Seoul", country: "South Korea",
     address: "29 Yeonhui-ro 11-gil, 2F, Seodaemun-gu, Seoul",
     roaster: "Manufact Coffee",
@@ -379,7 +404,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Terarosa Coffee Seoul",
     slug: "terarosa-coffee-seoul",
-    lat: 37.5091, lng: 127.0581,
+    lat: 37.5058, lng: 127.0562,
+    google_place_id: "ChIJS617_xOkfDURPartP-Y2W7E",
     city: "Seoul", country: "South Korea",
     address: "440 Teheran-ro, POSCO Center, Gangnam-gu, Seoul 06194",
     roaster: "Terarosa Coffee",
@@ -394,7 +420,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Lowkey Coffee Seongsu",
     slug: "lowkey-coffee-seongsu",
-    lat: 37.5463, lng: 127.0555,
+    lat: 37.5442, lng: 127.0516,
+    google_place_id: "ChIJy-WONTylfDUR6nkYbwW0prg",
     city: "Seoul", country: "South Korea",
     address: "6 Yeonmujang 3-gil, Seongdong-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -409,7 +436,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Felt Coffee",
     slug: "felt-coffee-seoul",
-    lat: 37.5696, lng: 126.9863,
+    lat: 37.5687, lng: 126.9788,
+    google_place_id: "ChIJRTb_hKOjfDURQhHwwxDLWOY",
     city: "Seoul", country: "South Korea",
     address: "14 Cheonggyecheon-ro, Jung-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -424,7 +452,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Layered",
     slug: "cafe-layered-anguk",
-    lat: 37.5808, lng: 126.9843,
+    lat: 37.5777, lng: 126.9859,
+    google_place_id: "ChIJr1nKrsSifDURgg2lrxJlNZU",
     city: "Seoul", country: "South Korea",
     address: "2-3 Bukchon-ro 2-gil, Jongno-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -440,7 +469,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Nylon Coffee Roasters",
     slug: "nylon-coffee-singapore",
-    lat: 1.2796, lng: 103.8390,
+    lat: 1.2769, lng: 103.8400,
+    google_place_id: "ChIJE7ZtOWwZ2jERFcasWYmljJQ",
     city: "Singapore", country: "Singapore",
     address: "4 Everton Park #01-40, Singapore 080004",
     roaster: "Nylon Coffee Roasters",
@@ -455,7 +485,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Cata Coffee",
     slug: "cata-singapore",
-    lat: 1.3068, lng: 103.9012,
+    lat: 1.3134, lng: 103.9016,
+    google_place_id: "ChIJ8Ye4_Z8b2jERtgHTeOD_xnw",
     city: "Singapore", country: "Singapore",
     address: "56 Joo Chiat Pl, Singapore 427780",
     roaster: "Multiple guest roasters",
@@ -470,7 +501,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Chye Seng Huat Hardware",
     slug: "chye-seng-huat-singapore",
-    lat: 1.3127, lng: 103.8644,
+    lat: 1.3116, lng: 103.8603,
+    google_place_id: "ChIJDVvGO8kZ2jERoThpnZ1p97s",
     city: "Singapore", country: "Singapore",
     address: "150 Tyrwhitt Rd, Singapore 207563",
     roaster: "PPP Coffee",
@@ -485,7 +517,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Common Man Coffee Roasters",
     slug: "common-man-coffee-singapore",
-    lat: 1.2888, lng: 103.8400,
+    lat: 1.2919, lng: 103.8384,
+    google_place_id: "ChIJT3fdLZwZ2jERJx-QGgPAoac",
     city: "Singapore", country: "Singapore",
     address: "22 Martin Rd, Singapore 239058",
     roaster: "Common Man Coffee Roasters",
@@ -515,7 +548,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "PPP Coffee New Bahru",
     slug: "ppp-coffee-singapore",
-    lat: 1.2970, lng: 103.8345,
+    lat: 1.2925, lng: 103.8394,
+    google_place_id: "ChIJK5eVlz8Z2jERN7rAQvDJ6IA",
     city: "Singapore", country: "Singapore",
     address: "46 Kim Yam Rd, #01-06, Singapore 239351",
     roaster: "PPP Coffee",
@@ -530,7 +564,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Jewel Coffee",
     slug: "jewel-coffee-singapore",
-    lat: 1.2792, lng: 103.8481,
+    lat: 1.2796, lng: 103.8507,
+    google_place_id: "ChIJMwBHAhIZ2jERasw77k09xf0",
     city: "Singapore", country: "Singapore",
     address: "1 Shenton Way, #01-07, Singapore 068803",
     roaster: "Jewel Coffee",
@@ -545,7 +580,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Tiong Hoe Specialty Coffee",
     slug: "tiong-hoe-coffee-singapore",
-    lat: 1.2889, lng: 103.8113,
+    lat: 1.2910, lng: 103.8031,
+    google_place_id: "ChIJJ9wWkzQa2jER1NZNUnhOfJw",
     city: "Singapore", country: "Singapore",
     address: "Blk 170 Stirling Rd, #01-1133, Singapore 140170",
     roaster: "Tiong Hoe",
@@ -562,7 +598,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fika Fika Café",
     slug: "fika-fika-taipei",
-    lat: 25.0611, lng: 121.5237,
+    lat: 25.0505, lng: 121.5353,
+    google_place_id: "ChIJEfselmGpQjQR7yaK-dqDBJ4",
     city: "Taipei", country: "Taiwan",
     address: "No. 33, Yitong St, Zhongshan District, Taipei 104",
     roaster: "Fika Fika",
@@ -577,7 +614,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Simple Kaffa",
     slug: "simple-kaffa-taipei",
-    lat: 25.0290, lng: 121.5434,
+    lat: 25.0340, lng: 121.5645,
+    google_place_id: "ChIJP5CF7pmrQjQRY1MyLg_GRrw",
     city: "Taipei", country: "Taiwan",
     address: "No. 54, Lane 243, Sec 1, Dunhua S Rd, Da'an, Taipei",
     roaster: "Simple Kaffa",
@@ -592,7 +630,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Rufous Coffee",
     slug: "rufous-coffee-taipei",
-    lat: 25.0585, lng: 121.5224,
+    lat: 25.0235, lng: 121.5437,
+    google_place_id: "ChIJW03Z2y6qQjQRkIeeuqF3-mU",
     city: "Taipei", country: "Taiwan",
     address: "No. 1, Lane 40, Xinsheng N Rd, Zhongshan, Taipei",
     roaster: "Rufous Coffee",
@@ -607,7 +646,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Taipei",
     slug: "arabica-taipei",
-    lat: 25.0534, lng: 121.5249,
+    lat: 25.0563, lng: 121.5208,
+    google_place_id: "ChIJNZgvAwCpQjQRpJ-vpaxyW_0",
     city: "Taipei", country: "Taiwan",
     address: "Zhongshan District, Taipei",
     roaster: "% Arabica",
@@ -622,7 +662,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Gabee Coffee",
     slug: "gabee-coffee-taipei",
-    lat: 25.0546, lng: 121.5311,
+    lat: 25.0593, lng: 121.5462,
+    google_place_id: "ChIJl2thpeWrQjQR6-xtBFEkoHI",
     city: "Taipei", country: "Taiwan",
     address: "No. 8, Lane 96, Zhongshan N Rd, Zhongshan, Taipei",
     roaster: "Gabee",
@@ -651,7 +692,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "15g Specialty Coffee",
     slug: "15g-specialty-taipei",
-    lat: 25.0307, lng: 121.5411,
+    lat: 25.0235, lng: 121.5437,
+    google_place_id: "ChIJW03Z2y6qQjQRkIeeuqF3-mU",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "15g",
@@ -665,7 +707,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Goodman Roaster",
     slug: "goodman-roaster-taipei",
-    lat: 25.0328, lng: 121.5659,
+    lat: 25.1240, lng: 121.5318,
+    google_place_id: "ChIJN7wFrX6uQjQR1-0jCcR-0Y4",
     city: "Taipei", country: "Taiwan",
     address: "Xinyi District, Taipei",
     roaster: "Goodman Roaster",
@@ -708,7 +751,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Hiyori Coffee",
     slug: "hiyori-coffee-taipei",
-    lat: 25.0434, lng: 121.5432,
+    lat: 25.0340, lng: 121.5518,
+    google_place_id: "ChIJY-JuuXOrQjQRZA5wqDOYtFY",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Multiple guest roasters",
@@ -725,7 +769,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Kitahama",
     slug: "arabica-osaka-kitahama",
-    lat: 34.6898, lng: 135.5101,
+    lat: 40.7026, lng: -73.9942,
+    google_place_id: "ChIJd1M9O0xbwokRi1mu1DC93xY",
     city: "Osaka", country: "Japan",
     address: "1-1-1 Kitahama, Chuo-ku, Osaka",
     roaster: "% Arabica",
@@ -740,7 +785,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Kurasu Osaka",
     slug: "kurasu-osaka-shinsaibashi",
-    lat: 34.6724, lng: 135.5011,
+    lat: 34.9864, lng: 135.7539,
+    google_place_id: "ChIJIXEre6gIAWAREVefMDUfbV8",
     city: "Osaka", country: "Japan",
     address: "1-7-1 Shinsaibashisuji, Chuo-ku, Osaka",
     roaster: "Kurasu",
@@ -755,7 +801,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Mel Coffee Roasters",
     slug: "mel-coffee-roasters-osaka",
-    lat: 34.6654, lng: 135.5032,
+    lat: 34.6768, lng: 135.4958,
+    google_place_id: "ChIJn3HiogTnAGARILfkHrpMUGQ",
     city: "Osaka", country: "Japan",
     address: "Namba, Chuo-ku, Osaka",
     roaster: "Mel Coffee Roasters",
@@ -770,7 +817,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "LiLo Coffee Roasters",
     slug: "lilo-coffee-osaka",
-    lat: 34.6715, lng: 135.4993,
+    lat: 34.6741, lng: 135.4980,
+    google_place_id: "ChIJ1T9unxrnAGARhtQGwQaaF-I",
     city: "Osaka", country: "Japan",
     address: "1-7-19 Minamisenba, Chuo-ku, Osaka",
     roaster: "LiLo Coffee Roasters",
@@ -785,7 +833,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Takamura Wine & Coffee Roasters",
     slug: "takamura-coffee-osaka",
-    lat: 34.6853, lng: 135.4908,
+    lat: 34.6873, lng: 135.4911,
+    google_place_id: "ChIJb3Q3lfnmAGARP7CUdaGq3P8",
     city: "Osaka", country: "Japan",
     address: "1-1-35 Nishi-ku, Osaka",
     roaster: "Takamura",
@@ -800,7 +849,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Graph Coffee",
     slug: "graph-coffee-osaka",
-    lat: 34.6748, lng: 135.5018,
+    lat: 34.6718, lng: 135.5016,
+    google_place_id: "ChIJS8rlmofnAGARqP3GGQa_nXA",
     city: "Osaka", country: "Japan",
     address: "Shinsaibashi, Chuo-ku, Osaka",
     roaster: "Graph Coffee",
@@ -814,7 +864,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fuglen Osaka",
     slug: "fuglen-osaka",
-    lat: 34.6699, lng: 135.5007,
+    lat: 35.0491, lng: 135.7446,
+    google_place_id: "ChIJ1VW4biapAWARABFqoCwZrlM",
     city: "Osaka", country: "Japan",
     address: "Namba, Chuo-ku, Osaka",
     roaster: "Fuglen Coffee Roasters",
@@ -829,7 +880,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Nakanoshima",
     slug: "arabica-osaka-nakanoshima",
-    lat: 34.6905, lng: 135.4975,
+    lat: 40.7225, lng: -73.9938,
+    google_place_id: "ChIJO6_m4ZhZwokR9MvrydEYXtQ",
     city: "Osaka", country: "Japan",
     address: "Nakanoshima, Kita-ku, Osaka",
     roaster: "% Arabica",
@@ -844,7 +896,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Maruyama Coffee Osaka",
     slug: "maruyama-coffee-osaka",
-    lat: 34.6760, lng: 135.5025,
+    lat: 34.6977, lng: 135.5119,
+    google_place_id: "ChIJofkbTNvmAGARAyPoRb8F-uE",
     city: "Osaka", country: "Japan",
     address: "Shinsaibashi, Chuo-ku, Osaka",
     roaster: "Maruyama Coffee",
@@ -861,7 +914,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "The Workshop Coffee",
     slug: "the-workshop-coffee-hcmc",
-    lat: 10.7769, lng: 106.7009,
+    lat: 10.7735, lng: 106.7056,
+    google_place_id: "ChIJdyfroEYvdTER2m7eTz44Bns",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "27 Ngo Duc Ke, District 1, Ho Chi Minh City",
     roaster: "The Workshop Coffee",
@@ -876,7 +930,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Shin Coffee",
     slug: "shin-coffee-hcmc",
-    lat: 10.7793, lng: 106.6866,
+    lat: 10.7732, lng: 106.6991,
+    google_place_id: "ChIJnxOUdKcvdTER2q9wWsl22gE",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "4/2 Nguyen Thi Minh Khai, District 3, Ho Chi Minh City",
     roaster: "Shin Coffee",
@@ -891,7 +946,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "L'Usine",
     slug: "lusine-hcmc",
-    lat: 10.7760, lng: 106.7005,
+    lat: 10.7797, lng: 106.7040,
+    google_place_id: "ChIJmSbv60gvdTER8Nqtg6Unzpw",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "151/5 Dong Khoi, District 1, Ho Chi Minh City",
     roaster: "Multiple guest roasters",
@@ -906,7 +962,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Bosgaurus Coffee Roasters",
     slug: "bosgaurus-coffee-hcmc",
-    lat: 10.7788, lng: 106.6881,
+    lat: 10.7890, lng: 106.7206,
+    google_place_id: "ChIJFbNbZhkpdTEREnQAU62EGgY",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 3, Ho Chi Minh City",
     roaster: "Bosgaurus Coffee",
@@ -921,7 +978,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Windmills Coffee Roasters",
     slug: "windmills-coffee-hcmc",
-    lat: 10.8024, lng: 106.7155,
+    lat: 11.9449, lng: 108.4346,
+    google_place_id: "ChIJ8UYGTXcTcTERJLeFJcEwccc",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "Bình Thạnh District, Ho Chi Minh City",
     roaster: "Windmills Coffee",
@@ -935,7 +993,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Kairo Coffee",
     slug: "kairo-coffee-hcmc",
-    lat: 10.7740, lng: 106.7012,
+    lat: 10.7684, lng: 106.6990,
+    google_place_id: "ChIJR2Jx7j8vdTERYZEwAIFkfr8",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 1, Ho Chi Minh City",
     roaster: "Multiple guest roasters",
@@ -949,7 +1008,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Hola Coffee",
     slug: "hola-coffee-hcmc",
-    lat: 10.7805, lng: 106.6895,
+    lat: 10.7845, lng: 106.6974,
+    google_place_id: "ChIJxeP6TgAvdTERQdSUX_2GaWQ",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 3, Ho Chi Minh City",
     roaster: "Hola Coffee",
@@ -977,7 +1037,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Yoko Coffee",
     slug: "yoko-coffee-hcmc",
-    lat: 10.7810, lng: 106.6902,
+    lat: 10.7766, lng: 106.6892,
+    google_place_id: "ChIJUeVrkX4vdTERdzSK2rZCsI4",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 3, Ho Chi Minh City",
     roaster: "Yoko Coffee",
@@ -993,7 +1054,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Little Nap Coffee Stand",
     slug: "little-nap-coffee-yoyogi",
-    lat: 35.6727, lng: 139.6940,
+    lat: 35.6721, lng: 139.6906,
+    google_place_id: "ChIJUyaS0ErzGGAR6_mFuqndQ9o",
     city: "Tokyo", country: "Japan",
     address: "5-65-4 Yoyogi, Shibuya-ku, Tokyo",
     roaster: "Little Nap Coffee Roasters",
@@ -1008,7 +1070,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "The Roastery by Nozy Coffee",
     slug: "the-roastery-nozy-omotesando",
-    lat: 35.6657, lng: 139.7079,
+    lat: 35.6656, lng: 139.7048,
+    google_place_id: "ChIJCS0wmqaMGGAR2h4xKb_ah8c",
     city: "Tokyo", country: "Japan",
     address: "5-17-13 Jingumae, Shibuya-ku, Tokyo (Cat Street)",
     roaster: "Nozy Coffee",
@@ -1023,7 +1086,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Onibus Coffee Jiyugaoka",
     slug: "onibus-coffee-jiyugaoka",
-    lat: 35.6079, lng: 139.6836,
+    lat: 35.6085, lng: 139.6718,
+    google_place_id: "ChIJzzAJyMP1GGAR7ggMQoGxyFo",
     city: "Tokyo", country: "Japan",
     address: "9-13 Jiyugaoka, Meguro-ku, Tokyo",
     roaster: "Onibus Coffee",
@@ -1038,7 +1102,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Turret Coffee",
     slug: "turret-coffee-tsukiji",
-    lat: 35.6658, lng: 139.7698,
+    lat: 35.6680, lng: 139.7720,
+    google_place_id: "ChIJW4Hi46OLGGARZVuuNeN6hxs",
     city: "Tokyo", country: "Japan",
     address: "2-12-6 Tsukiji, Chuo-ku, Tokyo",
     roaster: "Multiple guest roasters",
@@ -1052,7 +1117,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Maruyama Coffee Minami-Aoyama",
     slug: "maruyama-coffee-aoyama-tokyo",
-    lat: 35.6648, lng: 139.7156,
+    lat: 35.6576, lng: 139.7241,
+    google_place_id: "ChIJ3SRJq3GLGGARmGHC8gGDBbk",
     city: "Tokyo", country: "Japan",
     address: "5-3-6 Minami-Aoyama, Minato-ku, Tokyo",
     roaster: "Maruyama Coffee",
@@ -1067,7 +1133,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Tokyo Daikanyama",
     slug: "arabica-tokyo-daikanyama",
-    lat: 35.6490, lng: 139.7024,
+    lat: 35.6470, lng: 139.6972,
+    google_place_id: "ChIJRdpcYwCLGGARP_gSlMnFYCw",
     city: "Tokyo", country: "Japan",
     address: "16-15 Daikanyama-cho, Shibuya-ku, Tokyo",
     roaster: "% Arabica",
@@ -1097,7 +1164,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Blue Bottle Coffee Shinjuku",
     slug: "blue-bottle-shinjuku-tokyo",
-    lat: 35.6879, lng: 139.7006,
+    lat: 35.6888, lng: 139.7021,
+    google_place_id: "ChIJ_5TAt9qMGGARjg9wMPqgimo",
     city: "Tokyo", country: "Japan",
     address: "4-1-6 Shinjuku, NEWoMan 1F, Shinjuku-ku, Tokyo 160-0022",
     roaster: "Blue Bottle Coffee",
@@ -1112,7 +1180,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Switch Coffee Meguro",
     slug: "switch-coffee-meguro",
-    lat: 35.6385, lng: 139.7063,
+    lat: 35.6363, lng: 139.7074,
+    google_place_id: "ChIJR6vPKbaLGGARK0tbWrrM5u0",
     city: "Tokyo", country: "Japan",
     address: "1-17-23 Meguro, Meguro-ku, Tokyo",
     roaster: "Switch Coffee",
@@ -1127,7 +1196,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Verve Coffee Roasters Tokyo",
     slug: "verve-coffee-tokyo",
-    lat: 35.6655, lng: 139.7094,
+    lat: 35.6615, lng: 139.7362,
+    google_place_id: "ChIJg36gYPSLGGARlTI1efR23YQ",
     city: "Tokyo", country: "Japan",
     address: "5-9-18 Minami-Aoyama, Minato-ku, Tokyo",
     roaster: "Verve Coffee Roasters",
@@ -1142,7 +1212,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Amameria Espresso",
     slug: "amameria-espresso-tokyo",
-    lat: 35.6778, lng: 139.8046,
+    lat: 35.6203, lng: 139.7061,
+    google_place_id: "ChIJZfP7_tuKGGAR74GltzQCNh8",
     city: "Tokyo", country: "Japan",
     address: "3-8-9 Kiyosumi, Koto-ku, Tokyo",
     roaster: "Amameria Espresso",
@@ -1157,7 +1228,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Glitch Coffee Ginza",
     slug: "glitch-coffee-ginza",
-    lat: 35.6718, lng: 139.7665,
+    lat: 35.6689, lng: 139.7686,
+    google_place_id: "ChIJE0xjRfqLGGARkLg8IUjcu2o",
     city: "Tokyo", country: "Japan",
     address: "6-10-1 Ginza, Chuo-ku, Tokyo",
     roaster: "Glitch Coffee",
@@ -1172,7 +1244,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Arise Coffee Roasters",
     slug: "arise-coffee-roasters-kiyosumi",
-    lat: 35.6785, lng: 139.8048,
+    lat: 35.6784, lng: 139.8010,
+    google_place_id: "ChIJGTP74RaJGGARy5Fp3vNCwn4",
     city: "Tokyo", country: "Japan",
     address: "3-1-3 Kiyosumi, Koto-ku, Tokyo",
     roaster: "Arise Coffee",
@@ -1187,7 +1260,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Koffee Mameya Kakeru",
     slug: "koffee-mameya-kakeru-tokyo",
-    lat: 35.6651, lng: 139.7100,
+    lat: 35.6684, lng: 139.7109,
+    google_place_id: "ChIJB1oleKOMGGAR_10GNeoySkY",
     city: "Tokyo", country: "Japan",
     address: "4-14-2 Jingumae, Shibuya-ku, Tokyo",
     roaster: "Multiple guest roasters",
@@ -1202,7 +1276,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Woodberry Coffee Mejiro",
     slug: "woodberry-coffee-mejiro",
-    lat: 35.7229, lng: 139.7095,
+    lat: 35.6539, lng: 139.7094,
+    google_place_id: "ChIJvbYOsEaLGGARszQEtIIvb54",
     city: "Tokyo", country: "Japan",
     address: "2-30-5 Mejiro, Toshima-ku, Tokyo",
     roaster: "Woodberry Coffee Roasters",
@@ -1217,7 +1292,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fuglen Tokyo Asakusa",
     slug: "fuglen-tokyo-asakusa",
-    lat: 35.7138, lng: 139.7956,
+    lat: 35.7145, lng: 139.7940,
+    google_place_id: "ChIJzVXOw5SPGGAR7yVtRAihT7o",
     city: "Tokyo", country: "Japan",
     address: "2-6-15 Asakusa, Taito-ku, Tokyo 111-0032",
     roaster: "Fuglen Coffee Roasters",
@@ -1232,7 +1308,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Coffee Valley",
     slug: "coffee-valley-ikebukuro",
-    lat: 35.7299, lng: 139.7147,
+    lat: 35.7277, lng: 139.7131,
+    google_place_id: "ChIJOSGiQWiNGGARrnh2tSR6HW0",
     city: "Tokyo", country: "Japan",
     address: "2-26-3 Minami-Ikebukuro, Toshima-ku, Tokyo 171-0022",
     roaster: "Coffee Valley",
@@ -1247,7 +1324,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Streamer Coffee Harajuku",
     slug: "streamer-coffee-harajuku",
-    lat: 35.6700, lng: 139.7041,
+    lat: 35.6722, lng: 139.7097,
+    google_place_id: "ChIJVZU_zqKMGGARfsjU4BRZplE",
     city: "Tokyo", country: "Japan",
     address: "6-12 Jingumae, Shibuya-ku, Tokyo",
     roaster: "Streamer Coffee",
@@ -1262,7 +1340,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Single O Japan",
     slug: "single-o-hamacho",
-    lat: 35.6837, lng: 139.7872,
+    lat: 35.6841, lng: 139.7893,
+    google_place_id: "ChIJyRUIqI-JGGARO-v7FvoRgkw",
     city: "Tokyo", country: "Japan",
     address: "2-6-4 Nihonbashi Hamacho, Chuo-ku, Tokyo",
     roaster: "Single O",
@@ -1279,7 +1358,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fritz Coffee Company Yangjae",
     slug: "fritz-coffee-yangjae",
-    lat: 37.4746, lng: 127.0421,
+    lat: 37.4853, lng: 127.0322,
+    google_place_id: "ChIJL9zyHkmhfDURwamGLjmKr68",
     city: "Seoul", country: "South Korea",
     address: "20 Yangjaecheon-ro, Seocho-gu, Seoul",
     roaster: "Fritz Coffee",
@@ -1294,7 +1374,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Anthracite Coffee Roasters Hapjeong",
     slug: "anthracite-coffee-hapjeong",
-    lat: 37.5507, lng: 126.9073,
+    lat: 37.5458, lng: 126.9184,
+    google_place_id: "ChIJx6CwxdOYfDURcTPw_mx60ws",
     city: "Seoul", country: "South Korea",
     address: "96 Tojeong-ro, Mapo-gu, Seoul",
     roaster: "Anthracite Coffee",
@@ -1309,7 +1390,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Onion Seongsu",
     slug: "cafe-onion-seongsu",
-    lat: 37.5446, lng: 127.0572,
+    lat: 37.5447, lng: 127.0582,
+    google_place_id: "ChIJHb1ypJWkfDURb2d4XCjLluM",
     city: "Seoul", country: "South Korea",
     address: "8 Achasan-ro 9-gil, Seongdong-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -1337,7 +1419,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Southside Parlor",
     slug: "southside-parlor-seoul",
-    lat: 37.5343, lng: 126.9911,
+    lat: 37.5371, lng: 126.9870,
+    google_place_id: "ChIJXZvbb0iifDURdSMUpMDYfTI",
     city: "Seoul", country: "South Korea",
     address: "Itaewon, Yongsan-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -1351,7 +1434,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Comma",
     slug: "cafe-comma-seoul",
-    lat: 37.5218, lng: 127.0411,
+    lat: 37.5519, lng: 126.9067,
+    google_place_id: "ChIJeXzsXHuZfDURdC-BCKQueuI",
     city: "Seoul", country: "South Korea",
     address: "Cheongdam-dong, Gangnam-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -1394,7 +1478,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Sukkat",
     slug: "cafe-sukkat-seoul",
-    lat: 37.5508, lng: 126.9148,
+    lat: 37.5488, lng: 126.9178,
+    google_place_id: "ChIJ77I1fM2ZfDUR4QvBKeRaUjM",
     city: "Seoul", country: "South Korea",
     address: "Hapjeong-dong, Mapo-gu, Seoul",
     roaster: "Multiple guest roasters",
@@ -1422,7 +1507,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Namusairo Gahoe-dong",
     slug: "namusairo-gahoe-dong",
-    lat: 37.5820, lng: 126.9830,
+    lat: 37.5747, lng: 126.9709,
+    google_place_id: "ChIJA3_W7JVrMhURUlozmc4p7yA",
     city: "Seoul", country: "South Korea",
     address: "Gahoe-dong, Jongno-gu, Seoul",
     roaster: "Namusairo",
@@ -1437,7 +1523,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "The Barn Seoul",
     slug: "the-barn-seoul",
-    lat: 37.5219, lng: 127.0224,
+    lat: 37.5210, lng: 127.0240,
+    google_place_id: "ChIJwYeGN2mjfDURhNuf6BPyW7E",
     city: "Seoul", country: "South Korea",
     address: "Gangnam-gu, Seoul",
     roaster: "The Barn",
@@ -1454,7 +1541,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Dutch Colony Coffee Co Chip Bee",
     slug: "dutch-colony-coffee-chip-bee",
-    lat: 1.3097, lng: 103.7936,
+    lat: 1.3063, lng: 103.7927,
+    google_place_id: "ChIJc8eu-Tsb2jERsLmot_OCKik",
     city: "Singapore", country: "Singapore",
     address: "34 Chip Bee Gardens, Holland Village, Singapore 278699",
     roaster: "Dutch Colony Coffee",
@@ -1483,7 +1571,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Strangers' Reunion",
     slug: "strangers-reunion-singapore",
-    lat: 1.3135, lng: 103.8662,
+    lat: 1.2998, lng: 103.8499,
+    google_place_id: "ChIJCxvP_G4Z2jERGKSKp42HzAQ",
     city: "Singapore", country: "Singapore",
     address: "37 Tyrwhitt Rd, Singapore 207543",
     roaster: "Multiple guest roasters",
@@ -1513,7 +1602,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Liberty Coffee",
     slug: "liberty-coffee-singapore",
-    lat: 1.2803, lng: 103.8490,
+    lat: 1.2793, lng: 103.8537,
+    google_place_id: "ChIJd0APPFMZ2jER_VX_CqRyP_o",
     city: "Singapore", country: "Singapore",
     address: "6 Raffles Blvd, #02-130, Singapore 039594",
     roaster: "Liberty Coffee",
@@ -1558,7 +1648,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "PPP Coffee Outram Park",
     slug: "ppp-coffee-outram-park",
-    lat: 1.2796, lng: 103.8376,
+    lat: 1.2925, lng: 103.8394,
+    google_place_id: "ChIJK5eVlz8Z2jERN7rAQvDJ6IA",
     city: "Singapore", country: "Singapore",
     address: "Outram Park, Singapore",
     roaster: "PPP Coffee",
@@ -1573,7 +1664,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Common Man Coffee Roasters Dempsey",
     slug: "common-man-coffee-dempsey",
-    lat: 1.3046, lng: 103.8089,
+    lat: 1.2919, lng: 103.8384,
+    google_place_id: "ChIJT3fdLZwZ2jERJx-QGgPAoac",
     city: "Singapore", country: "Singapore",
     address: "Dempsey Hill, Singapore",
     roaster: "Common Man Coffee Roasters",
@@ -1605,7 +1697,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Congrats Espresso",
     slug: "congrats-espresso-taipei",
-    lat: 25.0524, lng: 121.5241,
+    lat: 25.0330, lng: 121.5506,
+    google_place_id: "ChIJeytXpc2rQjQRr5wP80LPwTQ",
     city: "Taipei", country: "Taiwan",
     address: "Zhongshan District, Taipei",
     roaster: "Congrats Coffee",
@@ -1619,7 +1712,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Café Costumé",
     slug: "cafe-costume-xinyi-taipei",
-    lat: 25.0374, lng: 121.5619,
+    lat: 25.0438, lng: 121.5525,
+    google_place_id: "ChIJ-UiJasSrQjQRU4T8FGqhO1E",
     city: "Taipei", country: "Taiwan",
     address: "Xinyi District, Taipei",
     roaster: "Multiple guest roasters",
@@ -1633,7 +1727,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Lobby of Simple Kaffa",
     slug: "lobby-of-simple-kaffa-taipei",
-    lat: 25.0444, lng: 121.5465,
+    lat: 25.0340, lng: 121.5645,
+    google_place_id: "ChIJP5CF7pmrQjQRY1MyLg_GRrw",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Simple Kaffa",
@@ -1647,7 +1742,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Thomas Tsai Coffee",
     slug: "thomas-tsai-coffee-taipei",
-    lat: 25.0484, lng: 121.5388,
+    lat: 25.0467, lng: 121.5145,
+    google_place_id: "ChIJw5-D6-apQjQRjXh0VqdClgw",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Thomas Tsai Coffee",
@@ -1661,7 +1757,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Zhanlu Coffee Da'an",
     slug: "zhanlu-coffee-daan-taipei",
-    lat: 25.0333, lng: 121.5446,
+    lat: 25.0346, lng: 121.5333,
+    google_place_id: "ChIJ2WvYcX-pQjQR62iQUsj5j6U",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Zhanlu Coffee",
@@ -1690,7 +1787,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Goodman Roaster Da'an",
     slug: "goodman-roaster-daan-taipei",
-    lat: 25.0298, lng: 121.5399,
+    lat: 25.0467, lng: 121.5318,
+    google_place_id: "ChIJ02kl902pQjQR6K2VMK3Kofc",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Goodman Roaster",
@@ -1705,7 +1803,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Zhanlu Coffee Zhongshan",
     slug: "zhanlu-coffee-zhongshan-taipei",
-    lat: 25.0522, lng: 121.5247,
+    lat: 25.0346, lng: 121.5333,
+    google_place_id: "ChIJ2WvYcX-pQjQR62iQUsj5j6U",
     city: "Taipei", country: "Taiwan",
     address: "Zhongshan District, Taipei",
     roaster: "Zhanlu Coffee",
@@ -1720,7 +1819,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Rufous Coffee Da'an",
     slug: "rufous-coffee-daan-taipei",
-    lat: 25.0302, lng: 121.5440,
+    lat: 25.0235, lng: 121.5437,
+    google_place_id: "ChIJW03Z2y6qQjQRkIeeuqF3-mU",
     city: "Taipei", country: "Taiwan",
     address: "Da'an District, Taipei",
     roaster: "Rufous Coffee",
@@ -1735,7 +1835,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Simple Kaffa Xinyi",
     slug: "simple-kaffa-xinyi-taipei",
-    lat: 25.0362, lng: 121.5647,
+    lat: 25.0340, lng: 121.5645,
+    google_place_id: "ChIJP5CF7pmrQjQRY1MyLg_GRrw",
     city: "Taipei", country: "Taiwan",
     address: "Xinyi District, Taipei",
     roaster: "Simple Kaffa",
@@ -1750,7 +1851,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Fika Fika Café Songshan",
     slug: "fika-fika-songshan-taipei",
-    lat: 25.0504, lng: 121.5562,
+    lat: 25.0369, lng: 121.5678,
+    google_place_id: "ChIJCdBOMP6rQjQRPExzFfbBQ9k",
     city: "Taipei", country: "Taiwan",
     address: "Songshan District, Taipei",
     roaster: "Fika Fika",
@@ -1781,7 +1883,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Unir Coffee Osaka",
     slug: "unir-coffee-osaka",
-    lat: 34.6943, lng: 135.5009,
+    lat: 34.7028, lng: 135.4985,
+    google_place_id: "ChIJH8fTW5LmAGARsHx9xxu-ERI",
     city: "Osaka", country: "Japan",
     address: "Umeda, Kita-ku, Osaka",
     roaster: "Unir Coffee",
@@ -1796,7 +1899,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Wharf",
     slug: "arabica-osaka-wharf",
-    lat: 34.6567, lng: 135.4327,
+    lat: 40.7026, lng: -73.9942,
+    google_place_id: "ChIJd1M9O0xbwokRi1mu1DC93xY",
     city: "Osaka", country: "Japan",
     address: "Sakishima Cosmo Tower, 2-1-10 Nankokita, Suminoe-ku, Osaka 559-0034",
     roaster: "% Arabica",
@@ -1811,7 +1915,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Streamer Coffee Osaka",
     slug: "streamer-coffee-osaka",
-    lat: 34.6702, lng: 135.5010,
+    lat: 34.6736, lng: 135.4980,
+    google_place_id: "ChIJF1BpCxDnAGARCRPr-HiBm1E",
     city: "Osaka", country: "Japan",
     address: "Shinsaibashi, Chuo-ku, Osaka",
     roaster: "Streamer Coffee",
@@ -1842,7 +1947,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Là Việt Coffee",
     slug: "la-viet-coffee-hcmc",
-    lat: 10.7812, lng: 106.6944,
+    lat: 10.7776, lng: 106.6837,
+    google_place_id: "ChIJxQVb87wvdTERh0Bxgv1YYjo",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "167 Pasteur, District 3, Ho Chi Minh City",
     roaster: "Là Việt Coffee",
@@ -1857,7 +1963,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Cộng Cà Phê",
     slug: "cong-ca-phe-hcmc",
-    lat: 10.7760, lng: 106.6998,
+    lat: 10.7782, lng: 106.7011,
+    google_place_id: "ChIJnQcpCkgvdTERcdzIzC0f9f0",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "26 Lý Tự Trọng, District 1, Ho Chi Minh City",
     roaster: "Cộng Cà Phê",
@@ -1872,7 +1979,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "The Café Apartment",
     slug: "the-cafe-apartment-hcmc",
-    lat: 10.7759, lng: 106.6992,
+    lat: 10.7741, lng: 106.7042,
+    google_place_id: "ChIJP4LyNAAvdTERp2XLe0QvLeU",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "42 Nguyen Hue, District 1, Ho Chi Minh City",
     roaster: "Multiple guest roasters",
@@ -1886,7 +1994,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Úp Café",
     slug: "up-cafe-hcmc",
-    lat: 10.7885, lng: 106.6974,
+    lat: 10.8087, lng: 106.7039,
+    google_place_id: "ChIJ173rcQApdTEREFG-yhdodTs",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "Bình Thạnh District, Ho Chi Minh City",
     roaster: "Úp Café",
@@ -1900,7 +2009,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Hi Coffee",
     slug: "hi-coffee-hcmc",
-    lat: 10.7800, lng: 106.6998,
+    lat: 10.7770, lng: 106.7038,
+    google_place_id: "ChIJo9kbp1svdTER2AwtgBYBwRY",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 1, Ho Chi Minh City",
     roaster: "Hi Coffee",
@@ -1914,7 +2024,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Specialty Coffee Store",
     slug: "specialty-coffee-store-hcmc",
-    lat: 10.7834, lng: 106.6922,
+    lat: 10.7744, lng: 106.6979,
+    google_place_id: "ChIJzaevQMcvdTERYE3UhLKg5NE",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 3, Ho Chi Minh City",
     roaster: "Multiple guest roasters",
@@ -1928,7 +2039,8 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "Bosgaurus Coffee Ben Thanh",
     slug: "bosgaurus-coffee-ben-thanh-hcmc",
-    lat: 10.7726, lng: 106.6980,
+    lat: 10.7795, lng: 106.7059,
+    google_place_id: "ChIJf4AVMzovdTERJKVKdFF8NgI",
     city: "Ho Chi Minh City", country: "Vietnam",
     address: "District 1, near Ben Thanh Market, Ho Chi Minh City",
     roaster: "Bosgaurus Coffee",
