@@ -42,7 +42,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-3">5. DMCA / Copyright</h2>
-            <p>If you believe content on Know your Grounds infringes your copyright, contact us at dmca@grounds.coffee with a description of the content and your ownership claim. We will respond within 10 business days.</p>
+            <p>If you believe content on Know your Grounds infringes your copyright, contact us at dmca@knowyourgrounds.com with a description of the content and your ownership claim. We will respond within 10 business days.</p>
           </section>
 
           <section>

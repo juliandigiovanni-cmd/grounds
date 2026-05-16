@@ -1,6 +1,6 @@
 export const BRAND_NAME = "Know your Grounds";
 export const BRAND_TAGLINE = "The specialty coffee map for travelers.";
-export const BRAND_URL = "https://grounds.coffee";
+export const BRAND_URL = "https://knowyourgrounds.com";
 export const BRAND_DESCRIPTION = "The world's curated specialty coffee map for travelers.";
 export const BRAND_TAGLINE_ALT = "Curated coffee for curious travelers.";
 

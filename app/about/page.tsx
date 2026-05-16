@@ -5,15 +5,6 @@ import { SEED_CAFES } from "@/lib/seed-data";
 import Link from "next/link";
 import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
-// Mock top contributors — in production this comes from Supabase
-const TOP_CONTRIBUTORS = [
-  { name: "kopfsteinpflaster", submissions: 12, cities: ["Berlin", "Vienna", "Prague"] },
-  { name: "flat_white_pilgrim", submissions: 9, cities: ["Melbourne", "Tokyo", "Seoul"] },
-  { name: "arabica.wanderer", submissions: 7, cities: ["Copenhagen", "Oslo", "Stockholm"] },
-  { name: "brewer_roamer", submissions: 6, cities: ["NYC", "Montreal", "London"] },
-  { name: "third_wave_nomad", submissions: 5, cities: ["Portland", "Cape Town", "Buenos Aires"] },
-];
-
 export default function AboutPage() {
   const totalCafes = SEED_CAFES.length;
   const cityCount = new Set(SEED_CAFES.map(c => c.city)).size;
@@ -53,26 +44,16 @@ export default function AboutPage() {
           ))}
         </div>
 
-        {/* Top Contributors */}
-        <section className="mb-12">
-          <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-2">Top Contributors</h2>
-          <p className="text-grounds-brown/60 text-sm mb-6">
-            Community submissions are at the heart of what makes Know your Grounds better than any algorithm.
-            These travelers have helped build the database.
+        {/* Submit CTA */}
+        <div className="bg-white rounded-2xl p-6 shadow-sm mb-12">
+          <h2 className="font-serif text-xl font-bold text-grounds-espresso mb-2">Know a café we&apos;re missing?</h2>
+          <p className="text-sm text-grounds-brown/60 mb-4">
+            Every city in Grounds was built by people who actually travel for coffee. If your favourite spot isn&apos;t on the map, tell us about it.
           </p>
-          <div className="space-y-3">
-            {TOP_CONTRIBUTORS.map((c, i) => (
-              <div key={c.name} className="bg-white rounded-xl p-4 shadow-sm flex items-center gap-4">
-                <span className="text-lg font-bold text-grounds-gold w-6">#{i + 1}</span>
-                <div className="flex-1">
-                  <p className="font-medium text-grounds-espresso">@{c.name}</p>
-                  <p className="text-xs text-grounds-brown/50">{c.cities.join(" · ")}</p>
-                </div>
-                <span className="text-sm font-medium text-grounds-brown/60">{c.submissions} cafés</span>
-              </div>
-            ))}
-          </div>
-        </section>
+          <Link href="/submit" className="inline-block bg-grounds-espresso text-grounds-cream font-medium px-5 py-2.5 rounded-xl hover:bg-grounds-espresso/90 transition-colors text-sm">
+            Submit a café →
+          </Link>
+        </div>
 
         {/* Newsletter */}
         <div className="bg-white rounded-2xl p-6 shadow-sm mb-6">

@@ -41,9 +41,7 @@ export default function PrivacyPage() {
             <h2 className="font-serif text-2xl font-bold text-grounds-espresso mb-3">3. Third-Party APIs</h2>
             <p>Know your Grounds surfaces data from third-party sources. Their privacy policies apply to their data:</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
-              <li>Google Places API — reviews fetched at request time, not stored</li>
-              <li>Yelp Fusion API — reviews fetched at request time, not stored</li>
-              <li>Foursquare API — data displayed with attribution, not stored</li>
+              <li>Google Places API — location data fetched at request time, not stored</li>
               <li>Mapbox — map tile requests include your IP address (see Mapbox privacy policy)</li>
             </ul>
           </section>
@@ -62,7 +60,7 @@ export default function PrivacyPage() {
               <li>Withdraw consent for analytics/advertising at any time</li>
               <li>Lodge a complaint with your local data protection authority</li>
             </ul>
-            <p className="mt-2">To exercise these rights, email us at privacy@grounds.coffee</p>
+            <p className="mt-2">To exercise these rights, email us at privacy@knowyourgrounds.com</p>
           </section>
 
           <section>
