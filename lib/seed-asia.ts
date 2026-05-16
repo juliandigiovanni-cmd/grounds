@@ -774,8 +774,7 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Kitahama",
     slug: "arabica-osaka-kitahama",
-    lat: 40.7026, lng: -73.9942,
-    google_place_id: "ChIJd1M9O0xbwokRi1mu1DC93xY",
+    lat: 34.6910, lng: 135.5091,
     city: "Osaka", country: "Japan",
     address: "1-1-1 Kitahama, Chuo-ku, Osaka",
     roaster: "% Arabica",
@@ -885,8 +884,7 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Nakanoshima",
     slug: "arabica-osaka-nakanoshima",
-    lat: 40.7225, lng: -73.9938,
-    google_place_id: "ChIJO6_m4ZhZwokR9MvrydEYXtQ",
+    lat: 34.6934, lng: 135.4956,
     city: "Osaka", country: "Japan",
     address: "Nakanoshima, Kita-ku, Osaka",
     roaster: "% Arabica",
@@ -1908,8 +1906,7 @@ export const ASIA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score
   {
     name: "% Arabica Osaka Wharf",
     slug: "arabica-osaka-wharf",
-    lat: 40.7026, lng: -73.9942,
-    google_place_id: "ChIJd1M9O0xbwokRi1mu1DC93xY",
+    lat: 34.6381, lng: 135.4147,
     city: "Osaka", country: "Japan",
     address: "Sakishima Cosmo Tower, 2-1-10 Nankokita, Suminoe-ku, Osaka 559-0034",
     roaster: "% Arabica",
