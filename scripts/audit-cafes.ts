@@ -26,6 +26,7 @@ import { SEED_CAFES } from "../lib/seed-data";
 // ── CLI args ──────────────────────────────────────────────────────────────────
 
 const applyFix = process.argv.includes("--apply");
+const closuresOnly = process.argv.includes("--closures-only");
 
 const cityFilter = (() => {
   const idx = process.argv.indexOf("--city");
@@ -60,7 +61,9 @@ function patchWebsite(filePath: string, slug: string, newWebsite: string): boole
   const slugIdx = content.indexOf(`slug: "${slug}"`);
   if (slugIdx === -1) return false;
 
-  const win = content.slice(slugIdx, slugIdx + 400);
+  const entryEnd = content.indexOf('\n  },', slugIdx);
+  if (entryEnd === -1) return false;
+  const win = content.slice(slugIdx, entryEnd);
 
   let patched: string;
   if (win.includes("website:")) {
@@ -74,7 +77,7 @@ function patchWebsite(filePath: string, slug: string, newWebsite: string): boole
   }
 
   if (patched === win) return false;
-  fileContents.set(filePath, content.slice(0, slugIdx) + patched + content.slice(slugIdx + 400));
+  fileContents.set(filePath, content.slice(0, slugIdx) + patched + content.slice(entryEnd));
   return true;
 }
 
@@ -83,7 +86,9 @@ function patchClosed(filePath: string, slug: string, date: string): boolean {
   const slugIdx = content.indexOf(`slug: "${slug}"`);
   if (slugIdx === -1) return false;
 
-  const win = content.slice(slugIdx, slugIdx + 400);
+  const entryEnd = content.indexOf('\n  },', slugIdx);
+  if (entryEnd === -1) return false;
+  const win = content.slice(slugIdx, entryEnd);
 
   // Update if already present, otherwise insert before editorial_blurb
   let patched = win;
@@ -99,7 +104,7 @@ function patchClosed(filePath: string, slug: string, date: string): boolean {
   }
 
   if (patched === win) return false;
-  fileContents.set(filePath, content.slice(0, slugIdx) + patched + content.slice(slugIdx + 400));
+  fileContents.set(filePath, content.slice(0, slugIdx) + patched + content.slice(entryEnd));
   return true;
 }
 
@@ -294,7 +299,10 @@ async function main() {
 
   // ── Apply fixes ───────────────────────────────────────────────────────────
 
-  const applyable = issues.filter(i => applyFix && i.filePath && (i.type === "CLOSED_PERM" || i.type === "WEBSITE" || i.type === "WEBSITE_ADD"));
+  const applyable = issues.filter(i => applyFix && i.filePath && (
+    i.type === "CLOSED_PERM" ||
+    (!closuresOnly && (i.type === "WEBSITE" || i.type === "WEBSITE_ADD"))
+  ));
   const applyResults = new Map<string, boolean>();
 
   if (applyFix) {
