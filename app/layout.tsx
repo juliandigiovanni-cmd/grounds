@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: BRAND_NAME,
     title: BRAND_NAME,
     description: "Curated specialty coffee for curious travelers.",
-    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
+    images: [{ url: "/api/og", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image" },
   manifest: "/manifest.json",
