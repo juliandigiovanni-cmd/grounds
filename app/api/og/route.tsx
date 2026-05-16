@@ -28,8 +28,9 @@ export async function GET(req: NextRequest) {
         <div style={{ position: "absolute", inset: 0, opacity: 0.15, backgroundImage: "radial-gradient(circle at 20% 50%, #C8972A 0%, transparent 60%), radial-gradient(circle at 80% 50%, #3D1F00 0%, transparent 60%)" }} />
 
         {/* Brand mark */}
-        <div style={{ fontSize: 18, color: "#C8972A", marginBottom: 16, letterSpacing: 4, textTransform: "uppercase", display: "flex" }}>
-          ☕ KNOW YOUR GROUNDS
+        <div style={{ fontSize: 56, marginBottom: 8, display: "flex" }}>☕</div>
+        <div style={{ fontSize: 18, color: "#C8972A", marginBottom: 20, letterSpacing: 4, textTransform: "uppercase", display: "flex" }}>
+          KNOW YOUR GROUNDS
         </div>
 
         {/* Title */}
