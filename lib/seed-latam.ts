@@ -2,7 +2,7 @@ import type { Cafe } from '@/types';
 
 export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' | 'overall_rating' | 'review_count' | 'permanently_closed'> & { permanently_closed?: boolean })[] = [
 
-  // ── MEXICO CITY (15) ──────────────────────────────────────────────────────────
+  // ── MEXICO CITY (17) ──────────────────────────────────────────────────────────
   {
     name: "Café Nil",
     slug: "cafe-nil-mexico-city",
@@ -235,20 +235,18 @@ export const LATAM_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_scor
     verified: true, last_verified_at: "2025-09-01", verification_source: "community",
   },
   {
-    name: "Café Avellaneda Roma",
-    slug: "cafe-avellaneda-roma",
-    lat: 19.3483, lng: -99.1607,
-    google_place_id: "ChIJazsNP9v_0YURcpA0b692xDw",
+    name: "Chiquitito Café",
+    slug: "chiquitito-cafe-condesa",
+    lat: 19.4110, lng: -99.1755,
     city: "Mexico City", country: "Mexico",
-    address: "Durango 279, Roma Norte, 06700 Ciudad de México",
-    roaster: "Café Avellaneda",
-    brew_methods: ["pour-over", "espresso", "aeropress", "syphon"],
-    vibe_tags: ["roastery-on-site", "minimalist"],
-    instagram_handle: "cafeavellaneda",
-    website: "https://cafeavellaneda.com/",
-    editorial_blurb: "Café Avellaneda's Roma Norte sister to the Coyoacán original — same meticulous Oaxacan sourcing, now closer to the city's specialty heartland.",
+    address: "Alfonso Reyes 232, Hipódromo, Condesa, 06100 Ciudad de México",
+    roaster: "Jiribilla Tostador",
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: ["minimalist", "no-laptop"],
+    instagram_handle: "chiquititocafe",
+    editorial_blurb: "One of CDMX's originals — open since 2012, sourcing traceable Oaxacan and Veracruz lots through Jiribilla Tostador in a cave-like Condesa space that rewards the walk.",
     featured_in: ["sprudge"],
-    verified: false, last_verified_at: "2025-09-01", verification_source: "community",
+    verified: true, last_verified_at: "2026-05-19", verification_source: "admin",
   },
   {
     name: "Boicot Café",
