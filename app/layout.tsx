@@ -3,7 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { BRAND_NAME, BRAND_TAGLINE, BRAND_URL } from "@/lib/brand";
 import { CookieConsent } from "@/components/ui/CookieConsent";
-import { GoogleAnalytics } from "@/components/ui/GoogleAnalytics";
+import { GoogleTagManager } from "@/components/ui/GoogleTagManager";
 import { Footer } from "@/components/layout/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -43,10 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         */}
       </head>
       <body className="font-sans antialiased">
+        <GoogleTagManager />
         <CookieConsent />
         {children}
         <Footer />
-        <GoogleAnalytics />
       </body>
     </html>
   );
