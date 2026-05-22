@@ -2,7 +2,7 @@ export type BrewMethod = 'espresso' | 'pour-over' | 'aeropress' | 'cold-brew' | 
 
 export type VibeTags = 'laptop-friendly' | 'no-laptop' | 'standing-bar' | 'outdoor-seating' | 'dog-friendly' | 'roastery-on-site' | 'minimalist' | 'coworking';
 
-export type FeaturedIn = 'sprudge' | 'standart' | 'monocle' | 'atlas' | 'guardian' | 'ny_times' | 'infatuation' | 'eater' | 'timeout';
+export type FeaturedIn = 'sprudge' | 'standart' | 'monocle' | 'atlas' | 'guardian' | 'ny_times' | 'infatuation' | 'eater' | 'timeout' | 'cntraveler';
 
 export type ReviewSource = 'google' | 'yelp' | 'foursquare' | 'manual';
 

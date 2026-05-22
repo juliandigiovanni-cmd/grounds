@@ -1670,6 +1670,25 @@ export const EU_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     featured_in: ["sprudge", "standart"],
     verified: true, last_verified_at: "2025-10-01", verification_source: "admin",
   },
+  {
+    name: "Noir - Coffee Shop & Torréfacteur",
+    slug: "noir-coffee-shop-paris",
+    lat: 48.8543,
+    lng: 2.3213,
+    city: "Paris",
+    country: "France",
+    address: "9 Rue de Luynes, 75007 Paris",
+    roaster: "Noir",
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: ["roastery-on-site"],
+    instagram_handle: "noir_coffeeshop",
+    website: "https://noircoffeeshop.com/",
+    editorial_blurb: "Home-grown Parisian roaster with 20+ locations across the city — each one pulls from their own roastery in Saint-Ouen, and the espresso is remarkably consistent for a group this size.",
+    featured_in: ["cntraveler"],
+    verified: true,
+    last_verified_at: "2026-05-22",
+    verification_source: "admin",
+  },
 
   // ── AMSTERDAM (16) ───────────────────────────────────────────────────────────
   {

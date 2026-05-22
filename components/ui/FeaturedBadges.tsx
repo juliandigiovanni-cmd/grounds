@@ -46,6 +46,11 @@ const BADGE_CONFIG: Record<FeaturedIn, { label: string; className: string; toolt
     className: "bg-rose-50 text-rose-700 border-rose-100",
     tooltip: "In Time Out — global city guide for culture and nightlife",
   },
+  cntraveler: {
+    label: "Condé Nast Traveler",
+    className: "bg-amber-50 text-amber-800 border-amber-200",
+    tooltip: "Featured in Condé Nast Traveler — luxury travel authority",
+  },
 };
 
 interface Props {
