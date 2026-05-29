@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+  alternates: { canonical: "/" },
 };
 
 const MapView = dynamic(

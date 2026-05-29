@@ -1,11 +1,16 @@
-"use client";
-
+import type { Metadata } from "next";
 import { BRAND_NAME, BRAND_TAGLINE } from "@/lib/brand";
 import { SEED_CAFES } from "@/lib/seed-data";
 import Link from "next/link";
 import { NewsletterSignup } from "@/components/ui/NewsletterSignup";
 
-export default function AboutPage() {
+export const metadata: Metadata = {
+  title: `About | ${BRAND_NAME}`,
+  description: "Know your Grounds is the specialty coffee map for travelers — curated, scored, and always map-first.",
+  alternates: { canonical: "/about" },
+};
+
+export default async function AboutPage() {
   const totalCafes = SEED_CAFES.length;
   const cityCount = new Set(SEED_CAFES.map(c => c.city)).size;
 

@@ -10,18 +10,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const CITY_LIST_UPDATED = new Date("2026-05-16");
   const cityUrls = SEED_CITIES.map(city => ({
     url: `${BRAND_URL}/city/${city.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
+    lastModified: CITY_LIST_UPDATED,
+    changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
 
+  const STATIC_UPDATED = new Date("2026-05-16");
   return [
-    { url: BRAND_URL, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
-    { url: `${BRAND_URL}/about/score`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
-    { url: `${BRAND_URL}/submit`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
-    { url: `${BRAND_URL}/advertise`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
+    { url: BRAND_URL, lastModified: STATIC_UPDATED, changeFrequency: "weekly" as const, priority: 1 },
+    { url: `${BRAND_URL}/about/score`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BRAND_URL}/submit`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${BRAND_URL}/advertise`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.5 },
     ...cityUrls,
     ...cafeUrls,
   ];

@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+import { BRAND_NAME } from "@/lib/brand";
+
+export const metadata: Metadata = {
+  title: `The Grounds Score — Methodology | ${BRAND_NAME}`,
+  description: "A transparent, 0–100 curation signal for specialty coffee quality. Our scoring methodology is 100% public.",
+  alternates: { canonical: "/about/score" },
+};
+
 export default function AboutScorePage() {
   return (
     <div className="min-h-screen bg-grounds-cream">

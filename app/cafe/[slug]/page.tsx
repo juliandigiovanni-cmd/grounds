@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${cafe.name} — Best 3rd Wave Coffee in ${cafe.city} | ${BRAND_NAME}`,
     description: cafe.editorial_blurb,
+    alternates: { canonical: `/cafe/${cafe.slug}` },
     openGraph: {
       images: [{
         url: `/api/og?title=${encodeURIComponent(cafe.name)}&subtitle=${encodeURIComponent(cafe.editorial_blurb.slice(0, 60))}&score=${cafe.third_wave_score}&city=${encodeURIComponent(cafe.city)}`,
