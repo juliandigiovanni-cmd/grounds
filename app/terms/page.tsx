@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: `Terms of Use | ${BRAND_NAME}`,
+  alternates: { canonical: "/terms" },
 };
 
 export default function TermsPage() {

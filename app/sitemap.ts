@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const STATIC_UPDATED = new Date("2026-05-16");
   return [
     { url: BRAND_URL, lastModified: STATIC_UPDATED, changeFrequency: "weekly" as const, priority: 1 },
+    { url: `${BRAND_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${BRAND_URL}/about/score`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${BRAND_URL}/submit`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BRAND_URL}/advertise`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.5 },
