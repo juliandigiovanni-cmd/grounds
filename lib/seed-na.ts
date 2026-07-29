@@ -498,6 +498,21 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     featured_in: ["sprudge"],
     verified: true, last_verified_at: "2025-11-01", verification_source: "admin",
   },
+  {
+    name: "Driftaway Coffee",
+    slug: "driftaway-coffee-brooklyn",
+    lat: 40.7171, lng: -73.9383,
+    city: "New York City", country: "United States",
+    address: "85 Debevoise Ave, Brooklyn, NY 11222",
+    roaster: "Driftaway Coffee",
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: ["roastery-on-site", "no-laptop"],
+    instagram_handle: "driftawaycoffee",
+    website: "https://driftaway.coffee/",
+    editorial_blurb: "After eleven years as an online-only subscription roaster, Driftaway opened a weekend tasting room inside its East Williamsburg roastery — a six-seat terrazzo bar pouring flights alongside espresso drinks, reservations recommended.",
+    featured_in: [],
+    verified: true, last_verified_at: "2026-07-29", verification_source: "admin",
+  },
 
   // SAN FRANCISCO
   {
