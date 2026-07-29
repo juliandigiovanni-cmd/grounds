@@ -509,8 +509,8 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     vibe_tags: ["roastery-on-site", "no-laptop"],
     instagram_handle: "driftawaycoffee",
     website: "https://driftaway.coffee/",
-    editorial_blurb: "After eleven years as an online-only subscription roaster, Driftaway opened a weekend tasting room inside its East Williamsburg roastery — a six-seat terrazzo bar pouring flights alongside espresso drinks, reservations recommended.",
-    featured_in: [],
+    editorial_blurb: "Named 2026 Roaster of the Year by Roast Magazine, Driftaway opened a weekend tasting room inside its East Williamsburg roastery after eleven years as an online-only subscription roaster — a six-seat terrazzo bar pouring flights alongside espresso drinks, reservations recommended.",
+    featured_in: ["roast_magazine"],
     verified: true, last_verified_at: "2026-07-29", verification_source: "admin",
   },
 

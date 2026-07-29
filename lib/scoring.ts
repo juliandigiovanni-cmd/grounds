@@ -1,7 +1,7 @@
 import type { Cafe, ScoreBreakdown, FeaturedIn } from '@/types';
 
 function calcFeaturedInScore(featured: FeaturedIn[]): number {
-  if (featured.includes('sprudge') || featured.includes('standart')) return 15;
+  if (featured.includes('sprudge') || featured.includes('standart') || featured.includes('roast_magazine')) return 15;
   if (featured.some(f => ['guardian', 'ny_times', 'eater', 'infatuation'].includes(f))) return 10;
   if (featured.some(f => ['timeout', 'atlas', 'monocle'].includes(f))) return 5;
   return 0;

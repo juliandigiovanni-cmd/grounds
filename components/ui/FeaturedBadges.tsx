@@ -51,6 +51,11 @@ const BADGE_CONFIG: Record<FeaturedIn, { label: string; className: string; toolt
     className: "bg-amber-50 text-amber-800 border-amber-200",
     tooltip: "Featured in Condé Nast Traveler — luxury travel authority",
   },
+  roast_magazine: {
+    label: "★ Roast Magazine",
+    className: "bg-amber-900 text-amber-50 border-amber-900",
+    tooltip: "Named Roaster of the Year by Roast Magazine — the trade publication for coffee roasters",
+  },
 };
 
 interface Props {
