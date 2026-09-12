@@ -56,6 +56,36 @@ const BADGE_CONFIG: Record<FeaturedIn, { label: string; className: string; toolt
     className: "bg-amber-900 text-amber-50 border-amber-900",
     tooltip: "Named Roaster of the Year by Roast Magazine — the trade publication for coffee roasters",
   },
+  worlds_100_best: {
+    label: "★ World's 100 Best",
+    className: "bg-emerald-900 text-emerald-50 border-emerald-900",
+    tooltip: "Ranked in The World's 100 Best Coffee Shops — the annual global list judged by coffee professionals",
+  },
+  european_coffee_trip: {
+    label: "European Coffee Trip",
+    className: "bg-teal-50 text-teal-800 border-teal-100",
+    tooltip: "Featured by European Coffee Trip — the specialty café guide to Europe",
+  },
+  barista_magazine: {
+    label: "Barista Magazine",
+    className: "bg-stone-100 text-stone-800 border-stone-200",
+    tooltip: "Featured in Barista Magazine — the magazine for coffee professionals",
+  },
+  perfect_daily_grind: {
+    label: "Perfect Daily Grind",
+    className: "bg-lime-50 text-lime-800 border-lime-100",
+    tooltip: "Featured by Perfect Daily Grind — specialty coffee news and education",
+  },
+  daily_coffee_news: {
+    label: "Daily Coffee News",
+    className: "bg-yellow-50 text-yellow-800 border-yellow-100",
+    tooltip: "Covered by Daily Coffee News — Roast Magazine's coffee industry news site",
+  },
+  tastet: {
+    label: "Tastet",
+    className: "bg-sky-50 text-sky-800 border-sky-100",
+    tooltip: "Reviewed by Tastet — Montreal's independent restaurant and café guide",
+  },
 };
 
 interface Props {

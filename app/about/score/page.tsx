@@ -32,7 +32,7 @@ export default function AboutScorePage() {
             { label: "Roaster Identity", pts: 25, desc: "Named single-origin sourcing or a visible roaster identity on the menu. This signals curation over commodity." },
             { label: "Alternative Brew Methods", pts: 20, desc: "Pour-over, AeroPress, syphon, Chemex, or similar. Cafés that offer alternatives take brewing seriously." },
             { label: "Independent (No Chain)", pts: 20, desc: "Full points for independent cafés. Chain-affiliated venues are excluded from Know your Grounds entirely." },
-            { label: "Editorial Features", pts: 15, desc: "Sprudge/Standart: 15pts. Guardian/NYT/Eater/Infatuation: 10pts. Time Out/equivalent: 5pts." },
+            { label: "Editorial Features", pts: 15, desc: "Sprudge, Standart, Roast Magazine or the World's 100 Best Coffee Shops: 15pts. Guardian, NYT, Eater, Infatuation, European Coffee Trip, Barista Magazine, Perfect Daily Grind or Daily Coffee News: 10pts. Time Out, Monocle, Atlas or a trusted local guide (e.g. Tastet): 5pts. The highest tier counts; crowd ratings like Google or Yelp never do." },
             { label: "Community Upvotes", pts: 10, desc: "Verified user signals from travelers who've actually visited. Capped at 10pts to prevent gaming." },
             { label: "Roastery On-Site", pts: 10, desc: "When roasting happens on premises, you're getting beans at peak freshness." },
           ].map(item => (
