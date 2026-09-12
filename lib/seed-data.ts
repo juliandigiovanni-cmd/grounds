@@ -28,7 +28,7 @@ export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
   });
   return {
     ...cafe,
-    id: `cafe-${index + 1}`,
+    id: cafe.slug, // stable across seed edits; positional ids re-pointed saved cafés whenever an entry was removed
     created_at: new Date().toISOString(),
     third_wave_score: scoreBreakdown.total,
     overall_rating: parseFloat((4.2 + seededRandom(index) * 0.7).toFixed(1)),

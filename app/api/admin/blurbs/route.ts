@@ -10,7 +10,7 @@ export async function PATCH(req: NextRequest) {
   const { error } = await supabase
     .from("cafes")
     .update({ editorial_blurb: editorial_blurb.trim() })
-    .eq("slug", id); // blurbs page uses cafe.id which is "cafe-1" etc from seed, fallback to slug match
+    .eq("slug", id); // seed cafe ids are slugs
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ ok: true });
 }
