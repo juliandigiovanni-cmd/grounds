@@ -21,6 +21,7 @@ function seededRandom(seed: number): number {
 export const SEED_CAFES: Cafe[] = allRawCafes.map((cafe, index) => {
   const scoreBreakdown = calculateScore({
     roaster: cafe.roaster,
+    roaster_family: cafe.roaster_family,
     brew_methods: cafe.brew_methods,
     vibe_tags: cafe.vibe_tags,
     featured_in: cafe.featured_in,

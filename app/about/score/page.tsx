@@ -34,7 +34,7 @@ export default function AboutScorePage() {
             { label: "Independent (No Chain)", pts: 20, desc: "Full points for independent cafés. Chain-affiliated venues are excluded from Know your Grounds entirely." },
             { label: "Editorial Features", pts: 15, desc: "Sprudge, Standart, Roast Magazine or the World's 100 Best Coffee Shops: 15pts. Guardian, NYT, Eater, Infatuation, European Coffee Trip, Barista Magazine, Perfect Daily Grind or Daily Coffee News: 10pts. Time Out, Monocle, Atlas or a trusted local guide (e.g. Tastet): 5pts. The highest tier counts; crowd ratings like Google or Yelp never do." },
             { label: "Community Upvotes", pts: 10, desc: "Verified user signals from travelers who've actually visited. Capped at 10pts to prevent gaming." },
-            { label: "Roastery On-Site", pts: 10, desc: "When roasting happens on premises, you're getting beans at peak freshness." },
+            { label: "Roaster Family", pts: 10, desc: "The café is run by a coffee roaster, wherever the roasting happens — a direct line from sourcing to your cup." },
           ].map(item => (
             <div key={item.label} className="bg-white rounded-xl p-6 shadow-sm flex gap-4">
               <div className="text-2xl font-bold text-grounds-gold w-12 shrink-0">+{item.pts}</div>
@@ -55,7 +55,7 @@ export default function AboutScorePage() {
               { label: "Independent — no chain", pts: 20, max: 20 },
               { label: "Featured in Sprudge + Standart", pts: 15, max: 15 },
               { label: "Community upvotes (7)", pts: 7, max: 10 },
-              { label: "Roastery on-site", pts: 10, max: 10 },
+              { label: "Roaster family (roasts its own coffee)", pts: 10, max: 10 },
             ].map(row => (
               <div key={row.label} className="flex items-center gap-3">
                 <div className="flex-1 text-sm text-grounds-brown">{row.label}</div>

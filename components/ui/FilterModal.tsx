@@ -37,7 +37,6 @@ const VIBE_OPTIONS: { value: VibeTags; label: string }[] = [
   { value: "standing-bar", label: "Standing bar" },
   { value: "outdoor-seating", label: "Outdoor seating" },
   { value: "dog-friendly", label: "Dog friendly" },
-  { value: "roastery-on-site", label: "Roastery on-site" },
 ];
 
 interface Props {

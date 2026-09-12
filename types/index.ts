@@ -1,6 +1,6 @@
 export type BrewMethod = 'espresso' | 'pour-over' | 'aeropress' | 'cold-brew' | 'syphon' | 'french-press' | 'chemex';
 
-export type VibeTags = 'laptop-friendly' | 'no-laptop' | 'standing-bar' | 'outdoor-seating' | 'dog-friendly' | 'roastery-on-site' | 'minimalist' | 'coworking';
+export type VibeTags = 'laptop-friendly' | 'no-laptop' | 'standing-bar' | 'outdoor-seating' | 'dog-friendly' | 'minimalist' | 'coworking';
 
 export type FeaturedIn = 'sprudge' | 'standart' | 'monocle' | 'atlas' | 'guardian' | 'ny_times' | 'infatuation' | 'eater' | 'timeout' | 'cntraveler' | 'roast_magazine' | 'worlds_100_best' | 'european_coffee_trip' | 'barista_magazine' | 'perfect_daily_grind' | 'daily_coffee_news' | 'tastet';
 
@@ -18,6 +18,7 @@ export interface Cafe {
   country: string;
   address: string;
   roaster?: string;
+  roaster_family?: boolean; // café is run by a coffee roaster (roasting location doesn't matter)
   brew_methods: BrewMethod[];
   vibe_tags: VibeTags[];
   google_place_id?: string;
@@ -95,6 +96,6 @@ export interface ScoreBreakdown {
   no_chain: number;
   featured_in: number;
   community_upvotes: number;
-  roastery_on_site: number;
+  roaster_family: number;
   total: number;
 }

@@ -25,9 +25,10 @@ export function calculateScore(cafe: Partial<Cafe> & {
 
   const community_upvotes = Math.min(cafe.community_upvotes ?? 0, 10);
 
-  const roastery_on_site = cafe.vibe_tags.includes('roastery-on-site') ? 10 : 0;
+  // Café is run by a coffee roaster (e.g. 49th Parallel, Pilot) — wherever the roasting happens
+  const roaster_family = cafe.roaster_family ? 10 : 0;
 
-  const total = roaster_identity + brew_methods + no_chain + featured_in + community_upvotes + roastery_on_site;
+  const total = roaster_identity + brew_methods + no_chain + featured_in + community_upvotes + roaster_family;
 
   return {
     roaster_identity,
@@ -35,7 +36,7 @@ export function calculateScore(cafe: Partial<Cafe> & {
     no_chain,
     featured_in,
     community_upvotes,
-    roastery_on_site,
+    roaster_family,
     total: Math.min(total, 100),
   };
 }
