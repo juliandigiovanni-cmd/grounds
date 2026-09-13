@@ -86,6 +86,11 @@ const BADGE_CONFIG: Record<FeaturedIn, { label: string; className: string; toolt
     className: "bg-sky-50 text-sky-800 border-sky-100",
     tooltip: "Reviewed by Tastet — Montreal's independent restaurant and café guide",
   },
+  broadsheet: {
+    label: "Broadsheet",
+    className: "bg-slate-50 text-slate-800 border-slate-100",
+    tooltip: "Featured by Broadsheet — Australia and New Zealand's independent food and culture guide",
+  },
 };
 
 interface Props {
