@@ -1214,6 +1214,23 @@ export const NA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_score' 
     featured_in: ["tastet"],
     verified: true, last_verified_at: "2026-09-12", verification_source: "admin",
   },
+  {
+    name: "Café Éclair",
+    slug: "cafe-eclair-montreal",
+    lat: 45.5246, lng: -73.5956,
+    google_place_id: "ChIJnRXWcHgZyUwR8eOh2Bk0sGM",
+    city: "Montreal", country: "Canada",
+    address: "12 Rue Maguire, Montréal, QC H2T 1B8",
+    roaster: "Multiple guest roasters",
+    roaster_family: false,
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: ["minimalist"],
+    instagram_handle: "eclair.montreal",
+    website: "https://cafeeclair.com/",
+    editorial_blurb: "A Mile End coffee bar and micro-bookstore since 2019 — a Modbar island bar pouring international guest roasters like Tim Wendelboe, The Barn and Sey.",
+    featured_in: ["sprudge", "barista_magazine", "tastet"],
+    verified: true, last_verified_at: "2026-10-11", verification_source: "admin",
+  },
 
   // TORONTO
   {
