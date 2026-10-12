@@ -22,7 +22,7 @@
   - 2–3: São Paulo, Lima, Edinburgh
   - 4–5: Minneapolis, Oslo, Dublin, New Orleans, Osaka
 - [ ] **Backfill brew methods.** Haiku agents often left `brew_methods` empty when no menu was online, which pushes scores down (NYC cafés at 85+ went from 52 to 11). Run a cheap menu-only pass on entries with `[]` or `["espresso"]`
-- [ ] **Decide whether "Multiple guest roasters" keeps its 25 roaster points** (open question since the earlier audits)
+- [x] "Multiple guest roasters" keeps its 25 roaster points (decided 2026-10-12; `lib/scoring.ts` already scores any named roaster, so no code change)
 - Audit tooling and notes live in `~/Developer/grounds-audit` (not in this repo)
 
 ---
