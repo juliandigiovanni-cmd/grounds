@@ -9,9 +9,21 @@
 
 ## 1. Data quality (do first — this affects credibility)
 
-- [ ] Finish removing non-existent / fabricated cafe entries from all 6 regional seed files
-  - Regions still to audit: check each seed file for cafes without verifiable addresses
-  - Goal: every cafe in the map must be a real, open business
+- [x] Remove non-existent / fabricated cafe entries from all 6 regional seed files
+  - Every region audited (Europe, Asia, LatAm, Africa, Oceania, North America), finished 2026-10-11
+  - Each café checked against Google Places; press claims verified URL-by-URL; closed, invented and duplicate entries removed
+- [x] Expanded thin NA cities (2026-10-11/12): Philadelphia, DC, Boston, Nashville, Miami, Denver; added Café Saint-Henri HQ and Gloom
+- **Status 2026-10-12: 644 cafés in 53 cities, Supabase in sync (0 stale rows), live on the site**
+
+### Next session
+- [ ] **Check the GitHub → Vercel auto-deploy.** The push of e6d0d18 triggered no build; it went live only via a manual `vercel deploy --prod`. Check Vercel → Settings → Git
+- [ ] **Expand the thinnest cities to ~8 cafés each** with the same method (find-cafes → Google check → Haiku research → Opus verifies every addition):
+  - 1 café: Helsinki, Milan, Zurich, Nairobi
+  - 2–3: São Paulo, Lima, Edinburgh
+  - 4–5: Minneapolis, Oslo, Dublin, New Orleans, Osaka
+- [ ] **Backfill brew methods.** Haiku agents often left `brew_methods` empty when no menu was online, which pushes scores down (NYC cafés at 85+ went from 52 to 11). Run a cheap menu-only pass on entries with `[]` or `["espresso"]`
+- [ ] **Decide whether "Multiple guest roasters" keeps its 25 roaster points** (open question since the earlier audits)
+- Audit tooling and notes live in `~/Developer/grounds-audit` (not in this repo)
 
 ---
 
@@ -113,7 +125,7 @@ Goal: catch real bugs before any press or Product Hunt.
 - [ ] Tagline idea: "The curated coffee map for serious travelers"
 
 ### Hacker News
-- [ ] Post "Show HN: Grounds – a curated specialty coffee map for travelers (38 cities)"
+- [ ] Post "Show HN: Grounds – a curated specialty coffee map for travelers (53 cities)"
 - [ ] Post Tuesday morning ET; be in comments for first 2 hours
 
 ### Reddit (tailor copy to each community)
