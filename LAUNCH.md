@@ -16,7 +16,7 @@
 - **Status 2026-10-12: 644 cafés in 53 cities, Supabase in sync (0 stale rows), live on the site**
 
 ### Next session
-- [ ] **Check the GitHub → Vercel auto-deploy.** The push of e6d0d18 triggered no build; it went live only via a manual `vercel deploy --prod`. Check Vercel → Settings → Git
+- [x] GitHub → Vercel auto-deploy checked 2026-10-12: connection fine, but builds sometimes start 5–15 min after a push. Wait before deploying by hand
 - [ ] **Expand the thinnest cities to ~8 cafés each** with the same method (find-cafes → Google check → Haiku research → Opus verifies every addition):
   - 1 café: Helsinki, Milan, Zurich, Nairobi
   - 2–3: São Paulo, Lima, Edinburgh
