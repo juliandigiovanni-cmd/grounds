@@ -13,7 +13,8 @@
   - Every region audited (Europe, Asia, LatAm, Africa, Oceania, North America), finished 2026-10-11
   - Each café checked against Google Places; press claims verified URL-by-URL; closed, invented and duplicate entries removed
 - [x] Expanded thin NA cities (2026-10-11/12): Philadelphia, DC, Boston, Nashville, Miami, Denver; added Café Saint-Henri HQ and Gloom
-- **Status 2026-10-12: 644 cafés in 53 cities, Supabase in sync (0 stale rows), live on the site**
+- [x] Added Savannah (2026-10-30): 5 cafés. Left out until a roaster is confirmed: Savannah Coffee Roasters, The Gallery Espresso, The Sentient Bean, Henny Penny, Float Coffee, Revival Coffee
+- **Status 2026-10-30: 649 cafés in 54 cities. Savannah still needs syncing to Supabase: `npx tsx scripts/seed-supabase.ts`**
 
 ### Next session
 - [x] GitHub → Vercel auto-deploy checked 2026-10-12: connection fine, but builds sometimes start 5–15 min after a push. Wait before deploying by hand
@@ -125,7 +126,7 @@ Goal: catch real bugs before any press or Product Hunt.
 - [ ] Tagline idea: "The curated coffee map for serious travelers"
 
 ### Hacker News
-- [ ] Post "Show HN: Grounds – a curated specialty coffee map for travelers (53 cities)"
+- [ ] Post "Show HN: Grounds – a curated specialty coffee map for travelers (54 cities)"
 - [ ] Post Tuesday morning ET; be in comments for first 2 hours
 
 ### Reddit (tailor copy to each community)

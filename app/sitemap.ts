@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const CITY_LIST_UPDATED = new Date("2026-05-16");
+  const CITY_LIST_UPDATED = new Date("2026-10-30");
   const cityUrls = SEED_CITIES.map(city => ({
     url: `${BRAND_URL}/city/${city.slug}`,
     lastModified: CITY_LIST_UPDATED,
