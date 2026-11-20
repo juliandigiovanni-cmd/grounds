@@ -15,7 +15,8 @@
 - [x] Expanded thin NA cities (2026-10-11/12): Philadelphia, DC, Boston, Nashville, Miami, Denver; added Café Saint-Henri HQ and Gloom
 - [x] Added Savannah (2026-10-30): 5 cafés. Left out until a roaster is confirmed: Savannah Coffee Roasters, The Gallery Espresso, The Sentient Bean, Henny Penny, Float Coffee, Revival Coffee
 - [x] Added Kuala Lumpur (2026-11-20): 8 cafés, pending review by a local friend. Unsure (roaster unconfirmed or temporarily closed): kita, VCR, PULP, Feeka, Transparent, Ditto, Yew Yew, 103, 8055, Bean Brothers, Medium, Yunshu. Petaling Jaya cafés (One Half, Toothless, Fade by SB, Pohutukawa) not yet decided
-- **Status 2026-11-20: 657 cafés in 55 cities**
+- [x] World's 100 Best Coffee Shops recheck (2026-11-20): pulled all 6 published lists (2026 global, Asia-Pacific, Europe, N/C America, South America + 2025 global), index at ~/Developer/grounds-audit/w100b/index.json. Added 85 ranked cafés in 34 cities (incl. Hani + Coffee Stain Bangsar in KL, tip from a local friend) and credited 25 existing cafés. New rule: a ranked café counts as specialty without a confirmed roaster. Brew methods researched for the new cafés (54 of 87 confirmed); blurbs are rank-only for now and need an editorial pass
+- **Status 2026-11-20: 742 cafés in 55 cities**
 
 ### Next session
 - [x] GitHub → Vercel auto-deploy checked 2026-10-12: connection fine, but builds sometimes start 5–15 min after a push. Wait before deploying by hand

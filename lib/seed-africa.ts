@@ -171,4 +171,36 @@ export const AFRICA_RAW_CAFES: (Omit<Cafe, 'id' | 'created_at' | 'third_wave_sco
     verified: true, last_verified_at: "2026-09-13", verification_source: "admin",
   },
 
+
+  // ── WORLD'S 100 BEST ADDITIONS (2026-11-20) ─────────────────────────────
+  {
+    name: "Espressolab Woodstock",
+    slug: "espressolab-woodstock-cape-town",
+    lat: -33.9275, lng: 18.4571,
+    google_place_id: "ChIJr4bbS6FdzB0RsBN3BXhWPhY",
+    city: "Cape Town", country: "South Africa",
+    address: "375 Albert Rd, Woodstock, Cape Town, 7925",
+    brew_methods: ["espresso"],
+    vibe_tags: [],
+    website: "http://www.espressolabmicroroasters.com/",
+    editorial_blurb: "Ranked by The World's 100 Best Coffee Shops: #40 globally (2026), #11 globally (2025).",
+    featured_in: ["worlds_100_best"],
+    verified: true, last_verified_at: "2026-11-20", verification_source: "admin",
+  },
+  {
+    name: "Connect Coffee Roasters",
+    slug: "connect-coffee-roasters-nairobi",
+    lat: -1.2721, lng: 36.8064,
+    google_place_id: "ChIJ2W780zkXLxgRWzLpqTSru1E",
+    city: "Nairobi", country: "Kenya",
+    address: "Prof David Wasawo Dr, Nairobi",
+    roaster: "Connect Coffee Roasters",
+    roaster_family: true,
+    brew_methods: ["espresso", "pour-over"],
+    vibe_tags: [],
+    website: "http://www.connectcoffeeroasters.net/",
+    editorial_blurb: "Ranked by The World's 100 Best Coffee Shops: #81 globally (2025).",
+    featured_in: ["worlds_100_best"],
+    verified: true, last_verified_at: "2026-11-20", verification_source: "admin",
+  },
 ];
